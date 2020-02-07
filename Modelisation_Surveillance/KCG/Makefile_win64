@@ -1,0 +1,81 @@
+#############################################################
+######    Begin of Makefile
+#############################################################
+
+SCADE=C:\Program Files\ANSYS Inc\v192\SCADE\SCADE\.
+
+SHELL=cmd.exe
+
+C_FLAGS = -pedantic
+
+all: Controller.dll 
+
+win64/Controller.o: Controller.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DWIN32 -D_CONSOLE -D_MBCS -c -ansi -std=c99 -m64 "Controller.c" -o "win64\Controller.o"
+
+win64/Push_Table.o: Push_Table.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DWIN32 -D_CONSOLE -D_MBCS -c -ansi -std=c99 -m64 "Push_Table.c" -o "win64\Push_Table.o"
+
+win64/Mean_10_Table.o: Mean_10_Table.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DWIN32 -D_CONSOLE -D_MBCS -c -ansi -std=c99 -m64 "Mean_10_Table.c" -o "win64\Mean_10_Table.o"
+
+win64/Vote_Alog.o: Vote_Alog.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DWIN32 -D_CONSOLE -D_MBCS -c -ansi -std=c99 -m64 "Vote_Alog.c" -o "win64\Vote_Alog.o"
+
+win64/Calculated_value.o: Calculated_value.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DWIN32 -D_CONSOLE -D_MBCS -c -ansi -std=c99 -m64 "Calculated_value.c" -o "win64\Calculated_value.o"
+
+win64/Check_Delta_3.o: Check_Delta_3.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DWIN32 -D_CONSOLE -D_MBCS -c -ansi -std=c99 -m64 "Check_Delta_3.c" -o "win64\Check_Delta_3.o"
+
+win64/Check_interval_pH.o: Check_interval_pH.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DWIN32 -D_CONSOLE -D_MBCS -c -ansi -std=c99 -m64 "Check_interval_pH.c" -o "win64\Check_interval_pH.o"
+
+win64/Check_interval_Temperature.o: Check_interval_Temperature.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DWIN32 -D_CONSOLE -D_MBCS -c -ansi -std=c99 -m64 "Check_interval_Temperature.c" -o "win64\Check_interval_Temperature.o"
+
+win64/Check_interval_Redox.o: Check_interval_Redox.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DWIN32 -D_CONSOLE -D_MBCS -c -ansi -std=c99 -m64 "Check_interval_Redox.c" -o "win64\Check_interval_Redox.o"
+
+win64/kcg_types.o: kcg_types.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DWIN32 -D_CONSOLE -D_MBCS -c -ansi -std=c99 -m64 "kcg_types.c" -o "win64\kcg_types.o"
+
+win64/kcg_consts.o: kcg_consts.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DWIN32 -D_CONSOLE -D_MBCS -c -ansi -std=c99 -m64 "kcg_consts.c" -o "win64\kcg_consts.o"
+
+win64/Modelisation_Surveillance_TEE_type.o: Modelisation_Surveillance_TEE_type.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DWIN32 -D_CONSOLE -D_MBCS -c -ansi -std=c99 -m64 "Modelisation_Surveillance_TEE_type.c" -o "win64\Modelisation_Surveillance_TEE_type.o"
+
+win64/SmuPredefConv.o: C:/Program\ Files/ANSYS\ Inc/v192/SCADE/SCADE/lib/C/SmuPredefConv.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DWIN32 -D_CONSOLE -D_MBCS -c -ansi -std=c99 -m64 "$(SCADE)\lib\C\SmuPredefConv.c" -o "win64\SmuPredefConv.o"
+
+win64/SmuConfig.o: C:/Program\ Files/ANSYS\ Inc/v192/SCADE/SCADE/lib/C/SmuConfig.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DWIN32 -D_CONSOLE -D_MBCS -c -ansi -std=c99 -m64 "$(SCADE)\lib\C\SmuConfig.c" -o "win64\SmuConfig.o"
+
+win64/SmuTypes.o: C:/Program\ Files/ANSYS\ Inc/v192/SCADE/SCADE/lib/C/SmuTypes.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DWIN32 -D_CONSOLE -D_MBCS -c -ansi -std=c99 -m64 "$(SCADE)\lib\C\SmuTypes.c" -o "win64\SmuTypes.o"
+
+win64/SmuLib.o: C:/Program\ Files/ANSYS\ Inc/v192/SCADE/SCADE/lib/C/SmuLib.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DWIN32 -D_CONSOLE -D_MBCS -c -ansi -std=c99 -m64 "$(SCADE)\lib\C\SmuLib.c" -o "win64\SmuLib.o"
+
+win64/SmuVTable.o: C:/Program\ Files/ANSYS\ Inc/v192/SCADE/SCADE/lib/C/SmuVTable.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DWIN32 -D_CONSOLE -D_MBCS -c -ansi -std=c99 -m64 "$(SCADE)\lib\C\SmuVTable.c" -o "win64\SmuVTable.o"
+
+win64/Modelisation_Surveillance_TEE_mapping.o: Modelisation_Surveillance_TEE_mapping.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DWIN32 -D_CONSOLE -D_MBCS -c -ansi -std=c99 -m64 "Modelisation_Surveillance_TEE_mapping.c" -o "win64\Modelisation_Surveillance_TEE_mapping.o"
+
+win64/Modelisation_Surveillance_TEE_interface.o: Modelisation_Surveillance_TEE_interface.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DWIN32 -D_CONSOLE -D_MBCS -c -ansi -std=c99 -m64 "Modelisation_Surveillance_TEE_interface.c" -o "win64\Modelisation_Surveillance_TEE_interface.o"
+
+win64/TEEProxy.o: C:/Program\ Files/ANSYS\ Inc/v192/SCADE/SCADE/lib/C/TEEProxy.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DWIN32 -D_CONSOLE -D_MBCS -c -ansi -std=c99 -m64 "C:\Program Files\ANSYS Inc\v192\SCADE\SCADE\lib\C\TEEProxy.c" -o "win64\TEEProxy.o"
+
+Controller.dll: win64/Controller.o win64/Push_Table.o win64/Mean_10_Table.o win64/Vote_Alog.o win64/Calculated_value.o win64/Check_Delta_3.o win64/Check_interval_pH.o win64/Check_interval_Temperature.o win64/Check_interval_Redox.o win64/kcg_types.o win64/kcg_consts.o win64/Modelisation_Surveillance_TEE_type.o win64/SmuPredefConv.o win64/SmuConfig.o win64/SmuTypes.o win64/SmuLib.o win64/SmuVTable.o win64/Modelisation_Surveillance_TEE_mapping.o win64/Modelisation_Surveillance_TEE_interface.o win64/TEEProxy.o TEEExport.def 
+	gcc -mwindows -mwin32 -shared -static-libgcc  "win64\Controller.o" "win64\Push_Table.o" "win64\Mean_10_Table.o" "win64\Vote_Alog.o" "win64\Calculated_value.o" "win64\Check_Delta_3.o" "win64\Check_interval_pH.o" "win64\Check_interval_Temperature.o" "win64\Check_interval_Redox.o" "win64\kcg_types.o" "win64\kcg_consts.o" "win64\Modelisation_Surveillance_TEE_type.o" "win64\SmuPredefConv.o" "win64\SmuConfig.o" "win64\SmuTypes.o" "win64\SmuLib.o" "win64\SmuVTable.o" "win64\Modelisation_Surveillance_TEE_mapping.o" "win64\Modelisation_Surveillance_TEE_interface.o" "win64\TEEProxy.o" -Wl,--output-def,"TEEExport.def" -lm -lwsock32 -m64 -o "Controller.dll" 
+
+TEEExport.def: C:/Program\ Files/ANSYS\ Inc/v192/SCADE/SCADE/lib/C/TEEExport.def
+	copy "C:\Program Files\ANSYS Inc\v192\SCADE\SCADE\lib\C\TEEExport.def" "TEEExport.def"
+
+#############################################################
+######    End of Makefile
+#############################################################
