@@ -1,0 +1,41 @@
+/* $********** SCADE Suite KCG 64-bit 6.6 (build i19) ***********
+** Command: kcg66_x64.exe -config J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/KCG/config.txt
+** Generation date: 2020-02-07T16:46:46
+*************************************************************$ */
+#ifndef __2_GenericInputChanged_MTC_Utils_float643_H_
+#define __2_GenericInputChanged_MTC_Utils_float643_H_
+
+#include "kcg_types.h"
+
+/* =====================  no input structure  ====================== */
+
+/* =====================  no output structure  ====================== */
+
+/* ========================  context type  ========================= */
+typedef struct {
+  /* ---------------------------  outputs  --------------------------- */
+  kcg_bool /* Output/ */ Output;
+  /* -------------  insert eventual inits and memories  -------------- */
+} outC__2_GenericInputChanged_MTC_Utils_float643;
+
+/* ===========  node initialization and cycle functions  =========== */
+/* MTC_Utils::GenericInputChanged/ */
+extern void _2_GenericInputChanged_MTC_Utils_float643(
+  /* Input/ */
+  Data *Input,
+  outC__2_GenericInputChanged_MTC_Utils_float643 *outC);
+
+extern void _2_GenericInputChanged_reset_MTC_Utils_float643(
+  outC__2_GenericInputChanged_MTC_Utils_float643 *outC);
+
+extern void _2_GenericInputChanged_init_MTC_Utils_float643(
+  outC__2_GenericInputChanged_MTC_Utils_float643 *outC);
+
+
+
+#endif /* __2_GenericInputChanged_MTC_Utils_float643_H_ */
+/* $********** SCADE Suite KCG 64-bit 6.6 (build i19) ***********
+** _2_GenericInputChanged_MTC_Utils_float643.dh
+** Generation date: 2020-02-07T16:46:46
+*************************************************************$ */
+

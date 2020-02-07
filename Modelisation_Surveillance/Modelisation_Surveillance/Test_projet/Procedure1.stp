@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Procedure xmlns:test="http://www.esterel-technologies.com/ns/testenv/2" oid="4E37DC68-2BDC-417A-963E-6EF32F9BFB5A" name="Procedure1" operator="Controller">
+	<testElements>
+		<Record oid="48891798-709A-4989-A8CF-6F7E8149843D" name="Record1" description="Record1">
+			<inits>
+				<Scenario oid="3ADF52D5-3D28-4DA5-9769-FAEB084D4D9A" persistAs="init.sss"/>
+				<Scenario oid="4CCE9D64-BD0A-4463-AF35-E54918F0A077" persistAs="alias.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="3E8E3C13-9210-42A6-9462-1E9A80A4047F" persistAs="test8.sss"/>
+			</scenarios>
+		</Record>
+		<Record oid="9EFF7D48-083B-43E7-9DA5-D37D05E15E18" name="Record2" description="Record2">
+			<inits>
+				<Scenario oid="F518309F-DB23-4185-85F2-7B3BD5103781" persistAs="Scenario1.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="4DB7B482-C83C-44BD-926A-FF91B287B79A" persistAs="test2.sss"/>
+			</scenarios>
+		</Record>
+		<Record oid="D5F2A7F7-B5F2-4AB7-8461-7A9CD354CD8E" name="Record3" description="Record3">
+			<inits>
+				<Scenario oid="7256BDB1-9CBE-4DE8-8341-8AB81AEB1BA2" persistAs="Scenario9.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="9F22F635-748C-4D78-8A30-6FFC4005F68D" persistAs="test7.sss"/>
+			</scenarios>
+		</Record>
+		<Record oid="9E864D9E-9437-41D4-8508-F8E8CDB9DB94" name="Record4" description="Record4">
+			<inits>
+				<Scenario oid="4EBCD6D8-A4DC-4AB4-9C2C-5CA9593E3B36" persistAs="Scenario10.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="39F22EDE-7BDF-413C-9F64-635D36DB1C39" persistAs="Scenario17.sss"/>
+			</scenarios>
+		</Record>
+		<Record oid="55BB33D1-370B-4401-9786-ADD3617B66D0" name="Record5" description="Record5">
+			<inits>
+				<Scenario oid="635FE713-C732-44B5-B2DF-984882A1AC23" persistAs="Scenario11.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="E657910C-A555-4FFD-946B-D794DE419019" persistAs="Scenario18.sss"/>
+			</scenarios>
+		</Record>
+		<Record oid="97BBB5F8-9DE8-411A-BEC2-8CC3C6761237" name="Record6" description="Record6">
+			<inits>
+				<Scenario oid="4E90849F-226C-416E-AB2E-6C4EA6904B5D" persistAs="Scenario12.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="DF9C3197-05F9-497C-99B9-8DCC256099E3" persistAs="Scenario19.sss"/>
+			</scenarios>
+		</Record>
+		<Record oid="41B6DCF3-1207-4967-BD92-2E804EF81212" name="Record7" description="Record7">
+			<inits>
+				<Scenario oid="6BB88AE8-04A5-4B2D-A09C-0B2C5353250A" persistAs="Scenario13.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="C70D5618-413A-4CAC-AF2A-BA8F3E1534E0" persistAs="Scenario20.sss"/>
+			</scenarios>
+		</Record>
+		<Record oid="26D0AA29-63E1-4472-8375-DDFEF8C9013A" name="Record8" description="Record8">
+			<inits>
+				<Scenario oid="30C41F7A-6412-4030-BFB2-8A760E9D2E44" persistAs="Scenario14.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="4BF693A2-5D9D-469A-AA4E-048F923B3A87" persistAs="Scenario21.sss"/>
+			</scenarios>
+		</Record>
+		<Record oid="568C67A4-8B75-4305-B5FB-319AC614E8DC" name="Record9" description="Record9">
+			<inits>
+				<Scenario oid="2CAF7CE2-521D-4EF2-B605-941820078684" persistAs="Scenario15.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="80D1FBDC-2322-4F7F-A104-9A645B4CEB59" persistAs="Scenario22.sss"/>
+			</scenarios>
+		</Record>
+		<Record oid="66BF71A5-5BCC-42A8-8F93-FAA642157E2C" name="Record10" description="Record10">
+			<inits>
+				<Scenario oid="D382F648-FC91-443E-8245-A164A030A987" persistAs="Scenario2.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="F434AA10-69F6-410A-87F2-5E23BCAC6825" persistAs="test4.sss"/>
+			</scenarios>
+		</Record>
+		<Record oid="B69E8F9C-C87E-41D0-8148-682E88386CF3" name="Record11" description="Record11">
+			<inits>
+				<Scenario oid="FD5B87C0-FBC7-4453-BF00-2044B4356D2F" persistAs="Scenario3.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="51386AA9-378A-43DE-A6DB-995376191CA7" persistAs="test3.sss"/>
+			</scenarios>
+		</Record>
+		<Record oid="2FCCD959-3436-4C67-B636-2366E3DB3CFC" name="Record12" description="Record12">
+			<inits>
+				<Scenario oid="3036A82D-017E-437B-88B6-15026372DB59" persistAs="Scenario4.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="D3AA399F-5C53-4DA9-B060-194004063028" persistAs="test5.sss"/>
+			</scenarios>
+		</Record>
+		<Record oid="01A39642-4F6C-4EA1-A80A-2FDA218528E5" name="Record13" description="Record13">
+			<inits>
+				<Scenario oid="185B4611-A3DD-4970-B7B6-DA3B87E9A913" persistAs="Scenario5.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="AD92D942-A97B-47D2-81D0-E6A1AC383077" persistAs="Scenario16.sss"/>
+			</scenarios>
+		</Record>
+		<Record oid="B0982B8D-60F3-494D-AF17-CBD00769B18E" name="Record14" description="Record14">
+			<inits>
+				<Scenario oid="F00C1BEB-2CF6-444A-B095-8E915C3A39DD" persistAs="Scenario6.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="193AE6A4-14B9-491B-89A7-DF9EBC39F4AF" persistAs="test1.sss"/>
+			</scenarios>
+		</Record>
+		<Record oid="0D29444D-2B2B-46DC-92D4-54AF6B957EC5" name="Record15" description="Record15">
+			<inits>
+				<Scenario oid="43E23C67-D325-4B2E-83DE-A4D8238D82F0" persistAs="Scenario7.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="6805C347-BFE5-47C7-90CD-B446459F3919" persistAs="test6.sss"/>
+			</scenarios>
+		</Record>
+		<Record oid="48B4C6A6-B481-4962-8E34-496AE73CBFE8" name="Record16" description="Record16">
+			<inits>
+				<Scenario oid="D301522E-2F33-48AD-9E80-AA0A48813D67" persistAs="Scenario8.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="F21015D2-312C-432B-AD4F-7FB88C27F17B" persistAs="test9.sss"/>
+			</scenarios>
+		</Record>
+		<Record oid="910DAEA0-2287-4497-9D01-ADE1BBA636AA" name="Record17" description="Record17">
+			<inits>
+				<Scenario oid="4D6DD208-538F-4E01-A6FA-E4EFE5DE0575" persistAs="Scenario23.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="B66D0B21-5251-486E-8997-824015D55A09" persistAs="Scenario24.sss"/>
+			</scenarios>
+		</Record>
+		<Record oid="489A388C-2B39-458E-9643-215AB7DA8E31" name="Record18" description="Record18">
+			<inits>
+				<Scenario oid="B95DF8AF-C7BB-4AAD-8771-B45A7A730261" persistAs="Scenario25.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="567162F9-7083-43CF-BEF6-E015E9898B0B" persistAs="Scenario26.sss"/>
+			</scenarios>
+		</Record>
+		<Record oid="416C43CF-5698-4733-91E1-BD6002B1EAF4" name="Record19" description="Record19">
+			<inits>
+				<Scenario oid="A715592A-BAF5-4B3B-B439-2B202C0AF5EC" persistAs="Scenario27.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="96E8FA44-6B32-435E-85C2-BFA0E72E31F0" persistAs="Scenario28.sss"/>
+			</scenarios>
+		</Record>
+		<Record oid="B4D91932-37E8-4F34-82F0-7D0F3AD85DCC" name="Record20" description="Record20">
+			<inits>
+				<Scenario oid="D4DB6412-6655-4C24-8617-044BB4D8F2CB" persistAs="alias.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="F86F8078-4633-4E71-80BB-EB30A8F55B0C" persistAs="Scenario29.sss"/>
+				<Scenario oid="261807F9-FC65-4A98-95F6-47E5A3D71744" persistAs="Scenario31.sss"/>
+			</scenarios>
+		</Record>
+		<Record oid="D30B3CC4-3FC8-46DB-849A-0D0E0E9CE6C4" name="Record21" description="Record21">
+			<inits>
+				<Scenario oid="FBA7E29A-F19A-48BB-89FC-6AB82AC59AF4" persistAs="alias.sss"/>
+			</inits>
+			<scenarios>
+				<Scenario oid="A948C929-5895-4BFF-9608-542A9A39DD02" persistAs="Scenario30.sss"/>
+			</scenarios>
+		</Record>
+	</testElements>
+</Procedure>

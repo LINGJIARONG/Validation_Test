@@ -1,0 +1,44 @@
+*************************** HEADER ***************************
+** Command: SCADE -test J:\Modelisation_Surveillance\Test_projet\TestForModelisation.etp -tee -conf Test
+** Start: Friday, February 07, 2020 17:11:22
+**************************************************************
+"Procedure1.stp": Launch QTECHECK.EXE.
+SCADE Test - Check 19.2 (build 20180628) 
+Copyright (C) Esterel Technologies SAS 2002-2018. All rights reserved 
+
+"Procedure1.stp": Command successful.
+"Procedure1.stp": Launch QTETEE.EXE.
+SCADE Test - Environment for Host 19.2 (build 20180628) 
+Copyright (C) Esterel Technologies SAS 2002-2018. All rights reserved 
+Starting Code generation... 
+SCADE Suite (R) Code Generator Launcher Version 19.2 (build 20180628)  
+Copyright (C) Esterel Technologies SAS 2002-2018. All rights reserved  
+Starting C Code Generation for node Controller... 
+SCADE Suite (R) KCG Code Generator 32-bit 6.6 (build i19)  
+Copyright (C) Esterel Technologies 2002-2015 All rights reserved  
+  
+No warning was found  
+No error was found  
+No failure occurred  
+C Code Generation completed. 
+Starting Type Utils generation... 
+Type Utils generation completed. 
+Starting Mapping Utils generation... 
+Mapping Utils generation completed. 
+Starting TEE Wrapper generation... 
+TEE Wrapper generation completed. 
+Starting build (win64)... 
+Command completed. 
+ 
+Code generation completed. 
+
+"Procedure1.stp": Command successful.
+"Procedure1.stp": Launch QTEREPORT.EXE.
+SCADE Test - Report 19.2 (build 20180628) 
+Copyright (C) Esterel Technologies SAS 2002-2018. All rights reserved 
+
+"Procedure1.stp": Command successful.
+*************************** FOOTER ***************************
+** qtelauncher.log 
+** End: Friday, February 07, 2020 17:11:38
+**************************************************************

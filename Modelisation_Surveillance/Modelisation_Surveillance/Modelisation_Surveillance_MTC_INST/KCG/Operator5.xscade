@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<File xmlns="http://www.esterel-technologies.com/ns/scade/6" xmlns:ed="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5" xmlns:kcg="http://www.esterel-technologies.com/ns/scade/pragmas/codegen/3" xmlns:mtc="http://www.esterel-technologies.com/ns/scade/pragmas/mtc/1">
+	<declarations>
+		<Operator kind="node" name="Check_interval_Redox">
+			<inputs>
+				<Variable name="Redox">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="float64"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/4d0f/1A/127C/5e3adad01247"/>
+					</pragmas>
+				</Variable>
+				<Variable name="MTC_AC_Outputs">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/a194/669/10F4/5e3d864f5167" hidden="true" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>Outputs</comment>
+						</ed:Variable>
+					</pragmas>
+				</Variable>
+				<Variable name="MTC_INSTRU">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/acb9/669/10F4/5e3d8650759e" hidden="true" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>Instrumented</comment>
+						</ed:Variable>
+					</pragmas>
+				</Variable>
+			</inputs>
+			<outputs>
+				<Variable name="Output1">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/4d26/1A/127C/5e3adade5806"/>
+					</pragmas>
+				</Variable>
+			</outputs>
+			<locals>
+				<Variable name="MTC_AC_1">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/a196/669/10F4/5e3d864f48f9" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>AC(Output1)</comment>
+						</ed:Variable>
+					</pragmas>
+				</Variable>
+				<Variable name="MTC_AC_2">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/a198/669/10F4/5e3d864ffb5" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>LAC($and#1 i1)</comment>
+						</ed:Variable>
+					</pragmas>
+				</Variable>
+				<Variable name="MTC_AC_3">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/a19a/669/10F4/5e3d864f7df9" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>LAC($and#1 i2)</comment>
+						</ed:Variable>
+					</pragmas>
+				</Variable>
+				<Variable name="MTC_AC_4">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/a19c/669/10F4/5e3d864f7bbc" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>AC($gte#1)</comment>
+						</ed:Variable>
+					</pragmas>
+				</Variable>
+				<Variable name="MTC_AC_5">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/a19e/669/10F4/5e3d864f26d" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>AC($lte#1)</comment>
+						</ed:Variable>
+					</pragmas>
+				</Variable>
+				<Variable name="MTC_CC_1_T">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/a1a0/669/10F4/5e3d864f56e7" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>CC($gte#1 -&gt; Output1)</comment>
+						</ed:Variable>
+					</pragmas>
+				</Variable>
+				<Variable name="MTC_CC_2_F">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/a1a2/669/10F4/5e3d864f3cd" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>CC($gte#1 -&gt; Output1)</comment>
+						</ed:Variable>
+					</pragmas>
+				</Variable>
+				<Variable name="MTC_CC_3_T">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/a1a4/669/10F4/5e3d864f2013" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>CC($lte#1 -&gt; Output1)</comment>
+						</ed:Variable>
+					</pragmas>
+				</Variable>
+				<Variable name="MTC_CC_4_F">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/a1a6/669/10F4/5e3d864fa7c" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>CC($lte#1 -&gt; Output1)</comment>
+						</ed:Variable>
+					</pragmas>
+				</Variable>
+				<Variable name="_L1">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/4cfe/1A/127C/5e3adabdfc6"/>
+					</pragmas>
+				</Variable>
+				<Variable name="_L4">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="float64"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/4d11/1A/127C/5e3adad06388"/>
+					</pragmas>
+				</Variable>
+				<Variable name="_L5">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="float64"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/4d2d/1A/127C/5e3adb0a7020"/>
+					</pragmas>
+				</Variable>
+				<Variable name="_L6">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="float64"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/4d33/1A/127C/5e3adb124c30"/>
+					</pragmas>
+				</Variable>
+				<Variable name="_L7">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/9f5d/34EA/64C/5e3d5ad6725e"/>
+					</pragmas>
+				</Variable>
+				<Variable name="_L8">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/9f63/34EA/64C/5e3d5aee268a"/>
+					</pragmas>
+				</Variable>
+			</locals>
+			<data>
+				<!-- _L1 = _L7 and _L8; -->
+				<Equation>
+					<lefts>
+						<VariableRef name="_L1"/>
+					</lefts>
+					<right>
+						<!-- _L7 and _L8 -->
+						<NAryOp name="1" operator="and">
+							<operands>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L7"/>
+									</path>
+								</IdExpression>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L8"/>
+									</path>
+								</IdExpression>
+							</operands>
+						</NAryOp>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/4cfd/1A/127C/5e3adabd2f3"/>
+					</pragmas>
+				</Equation>
+				<!-- _L4 = Redox; -->
+				<Equation>
+					<lefts>
+						<VariableRef name="_L4"/>
+					</lefts>
+					<right>
+						<IdExpression>
+							<path>
+								<ConstVarRef name="Redox"/>
+							</path>
+						</IdExpression>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/4d10/1A/127C/5e3adad032ca"/>
+					</pragmas>
+				</Equation>
+				<!-- Output1 = _L1; -->
+				<Equation>
+					<lefts>
+						<VariableRef name="Output1"/>
+					</lefts>
+					<right>
+						<IdExpression>
+							<path>
+								<ConstVarRef name="_L1"/>
+							</path>
+						</IdExpression>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/4d27/1A/127C/5e3adade651b"/>
+					</pragmas>
+				</Equation>
+				<!-- _L5 = Redox_Low; -->
+				<Equation>
+					<lefts>
+						<VariableRef name="_L5"/>
+					</lefts>
+					<right>
+						<IdExpression>
+							<path>
+								<ConstVarRef name="Redox_Low"/>
+							</path>
+						</IdExpression>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/4d2c/1A/127C/5e3adb0a3605"/>
+					</pragmas>
+				</Equation>
+				<!-- _L6 = Redox_High; -->
+				<Equation>
+					<lefts>
+						<VariableRef name="_L6"/>
+					</lefts>
+					<right>
+						<IdExpression>
+							<path>
+								<ConstVarRef name="Redox_High"/>
+							</path>
+						</IdExpression>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/4d32/1A/127C/5e3adb123069"/>
+					</pragmas>
+				</Equation>
+				<!-- _L7 = _L4 >= _L5; -->
+				<Equation>
+					<lefts>
+						<VariableRef name="_L7"/>
+					</lefts>
+					<right>
+						<!-- _L4 >= _L5 -->
+						<BinaryOp name="1" operator="&gt;=">
+							<operands>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L4"/>
+									</path>
+								</IdExpression>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L5"/>
+									</path>
+								</IdExpression>
+							</operands>
+						</BinaryOp>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/9f5c/34EA/64C/5e3d5ad621db"/>
+					</pragmas>
+				</Equation>
+				<!-- _L8 = _L4 <= _L6; -->
+				<Equation>
+					<lefts>
+						<VariableRef name="_L8"/>
+					</lefts>
+					<right>
+						<!-- _L4 <= _L6 -->
+						<BinaryOp name="1" operator="&lt;=">
+							<operands>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L4"/>
+									</path>
+								</IdExpression>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L6"/>
+									</path>
+								</IdExpression>
+							</operands>
+						</BinaryOp>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/9f62/34EA/64C/5e3d5aee316c"/>
+					</pragmas>
+				</Equation>
+				<!-- MTC_AC_1 = MTC_AC_Outputs; -->
+				<Equation>
+					<lefts>
+						<VariableRef name="MTC_AC_1"/>
+					</lefts>
+					<right>
+						<IdExpression>
+							<path>
+								<ConstVarRef name="MTC_AC_Outputs"/>
+							</path>
+						</IdExpression>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/a197/669/10F4/5e3d864f1492" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>AC(Output1)</comment>
+						</ed:Equation>
+					</pragmas>
+				</Equation>
+				<!-- MTC_AC_2 = _L8; -->
+				<Equation>
+					<lefts>
+						<VariableRef name="MTC_AC_2"/>
+					</lefts>
+					<right>
+						<IdExpression>
+							<path>
+								<ConstVarRef name="_L8"/>
+							</path>
+						</IdExpression>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/a199/669/10F4/5e3d864f7b32" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>LAC($and#1 i1)</comment>
+						</ed:Equation>
+					</pragmas>
+				</Equation>
+				<!-- MTC_AC_3 = _L7; -->
+				<Equation>
+					<lefts>
+						<VariableRef name="MTC_AC_3"/>
+					</lefts>
+					<right>
+						<IdExpression>
+							<path>
+								<ConstVarRef name="_L7"/>
+							</path>
+						</IdExpression>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/a19b/669/10F4/5e3d864f521c" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>LAC($and#1 i2)</comment>
+						</ed:Equation>
+					</pragmas>
+				</Equation>
+				<!-- MTC_AC_4 = MTC_AC_2 and MTC_AC_1; -->
+				<Equation>
+					<lefts>
+						<VariableRef name="MTC_AC_4"/>
+					</lefts>
+					<right>
+						<!-- MTC_AC_2 and MTC_AC_1 -->
+						<NAryOp name="2" operator="and">
+							<operands>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_2"/>
+									</path>
+								</IdExpression>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_1"/>
+									</path>
+								</IdExpression>
+							</operands>
+						</NAryOp>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/a19d/669/10F4/5e3d864f1a75" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>AC($gte#1)</comment>
+						</ed:Equation>
+					</pragmas>
+				</Equation>
+				<!-- MTC_AC_5 = MTC_AC_3 and MTC_AC_1; -->
+				<Equation>
+					<lefts>
+						<VariableRef name="MTC_AC_5"/>
+					</lefts>
+					<right>
+						<!-- MTC_AC_3 and MTC_AC_1 -->
+						<NAryOp name="3" operator="and">
+							<operands>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_3"/>
+									</path>
+								</IdExpression>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_1"/>
+									</path>
+								</IdExpression>
+							</operands>
+						</NAryOp>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/a19f/669/10F4/5e3d864f7947" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>AC($lte#1)</comment>
+						</ed:Equation>
+					</pragmas>
+				</Equation>
+				<!-- MTC_CC_1_T = _L7 and MTC_AC_4; -->
+				<Equation>
+					<lefts>
+						<VariableRef name="MTC_CC_1_T"/>
+					</lefts>
+					<right>
+						<!-- _L7 and MTC_AC_4 -->
+						<NAryOp name="4" operator="and">
+							<operands>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L7"/>
+									</path>
+								</IdExpression>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_4"/>
+									</path>
+								</IdExpression>
+							</operands>
+						</NAryOp>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/a1a1/669/10F4/5e3d864f4c30" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>CC($gte#1 -&gt; Output1)</comment>
+						</ed:Equation>
+					</pragmas>
+				</Equation>
+				<!-- MTC_CC_2_F =  not _L7 and MTC_AC_4; -->
+				<Equation>
+					<lefts>
+						<VariableRef name="MTC_CC_2_F"/>
+					</lefts>
+					<right>
+						<!--  not _L7 and MTC_AC_4 -->
+						<NAryOp name="5" operator="and">
+							<operands>
+								<!--  not _L7 -->
+								<UnaryOp name="1" operator="not">
+									<operand>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L7"/>
+											</path>
+										</IdExpression>
+									</operand>
+								</UnaryOp>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_4"/>
+									</path>
+								</IdExpression>
+							</operands>
+						</NAryOp>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/a1a3/669/10F4/5e3d864f10ba" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>CC($gte#1 -&gt; Output1)</comment>
+						</ed:Equation>
+					</pragmas>
+				</Equation>
+				<!-- MTC_CC_3_T = _L8 and MTC_AC_5; -->
+				<Equation>
+					<lefts>
+						<VariableRef name="MTC_CC_3_T"/>
+					</lefts>
+					<right>
+						<!-- _L8 and MTC_AC_5 -->
+						<NAryOp name="6" operator="and">
+							<operands>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L8"/>
+									</path>
+								</IdExpression>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_5"/>
+									</path>
+								</IdExpression>
+							</operands>
+						</NAryOp>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/a1a5/669/10F4/5e3d864f1b5b" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>CC($lte#1 -&gt; Output1)</comment>
+						</ed:Equation>
+					</pragmas>
+				</Equation>
+				<!-- MTC_CC_4_F =  not _L8 and MTC_AC_5; -->
+				<Equation>
+					<lefts>
+						<VariableRef name="MTC_CC_4_F"/>
+					</lefts>
+					<right>
+						<!--  not _L8 and MTC_AC_5 -->
+						<NAryOp name="7" operator="and">
+							<operands>
+								<!--  not _L8 -->
+								<UnaryOp name="2" operator="not">
+									<operand>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L8"/>
+											</path>
+										</IdExpression>
+									</operand>
+								</UnaryOp>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_5"/>
+									</path>
+								</IdExpression>
+							</operands>
+						</NAryOp>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/a1a7/669/10F4/5e3d864f4360" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>CC($lte#1 -&gt; Output1)</comment>
+						</ed:Equation>
+					</pragmas>
+				</Equation>
+				<!-- () = MTCEx::MTC_Observers::Check_interval_Redox_PATHS1_MTC_OBS(MTC_CC_1_T, MTC_CC... -->
+				<Equation>
+					<right>
+						<!-- MTCEx::MTC_Observers::Check_interval_Redox_PATHS1_MTC_OBS(MTC_CC_1_T, MTC_CC_2_F,... -->
+						<CallExpression>
+							<operator>
+								<OpCall name="1">
+									<operator>
+										<OperatorRef name="MTCEx::MTC_Observers::Check_interval_Redox_PATHS1_MTC_OBS"/>
+									</operator>
+								</OpCall>
+							</operator>
+							<callParameters>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_CC_1_T"/>
+									</path>
+								</IdExpression>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_CC_2_F"/>
+									</path>
+								</IdExpression>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_CC_3_T"/>
+									</path>
+								</IdExpression>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_CC_4_F"/>
+									</path>
+								</IdExpression>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_INSTRU"/>
+									</path>
+								</IdExpression>
+							</callParameters>
+						</CallExpression>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/a1b0/669/10F4/5e3d864f4c97" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>OBS(Output1)</comment>
+						</ed:Equation>
+						<mtc:CoverageElement path="/27 Output1"/>
+					</pragmas>
+				</Equation>
+			</data>
+			<pragmas>
+				<ed:Operator oid="!ed/4cf4/1A/127C/5e3adaac66f1" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+					<diagrams>
+						<NetDiagram name="Check_interval_Redox_1" landscape="true" format="A4 (210 297)" oid="!ed/4cf5/1A/127C/5e3adaacf58">
+							<presentationElements>
+								<EquationGE presentable="!ed/4cfd/1A/127C/5e3adabd2f3">
+									<position>
+										<Point x="8467" y="4895"/>
+									</position>
+									<size>
+										<Size width="1005" height="662"/>
+									</size>
+								</EquationGE>
+								<EquationGE presentable="!ed/4d10/1A/127C/5e3adad032ca">
+									<position>
+										<Point x="2593" y="5080"/>
+									</position>
+									<size>
+										<Size width="265" height="503"/>
+									</size>
+								</EquationGE>
+								<EquationGE presentable="!ed/4d27/1A/127C/5e3adade651b">
+									<position>
+										<Point x="10901" y="5080"/>
+									</position>
+									<size>
+										<Size width="317" height="503"/>
+									</size>
+								</EquationGE>
+								<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4cfd/1A/127C/5e3adabd2f3" dstEquation="!ed/4d27/1A/127C/5e3adade651b">
+									<positions>
+										<Point x="9472" y="5239"/>
+										<Point x="9604" y="5239"/>
+										<Point x="9604" y="5345"/>
+										<Point x="10954" y="5345"/>
+									</positions>
+								</Edge>
+								<EquationGE kind="OBJ_LIT" presentable="!ed/4d2c/1A/127C/5e3adb0a3605">
+									<position>
+										<Point x="5450" y="4551"/>
+									</position>
+									<size>
+										<Size width="212" height="317"/>
+									</size>
+								</EquationGE>
+								<EquationGE kind="OBJ_LIT" presentable="!ed/4d32/1A/127C/5e3adb123069">
+									<position>
+										<Point x="4101" y="6218"/>
+									</position>
+									<size>
+										<Size width="212" height="317"/>
+									</size>
+								</EquationGE>
+								<EquationGE presentable="!ed/9f5c/34EA/64C/5e3d5ad621db">
+									<position>
+										<Point x="6033" y="3784"/>
+									</position>
+									<size>
+										<Size width="1006" height="662"/>
+									</size>
+								</EquationGE>
+								<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/4d2c/1A/127C/5e3adb0a3605" dstEquation="!ed/9f5c/34EA/64C/5e3d5ad621db">
+									<positions>
+										<Point x="5662" y="4710"/>
+										<Point x="4471" y="4710"/>
+										<Point x="4471" y="4233"/>
+										<Point x="6033" y="4233"/>
+									</positions>
+								</Edge>
+								<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4d10/1A/127C/5e3adad032ca" dstEquation="!ed/9f5c/34EA/64C/5e3d5ad621db">
+									<positions>
+										<Point x="2858" y="5345"/>
+										<Point x="3836" y="5345"/>
+										<Point x="3836" y="3995"/>
+										<Point x="6033" y="3995"/>
+									</positions>
+								</Edge>
+								<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/9f5c/34EA/64C/5e3d5ad621db" dstEquation="!ed/4cfd/1A/127C/5e3adabd2f3">
+									<positions>
+										<Point x="7038" y="4128"/>
+										<Point x="7144" y="4128"/>
+										<Point x="7144" y="5106"/>
+										<Point x="8467" y="5106"/>
+									</positions>
+								</Edge>
+								<EquationGE presentable="!ed/9f62/34EA/64C/5e3d5aee316c">
+									<position>
+										<Point x="5424" y="5265"/>
+									</position>
+									<size>
+										<Size width="1005" height="662"/>
+									</size>
+								</EquationGE>
+								<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/9f62/34EA/64C/5e3d5aee316c" dstEquation="!ed/4cfd/1A/127C/5e3adabd2f3">
+									<positions>
+										<Point x="6429" y="5609"/>
+										<Point x="7435" y="5609"/>
+										<Point x="7435" y="5345"/>
+										<Point x="8467" y="5345"/>
+									</positions>
+								</Edge>
+								<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/4d32/1A/127C/5e3adb123069" dstEquation="!ed/9f62/34EA/64C/5e3d5aee316c">
+									<positions>
+										<Point x="4313" y="6376"/>
+										<Point x="4868" y="6376"/>
+										<Point x="4868" y="5715"/>
+										<Point x="5424" y="5715"/>
+									</positions>
+								</Edge>
+								<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4d10/1A/127C/5e3adad032ca" dstEquation="!ed/9f62/34EA/64C/5e3d5aee316c">
+									<positions>
+										<Point x="2858" y="5345"/>
+										<Point x="4128" y="5345"/>
+										<Point x="4128" y="5477"/>
+										<Point x="5424" y="5477"/>
+									</positions>
+								</Edge>
+							</presentationElements>
+						</NetDiagram>
+						<TextDiagram name="diagram_Check_interval_Redox_MTC_INST" landscape="false" oid="!ed/a195/669/10F4/5e3d864f781e">
+							<presentationElements>
+								<FlowTE presentable="!ed/a197/669/10F4/5e3d864f1492"/>
+								<FlowTE presentable="!ed/a199/669/10F4/5e3d864f7b32"/>
+								<FlowTE presentable="!ed/a19b/669/10F4/5e3d864f521c"/>
+								<FlowTE presentable="!ed/a19d/669/10F4/5e3d864f1a75"/>
+								<FlowTE presentable="!ed/a19f/669/10F4/5e3d864f7947"/>
+								<FlowTE presentable="!ed/a1a1/669/10F4/5e3d864f4c30"/>
+								<FlowTE presentable="!ed/a1a3/669/10F4/5e3d864f10ba"/>
+								<FlowTE presentable="!ed/a1a5/669/10F4/5e3d864f1b5b"/>
+								<FlowTE presentable="!ed/a1a7/669/10F4/5e3d864f4360"/>
+								<FlowTE presentable="!ed/a1b0/669/10F4/5e3d864f4c97"/>
+							</presentationElements>
+						</TextDiagram>
+					</diagrams>
+				</ed:Operator>
+			</pragmas>
+		</Operator>
+	</declarations>
+</File>

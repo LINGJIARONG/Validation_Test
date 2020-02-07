@@ -1,0 +1,10 @@
+*************************** HEADER ***************************
+** Command: SCADE -test J:\Modelisation_Surveillance\Test_projet\TestForModelisation.etp -clcm -conf Test
+** Start: Friday, February 07, 2020 17:12:02
+**************************************************************
+*** Input Data Error (ERR_1012): source model configuration isn't defined
+ Source configuration not defined in the configuration Test of the project J:\Modelisation_Surveillance\Test_projet\TestForModelisation.etp.
+*************************** FOOTER ***************************
+** qtelauncher.log 
+** End: Friday, February 07, 2020 17:12:02
+**************************************************************

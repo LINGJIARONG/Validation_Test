@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project id="1" oid_count="97" defaultConfiguration="24">
+	<props>
+		<Prop id="15" name="@GENERATOR:ROOTNODE">
+			<value>Controller</value>
+			<configuration>14</configuration>
+		</Prop>
+		<Prop id="37" name="@REPORTER:SCRIPT">
+			<value>Reporter/ScadeReport.tcl</value>
+			<configuration>36</configuration>
+		</Prop>
+		<Prop id="38" name="@REPORTER:RotateLandscape">
+			<value>true</value>
+			<configuration>36</configuration>
+		</Prop>
+		<Prop id="39" name="@REPORTER:cstDisplayType">
+			<value>Flat</value>
+			<configuration>36</configuration>
+		</Prop>
+		<Prop id="42" name="@REPORTER:FORMAT">
+			<value>rtf</value>
+			<configuration>41</configuration>
+		</Prop>
+		<Prop id="43" name="@REPORTER:SCRIPT">
+			<value>Reporter/ScadeReport.tcl</value>
+			<configuration>41</configuration>
+		</Prop>
+		<Prop id="44" name="@REPORTER:RotateLandscape">
+			<value>true</value>
+			<configuration>41</configuration>
+		</Prop>
+		<Prop id="45" name="@REPORTER:cstDisplayType">
+			<value>Flat</value>
+			<configuration>41</configuration>
+		</Prop>
+		<Prop id="47" name="@REPORTER:SCRIPT">
+			<value>Reporter/MtcReport.tcl</value>
+			<configuration>46</configuration>
+		</Prop>
+		<Prop id="69" name="@REPORTER:FORMAT">
+			<value>rtf</value>
+			<configuration>68</configuration>
+		</Prop>
+		<Prop id="70" name="@REPORTER:SCRIPT">
+			<value>Reporter/ScadeQualifiedReport.tcl</value>
+			<configuration>68</configuration>
+		</Prop>
+		<Prop id="71" name="@REPORTER:RotateLandscape">
+			<value>true</value>
+			<configuration>68</configuration>
+		</Prop>
+		<Prop id="72" name="@REPORTER:cstDisplayType">
+			<value>Flat</value>
+			<configuration>68</configuration>
+		</Prop>
+		<Prop id="73" name="@REPORTER:AllowRowToBreak">
+			<value>true</value>
+			<configuration>68</configuration>
+		</Prop>
+		<Prop id="74" name="@REPORTER:DisplayCalledAndCalling">
+			<value>true</value>
+			<configuration>68</configuration>
+		</Prop>
+		<Prop id="75" name="@REPORTER:DisplayKCGPragma">
+			<value>true</value>
+			<configuration>68</configuration>
+		</Prop>
+		<Prop id="76" name="@STUDIO:TOOLCONF">
+			<value>Code Generator</value>
+			<value>14</value>
+			<value>24</value>
+			<value>46</value>
+			<value>59</value>
+		</Prop>
+		<Prop id="77" name="@STUDIO:TOOLCONF">
+			<value>Reporter</value>
+			<value>36</value>
+			<value>41</value>
+			<value>46</value>
+			<value>68</value>
+		</Prop>
+		<Prop id="78" name="@STUDIO:TOOLCONF">
+			<value>Instrumenter</value>
+			<value>46</value>
+		</Prop>
+		<Prop id="79" name="@STUDIO:TOOLCONF">
+			<value>Timing and Stack Verifiers</value>
+			<value>59</value>
+		</Prop>
+		<Prop id="80" name="@STUDIO:TITLE">
+			<value>&lt;title&gt;</value>
+		</Prop>
+		<Prop id="81" name="@STUDIO:SUBTITLE">
+			<value>&lt;subtitle&gt;</value>
+		</Prop>
+		<Prop id="82" name="@STUDIO:DESCRIPTION">
+			<value>&lt;description&gt;</value>
+		</Prop>
+		<Prop id="83" name="@STUDIO:AUTHORS">
+			<value></value>
+		</Prop>
+		<Prop id="84" name="@STUDIO:COMPAGNY">
+			<value>&lt;company&gt;</value>
+		</Prop>
+		<Prop id="85" name="@STUDIO:DATE">
+			<value>&lt;date&gt;</value>
+		</Prop>
+		<Prop id="86" name="@STUDIO:INDEX">
+			<value>&lt;index&gt;</value>
+		</Prop>
+		<Prop id="87" name="@STUDIO:REFERENCE">
+			<value>&lt;reference&gt;</value>
+		</Prop>
+		<Prop id="88" name="@STUDIO:TOOLCONF">
+			<value>Timing and Stack Analysis Tools</value>
+			<value>14</value>
+			<value>24</value>
+			<value>36</value>
+			<value>41</value>
+			<value>46</value>
+			<value>59</value>
+			<value>68</value>
+		</Prop>
+		<Prop id="89" name="@STUDIO:TOOLCONF">
+			<value>DiffAnalyzer</value>
+			<value>14</value>
+			<value>24</value>
+			<value>36</value>
+			<value>41</value>
+			<value>46</value>
+			<value>59</value>
+			<value>68</value>
+		</Prop>
+		<Prop id="90" name="@STUDIO:TOOLCONF">
+			<value>Synchronization</value>
+			<value>14</value>
+			<value>24</value>
+			<value>36</value>
+			<value>41</value>
+			<value>46</value>
+			<value>59</value>
+			<value>68</value>
+		</Prop>
+		<Prop id="91" name="@STUDIO:TOOLCONF">
+			<value>Import/Export</value>
+			<value>14</value>
+			<value>24</value>
+			<value>36</value>
+			<value>41</value>
+			<value>46</value>
+			<value>59</value>
+			<value>68</value>
+		</Prop>
+		<Prop id="92" name="@STUDIO:TOOLCONF">
+			<value>Test Tool</value>
+			<value>14</value>
+			<value>24</value>
+			<value>36</value>
+			<value>41</value>
+			<value>46</value>
+			<value>59</value>
+			<value>68</value>
+		</Prop>
+		<Prop id="93" name="@MTC_INSTRUMENTER:SOURCE_MODEL">
+			<value>J:\Modelisation_Surveillance\Modelisation_Surveillance.etp</value>
+		</Prop>
+		<Prop id="94" name="@STUDIO:PRODUCT">
+			<value>MTC</value>
+		</Prop>
+		<Prop id="95" name="@MTC:INSTRUMENTED_MODEL">
+			<value>Modelisation_Surveillance_MTC_INST.etp</value>
+		</Prop>
+	</props>
+	<roots>
+		<Folder id="96" extensions="cdf" name="Criteria Files">
+			<elements>
+				<FileRef id="97" persistAs="MTC_Modelisation_Surveillance_Procedure1_result_libmtcModelisation_Surveillance_MTC_INST.cdf"/>
+			</elements>
+		</Folder>
+	</roots>
+	<configurations>
+		<Configuration id="14" name="KCG"/>
+		<Configuration id="24" name="Simulation"/>
+		<Configuration id="36" name="HTML"/>
+		<Configuration id="41" name="RTF"/>
+		<Configuration id="46" name="Coverage"/>
+		<Configuration id="59" name="Timing and Stack"/>
+		<Configuration id="68" name="Cert. Reporter"/>
+	</configurations>
+</Project>

@@ -1,1 +1,0 @@
-GLOBAL_LOG:J:\Modelisation_Surveillance\Test_projet\Test_TEE\qtelauncher.log

@@ -1,0 +1,34 @@
+##############################################################################
+#
+# Scenario Description
+#
+##############################################################################
+
+## inputs
+
+# 1.
+# All Normal(Every sensor works well and no pollution dectected ) 
+# Expected: alarme = false. sendData = algo_de_vote(Temperature,pH,Redox) 
+
+
+# Data
+SSM::set Sensor_Temperature (-40.0,-10.0,-10.0)
+# Data
+SSM::set Sensor_pH (1.0,14.0,14.0 )
+# Data
+SSM::set Sensor_Redox (300.0,3000.0,3000.0)
+# position
+SSM::set Sensor_GPS (48.5,2.22)
+# float64
+SSM::set Time 10.3
+# bool
+SSM::set Stop false
+# float64
+SSM::set Frequency 1.0
+## outputs
+# Statation_data
+## SSM::check Send_Data (16.033333,8.366667,807.85,(48.5,2.22),10.3)
+# bool
+SSM::cycle 
+SSM::check alarm true
+SSM::cycle 

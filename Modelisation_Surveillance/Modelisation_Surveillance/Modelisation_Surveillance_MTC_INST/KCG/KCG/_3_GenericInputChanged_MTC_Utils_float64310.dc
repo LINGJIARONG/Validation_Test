@@ -1,0 +1,43 @@
+/* $********** SCADE Suite KCG 64-bit 6.6 (build i19) ***********
+** Command: kcg66_x64.exe -config J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/KCG/config.txt
+** Generation date: 2020-02-07T16:46:46
+*************************************************************$ */
+
+#include "kcg_consts.h"
+#include "kcg_sensors.h"
+#include "_3_GenericInputChanged_MTC_Utils_float64310.h"
+
+/* MTC_Utils::GenericInputChanged/ */
+void _3_GenericInputChanged_MTC_Utils_float64310(
+  /* Input/ */
+  Ten_Values_Table *Input,
+  outC__3_GenericInputChanged_MTC_Utils_float64310 *outC)
+{
+  /* The body of this function must be provided */
+
+}
+
+void _3_GenericInputChanged_init_MTC_Utils_float64310(
+  outC__3_GenericInputChanged_MTC_Utils_float64310 *outC)
+{
+  /* The body of this function must be provided */
+
+}
+
+
+#ifndef KCG_NO_EXTERN_CALL_TO_RESET
+void _3_GenericInputChanged_reset_MTC_Utils_float64310(
+  outC__3_GenericInputChanged_MTC_Utils_float64310 *outC)
+{
+  /* The body of this function must be provided */
+
+}
+#endif /* KCG_NO_EXTERN_CALL_TO_RESET */
+
+
+
+/* $********** SCADE Suite KCG 64-bit 6.6 (build i19) ***********
+** _3_GenericInputChanged_MTC_Utils_float64310.dc
+** Generation date: 2020-02-07T16:46:46
+*************************************************************$ */
+

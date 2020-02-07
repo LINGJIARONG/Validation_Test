@@ -1,0 +1,2564 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+  <Model commandLine="" date="">
+    <Option name="use_types" value="#off#"/>
+    <Option name="imported_root_package" value="#off#"/>
+    <Option name="root_package" value="#off#"/>
+    <Option name="xml_basename" value="kcg_xml_filter_out.scade"/>
+    <Option name="state_vector" value="#off#"/>
+    <Option name="static" value="#off#"/>
+    <Option name="separate_io_all" value="#off#"/>
+    <Option name="no_separate_io" value="#off#"/>
+    <Option name="separate_io" value="#off#"/>
+    <Option name="warn_error" value="#off#"/>
+    <Option name="short_circuit" value="#off#"/>
+    <Option name="wrap_c_ops" value="#off#"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/libverif_MTC_INST/libverif.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/libpwlinear_MTC_INST/lut.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/libpwlinear_MTC_INST/pwlinear.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/libmathext_MTC_INST/mathext.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/libmath_MTC_INST/math.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/libmath_MTC_INST/vect.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/liblinear_MTC_INST/filters.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/liblinear_MTC_INST/linear.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/libmtcModelisation_Surveillance_MTC_INST/MTC_Utils.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/libmtcModelisation_Surveillance_MTC_INST/MTCEx.xscade"/>
+    <Option name="input_file" value="C:/Program Files/ANSYS Inc/v192/SCADE/SCADE/libraries/SC65/libmtc/MTC.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/libdigital_MTC_INST/TruthTables.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/libdigital_MTC_INST/digital.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/Operator12.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/Operator11.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/Operator10.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/Operator9.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/Operator8.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/Operator7.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/Operator6.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/Operator5.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/Operator4.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/Operator3.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/Operator2.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/Modelisation_Surveillance.xscade"/>
+    <Option name="input_file" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/Operator1.xscade"/>
+    <Option name="probes" value="#on#"/>
+    <Option name="debug" value="#off#"/>
+    <Option name="no_observe" value="#off#"/>
+    <Option name="observe" value="#off#"/>
+    <Option name="user_config" value="./user_macros.h"/>
+    <Option name="input_threshold" value="#off#"/>
+    <Option name="header" value="#off#"/>
+    <Option name="significance_length" value="31"/>
+    <Option name="name_length" value="200"/>
+    <Option name="globals_prefix" value="#off#"/>
+    <Option name="keep_asserts" value="#off#"/>
+    <Option name="global_root_context" value="#off#"/>
+    <Option name="expall" value="#off#"/>
+    <Option name="noexp" value="#off#"/>
+    <Option name="exp" value="#off#"/>
+    <Option name="target_dir" value="J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/KCG"/>
+    <Option name="target" value="C"/>
+    <Option name="root" value="Controller"/>
+    <Option name="auth" value="#off#"/>
+    <RootNode headerFile="Controller.h" scadeName="Controller" targetCycleFct="Controller" targetInitFct="Controller_reset" targetInitializationFct="Controller_init">
+      <Input inCtx="true" scadeName="Sensor_Temperature" scadeType="Data" targetName="Sensor_Temperature" targetType="Data"/>
+      <Input inCtx="true" scadeName="Sensor_pH" scadeType="Data" targetName="Sensor_pH" targetType="Data"/>
+      <Input inCtx="true" scadeName="Sensor_Redox" scadeType="Data" targetName="Sensor_Redox" targetType="Data"/>
+      <Input inCtx="true" scadeName="Sensor_GPS" scadeType="position" targetName="Sensor_GPS" targetType="position"/>
+      <Input inCtx="true" scadeName="Time" scadeType="float64" targetName="Time" targetType="kcg_float64"/>
+      <Input inCtx="true" scadeName="Stop" scadeType="bool" targetName="Stop" targetType="kcg_bool"/>
+      <Input inCtx="true" scadeName="Frequency" scadeType="float64" targetName="Frequency" targetType="kcg_float64"/>
+      <Output inCtx="true" scadeName="Send_Data" scadeType="Statation_data" targetName="Send_Data" targetType="Statation_data"/>
+      <Output inCtx="true" scadeName="alarm" scadeType="bool" targetName="alarm" targetType="kcg_bool"/>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Instrumenters::Controller_store_last_MTC_INST">
+        <InitOp instName="2"/>
+        <InitOp instName="3"/>
+        <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Controller_PATHS1_MTC_OBS">
+          <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Controller_PATHS1_MTC_OBS_1_Controller_store_last_MTC_INST_1" targetType="Result_MTC"/>
+          <ActivateEveryDefault>
+            <Condition/>
+            <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+              <OutCtxVar targetName="Context_LATCHALL02_MTC_1_Controller_PATHS1_MTC_OBS_1_Controller_store_last_MTC_INST_1"/>
+            </NodeInstance>
+            <Default/>
+          </ActivateEveryDefault>
+        </NodeInlining>
+      </NodeInlining>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Instrumenters::Controller_Store_Time_def_MTC_INST"/>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Instrumenters::Controller_timeout_def_MTC_INST"/>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Instrumenters::Controller_MTC_Send_Data_def_MTC_INST"/>
+      <Automaton scadeName="SM1" targetStatesType="SSM_ST_SM1" targetTransitionsType="SSM_TR_SM1">
+        <State scadeName="Normal_Station" targetName="SSM_st_Normal_Station_SM1">
+          <NodeInstance clockVal="SSM_st_Normal_Station_SM1" clockVar="SM1_state_act" instName="1" refName="Vote_Alog" scadeName="Vote_Alog">
+            <OutCtxVar clockVal="SSM_st_Normal_Station_SM1" clockVar="SM1_state_act" targetName="Context_Vote_Alog_1"/>
+          </NodeInstance>
+          <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::STATE_MTC_OBS">
+            <Probe clockVal="SSM_st_Normal_Station_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_STATE_MTC_OBS_1" targetType="Result_MTC"/>
+            <ActivateEveryDefault>
+              <Condition/>
+              <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+                <OutCtxVar targetName="_38_Context_LATCHALL02_MTC_1_STATE_MTC_OBS_1"/>
+              </NodeInstance>
+              <Default/>
+            </ActivateEveryDefault>
+          </NodeInlining>
+          <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Controller_PATHS9_MTC_OBS">
+            <Probe clockVal="SSM_st_Normal_Station_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Controller_PATHS9_MTC_OBS_1" targetType="Result_MTC"/>
+            <ActivateEveryDefault>
+              <Condition/>
+              <NodeInstance instName="1" refName="LATCHALL03_MTC" scadeName="MTC::LATCHALL03">
+                <OutCtxVar targetName="_37_Context_LATCHALL03_MTC_1_Controller_PATHS9_MTC_OBS_1"/>
+              </NodeInstance>
+              <Default/>
+            </ActivateEveryDefault>
+          </NodeInlining>
+          <ActivateEveryDefault>
+            <Condition inCtx="true" targetName="every"/>
+            <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Vote_Alog_111_MTC_OBS">
+              <Probe clockVal="SSM_st_Normal_Station_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_4_MTC_ALL1_Vote_Alog_111_MTC_OBS_1_float643_float643_float643" targetType="Result_MTC"/>
+              <NodeInstance instName="1" refName="_2_GenericInputChanged_MTC_Utils_float643" scadeName="MTC_Utils::GenericInputChanged">
+                <OutCtxVar targetName="Context_GenericInputChanged_1_Vote_Alog_111_MTC_OBS_1"/>
+              </NodeInstance>
+              <NodeInstance instName="2" refName="_2_GenericInputChanged_MTC_Utils_float643" scadeName="MTC_Utils::GenericInputChanged">
+                <OutCtxVar targetName="Context_GenericInputChanged_2_Vote_Alog_111_MTC_OBS_1"/>
+              </NodeInstance>
+              <NodeInstance instName="3" refName="_2_GenericInputChanged_MTC_Utils_float643" scadeName="MTC_Utils::GenericInputChanged">
+                <OutCtxVar targetName="Context_GenericInputChanged_3_Vote_Alog_111_MTC_OBS_1"/>
+              </NodeInstance>
+              <ActivateEveryDefault>
+                <Condition/>
+                <NodeInstance instName="1" refName="LATCHALL04_MTC" scadeName="MTC::LATCHALL04">
+                  <OutCtxVar targetName="Context_LATCHALL04_MTC_1_Vote_Alog_111_MTC_OBS_1"/>
+                </NodeInstance>
+                <Default/>
+              </ActivateEveryDefault>
+            </NodeInlining>
+            <Default/>
+          </ActivateEveryDefault>
+          <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Controller_PATHS10_MTC_OBS">
+            <Probe clockVal="SSM_st_Normal_Station_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Controller_PATHS10_MTC_OBS_1" targetType="Result_MTC"/>
+            <ActivateEveryDefault>
+              <Condition/>
+              <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+                <OutCtxVar targetName="_36_Context_LATCHALL02_MTC_1_Controller_PATHS10_MTC_OBS_1"/>
+              </NodeInstance>
+              <Default/>
+            </ActivateEveryDefault>
+          </NodeInlining>
+          <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Controller_PATHS11_MTC_OBS">
+            <Input inCtx="true" scadeName="MTC_CC_23_A" scadeType="bool" targetName="every" targetType="kcg_bool"/>
+            <Probe clockVal="SSM_st_Normal_Station_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Controller_PATHS11_MTC_OBS_1" targetType="Result_MTC"/>
+            <ActivateEveryDefault>
+              <Condition/>
+              <NodeInstance instName="1" refName="LATCHALL07_MTC" scadeName="MTC::LATCHALL07">
+                <OutCtxVar targetName="Context_LATCHALL07_MTC_1_Controller_PATHS11_MTC_OBS_1"/>
+              </NodeInstance>
+              <Default/>
+            </ActivateEveryDefault>
+          </NodeInlining>
+          <Fork priority="1">
+            <Condition/>
+            <Action>
+              <NodeInlining instName="1" scadeName="MTCEx::MTC_Instrumenters::Controller_SM1_Normal_Station_1_MTC_INST">
+                <Input inCtx="true" scadeName="notif" scadeType="bool" targetName="tr_1_clock_Normal_Station_SM1" targetType="kcg_bool"/>
+                <Output inCtx="true" scadeName="MTC_guard" scadeType="bool" targetName="tr_1_clock_Normal_Station_SM1" targetType="kcg_bool"/>
+                <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Controller_PATHS3_MTC_OBS">
+                  <Probe clockVal="SSM_st_Normal_Station_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Controller_PATHS3_MTC_OBS_1_Controller_SM1_Normal_Station_1_MTC_INST_1" targetType="Result_MTC"/>
+                  <ActivateEveryDefault>
+                    <Condition/>
+                    <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+                      <OutCtxVar targetName="_33_Context_LATCHALL02_MTC_1_Controller_PATHS3_MTC_OBS_1_Controller_SM1_Normal_Station_1_MTC_INST_1"/>
+                    </NodeInstance>
+                    <Default/>
+                  </ActivateEveryDefault>
+                </NodeInlining>
+              </NodeInlining>
+              <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::TRANSITION_MTC_OBS">
+                <Probe clockVal="kcg_true" clockVar="tr_1_clock_Normal_Station_SM1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_TRANSITION_MTC_OBS_1" targetType="Result_MTC"/>
+                <ActivateEveryDefault>
+                  <Condition/>
+                  <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                    <OutCtxVar targetName="_35_Context_LATCHALL01_MTC_1_TRANSITION_MTC_OBS_1"/>
+                  </NodeInstance>
+                  <Default/>
+                </ActivateEveryDefault>
+              </NodeInlining>
+            </Action>
+            <Transition kind="weak" scadeDest="Defaillance_Station" targetName="SSM_TR_Normal_Station_Defaillance_Station_1_Normal_Station_SM1"/>
+          </Fork>
+          <Fork priority="2">
+            <Condition/>
+            <Action>
+              <NodeInlining instName="1" scadeName="MTCEx::MTC_Instrumenters::Controller_SM1_Normal_Station_2_MTC_INST">
+                <Input inCtx="true" scadeName="notif" scadeType="bool" targetName="tr_1_clock_Normal_Station_SM1" targetType="kcg_bool"/>
+                <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Controller_PATHS2_MTC_OBS">
+                  <Probe clockVal="SSM_st_Normal_Station_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Controller_PATHS2_MTC_OBS_1_Controller_SM1_Normal_Station_2_MTC_INST_1" targetType="Result_MTC"/>
+                  <ActivateEveryDefault>
+                    <Condition/>
+                    <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+                      <OutCtxVar targetName="_32_Context_LATCHALL02_MTC_1_Controller_PATHS2_MTC_OBS_1_Controller_SM1_Normal_Station_2_MTC_INST_1"/>
+                    </NodeInstance>
+                    <Default/>
+                  </ActivateEveryDefault>
+                </NodeInlining>
+              </NodeInlining>
+              <NodeInlining instName="2" scadeName="MTCEx::MTC_Observers::TRANSITION_MTC_OBS">
+                <Probe clockVal="kcg_true" clockVar="tr_2_clock_Normal_Station_SM1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_TRANSITION_MTC_OBS_2" targetType="Result_MTC"/>
+                <ActivateEveryDefault>
+                  <Condition/>
+                  <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                    <OutCtxVar targetName="_34_Context_LATCHALL01_MTC_1_TRANSITION_MTC_OBS_2"/>
+                  </NodeInstance>
+                  <Default/>
+                </ActivateEveryDefault>
+              </NodeInlining>
+            </Action>
+            <Transition kind="weak" scadeDest="Calculate" targetName="SSM_TR_Normal_Station_Calculate_2_Normal_Station_SM1"/>
+          </Fork>
+        </State>
+        <State scadeName="Defaillance_Station" targetName="SSM_st_Defaillance_Station_SM1">
+          <NodeInlining instName="2" scadeName="MTCEx::MTC_Observers::STATE_MTC_OBS">
+            <Probe clockVal="SSM_st_Defaillance_Station_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_STATE_MTC_OBS_2" targetType="Result_MTC"/>
+            <ActivateEveryDefault>
+              <Condition/>
+              <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+                <OutCtxVar targetName="_31_Context_LATCHALL02_MTC_1_STATE_MTC_OBS_2"/>
+              </NodeInstance>
+              <Default/>
+            </ActivateEveryDefault>
+          </NodeInlining>
+        </State>
+        <State scadeName="Calculate" targetName="SSM_st_Calculate_SM1">
+          <NodeInstance clockVal="SSM_st_Calculate_SM1" clockVar="SM1_state_act" instName="3" refName="Vote_Alog" scadeName="Vote_Alog">
+            <OutCtxVar clockVal="SSM_st_Calculate_SM1" clockVar="SM1_state_act" targetName="Context_Vote_Alog_3"/>
+          </NodeInstance>
+          <NodeInstance clockVal="SSM_st_Calculate_SM1" clockVar="SM1_state_act" instName="1" refName="Mean_10_Table" scadeName="Mean_10_Table">
+            <OutCtxVar clockVal="SSM_st_Calculate_SM1" clockVar="SM1_state_act" targetName="Context_Mean_10_Table_1"/>
+          </NodeInstance>
+          <NodeInlining instName="1" scadeName="math::Abs">
+            <Input inCtx="true" scadeName="MTC_AC_A_Output" scadeType="bool" targetName="every41" targetType="kcg_bool"/>
+            <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::math_Abs_PATHS1_MTC_OBS">
+              <Probe clockVal="SSM_st_Calculate_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_math_Abs_PATHS1_MTC_OBS_1_Abs_1" targetType="Result_MTC"/>
+              <ActivateEveryDefault>
+                <Condition/>
+                <NodeInstance instName="1" refName="LATCHALL04_MTC" scadeName="MTC::LATCHALL04">
+                  <OutCtxVar targetName="_30_Context_LATCHALL04_MTC_1_math_Abs_PATHS1_MTC_OBS_1_Abs_1"/>
+                </NodeInstance>
+                <Default/>
+              </ActivateEveryDefault>
+            </NodeInlining>
+          </NodeInlining>
+          <NodeInlining instName="2" scadeName="math::Abs">
+            <Input inCtx="true" scadeName="MTC_AC_A_Output" scadeType="bool" targetName="every42" targetType="kcg_bool"/>
+            <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::math_Abs_PATHS1_MTC_OBS">
+              <Probe clockVal="SSM_st_Calculate_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_1_MTC_ALL1_math_Abs_PATHS1_MTC_OBS_1_Abs_2" targetType="Result_MTC"/>
+              <ActivateEveryDefault>
+                <Condition/>
+                <NodeInstance instName="1" refName="LATCHALL04_MTC" scadeName="MTC::LATCHALL04">
+                  <OutCtxVar targetName="_29_Context_LATCHALL04_MTC_1_math_Abs_PATHS1_MTC_OBS_1_Abs_2"/>
+                </NodeInstance>
+                <Default/>
+              </ActivateEveryDefault>
+            </NodeInlining>
+          </NodeInlining>
+          <NodeInlining instName="3" scadeName="math::Abs">
+            <Input inCtx="true" scadeName="MTC_AC_A_Output" scadeType="bool" targetName="every43" targetType="kcg_bool"/>
+            <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::math_Abs_PATHS1_MTC_OBS">
+              <Probe clockVal="SSM_st_Calculate_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_2_MTC_ALL1_math_Abs_PATHS1_MTC_OBS_1_Abs_3" targetType="Result_MTC"/>
+              <ActivateEveryDefault>
+                <Condition/>
+                <NodeInstance instName="1" refName="LATCHALL04_MTC" scadeName="MTC::LATCHALL04">
+                  <OutCtxVar targetName="Context_LATCHALL04_MTC_1_math_Abs_PATHS1_MTC_OBS_1_Abs_3"/>
+                </NodeInstance>
+                <Default/>
+              </ActivateEveryDefault>
+            </NodeInlining>
+          </NodeInlining>
+          <ActivateIf scadeName="IfBlock1">
+            <Condition inCtx="true" targetName="IfBlock1_clock_Calculate_SM1">
+              <NodeInlining instName="1" scadeName="MTCEx::MTC_Instrumenters::Controller_SM1_Calculate_IfBlock1_MTC_INST">
+                <Input inCtx="true" scadeName="alarm" scadeType="bool" targetName="tr_1_clock_Calculate_SM1" targetType="kcg_bool"/>
+                <Output inCtx="true" scadeName="MTC_cond" scadeType="bool" targetName="tr_1_clock_Calculate_SM1" targetType="kcg_bool"/>
+                <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Controller_PATHS12_MTC_OBS">
+                  <Probe clockVal="SSM_st_Calculate_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Controller_PATHS12_MTC_OBS_1_Controller_SM1_Calculate_IfBlock1_MTC_INST_1" targetType="Result_MTC"/>
+                  <ActivateEveryDefault>
+                    <Condition/>
+                    <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+                      <OutCtxVar targetName="_28_Context_LATCHALL02_MTC_1_Controller_PATHS12_MTC_OBS_1_Controller_SM1_Calculate_IfBlock1_MTC_INST_1"/>
+                    </NodeInstance>
+                    <Default/>
+                  </ActivateEveryDefault>
+                </NodeInlining>
+              </NodeInlining>
+            </Condition>
+            <Else>
+              <NodeInstance clockVal="kcg_false" clockVar="IfBlock1_clock_Calculate_SM1" instName="7" refName="Vote_Alog" scadeName="Vote_Alog">
+                <OutCtxVar clockVal="kcg_false" clockVar="IfBlock1_clock_Calculate_SM1" targetName="Context_Vote_Alog_7"/>
+              </NodeInstance>
+              <NodeInstance instName="1" refName="Push_Table" scadeName="Push_Table"/>
+              <Last/>
+              <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                <Probe clockVal="kcg_false" clockVar="IfBlock1_clock_Calculate_SM1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_CONTROL_MTC_OBS_1" targetType="Result_MTC"/>
+                <ActivateEveryDefault>
+                  <Condition/>
+                  <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                    <OutCtxVar targetName="Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_1"/>
+                  </NodeInstance>
+                  <Default/>
+                </ActivateEveryDefault>
+              </NodeInlining>
+              <ActivateEveryDefault>
+                <Condition inCtx="true" targetName="every44"/>
+                <NodeInlining instName="7" scadeName="MTCEx::MTC_Observers::Vote_Alog_111_MTC_OBS">
+                  <Probe clockVal="kcg_false" clockVar="IfBlock1_clock_Calculate_SM1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_3_MTC_ALL1_Vote_Alog_111_MTC_OBS_7_float643_float643_float643" targetType="Result_MTC"/>
+                  <NodeInstance instName="1" refName="_2_GenericInputChanged_MTC_Utils_float643" scadeName="MTC_Utils::GenericInputChanged">
+                    <OutCtxVar targetName="_8_Context_GenericInputChanged_1_Vote_Alog_111_MTC_OBS_7"/>
+                  </NodeInstance>
+                  <NodeInstance instName="2" refName="_2_GenericInputChanged_MTC_Utils_float643" scadeName="MTC_Utils::GenericInputChanged">
+                    <OutCtxVar targetName="_7_Context_GenericInputChanged_2_Vote_Alog_111_MTC_OBS_7"/>
+                  </NodeInstance>
+                  <NodeInstance instName="3" refName="_2_GenericInputChanged_MTC_Utils_float643" scadeName="MTC_Utils::GenericInputChanged">
+                    <OutCtxVar targetName="_6_Context_GenericInputChanged_3_Vote_Alog_111_MTC_OBS_7"/>
+                  </NodeInstance>
+                  <ActivateEveryDefault>
+                    <Condition/>
+                    <NodeInstance instName="1" refName="LATCHALL04_MTC" scadeName="MTC::LATCHALL04">
+                      <OutCtxVar targetName="_5_Context_LATCHALL04_MTC_1_Vote_Alog_111_MTC_OBS_7"/>
+                    </NodeInstance>
+                    <Default/>
+                  </ActivateEveryDefault>
+                </NodeInlining>
+                <Default/>
+              </ActivateEveryDefault>
+              <ActivateEveryDefault>
+                <Condition inCtx="true" targetName="every44"/>
+                <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Push_Table_11_MTC_OBS">
+                  <Probe clockVal="kcg_false" clockVar="IfBlock1_clock_Calculate_SM1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Push_Table_11_MTC_OBS_1_float643_float64310" targetType="Result_MTC"/>
+                  <NodeInstance instName="1" refName="_3_GenericInputChanged_MTC_Utils_float64310" scadeName="MTC_Utils::GenericInputChanged">
+                    <OutCtxVar targetName="Context_GenericInputChanged_1_Push_Table_11_MTC_OBS_1"/>
+                  </NodeInstance>
+                  <NodeInstance instName="2" refName="_2_GenericInputChanged_MTC_Utils_float643" scadeName="MTC_Utils::GenericInputChanged">
+                    <OutCtxVar targetName="Context_GenericInputChanged_2_Push_Table_11_MTC_OBS_1"/>
+                  </NodeInstance>
+                  <ActivateEveryDefault>
+                    <Condition/>
+                    <NodeInstance instName="1" refName="LATCHALL03_MTC" scadeName="MTC::LATCHALL03">
+                      <OutCtxVar targetName="Context_LATCHALL03_MTC_1_Push_Table_11_MTC_OBS_1"/>
+                    </NodeInstance>
+                    <Default/>
+                  </ActivateEveryDefault>
+                </NodeInlining>
+                <Default/>
+              </ActivateEveryDefault>
+            </Else>
+            <Then>
+              <NodeInlining instName="2" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                <Probe clockVal="kcg_true" clockVar="IfBlock1_clock_Calculate_SM1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_CONTROL_MTC_OBS_2" targetType="Result_MTC"/>
+                <ActivateEveryDefault>
+                  <Condition/>
+                  <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                    <OutCtxVar targetName="_27_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_2"/>
+                  </NodeInstance>
+                  <Default/>
+                </ActivateEveryDefault>
+              </NodeInlining>
+            </Then>
+          </ActivateIf>
+          <Last/>
+          <NodeInlining instName="3" scadeName="MTCEx::MTC_Observers::STATE_MTC_OBS">
+            <Probe clockVal="SSM_st_Calculate_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_STATE_MTC_OBS_3" targetType="Result_MTC"/>
+            <ActivateEveryDefault>
+              <Condition/>
+              <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+                <OutCtxVar targetName="_26_Context_LATCHALL02_MTC_1_STATE_MTC_OBS_3"/>
+              </NodeInstance>
+              <Default/>
+            </ActivateEveryDefault>
+          </NodeInlining>
+          <ActivateEveryDefault>
+            <Condition inCtx="true" targetName="every39"/>
+            <NodeInlining instName="3" scadeName="MTCEx::MTC_Observers::Vote_Alog_111_MTC_OBS">
+              <Probe clockVal="SSM_st_Calculate_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Vote_Alog_111_MTC_OBS_3_float643_float643_float643" targetType="Result_MTC"/>
+              <NodeInstance instName="1" refName="_2_GenericInputChanged_MTC_Utils_float643" scadeName="MTC_Utils::GenericInputChanged">
+                <OutCtxVar targetName="_12_Context_GenericInputChanged_1_Vote_Alog_111_MTC_OBS_3"/>
+              </NodeInstance>
+              <NodeInstance instName="2" refName="_2_GenericInputChanged_MTC_Utils_float643" scadeName="MTC_Utils::GenericInputChanged">
+                <OutCtxVar targetName="_11_Context_GenericInputChanged_2_Vote_Alog_111_MTC_OBS_3"/>
+              </NodeInstance>
+              <NodeInstance instName="3" refName="_2_GenericInputChanged_MTC_Utils_float643" scadeName="MTC_Utils::GenericInputChanged">
+                <OutCtxVar targetName="_10_Context_GenericInputChanged_3_Vote_Alog_111_MTC_OBS_3"/>
+              </NodeInstance>
+              <ActivateEveryDefault>
+                <Condition/>
+                <NodeInstance instName="1" refName="LATCHALL04_MTC" scadeName="MTC::LATCHALL04">
+                  <OutCtxVar targetName="_9_Context_LATCHALL04_MTC_1_Vote_Alog_111_MTC_OBS_3"/>
+                </NodeInstance>
+                <Default/>
+              </ActivateEveryDefault>
+            </NodeInlining>
+            <Default/>
+          </ActivateEveryDefault>
+          <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Controller_PATHS13_MTC_OBS">
+            <Probe clockVal="SSM_st_Calculate_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Controller_PATHS13_MTC_OBS_1" targetType="Result_MTC"/>
+            <ActivateEveryDefault>
+              <Condition/>
+              <NodeInstance instName="1" refName="LATCHALL06_MTC" scadeName="MTC::LATCHALL06">
+                <OutCtxVar targetName="Context_LATCHALL06_MTC_1_Controller_PATHS13_MTC_OBS_1"/>
+              </NodeInstance>
+              <Default/>
+            </ActivateEveryDefault>
+          </NodeInlining>
+          <ActivateEveryDefault>
+            <Condition inCtx="true" targetName="every40"/>
+            <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Mean_10_Table_1_MTC_OBS">
+              <Probe clockVal="SSM_st_Calculate_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Mean_10_Table_1_MTC_OBS_1_float64310" targetType="Result_MTC"/>
+              <NodeInstance instName="1" refName="_3_GenericInputChanged_MTC_Utils_float64310" scadeName="MTC_Utils::GenericInputChanged">
+                <OutCtxVar targetName="Context_GenericInputChanged_1_Mean_10_Table_1_MTC_OBS_1"/>
+              </NodeInstance>
+              <ActivateEveryDefault>
+                <Condition/>
+                <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+                  <OutCtxVar targetName="Context_LATCHALL02_MTC_1_Mean_10_Table_1_MTC_OBS_1"/>
+                </NodeInstance>
+                <Default/>
+              </ActivateEveryDefault>
+            </NodeInlining>
+            <Default/>
+          </ActivateEveryDefault>
+          <ActivateEveryDefault>
+            <Condition inCtx="true" targetName="every41"/>
+            <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::math_Abs_MTC_OBS">
+              <Probe clockVal="kcg_true" clockVar="every41" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_math_Abs_MTC_OBS_1" targetType="Result_MTC"/>
+              <ActivateEveryDefault>
+                <Condition/>
+                <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                  <OutCtxVar targetName="Context_LATCHALL01_MTC_1_math_Abs_MTC_OBS_1"/>
+                </NodeInstance>
+                <Default/>
+              </ActivateEveryDefault>
+            </NodeInlining>
+            <Default/>
+          </ActivateEveryDefault>
+          <ActivateEveryDefault>
+            <Condition inCtx="true" targetName="every42"/>
+            <NodeInlining instName="2" scadeName="MTCEx::MTC_Observers::math_Abs_MTC_OBS">
+              <Probe clockVal="kcg_true" clockVar="every42" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_math_Abs_MTC_OBS_2" targetType="Result_MTC"/>
+              <ActivateEveryDefault>
+                <Condition/>
+                <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                  <OutCtxVar targetName="_13_Context_LATCHALL01_MTC_1_math_Abs_MTC_OBS_2"/>
+                </NodeInstance>
+                <Default/>
+              </ActivateEveryDefault>
+            </NodeInlining>
+            <Default/>
+          </ActivateEveryDefault>
+          <ActivateEveryDefault>
+            <Condition inCtx="true" targetName="every43"/>
+            <NodeInlining instName="3" scadeName="MTCEx::MTC_Observers::math_Abs_MTC_OBS">
+              <Probe clockVal="kcg_true" clockVar="every43" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_math_Abs_MTC_OBS_3" targetType="Result_MTC"/>
+              <ActivateEveryDefault>
+                <Condition/>
+                <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                  <OutCtxVar targetName="_14_Context_LATCHALL01_MTC_1_math_Abs_MTC_OBS_3"/>
+                </NodeInstance>
+                <Default/>
+              </ActivateEveryDefault>
+            </NodeInlining>
+            <Default/>
+          </ActivateEveryDefault>
+          <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Controller_PATHS14_MTC_OBS">
+            <Probe clockVal="SSM_st_Calculate_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Controller_PATHS14_MTC_OBS_1" targetType="Result_MTC"/>
+            <ActivateEveryDefault>
+              <Condition/>
+              <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                <OutCtxVar targetName="_25_Context_LATCHALL01_MTC_1_Controller_PATHS14_MTC_OBS_1"/>
+              </NodeInstance>
+              <Default/>
+            </ActivateEveryDefault>
+          </NodeInlining>
+          <Fork priority="1">
+            <Condition/>
+            <Action>
+              <NodeInlining instName="1" scadeName="MTCEx::MTC_Instrumenters::Controller_SM1_Calculate_1_MTC_INST">
+                <Input inCtx="true" scadeName="alarm" scadeType="bool" targetName="tr_1_clock_Calculate_SM1" targetType="kcg_bool"/>
+                <Output inCtx="true" scadeName="MTC_guard" scadeType="bool" targetName="tr_1_clock_Calculate_SM1" targetType="kcg_bool"/>
+                <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Controller_PATHS5_MTC_OBS">
+                  <Probe clockVal="SSM_st_Calculate_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Controller_PATHS5_MTC_OBS_1_Controller_SM1_Calculate_1_MTC_INST_1" targetType="Result_MTC"/>
+                  <ActivateEveryDefault>
+                    <Condition/>
+                    <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+                      <OutCtxVar targetName="_22_Context_LATCHALL02_MTC_1_Controller_PATHS5_MTC_OBS_1_Controller_SM1_Calculate_1_MTC_INST_1"/>
+                    </NodeInstance>
+                    <Default/>
+                  </ActivateEveryDefault>
+                </NodeInlining>
+              </NodeInlining>
+              <NodeInlining instName="3" scadeName="MTCEx::MTC_Observers::TRANSITION_MTC_OBS">
+                <Probe clockVal="kcg_true" clockVar="tr_1_clock_Calculate_SM1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_TRANSITION_MTC_OBS_3" targetType="Result_MTC"/>
+                <ActivateEveryDefault>
+                  <Condition/>
+                  <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                    <OutCtxVar targetName="_24_Context_LATCHALL01_MTC_1_TRANSITION_MTC_OBS_3"/>
+                  </NodeInstance>
+                  <Default/>
+                </ActivateEveryDefault>
+              </NodeInlining>
+            </Action>
+            <Transition kind="weak" scadeDest="Pollution" targetName="SSM_TR_Calculate_Pollution_1_Calculate_SM1"/>
+          </Fork>
+          <Fork priority="2">
+            <Condition/>
+            <Action>
+              <NodeInlining instName="2" scadeName="MTCEx::MTC_Instrumenters::Controller_SM1_Calculate_2_MTC_INST">
+                <Input inCtx="true" scadeName="alarm" scadeType="bool" targetName="tr_1_clock_Calculate_SM1" targetType="kcg_bool"/>
+                <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Controller_PATHS4_MTC_OBS">
+                  <Probe clockVal="SSM_st_Calculate_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Controller_PATHS4_MTC_OBS_1_Controller_SM1_Calculate_2_MTC_INST_2" targetType="Result_MTC"/>
+                  <ActivateEveryDefault>
+                    <Condition/>
+                    <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+                      <OutCtxVar targetName="_21_Context_LATCHALL02_MTC_1_Controller_PATHS4_MTC_OBS_1_Controller_SM1_Calculate_2_MTC_INST_2"/>
+                    </NodeInstance>
+                    <Default/>
+                  </ActivateEveryDefault>
+                </NodeInlining>
+              </NodeInlining>
+              <NodeInlining instName="4" scadeName="MTCEx::MTC_Observers::TRANSITION_MTC_OBS">
+                <Probe clockVal="kcg_true" clockVar="tr_2_clock_Calculate_SM1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_TRANSITION_MTC_OBS_4" targetType="Result_MTC"/>
+                <ActivateEveryDefault>
+                  <Condition/>
+                  <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                    <OutCtxVar targetName="_23_Context_LATCHALL01_MTC_1_TRANSITION_MTC_OBS_4"/>
+                  </NodeInstance>
+                  <Default/>
+                </ActivateEveryDefault>
+              </NodeInlining>
+            </Action>
+            <Transition kind="weak" scadeDest="Timer" targetName="SSM_TR_Calculate_Timer_2_Calculate_SM1"/>
+          </Fork>
+        </State>
+        <State scadeName="Pollution" targetName="SSM_st_Pollution_SM1">
+          <NodeInlining instName="4" scadeName="MTCEx::MTC_Observers::STATE_MTC_OBS">
+            <Probe clockVal="SSM_st_Pollution_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_STATE_MTC_OBS_4" targetType="Result_MTC"/>
+            <ActivateEveryDefault>
+              <Condition/>
+              <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+                <OutCtxVar targetName="_20_Context_LATCHALL02_MTC_1_STATE_MTC_OBS_4"/>
+              </NodeInstance>
+              <Default/>
+            </ActivateEveryDefault>
+          </NodeInlining>
+          <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Controller_PATHS15_MTC_OBS">
+            <Probe clockVal="SSM_st_Pollution_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Controller_PATHS15_MTC_OBS_1" targetType="Result_MTC"/>
+            <ActivateEveryDefault>
+              <Condition/>
+              <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                <OutCtxVar targetName="Context_LATCHALL01_MTC_1_Controller_PATHS15_MTC_OBS_1"/>
+              </NodeInstance>
+              <Default/>
+            </ActivateEveryDefault>
+          </NodeInlining>
+          <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Controller_PATHS16_MTC_OBS">
+            <Probe clockVal="SSM_st_Pollution_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Controller_PATHS16_MTC_OBS_1" targetType="Result_MTC"/>
+            <ActivateEveryDefault>
+              <Condition/>
+              <NodeInstance instName="1" refName="LATCHALL03_MTC" scadeName="MTC::LATCHALL03">
+                <OutCtxVar targetName="_19_Context_LATCHALL03_MTC_1_Controller_PATHS16_MTC_OBS_1"/>
+              </NodeInstance>
+              <Default/>
+            </ActivateEveryDefault>
+          </NodeInlining>
+          <Fork priority="1">
+            <Condition/>
+            <Action>
+              <NodeInlining instName="1" scadeName="MTCEx::MTC_Instrumenters::Controller_SM1_Pollution_1_MTC_INST">
+                <Input inCtx="true" scadeName="Stop" scadeType="bool" targetName="tr_1_clock_Pollution_SM1" targetType="kcg_bool"/>
+                <Output inCtx="true" scadeName="MTC_guard" scadeType="bool" targetName="tr_1_clock_Pollution_SM1" targetType="kcg_bool"/>
+                <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Controller_PATHS7_MTC_OBS">
+                  <Probe clockVal="SSM_st_Pollution_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Controller_PATHS7_MTC_OBS_1_Controller_SM1_Pollution_1_MTC_INST_1" targetType="Result_MTC"/>
+                  <ActivateEveryDefault>
+                    <Condition/>
+                    <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+                      <OutCtxVar targetName="_16_Context_LATCHALL02_MTC_1_Controller_PATHS7_MTC_OBS_1_Controller_SM1_Pollution_1_MTC_INST_1"/>
+                    </NodeInstance>
+                    <Default/>
+                  </ActivateEveryDefault>
+                </NodeInlining>
+              </NodeInlining>
+              <NodeInlining instName="5" scadeName="MTCEx::MTC_Observers::TRANSITION_MTC_OBS">
+                <Probe clockVal="kcg_true" clockVar="tr_1_clock_Pollution_SM1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_TRANSITION_MTC_OBS_5" targetType="Result_MTC"/>
+                <ActivateEveryDefault>
+                  <Condition/>
+                  <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                    <OutCtxVar targetName="_18_Context_LATCHALL01_MTC_1_TRANSITION_MTC_OBS_5"/>
+                  </NodeInstance>
+                  <Default/>
+                </ActivateEveryDefault>
+              </NodeInlining>
+            </Action>
+            <Transition kind="weak" scadeDest="Defaillance_Station" targetName="SSM_TR_Pollution_Defaillance_Station_1_Pollution_SM1"/>
+          </Fork>
+          <Fork priority="2">
+            <Condition/>
+            <Action>
+              <NodeInlining instName="2" scadeName="MTCEx::MTC_Instrumenters::Controller_SM1_Pollution_2_MTC_INST">
+                <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Controller_PATHS6_MTC_OBS">
+                  <Probe clockVal="SSM_st_Pollution_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Controller_PATHS6_MTC_OBS_1_Controller_SM1_Pollution_2_MTC_INST_2" targetType="Result_MTC"/>
+                  <ActivateEveryDefault>
+                    <Condition/>
+                    <NodeInstance instName="1" refName="LATCHALL04_MTC" scadeName="MTC::LATCHALL04">
+                      <OutCtxVar targetName="Context_LATCHALL04_MTC_1_Controller_PATHS6_MTC_OBS_1_Controller_SM1_Pollution_2_MTC_INST_2"/>
+                    </NodeInstance>
+                    <Default/>
+                  </ActivateEveryDefault>
+                </NodeInlining>
+              </NodeInlining>
+              <NodeInlining instName="6" scadeName="MTCEx::MTC_Observers::TRANSITION_MTC_OBS">
+                <Probe clockVal="kcg_true" clockVar="tr_2_clock_Pollution_SM1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_TRANSITION_MTC_OBS_6" targetType="Result_MTC"/>
+                <ActivateEveryDefault>
+                  <Condition/>
+                  <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                    <OutCtxVar targetName="_17_Context_LATCHALL01_MTC_1_TRANSITION_MTC_OBS_6"/>
+                  </NodeInstance>
+                  <Default/>
+                </ActivateEveryDefault>
+              </NodeInlining>
+            </Action>
+            <Transition kind="weak" scadeDest="Timer" targetName="SSM_TR_Pollution_Timer_2_Pollution_SM1"/>
+          </Fork>
+        </State>
+        <State scadeName="Timer" targetName="SSM_st_Timer_SM1">
+          <NodeInlining instName="5" scadeName="MTCEx::MTC_Observers::STATE_MTC_OBS">
+            <Probe clockVal="SSM_st_Timer_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_STATE_MTC_OBS_5" targetType="Result_MTC"/>
+            <ActivateEveryDefault>
+              <Condition/>
+              <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+                <OutCtxVar targetName="Context_LATCHALL02_MTC_1_STATE_MTC_OBS_5"/>
+              </NodeInstance>
+              <Default/>
+            </ActivateEveryDefault>
+          </NodeInlining>
+          <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Controller_PATHS17_MTC_OBS">
+            <Probe clockVal="SSM_st_Timer_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Controller_PATHS17_MTC_OBS_1" targetType="Result_MTC"/>
+            <ActivateEveryDefault>
+              <Condition/>
+              <NodeInstance instName="1" refName="LATCHALL03_MTC" scadeName="MTC::LATCHALL03">
+                <OutCtxVar targetName="Context_LATCHALL03_MTC_1_Controller_PATHS17_MTC_OBS_1"/>
+              </NodeInstance>
+              <Default/>
+            </ActivateEveryDefault>
+          </NodeInlining>
+          <Fork priority="1">
+            <Condition/>
+            <Action>
+              <NodeInlining instName="1" scadeName="MTCEx::MTC_Instrumenters::Controller_SM1_Timer_1_MTC_INST">
+                <Input inCtx="true" scadeName="timeout" scadeType="bool" targetName="tr_1_clock_Timer_SM1" targetType="kcg_bool"/>
+                <Output inCtx="true" scadeName="MTC_guard" scadeType="bool" targetName="tr_1_clock_Timer_SM1" targetType="kcg_bool"/>
+                <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Controller_PATHS8_MTC_OBS">
+                  <Probe clockVal="SSM_st_Timer_SM1" clockVar="SM1_state_act" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Controller_PATHS8_MTC_OBS_1_Controller_SM1_Timer_1_MTC_INST_1" targetType="Result_MTC"/>
+                  <ActivateEveryDefault>
+                    <Condition/>
+                    <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+                      <OutCtxVar targetName="_15_Context_LATCHALL02_MTC_1_Controller_PATHS8_MTC_OBS_1_Controller_SM1_Timer_1_MTC_INST_1"/>
+                    </NodeInstance>
+                    <Default/>
+                  </ActivateEveryDefault>
+                </NodeInlining>
+              </NodeInlining>
+              <NodeInlining instName="7" scadeName="MTCEx::MTC_Observers::TRANSITION_MTC_OBS">
+                <Probe clockVal="kcg_true" clockVar="tr_1_clock_Timer_SM1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_TRANSITION_MTC_OBS_7" targetType="Result_MTC"/>
+                <ActivateEveryDefault>
+                  <Condition/>
+                  <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                    <OutCtxVar targetName="Context_LATCHALL01_MTC_1_TRANSITION_MTC_OBS_7"/>
+                  </NodeInstance>
+                  <Default/>
+                </ActivateEveryDefault>
+              </NodeInlining>
+            </Action>
+            <Transition kind="weak" scadeDest="Normal_Station" targetName="SSM_TR_Timer_Normal_Station_1_Timer_SM1"/>
+          </Fork>
+        </State>
+        <ActiveState inCtx="true" targetName="SM1_state_act"/>
+        <NextState inCtx="true" mem="true" targetName="SM1_state_nxt"/>
+        <ResetNextState inCtx="true" mem="true" targetName="SM1_reset_nxt"/>
+      </Automaton>
+      <Memory inCtx="true" targetName="alarm" targetType="kcg_bool"/>
+      <Init inCtx="true" targetName="init" targetType="kcg_bool"/>
+      <Memory inCtx="true" targetName="store" targetType="Ten_Values_Table"/>
+      <Clock clockVal="SSM_st_Normal_Station_SM1" clockVar="SM1_state_act" inCtx="true" targetName="tr_1_clock_Normal_Station_SM1" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_false" clockVar="tr_1_clock_Normal_Station_SM1" inCtx="true" targetName="tr_2_clock_Normal_Station_SM1" targetType="kcg_bool"/>
+      <Clock clockVal="SSM_st_Calculate_SM1" clockVar="SM1_state_act" inCtx="true" targetName="IfBlock1_clock_Calculate_SM1" targetType="kcg_bool"/>
+      <Clock clockVal="SSM_st_Calculate_SM1" clockVar="SM1_state_act" inCtx="true" targetName="tr_1_clock_Calculate_SM1" targetType="kcg_bool"/>
+      <Clock clockVal="SSM_st_Calculate_SM1" clockVar="SM1_state_act" inCtx="true" targetName="every41" targetType="kcg_bool"/>
+      <Clock clockVal="SSM_st_Calculate_SM1" clockVar="SM1_state_act" inCtx="true" targetName="every42" targetType="kcg_bool"/>
+      <Clock clockVal="SSM_st_Calculate_SM1" clockVar="SM1_state_act" inCtx="true" targetName="every43" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_false" clockVar="tr_1_clock_Calculate_SM1" inCtx="true" targetName="tr_2_clock_Calculate_SM1" targetType="kcg_bool"/>
+      <Clock clockVal="SSM_st_Pollution_SM1" clockVar="SM1_state_act" inCtx="true" targetName="tr_1_clock_Pollution_SM1" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_false" clockVar="tr_1_clock_Pollution_SM1" inCtx="true" targetName="tr_2_clock_Pollution_SM1" targetType="kcg_bool"/>
+      <Clock clockVal="SSM_st_Timer_SM1" clockVar="SM1_state_act" inCtx="true" targetName="tr_1_clock_Timer_SM1" targetType="kcg_bool"/>
+      <Clock inCtx="true" targetName="SM1_state_act" targetType="SSM_ST_SM1"/>
+      <OutCtxType targetName="outC_Controller"/>
+      <InCtxType targetName="inC_Controller"/>
+    </RootNode>
+    <NamedType refType="position" scadeName="position" targetName="position"/>
+    <NamedType refType="Statation_data" scadeName="Statation_data" targetName="Statation_data"/>
+    <NamedType refType="Data" scadeName="Data" targetName="Data"/>
+    <Constant macroDef="true" scadeName="Temperature_Low" scadeType="float64" targetName="Temperature_Low" targetType="kcg_float64"/>
+    <Constant macroDef="true" scadeName="Redox_Low" scadeType="float64" targetName="Redox_Low" targetType="kcg_float64"/>
+    <Constant macroDef="true" scadeName="Redox_High" scadeType="float64" targetName="Redox_High" targetType="kcg_float64"/>
+    <Constant macroDef="true" scadeName="pH_High" scadeType="float64" targetName="pH_High" targetType="kcg_float64"/>
+    <Constant macroDef="true" scadeName="pH_low" scadeType="float64" targetName="pH_low" targetType="kcg_float64"/>
+    <Constant macroDef="true" scadeName="Temperature_High" scadeType="float64" targetName="Temperature_High" targetType="kcg_float64"/>
+    <Constant macroDef="true" scadeName="Redox_Normal_High" scadeType="float64" targetName="Redox_Normal_High" targetType="kcg_float64"/>
+    <Constant macroDef="true" scadeName="Redox_Normal_Low" scadeType="float64" targetName="Redox_Normal_Low" targetType="kcg_float64"/>
+    <Constant macroDef="true" scadeName="pH_Normal_High" scadeType="float64" targetName="pH_Normal_High" targetType="kcg_float64"/>
+    <Constant macroDef="true" scadeName="pH_Normal_Low" scadeType="float64" targetName="pH_Normal_Low" targetType="kcg_float64"/>
+    <Constant macroDef="true" scadeName="Temperature_Normal_High" scadeType="float64" targetName="Temperature_Normal_High" targetType="kcg_float64"/>
+    <Constant macroDef="true" scadeName="Temperature_Normal_Low" scadeType="float64" targetName="Temperature_Normal_Low" targetType="kcg_float64"/>
+    <Constant macroDef="true" scadeName="Beyond_Interval_value" scadeType="float64" targetName="Beyond_Interval_value" targetType="kcg_float64"/>
+    <Constant macroDef="true" scadeName="Delta_pH" scadeType="float64" targetName="Delta_pH" targetType="kcg_float64"/>
+    <Constant macroDef="true" scadeName="Delta_Temperature" scadeType="float64" targetName="Delta_Temperature" targetType="kcg_float64"/>
+    <Constant macroDef="true" scadeName="Delta_Redox" scadeType="float64" targetName="Delta_Redox" targetType="kcg_float64"/>
+    <Constant macroDef="true" scadeName="Notification_Defaillance" scadeType="float64" targetName="Notification_Defaillance" targetType="kcg_float64"/>
+    <NamedType refType="Ten_Values_Table" scadeName="Ten_Values_Table" targetName="Ten_Values_Table"/>
+    <Constant scadeName="Normal_Value" scadeType="Ten_Values_Table" targetName="Normal_Value" targetType="Ten_Values_Table"/>
+    <Constant scadeName="Normal_Send_Data" scadeType="Statation_data" targetName="Normal_Send_Data" targetType="Statation_data"/>
+    <NoExpNode headerFile="Vote_Alog.h" scadeName="Vote_Alog" targetCycleFct="Vote_Alog" targetInitFct="Vote_Alog_reset" targetInitializationFct="Vote_Alog_init">
+      <Input scadeName="pH_Data" scadeType="Data" targetName="pH_Data" targetType="Data"/>
+      <Input scadeName="Temperature_Data" scadeType="Data" targetName="Temperature_Data" targetType="Data"/>
+      <Input scadeName="Redox_Data" scadeType="Data" targetName="Redox_Data" targetType="Data"/>
+      <Input scadeName="MTC_AC_Outputs" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+      <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+      <Output inCtx="true" scadeName="pH" scadeType="float64" targetName="pH" targetType="kcg_float64"/>
+      <Output inCtx="true" scadeName="Temperature" scadeType="float64" targetName="Temperature" targetType="kcg_float64"/>
+      <Output inCtx="true" scadeName="Redox" scadeType="float64" targetName="Redox" targetType="kcg_float64"/>
+      <NodeInstance instName="1" refName="Check_interval_Redox" scadeName="Check_interval_Redox">
+        <OutCtxVar targetName="Context_Check_interval_Redox_1"/>
+      </NodeInstance>
+      <NodeInstance instName="1" refName="Check_interval_Temperature" scadeName="Check_interval_Temperature">
+        <OutCtxVar targetName="Context_Check_interval_Temperature_1"/>
+      </NodeInstance>
+      <NodeInstance instName="3" refName="Check_interval_pH" scadeName="Check_interval_pH">
+        <OutCtxVar targetName="Context_Check_interval_pH_3"/>
+      </NodeInstance>
+      <NodeInstance instName="2" refName="Check_interval_pH" scadeName="Check_interval_pH">
+        <OutCtxVar targetName="Context_Check_interval_pH_2"/>
+      </NodeInstance>
+      <NodeInstance instName="1" refName="Check_interval_pH" scadeName="Check_interval_pH">
+        <OutCtxVar targetName="Context_Check_interval_pH_1"/>
+      </NodeInstance>
+      <NodeInstance instName="1" refName="Calculated_value" scadeName="Calculated_value">
+        <OutCtxVar targetName="Context_Calculated_value_1"/>
+      </NodeInstance>
+      <NodeInstance instName="2" refName="Check_interval_Temperature" scadeName="Check_interval_Temperature">
+        <OutCtxVar targetName="_36_Context_Check_interval_Temperature_2"/>
+      </NodeInstance>
+      <NodeInstance instName="3" refName="Check_interval_Temperature" scadeName="Check_interval_Temperature">
+        <OutCtxVar targetName="_37_Context_Check_interval_Temperature_3"/>
+      </NodeInstance>
+      <NodeInstance instName="2" refName="Calculated_value" scadeName="Calculated_value">
+        <OutCtxVar targetName="Context_Calculated_value_2"/>
+      </NodeInstance>
+      <NodeInstance instName="2" refName="Check_interval_Redox" scadeName="Check_interval_Redox">
+        <OutCtxVar targetName="Context_Check_interval_Redox_2"/>
+      </NodeInstance>
+      <NodeInstance instName="3" refName="Check_interval_Redox" scadeName="Check_interval_Redox">
+        <OutCtxVar targetName="Context_Check_interval_Redox_3"/>
+      </NodeInstance>
+      <NodeInstance instName="3" refName="Calculated_value" scadeName="Calculated_value">
+        <OutCtxVar targetName="Context_Calculated_value_3"/>
+      </NodeInstance>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Vote_Alog_PATHS1_MTC_OBS">
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Vote_Alog_PATHS1_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+            <OutCtxVar targetName="_39_Context_LATCHALL01_MTC_1_Vote_Alog_PATHS1_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Vote_Alog_PATHS2_MTC_OBS">
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Vote_Alog_PATHS2_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL12_MTC" scadeName="MTC::LATCHALL12">
+            <OutCtxVar targetName="_38_Context_LATCHALL12_MTC_1_Vote_Alog_PATHS2_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <ActivateEveryDefault>
+        <Condition inCtx="true" targetName="every50"/>
+        <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Calculated_value_1110_MTC_OBS">
+          <Probe clockVal="kcg_true" clockVar="every50" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_8_MTC_ALL1_Calculated_value_1110_MTC_OBS_1_float64_float64_float64_float64" targetType="Result_MTC"/>
+          <NodeInstance instName="1" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+            <OutCtxVar targetName="Context_GenericInputChanged_1_Calculated_value_1110_MTC_OBS_1"/>
+          </NodeInstance>
+          <NodeInstance instName="2" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+            <OutCtxVar targetName="Context_GenericInputChanged_2_Calculated_value_1110_MTC_OBS_1"/>
+          </NodeInstance>
+          <NodeInstance instName="3" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+            <OutCtxVar targetName="Context_GenericInputChanged_3_Calculated_value_1110_MTC_OBS_1"/>
+          </NodeInstance>
+          <ActivateEveryDefault>
+            <Condition/>
+            <NodeInstance instName="1" refName="LATCHALL04_MTC" scadeName="MTC::LATCHALL04">
+              <OutCtxVar targetName="Context_LATCHALL04_MTC_1_Calculated_value_1110_MTC_OBS_1"/>
+            </NodeInstance>
+            <Default/>
+          </ActivateEveryDefault>
+        </NodeInlining>
+        <Default/>
+      </ActivateEveryDefault>
+      <ActivateEveryDefault>
+        <Condition inCtx="true" targetName="every49"/>
+        <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Check_interval_pH_1_MTC_OBS">
+          <Probe clockVal="kcg_true" clockVar="every49" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_7_MTC_ALL1_Check_interval_pH_1_MTC_OBS_1_float64" targetType="Result_MTC"/>
+          <NodeInstance instName="1" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+            <OutCtxVar targetName="_9_Context_GenericInputChanged_1_Check_interval_pH_1_MTC_OBS_1"/>
+          </NodeInstance>
+          <ActivateEveryDefault>
+            <Condition/>
+            <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+              <OutCtxVar targetName="Context_LATCHALL02_MTC_1_Check_interval_pH_1_MTC_OBS_1"/>
+            </NodeInstance>
+            <Default/>
+          </ActivateEveryDefault>
+        </NodeInlining>
+        <Default/>
+      </ActivateEveryDefault>
+      <ActivateEveryDefault>
+        <Condition inCtx="true" targetName="every48"/>
+        <NodeInlining instName="2" scadeName="MTCEx::MTC_Observers::Check_interval_pH_1_MTC_OBS">
+          <Probe clockVal="kcg_true" clockVar="every48" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_6_MTC_ALL1_Check_interval_pH_1_MTC_OBS_2_float64" targetType="Result_MTC"/>
+          <NodeInstance instName="1" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+            <OutCtxVar targetName="_11_Context_GenericInputChanged_1_Check_interval_pH_1_MTC_OBS_2"/>
+          </NodeInstance>
+          <ActivateEveryDefault>
+            <Condition/>
+            <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+              <OutCtxVar targetName="_10_Context_LATCHALL02_MTC_1_Check_interval_pH_1_MTC_OBS_2"/>
+            </NodeInstance>
+            <Default/>
+          </ActivateEveryDefault>
+        </NodeInlining>
+        <Default/>
+      </ActivateEveryDefault>
+      <ActivateEveryDefault>
+        <Condition inCtx="true" targetName="every47"/>
+        <NodeInlining instName="3" scadeName="MTCEx::MTC_Observers::Check_interval_pH_1_MTC_OBS">
+          <Probe clockVal="kcg_true" clockVar="every47" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Check_interval_pH_1_MTC_OBS_3_float64" targetType="Result_MTC"/>
+          <NodeInstance instName="1" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+            <OutCtxVar targetName="_13_Context_GenericInputChanged_1_Check_interval_pH_1_MTC_OBS_3"/>
+          </NodeInstance>
+          <ActivateEveryDefault>
+            <Condition/>
+            <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+              <OutCtxVar targetName="_12_Context_LATCHALL02_MTC_1_Check_interval_pH_1_MTC_OBS_3"/>
+            </NodeInstance>
+            <Default/>
+          </ActivateEveryDefault>
+        </NodeInlining>
+        <Default/>
+      </ActivateEveryDefault>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Vote_Alog_PATHS3_MTC_OBS">
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Vote_Alog_PATHS3_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+            <OutCtxVar targetName="_35_Context_LATCHALL01_MTC_1_Vote_Alog_PATHS3_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Vote_Alog_PATHS4_MTC_OBS">
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Vote_Alog_PATHS4_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL12_MTC" scadeName="MTC::LATCHALL12">
+            <OutCtxVar targetName="_34_Context_LATCHALL12_MTC_1_Vote_Alog_PATHS4_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <ActivateEveryDefault>
+        <Condition inCtx="true" targetName="every46"/>
+        <NodeInlining instName="2" scadeName="MTCEx::MTC_Observers::Calculated_value_1110_MTC_OBS">
+          <Probe clockVal="kcg_true" clockVar="every46" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_5_MTC_ALL1_Calculated_value_1110_MTC_OBS_2_float64_float64_float64_float64" targetType="Result_MTC"/>
+          <NodeInstance instName="1" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+            <OutCtxVar targetName="_17_Context_GenericInputChanged_1_Calculated_value_1110_MTC_OBS_2"/>
+          </NodeInstance>
+          <NodeInstance instName="2" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+            <OutCtxVar targetName="_16_Context_GenericInputChanged_2_Calculated_value_1110_MTC_OBS_2"/>
+          </NodeInstance>
+          <NodeInstance instName="3" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+            <OutCtxVar targetName="_15_Context_GenericInputChanged_3_Calculated_value_1110_MTC_OBS_2"/>
+          </NodeInstance>
+          <ActivateEveryDefault>
+            <Condition/>
+            <NodeInstance instName="1" refName="LATCHALL04_MTC" scadeName="MTC::LATCHALL04">
+              <OutCtxVar targetName="_14_Context_LATCHALL04_MTC_1_Calculated_value_1110_MTC_OBS_2"/>
+            </NodeInstance>
+            <Default/>
+          </ActivateEveryDefault>
+        </NodeInlining>
+        <Default/>
+      </ActivateEveryDefault>
+      <ActivateEveryDefault>
+        <Condition inCtx="true" targetName="every45"/>
+        <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Check_interval_Temperature_1_MTC_OBS">
+          <Probe clockVal="kcg_true" clockVar="every45" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_4_MTC_ALL1_Check_interval_Temperature_1_MTC_OBS_1_float64" targetType="Result_MTC"/>
+          <NodeInstance instName="1" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+            <OutCtxVar targetName="_19_Context_GenericInputChanged_1_Check_interval_Temperature_1_MTC_OBS_1"/>
+          </NodeInstance>
+          <ActivateEveryDefault>
+            <Condition/>
+            <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+              <OutCtxVar targetName="_18_Context_LATCHALL02_MTC_1_Check_interval_Temperature_1_MTC_OBS_1"/>
+            </NodeInstance>
+            <Default/>
+          </ActivateEveryDefault>
+        </NodeInlining>
+        <Default/>
+      </ActivateEveryDefault>
+      <ActivateEveryDefault>
+        <Condition inCtx="true" targetName="every44"/>
+        <NodeInlining instName="2" scadeName="MTCEx::MTC_Observers::Check_interval_Temperature_1_MTC_OBS">
+          <Probe clockVal="kcg_true" clockVar="every44" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_3_MTC_ALL1_Check_interval_Temperature_1_MTC_OBS_2_float64" targetType="Result_MTC"/>
+          <NodeInstance instName="1" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+            <OutCtxVar targetName="_21_Context_GenericInputChanged_1_Check_interval_Temperature_1_MTC_OBS_2"/>
+          </NodeInstance>
+          <ActivateEveryDefault>
+            <Condition/>
+            <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+              <OutCtxVar targetName="_20_Context_LATCHALL02_MTC_1_Check_interval_Temperature_1_MTC_OBS_2"/>
+            </NodeInstance>
+            <Default/>
+          </ActivateEveryDefault>
+        </NodeInlining>
+        <Default/>
+      </ActivateEveryDefault>
+      <ActivateEveryDefault>
+        <Condition inCtx="true" targetName="every43"/>
+        <NodeInlining instName="3" scadeName="MTCEx::MTC_Observers::Check_interval_Temperature_1_MTC_OBS">
+          <Probe clockVal="kcg_true" clockVar="every43" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Check_interval_Temperature_1_MTC_OBS_3_float64" targetType="Result_MTC"/>
+          <NodeInstance instName="1" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+            <OutCtxVar targetName="_23_Context_GenericInputChanged_1_Check_interval_Temperature_1_MTC_OBS_3"/>
+          </NodeInstance>
+          <ActivateEveryDefault>
+            <Condition/>
+            <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+              <OutCtxVar targetName="_22_Context_LATCHALL02_MTC_1_Check_interval_Temperature_1_MTC_OBS_3"/>
+            </NodeInstance>
+            <Default/>
+          </ActivateEveryDefault>
+        </NodeInlining>
+        <Default/>
+      </ActivateEveryDefault>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Vote_Alog_PATHS5_MTC_OBS">
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Vote_Alog_PATHS5_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+            <OutCtxVar targetName="Context_LATCHALL01_MTC_1_Vote_Alog_PATHS5_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Vote_Alog_PATHS6_MTC_OBS">
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Vote_Alog_PATHS6_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL12_MTC" scadeName="MTC::LATCHALL12">
+            <OutCtxVar targetName="Context_LATCHALL12_MTC_1_Vote_Alog_PATHS6_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <ActivateEveryDefault>
+        <Condition inCtx="true" targetName="every42"/>
+        <NodeInlining instName="3" scadeName="MTCEx::MTC_Observers::Calculated_value_1110_MTC_OBS">
+          <Probe clockVal="kcg_true" clockVar="every42" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Calculated_value_1110_MTC_OBS_3_float64_float64_float64_float64" targetType="Result_MTC"/>
+          <NodeInstance instName="1" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+            <OutCtxVar targetName="_27_Context_GenericInputChanged_1_Calculated_value_1110_MTC_OBS_3"/>
+          </NodeInstance>
+          <NodeInstance instName="2" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+            <OutCtxVar targetName="_26_Context_GenericInputChanged_2_Calculated_value_1110_MTC_OBS_3"/>
+          </NodeInstance>
+          <NodeInstance instName="3" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+            <OutCtxVar targetName="_25_Context_GenericInputChanged_3_Calculated_value_1110_MTC_OBS_3"/>
+          </NodeInstance>
+          <ActivateEveryDefault>
+            <Condition/>
+            <NodeInstance instName="1" refName="LATCHALL04_MTC" scadeName="MTC::LATCHALL04">
+              <OutCtxVar targetName="_24_Context_LATCHALL04_MTC_1_Calculated_value_1110_MTC_OBS_3"/>
+            </NodeInstance>
+            <Default/>
+          </ActivateEveryDefault>
+        </NodeInlining>
+        <Default/>
+      </ActivateEveryDefault>
+      <ActivateEveryDefault>
+        <Condition inCtx="true" targetName="every41"/>
+        <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Check_interval_Redox_1_MTC_OBS">
+          <Probe clockVal="kcg_true" clockVar="every41" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_2_MTC_ALL1_Check_interval_Redox_1_MTC_OBS_1_float64" targetType="Result_MTC"/>
+          <NodeInstance instName="1" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+            <OutCtxVar targetName="_29_Context_GenericInputChanged_1_Check_interval_Redox_1_MTC_OBS_1"/>
+          </NodeInstance>
+          <ActivateEveryDefault>
+            <Condition/>
+            <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+              <OutCtxVar targetName="_28_Context_LATCHALL02_MTC_1_Check_interval_Redox_1_MTC_OBS_1"/>
+            </NodeInstance>
+            <Default/>
+          </ActivateEveryDefault>
+        </NodeInlining>
+        <Default/>
+      </ActivateEveryDefault>
+      <ActivateEveryDefault>
+        <Condition inCtx="true" targetName="every40"/>
+        <NodeInlining instName="2" scadeName="MTCEx::MTC_Observers::Check_interval_Redox_1_MTC_OBS">
+          <Probe clockVal="kcg_true" clockVar="every40" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_1_MTC_ALL1_Check_interval_Redox_1_MTC_OBS_2_float64" targetType="Result_MTC"/>
+          <NodeInstance instName="1" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+            <OutCtxVar targetName="_31_Context_GenericInputChanged_1_Check_interval_Redox_1_MTC_OBS_2"/>
+          </NodeInstance>
+          <ActivateEveryDefault>
+            <Condition/>
+            <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+              <OutCtxVar targetName="_30_Context_LATCHALL02_MTC_1_Check_interval_Redox_1_MTC_OBS_2"/>
+            </NodeInstance>
+            <Default/>
+          </ActivateEveryDefault>
+        </NodeInlining>
+        <Default/>
+      </ActivateEveryDefault>
+      <ActivateEveryDefault>
+        <Condition inCtx="true" targetName="every"/>
+        <NodeInlining instName="3" scadeName="MTCEx::MTC_Observers::Check_interval_Redox_1_MTC_OBS">
+          <Probe clockVal="kcg_true" clockVar="every" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Check_interval_Redox_1_MTC_OBS_3_float64" targetType="Result_MTC"/>
+          <NodeInstance instName="1" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+            <OutCtxVar targetName="_33_Context_GenericInputChanged_1_Check_interval_Redox_1_MTC_OBS_3"/>
+          </NodeInstance>
+          <ActivateEveryDefault>
+            <Condition/>
+            <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+              <OutCtxVar targetName="_32_Context_LATCHALL02_MTC_1_Check_interval_Redox_1_MTC_OBS_3"/>
+            </NodeInstance>
+            <Default/>
+          </ActivateEveryDefault>
+        </NodeInlining>
+        <Default/>
+      </ActivateEveryDefault>
+      <Clock inCtx="true" targetName="every" targetType="kcg_bool"/>
+      <Clock inCtx="true" targetName="every40" targetType="kcg_bool"/>
+      <Clock inCtx="true" targetName="every41" targetType="kcg_bool"/>
+      <Clock inCtx="true" targetName="every42" targetType="kcg_bool"/>
+      <Clock inCtx="true" targetName="every43" targetType="kcg_bool"/>
+      <Clock inCtx="true" targetName="every44" targetType="kcg_bool"/>
+      <Clock inCtx="true" targetName="every45" targetType="kcg_bool"/>
+      <Clock inCtx="true" targetName="every46" targetType="kcg_bool"/>
+      <Clock inCtx="true" targetName="every47" targetType="kcg_bool"/>
+      <Clock inCtx="true" targetName="every48" targetType="kcg_bool"/>
+      <Clock inCtx="true" targetName="every49" targetType="kcg_bool"/>
+      <Clock inCtx="true" targetName="every50" targetType="kcg_bool"/>
+      <OutCtxType targetName="outC_Vote_Alog"/>
+    </NoExpNode>
+    <NoExpNode headerFile="Check_interval_Temperature.h" scadeName="Check_interval_Temperature" targetCycleFct="Check_interval_Temperature" targetInitFct="Check_interval_Temperature_reset" targetInitializationFct="Check_interval_Temperature_init">
+      <Input scadeName="temperature" scadeType="float64" targetName="temperature" targetType="kcg_float64"/>
+      <Input scadeName="MTC_AC_Outputs" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+      <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+      <Output inCtx="true" scadeName="Output1" scadeType="bool" targetName="Output1" targetType="kcg_bool"/>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Check_interval_Temperature_PATHS1_MTC_OBS">
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Check_interval_Temperature_PATHS1_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL04_MTC" scadeName="MTC::LATCHALL04">
+            <OutCtxVar targetName="Context_LATCHALL04_MTC_1_Check_interval_Temperature_PATHS1_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <OutCtxType targetName="outC_Check_interval_Temperature"/>
+    </NoExpNode>
+    <NoExpNode headerFile="Check_interval_pH.h" scadeName="Check_interval_pH" targetCycleFct="Check_interval_pH" targetInitFct="Check_interval_pH_reset" targetInitializationFct="Check_interval_pH_init">
+      <Input scadeName="pH" scadeType="float64" targetName="pH" targetType="kcg_float64"/>
+      <Input scadeName="MTC_AC_Outputs" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+      <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+      <Output inCtx="true" scadeName="Output1" scadeType="bool" targetName="Output1" targetType="kcg_bool"/>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Check_interval_pH_PATHS1_MTC_OBS">
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Check_interval_pH_PATHS1_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL04_MTC" scadeName="MTC::LATCHALL04">
+            <OutCtxVar targetName="Context_LATCHALL04_MTC_1_Check_interval_pH_PATHS1_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <OutCtxType targetName="outC_Check_interval_pH"/>
+    </NoExpNode>
+    <NoExpNode headerFile="Check_interval_Redox.h" scadeName="Check_interval_Redox" targetCycleFct="Check_interval_Redox" targetInitFct="Check_interval_Redox_reset" targetInitializationFct="Check_interval_Redox_init">
+      <Input scadeName="Redox" scadeType="float64" targetName="Redox" targetType="kcg_float64"/>
+      <Input scadeName="MTC_AC_Outputs" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+      <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+      <Output inCtx="true" scadeName="Output1" scadeType="bool" targetName="Output1" targetType="kcg_bool"/>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Check_interval_Redox_PATHS1_MTC_OBS">
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Check_interval_Redox_PATHS1_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL04_MTC" scadeName="MTC::LATCHALL04">
+            <OutCtxVar targetName="Context_LATCHALL04_MTC_1_Check_interval_Redox_PATHS1_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <OutCtxType targetName="outC_Check_interval_Redox"/>
+    </NoExpNode>
+    <NoExpNode headerFile="Calculated_value.h" scadeName="Calculated_value" targetCycleFct="Calculated_value" targetInitFct="Calculated_value_reset" targetInitializationFct="Calculated_value_init">
+      <Input scadeName="value1" scadeType="float64" targetName="value1" targetType="kcg_float64"/>
+      <Input scadeName="value2" scadeType="float64" targetName="value2" targetType="kcg_float64"/>
+      <Input scadeName="value3" scadeType="float64" targetName="value3" targetType="kcg_float64"/>
+      <Input scadeName="delta" scadeType="float64" targetName="delta" targetType="kcg_float64"/>
+      <Input scadeName="MTC_AC_Outputs" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+      <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+      <Output inCtx="true" scadeName="Output1" scadeType="float64" targetName="Output1" targetType="kcg_float64"/>
+      <Signal scadeName="MTC_sig_1" targetName="MTC_AC_Outputs"/>
+      <Signal scadeName="MTC_sig_2" targetName="MTC_AC_Outputs"/>
+      <Signal scadeName="MTC_sig_3" targetName="MTC_AC_Outputs"/>
+      <ActivateIf scadeName="IfBlock1">
+        <Condition inCtx="true" targetName="IfBlock1_clock">
+          <NodeInlining instName="2" scadeName="MTCEx::MTC_Instrumenters::Calculated_value_IfBlock1_MTC_INST">
+            <Input scadeName="MTC_AC" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+            <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+            <Output inCtx="true" scadeName="MTC_cond" scadeType="bool" targetName="IfBlock1_clock" targetType="kcg_bool"/>
+            <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Calculated_value_PATHS1_MTC_OBS">
+              <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+              <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Calculated_value_PATHS1_MTC_OBS_1_Calculated_value_IfBlock1_MTC_INST_2" targetType="Result_MTC"/>
+              <ActivateEveryDefault>
+                <Condition targetName="MTC_INSTRU"/>
+                <NodeInstance instName="1" refName="LATCHALL06_MTC" scadeName="MTC::LATCHALL06">
+                  <OutCtxVar targetName="_37_Context_LATCHALL06_MTC_1_Calculated_value_PATHS1_MTC_OBS_1_Calculated_value_IfBlock1_MTC_INST_2"/>
+                </NodeInstance>
+                <Default/>
+              </ActivateEveryDefault>
+            </NodeInlining>
+          </NodeInlining>
+        </Condition>
+        <Else>
+          <Condition inCtx="true" targetName="else_clock_IfBlock1">
+            <NodeInlining instName="3" scadeName="MTCEx::MTC_Instrumenters::Calculated_value_IfBlock1_else_MTC_INST">
+              <Output inCtx="true" scadeName="MTC_cond" scadeType="bool" targetName="else_clock_IfBlock1" targetType="kcg_bool"/>
+              <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                <Probe clockVal="kcg_false" clockVar="IfBlock1_clock" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_CONTROL_MTC_OBS_1_Calculated_value_IfBlock1_else_MTC_INST_3" targetType="Result_MTC"/>
+                <ActivateEveryDefault>
+                  <Condition/>
+                  <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                    <OutCtxVar targetName="_34_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_1_Calculated_value_IfBlock1_else_MTC_INST_3"/>
+                  </NodeInstance>
+                  <Default/>
+                </ActivateEveryDefault>
+              </NodeInlining>
+              <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Calculated_value_PATHS2_MTC_OBS">
+                <Probe clockVal="kcg_false" clockVar="IfBlock1_clock" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_1_MTC_ALL1_Calculated_value_PATHS2_MTC_OBS_1_Calculated_value_IfBlock1_else_MTC_INST_3" targetType="Result_MTC"/>
+                <ActivateEveryDefault>
+                  <Condition/>
+                  <NodeInstance instName="1" refName="LATCHALL06_MTC" scadeName="MTC::LATCHALL06">
+                    <OutCtxVar targetName="_35_Context_LATCHALL06_MTC_1_Calculated_value_PATHS2_MTC_OBS_1_Calculated_value_IfBlock1_else_MTC_INST_3"/>
+                  </NodeInstance>
+                  <Default/>
+                </ActivateEveryDefault>
+              </NodeInlining>
+            </NodeInlining>
+          </Condition>
+          <Else>
+            <Condition inCtx="true" targetName="else_clock_else_IfBlock1">
+              <NodeInlining instName="4" scadeName="MTCEx::MTC_Instrumenters::Calculated_value_IfBlock1_else_else_MTC_INST">
+                <Output inCtx="true" scadeName="MTC_cond" scadeType="bool" targetName="else_clock_else_IfBlock1" targetType="kcg_bool"/>
+                <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                  <Probe clockVal="kcg_false" clockVar="else_clock_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_3_MTC_ALL1_CONTROL_MTC_OBS_1_Calculated_value_IfBlock1_else_else_MTC_INST_4" targetType="Result_MTC"/>
+                  <ActivateEveryDefault>
+                    <Condition/>
+                    <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                      <OutCtxVar targetName="_31_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_1_Calculated_value_IfBlock1_else_else_MTC_INST_4"/>
+                    </NodeInstance>
+                    <Default/>
+                  </ActivateEveryDefault>
+                </NodeInlining>
+                <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Calculated_value_PATHS3_MTC_OBS">
+                  <Probe clockVal="kcg_false" clockVar="else_clock_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_2_MTC_ALL1_Calculated_value_PATHS3_MTC_OBS_1_Calculated_value_IfBlock1_else_else_MTC_INST_4" targetType="Result_MTC"/>
+                  <ActivateEveryDefault>
+                    <Condition/>
+                    <NodeInstance instName="1" refName="LATCHALL06_MTC" scadeName="MTC::LATCHALL06">
+                      <OutCtxVar targetName="_32_Context_LATCHALL06_MTC_1_Calculated_value_PATHS3_MTC_OBS_1_Calculated_value_IfBlock1_else_else_MTC_INST_4"/>
+                    </NodeInstance>
+                    <Default/>
+                  </ActivateEveryDefault>
+                </NodeInlining>
+              </NodeInlining>
+            </Condition>
+            <Else>
+              <Condition inCtx="true" targetName="else_clock_else_else_IfBlock1">
+                <NodeInlining instName="5" scadeName="MTCEx::MTC_Instrumenters::Calculated_value_IfBlock1_else_else_else_MTC_INST">
+                  <Output inCtx="true" scadeName="MTC_cond" scadeType="bool" targetName="else_clock_else_else_IfBlock1" targetType="kcg_bool"/>
+                  <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                    <Probe clockVal="kcg_false" clockVar="else_clock_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_5_MTC_ALL1_CONTROL_MTC_OBS_1_Calculated_value_IfBlock1_else_else_else_MTC_INST_5" targetType="Result_MTC"/>
+                    <ActivateEveryDefault>
+                      <Condition/>
+                      <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                        <OutCtxVar targetName="_28_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_1_Calculated_value_IfBlock1_else_else_else_MTC_INST_5"/>
+                      </NodeInstance>
+                      <Default/>
+                    </ActivateEveryDefault>
+                  </NodeInlining>
+                  <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Calculated_value_PATHS4_MTC_OBS">
+                    <Probe clockVal="kcg_false" clockVar="else_clock_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_4_MTC_ALL1_Calculated_value_PATHS4_MTC_OBS_1_Calculated_value_IfBlock1_else_else_else_MTC_INST_5" targetType="Result_MTC"/>
+                    <ActivateEveryDefault>
+                      <Condition/>
+                      <NodeInstance instName="1" refName="LATCHALL06_MTC" scadeName="MTC::LATCHALL06">
+                        <OutCtxVar targetName="_29_Context_LATCHALL06_MTC_1_Calculated_value_PATHS4_MTC_OBS_1_Calculated_value_IfBlock1_else_else_else_MTC_INST_5"/>
+                      </NodeInstance>
+                      <Default/>
+                    </ActivateEveryDefault>
+                  </NodeInlining>
+                </NodeInlining>
+              </Condition>
+              <Else>
+                <Condition inCtx="true" targetName="else_clock_else_else_else_IfBlock1">
+                  <NodeInlining instName="6" scadeName="MTCEx::MTC_Instrumenters::Calculated_value_IfBlock1_else_else_else_else_MTC_INST">
+                    <Output inCtx="true" scadeName="MTC_cond" scadeType="bool" targetName="else_clock_else_else_else_IfBlock1" targetType="kcg_bool"/>
+                    <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                      <Probe clockVal="kcg_false" clockVar="else_clock_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_7_MTC_ALL1_CONTROL_MTC_OBS_1_Calculated_value_IfBlock1_else_else_else_else_MTC_INST_6" targetType="Result_MTC"/>
+                      <ActivateEveryDefault>
+                        <Condition/>
+                        <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                          <OutCtxVar targetName="_25_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_1_Calculated_value_IfBlock1_else_else_else_else_MTC_INST_6"/>
+                        </NodeInstance>
+                        <Default/>
+                      </ActivateEveryDefault>
+                    </NodeInlining>
+                    <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Calculated_value_PATHS5_MTC_OBS">
+                      <Probe clockVal="kcg_false" clockVar="else_clock_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_6_MTC_ALL1_Calculated_value_PATHS5_MTC_OBS_1_Calculated_value_IfBlock1_else_else_else_else_MTC_INST_6" targetType="Result_MTC"/>
+                      <ActivateEveryDefault>
+                        <Condition/>
+                        <NodeInstance instName="1" refName="LATCHALL06_MTC" scadeName="MTC::LATCHALL06">
+                          <OutCtxVar targetName="_26_Context_LATCHALL06_MTC_1_Calculated_value_PATHS5_MTC_OBS_1_Calculated_value_IfBlock1_else_else_else_else_MTC_INST_6"/>
+                        </NodeInstance>
+                        <Default/>
+                      </ActivateEveryDefault>
+                    </NodeInlining>
+                  </NodeInlining>
+                </Condition>
+                <Else>
+                  <Condition inCtx="true" targetName="else_clock_else_else_else_else_IfBlock1">
+                    <NodeInlining instName="7" scadeName="MTCEx::MTC_Instrumenters::Calculated_value_IfBlock1_else_else_else_else_else_MTC_INST">
+                      <Output inCtx="true" scadeName="MTC_cond" scadeType="bool" targetName="else_clock_else_else_else_else_IfBlock1" targetType="kcg_bool"/>
+                      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                        <Probe clockVal="kcg_false" clockVar="else_clock_else_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_9_MTC_ALL1_CONTROL_MTC_OBS_1_Calculated_value_IfBlock1_else_else_else_else_else_MTC_INST_7" targetType="Result_MTC"/>
+                        <ActivateEveryDefault>
+                          <Condition/>
+                          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                            <OutCtxVar targetName="_22_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_1_Calculated_value_IfBlock1_else_else_else_else_else_MTC_INST_7"/>
+                          </NodeInstance>
+                          <Default/>
+                        </ActivateEveryDefault>
+                      </NodeInlining>
+                      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Calculated_value_PATHS6_MTC_OBS">
+                        <Probe clockVal="kcg_false" clockVar="else_clock_else_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_8_MTC_ALL1_Calculated_value_PATHS6_MTC_OBS_1_Calculated_value_IfBlock1_else_else_else_else_else_MTC_INST_7" targetType="Result_MTC"/>
+                        <ActivateEveryDefault>
+                          <Condition/>
+                          <NodeInstance instName="1" refName="LATCHALL06_MTC" scadeName="MTC::LATCHALL06">
+                            <OutCtxVar targetName="_23_Context_LATCHALL06_MTC_1_Calculated_value_PATHS6_MTC_OBS_1_Calculated_value_IfBlock1_else_else_else_else_else_MTC_INST_7"/>
+                          </NodeInstance>
+                          <Default/>
+                        </ActivateEveryDefault>
+                      </NodeInlining>
+                    </NodeInlining>
+                  </Condition>
+                  <Else>
+                    <Condition inCtx="true" targetName="_39_else_clock_else_else_else_else_else_IfBlock1">
+                      <NodeInlining instName="8" scadeName="MTCEx::MTC_Instrumenters::Calculated_value_IfBlock1_else_else_else_else_else_else_MTC_INST">
+                        <Output inCtx="true" scadeName="MTC_cond" scadeType="bool" targetName="_39_else_clock_else_else_else_else_else_IfBlock1" targetType="kcg_bool"/>
+                        <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                          <Probe clockVal="kcg_false" clockVar="else_clock_else_else_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_11_MTC_ALL1_CONTROL_MTC_OBS_1_Calculated_value_IfBlock1_else_else_else_else_else_else_MTC_INST_8" targetType="Result_MTC"/>
+                          <ActivateEveryDefault>
+                            <Condition/>
+                            <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                              <OutCtxVar targetName="_20_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_1_Calculated_value_IfBlock1_else_else_else_else_else_else_MTC_INST_8"/>
+                            </NodeInstance>
+                            <Default/>
+                          </ActivateEveryDefault>
+                        </NodeInlining>
+                        <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Calculated_value_PATHS7_MTC_OBS">
+                          <Probe clockVal="kcg_false" clockVar="else_clock_else_else_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_10_MTC_ALL1_Calculated_value_PATHS7_MTC_OBS_1_Calculated_value_IfBlock1_else_else_else_else_else_else_MTC_INST_8" targetType="Result_MTC"/>
+                          <ActivateEveryDefault>
+                            <Condition/>
+                            <NodeInstance instName="1" refName="LATCHALL06_MTC" scadeName="MTC::LATCHALL06">
+                              <OutCtxVar targetName="Context_LATCHALL06_MTC_1_Calculated_value_PATHS7_MTC_OBS_1_Calculated_value_IfBlock1_else_else_else_else_else_else_MTC_INST_8"/>
+                            </NodeInstance>
+                            <Default/>
+                          </ActivateEveryDefault>
+                        </NodeInlining>
+                      </NodeInlining>
+                    </Condition>
+                    <Else>
+                      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                        <Probe clockVal="kcg_false" clockVar="_39_else_clock_else_else_else_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_CONTROL_MTC_OBS_1" targetType="Result_MTC"/>
+                        <ActivateEveryDefault>
+                          <Condition/>
+                          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                            <OutCtxVar targetName="Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_1"/>
+                          </NodeInstance>
+                          <Default/>
+                        </ActivateEveryDefault>
+                      </NodeInlining>
+                    </Else>
+                    <Then>
+                      <NodeInlining instName="2" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                        <Probe clockVal="kcg_true" clockVar="_39_else_clock_else_else_else_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_CONTROL_MTC_OBS_2" targetType="Result_MTC"/>
+                        <ActivateEveryDefault>
+                          <Condition/>
+                          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                            <OutCtxVar targetName="_19_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_2"/>
+                          </NodeInstance>
+                          <Default/>
+                        </ActivateEveryDefault>
+                      </NodeInlining>
+                    </Then>
+                  </Else>
+                  <Then>
+                    <NodeInlining instName="3" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                      <Probe clockVal="kcg_true" clockVar="else_clock_else_else_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_CONTROL_MTC_OBS_3" targetType="Result_MTC"/>
+                      <ActivateEveryDefault>
+                        <Condition/>
+                        <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                          <OutCtxVar targetName="_21_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_3"/>
+                        </NodeInstance>
+                        <Default/>
+                      </ActivateEveryDefault>
+                    </NodeInlining>
+                  </Then>
+                </Else>
+                <Then>
+                  <NodeInlining instName="4" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                    <Probe clockVal="kcg_true" clockVar="else_clock_else_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_CONTROL_MTC_OBS_4" targetType="Result_MTC"/>
+                    <ActivateEveryDefault>
+                      <Condition/>
+                      <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                        <OutCtxVar targetName="_24_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_4"/>
+                      </NodeInstance>
+                      <Default/>
+                    </ActivateEveryDefault>
+                  </NodeInlining>
+                </Then>
+              </Else>
+              <Then>
+                <NodeInlining instName="5" scadeName="math::Mean">
+                  <Input inCtx="true" scadeName="MTC_AC_Me_output" scadeType="bool" targetName="every40" targetType="kcg_bool"/>
+                  <Output inCtx="true" scadeName="MTC_AC_I1" scadeType="bool" targetName="every40" targetType="kcg_bool"/>
+                  <Output inCtx="true" scadeName="MTC_AC_I2" scadeType="bool" targetName="every40" targetType="kcg_bool"/>
+                  <Signal inCtx="true" scadeName="MTC_sig_1" targetName="every40"/>
+                  <Signal inCtx="true" scadeName="MTC_sig_2" targetName="every40"/>
+                </NodeInlining>
+                <NodeInlining instName="5" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                  <Probe clockVal="kcg_true" clockVar="else_clock_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_CONTROL_MTC_OBS_5" targetType="Result_MTC"/>
+                  <ActivateEveryDefault>
+                    <Condition/>
+                    <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                      <OutCtxVar targetName="_27_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_5"/>
+                    </NodeInstance>
+                    <Default/>
+                  </ActivateEveryDefault>
+                </NodeInlining>
+                <ActivateEveryDefault>
+                  <Condition inCtx="true" targetName="every40"/>
+                  <NodeInlining instName="5" scadeName="MTCEx::MTC_Observers::math_Mean_MTC_OBS">
+                    <Probe clockVal="kcg_true" clockVar="every40" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_math_Mean_MTC_OBS_5" targetType="Result_MTC"/>
+                    <ActivateEveryDefault>
+                      <Condition/>
+                      <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                        <OutCtxVar targetName="_16_Context_LATCHALL01_MTC_1_math_Mean_MTC_OBS_5"/>
+                      </NodeInstance>
+                      <Default/>
+                    </ActivateEveryDefault>
+                  </NodeInlining>
+                  <Default/>
+                </ActivateEveryDefault>
+              </Then>
+            </Else>
+            <Then>
+              <NodeInlining instName="3" scadeName="math::Mean">
+                <Input inCtx="true" scadeName="MTC_AC_Me_output" scadeType="bool" targetName="every38" targetType="kcg_bool"/>
+                <Output inCtx="true" scadeName="MTC_AC_I1" scadeType="bool" targetName="every38" targetType="kcg_bool"/>
+                <Output inCtx="true" scadeName="MTC_AC_I2" scadeType="bool" targetName="every38" targetType="kcg_bool"/>
+                <Signal inCtx="true" scadeName="MTC_sig_1" targetName="every38"/>
+                <Signal inCtx="true" scadeName="MTC_sig_2" targetName="every38"/>
+              </NodeInlining>
+              <NodeInlining instName="6" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                <Probe clockVal="kcg_true" clockVar="else_clock_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_CONTROL_MTC_OBS_6" targetType="Result_MTC"/>
+                <ActivateEveryDefault>
+                  <Condition/>
+                  <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                    <OutCtxVar targetName="_30_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_6"/>
+                  </NodeInstance>
+                  <Default/>
+                </ActivateEveryDefault>
+              </NodeInlining>
+              <ActivateEveryDefault>
+                <Condition inCtx="true" targetName="every38"/>
+                <NodeInlining instName="3" scadeName="MTCEx::MTC_Observers::math_Mean_MTC_OBS">
+                  <Probe clockVal="kcg_true" clockVar="every38" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_math_Mean_MTC_OBS_3" targetType="Result_MTC"/>
+                  <ActivateEveryDefault>
+                    <Condition/>
+                    <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                      <OutCtxVar targetName="_15_Context_LATCHALL01_MTC_1_math_Mean_MTC_OBS_3"/>
+                    </NodeInstance>
+                    <Default/>
+                  </ActivateEveryDefault>
+                </NodeInlining>
+                <Default/>
+              </ActivateEveryDefault>
+            </Then>
+          </Else>
+          <Then>
+            <NodeInlining instName="1" scadeName="math::Mean">
+              <Input inCtx="true" scadeName="MTC_AC_Me_output" scadeType="bool" targetName="every41" targetType="kcg_bool"/>
+              <Output inCtx="true" scadeName="MTC_AC_I1" scadeType="bool" targetName="every41" targetType="kcg_bool"/>
+              <Output inCtx="true" scadeName="MTC_AC_I2" scadeType="bool" targetName="every41" targetType="kcg_bool"/>
+              <Signal inCtx="true" scadeName="MTC_sig_1" targetName="every41"/>
+              <Signal inCtx="true" scadeName="MTC_sig_2" targetName="every41"/>
+            </NodeInlining>
+            <NodeInlining instName="7" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+              <Probe clockVal="kcg_true" clockVar="else_clock_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_CONTROL_MTC_OBS_7" targetType="Result_MTC"/>
+              <ActivateEveryDefault>
+                <Condition/>
+                <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                  <OutCtxVar targetName="_33_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_7"/>
+                </NodeInstance>
+                <Default/>
+              </ActivateEveryDefault>
+            </NodeInlining>
+            <ActivateEveryDefault>
+              <Condition inCtx="true" targetName="every41"/>
+              <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::math_Mean_MTC_OBS">
+                <Probe clockVal="kcg_true" clockVar="every41" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_math_Mean_MTC_OBS_1" targetType="Result_MTC"/>
+                <ActivateEveryDefault>
+                  <Condition/>
+                  <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                    <OutCtxVar targetName="Context_LATCHALL01_MTC_1_math_Mean_MTC_OBS_1"/>
+                  </NodeInstance>
+                  <Default/>
+                </ActivateEveryDefault>
+              </NodeInlining>
+              <Default/>
+            </ActivateEveryDefault>
+          </Then>
+        </Else>
+        <Then>
+          <NodeInstance clockVal="kcg_true" clockVar="IfBlock1_clock" instName="1" refName="Check_Delta_3" scadeName="Check_Delta_3">
+            <OutCtxVar clockVal="kcg_true" clockVar="IfBlock1_clock" targetName="Context_Check_Delta_3_1"/>
+          </NodeInstance>
+          <NodeInlining instName="8" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+            <Probe clockVal="kcg_true" clockVar="IfBlock1_clock" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_CONTROL_MTC_OBS_8" targetType="Result_MTC"/>
+            <ActivateEveryDefault>
+              <Condition/>
+              <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                <OutCtxVar targetName="_36_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_8"/>
+              </NodeInstance>
+              <Default/>
+            </ActivateEveryDefault>
+          </NodeInlining>
+          <ActivateEveryDefault>
+            <Condition inCtx="true" targetName="every"/>
+            <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Check_Delta_3_1111_MTC_OBS">
+              <Probe clockVal="kcg_true" clockVar="every" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Check_Delta_3_1111_MTC_OBS_1_float64_float64_float64_float64" targetType="Result_MTC"/>
+              <NodeInstance instName="1" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+                <OutCtxVar targetName="Context_GenericInputChanged_1_Check_Delta_3_1111_MTC_OBS_1"/>
+              </NodeInstance>
+              <NodeInstance instName="2" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+                <OutCtxVar targetName="Context_GenericInputChanged_2_Check_Delta_3_1111_MTC_OBS_1"/>
+              </NodeInstance>
+              <NodeInstance instName="3" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+                <OutCtxVar targetName="Context_GenericInputChanged_3_Check_Delta_3_1111_MTC_OBS_1"/>
+              </NodeInstance>
+              <NodeInstance instName="4" refName="GenericInputChanged_MTC_Utils_float64" scadeName="MTC_Utils::GenericInputChanged">
+                <OutCtxVar targetName="Context_GenericInputChanged_4_Check_Delta_3_1111_MTC_OBS_1"/>
+              </NodeInstance>
+              <ActivateEveryDefault>
+                <Condition/>
+                <NodeInstance instName="1" refName="LATCHALL05_MTC" scadeName="MTC::LATCHALL05">
+                  <OutCtxVar targetName="Context_LATCHALL05_MTC_1_Check_Delta_3_1111_MTC_OBS_1"/>
+                </NodeInstance>
+                <Default/>
+              </ActivateEveryDefault>
+            </NodeInlining>
+            <Default/>
+          </ActivateEveryDefault>
+        </Then>
+      </ActivateIf>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Calculated_value_PATHS8_MTC_OBS">
+        <Input scadeName="MTC_CC_9_A" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_12_MTC_ALL1_Calculated_value_PATHS8_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL03_MTC" scadeName="MTC::LATCHALL03">
+            <OutCtxVar targetName="_18_Context_LATCHALL03_MTC_1_Calculated_value_PATHS8_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Calculated_value_PATHS9_MTC_OBS">
+        <Input scadeName="MTC_CC_12_A" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_13_MTC_ALL1_Calculated_value_PATHS9_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL03_MTC" scadeName="MTC::LATCHALL03">
+            <OutCtxVar targetName="_17_Context_LATCHALL03_MTC_1_Calculated_value_PATHS9_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Calculated_value_PATHS10_MTC_OBS">
+        <Input scadeName="MTC_CC_15_A" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_14_MTC_ALL1_Calculated_value_PATHS10_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL03_MTC" scadeName="MTC::LATCHALL03">
+            <OutCtxVar targetName="Context_LATCHALL03_MTC_1_Calculated_value_PATHS10_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <Clock clockVal="kcg_true" clockVar="IfBlock1_clock" inCtx="true" targetName="every" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_false" clockVar="IfBlock1_clock" inCtx="true" targetName="else_clock_IfBlock1" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_true" clockVar="else_clock_else_IfBlock1" inCtx="true" targetName="every38" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_false" clockVar="else_clock_else_IfBlock1" inCtx="true" targetName="else_clock_else_else_IfBlock1" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_false" clockVar="else_clock_else_else_else_IfBlock1" inCtx="true" targetName="else_clock_else_else_else_else_IfBlock1" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_false" clockVar="else_clock_else_else_else_else_IfBlock1" inCtx="true" targetName="_39_else_clock_else_else_else_else_else_IfBlock1" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_false" clockVar="else_clock_else_else_IfBlock1" inCtx="true" targetName="else_clock_else_else_else_IfBlock1" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_true" clockVar="else_clock_else_else_IfBlock1" inCtx="true" targetName="every40" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_false" clockVar="else_clock_IfBlock1" inCtx="true" targetName="else_clock_else_IfBlock1" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_true" clockVar="else_clock_IfBlock1" inCtx="true" targetName="every41" targetType="kcg_bool"/>
+      <Clock inCtx="true" targetName="IfBlock1_clock" targetType="kcg_bool"/>
+      <OutCtxType targetName="outC_Calculated_value"/>
+    </NoExpNode>
+    <NoExpNode headerFile="Check_Delta_3.h" scadeName="Check_Delta_3" targetCycleFct="Check_Delta_3" targetInitFct="Check_Delta_3_reset" targetInitializationFct="Check_Delta_3_init">
+      <Input scadeName="Input1" scadeType="float64" targetName="Input1" targetType="kcg_float64"/>
+      <Input scadeName="Input2" scadeType="float64" targetName="Input2" targetType="kcg_float64"/>
+      <Input scadeName="Input3" scadeType="float64" targetName="Input3" targetType="kcg_float64"/>
+      <Input scadeName="Delta" scadeType="float64" targetName="Delta" targetType="kcg_float64"/>
+      <Input scadeName="MTC_AC_Outputs" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+      <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+      <Output inCtx="true" scadeName="Output1" scadeType="float64" targetName="Output1" targetType="kcg_float64"/>
+      <Signal scadeName="MTC_sig_1" targetName="MTC_AC_Outputs"/>
+      <Signal scadeName="MTC_sig_2" targetName="MTC_AC_Outputs"/>
+      <Signal scadeName="MTC_sig_3" targetName="MTC_AC_Outputs"/>
+      <Signal scadeName="MTC_sig_4" targetName="MTC_AC_Outputs"/>
+      <NodeInlining instName="1" scadeName="math::Abs">
+        <Input inCtx="true" scadeName="MTC_AC_A_Output" scadeType="bool" targetName="every" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::math_Abs_PATHS1_MTC_OBS">
+          <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+          <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_7_MTC_ALL1_math_Abs_PATHS1_MTC_OBS_1_Abs_1" targetType="Result_MTC"/>
+          <ActivateEveryDefault>
+            <Condition targetName="MTC_INSTRU"/>
+            <NodeInstance instName="1" refName="LATCHALL04_MTC" scadeName="MTC::LATCHALL04">
+              <OutCtxVar targetName="_38_Context_LATCHALL04_MTC_1_math_Abs_PATHS1_MTC_OBS_1_Abs_1"/>
+            </NodeInstance>
+            <Default/>
+          </ActivateEveryDefault>
+        </NodeInlining>
+      </NodeInlining>
+      <NodeInlining instName="1" scadeName="math::Mean3">
+        <Input scadeName="I1" scadeType="float64" targetName="Input1" targetType="kcg_float64"/>
+        <Input scadeName="I2" scadeType="float64" targetName="Input2" targetType="kcg_float64"/>
+        <Input scadeName="I3" scadeType="float64" targetName="Input3" targetType="kcg_float64"/>
+        <Input inCtx="true" scadeName="MTC_AC_Me3_Output" scadeType="bool" targetName="every39" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Output inCtx="true" scadeName="MTC_AC_I1" scadeType="bool" targetName="every39" targetType="kcg_bool"/>
+        <Output inCtx="true" scadeName="MTC_AC_I2" scadeType="bool" targetName="every39" targetType="kcg_bool"/>
+        <Output inCtx="true" scadeName="MTC_AC_I3" scadeType="bool" targetName="every39" targetType="kcg_bool"/>
+        <Signal inCtx="true" scadeName="MTC_sig_1" targetName="every39"/>
+        <Signal inCtx="true" scadeName="MTC_sig_2" targetName="every39"/>
+        <Signal inCtx="true" scadeName="MTC_sig_3" targetName="every39"/>
+      </NodeInlining>
+      <ActivateIf scadeName="IfBlock1">
+        <Condition inCtx="true" targetName="IfBlock1_clock">
+          <NodeInlining instName="1" scadeName="MTCEx::MTC_Instrumenters::Check_Delta_3_IfBlock1_MTC_INST">
+            <Input inCtx="true" scadeName="all_fail" scadeType="bool" targetName="IfBlock1_clock" targetType="kcg_bool"/>
+            <Input scadeName="MTC_AC" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+            <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+            <Output inCtx="true" scadeName="MTC_cond" scadeType="bool" targetName="IfBlock1_clock" targetType="kcg_bool"/>
+            <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Check_Delta_3_PATHS1_MTC_OBS">
+              <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+              <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Check_Delta_3_PATHS1_MTC_OBS_1_Check_Delta_3_IfBlock1_MTC_INST_1" targetType="Result_MTC"/>
+              <ActivateEveryDefault>
+                <Condition targetName="MTC_INSTRU"/>
+                <NodeInstance instName="1" refName="LATCHALL02_MTC" scadeName="MTC::LATCHALL02">
+                  <OutCtxVar targetName="Context_LATCHALL02_MTC_1_Check_Delta_3_PATHS1_MTC_OBS_1_Check_Delta_3_IfBlock1_MTC_INST_1"/>
+                </NodeInstance>
+                <Default/>
+              </ActivateEveryDefault>
+            </NodeInlining>
+          </NodeInlining>
+        </Condition>
+        <Else>
+          <Condition inCtx="true" targetName="else_clock_IfBlock1">
+            <NodeInlining instName="6" scadeName="MTCEx::MTC_Instrumenters::Check_Delta_3_IfBlock1_else_MTC_INST">
+              <Output inCtx="true" scadeName="MTC_cond" scadeType="bool" targetName="else_clock_IfBlock1" targetType="kcg_bool"/>
+              <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                <Probe clockVal="kcg_false" clockVar="IfBlock1_clock" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_6_MTC_ALL1_CONTROL_MTC_OBS_1_Check_Delta_3_IfBlock1_else_MTC_INST_6" targetType="Result_MTC"/>
+                <ActivateEveryDefault>
+                  <Condition/>
+                  <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                    <OutCtxVar targetName="_35_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_1_Check_Delta_3_IfBlock1_else_MTC_INST_6"/>
+                  </NodeInstance>
+                  <Default/>
+                </ActivateEveryDefault>
+              </NodeInlining>
+              <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Check_Delta_3_PATHS2_MTC_OBS">
+                <Probe clockVal="kcg_false" clockVar="IfBlock1_clock" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Check_Delta_3_PATHS2_MTC_OBS_1_Check_Delta_3_IfBlock1_else_MTC_INST_6" targetType="Result_MTC"/>
+                <ActivateEveryDefault>
+                  <Condition/>
+                  <NodeInstance instName="1" refName="LATCHALL06_MTC" scadeName="MTC::LATCHALL06">
+                    <OutCtxVar targetName="_36_Context_LATCHALL06_MTC_1_Check_Delta_3_PATHS2_MTC_OBS_1_Check_Delta_3_IfBlock1_else_MTC_INST_6"/>
+                  </NodeInstance>
+                  <Default/>
+                </ActivateEveryDefault>
+              </NodeInlining>
+            </NodeInlining>
+          </Condition>
+          <Else>
+            <Condition inCtx="true" targetName="else_clock_else_IfBlock1">
+              <NodeInlining instName="7" scadeName="MTCEx::MTC_Instrumenters::Check_Delta_3_IfBlock1_else_else_MTC_INST">
+                <Output inCtx="true" scadeName="MTC_cond" scadeType="bool" targetName="else_clock_else_IfBlock1" targetType="kcg_bool"/>
+                <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                  <Probe clockVal="kcg_false" clockVar="else_clock_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_5_MTC_ALL1_CONTROL_MTC_OBS_1_Check_Delta_3_IfBlock1_else_else_MTC_INST_7" targetType="Result_MTC"/>
+                  <ActivateEveryDefault>
+                    <Condition/>
+                    <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                      <OutCtxVar targetName="_32_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_1_Check_Delta_3_IfBlock1_else_else_MTC_INST_7"/>
+                    </NodeInstance>
+                    <Default/>
+                  </ActivateEveryDefault>
+                </NodeInlining>
+                <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Check_Delta_3_PATHS3_MTC_OBS">
+                  <Probe clockVal="kcg_false" clockVar="else_clock_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Check_Delta_3_PATHS3_MTC_OBS_1_Check_Delta_3_IfBlock1_else_else_MTC_INST_7" targetType="Result_MTC"/>
+                  <ActivateEveryDefault>
+                    <Condition/>
+                    <NodeInstance instName="1" refName="LATCHALL06_MTC" scadeName="MTC::LATCHALL06">
+                      <OutCtxVar targetName="_33_Context_LATCHALL06_MTC_1_Check_Delta_3_PATHS3_MTC_OBS_1_Check_Delta_3_IfBlock1_else_else_MTC_INST_7"/>
+                    </NodeInstance>
+                    <Default/>
+                  </ActivateEveryDefault>
+                </NodeInlining>
+              </NodeInlining>
+            </Condition>
+            <Else>
+              <Condition inCtx="true" targetName="else_clock_else_else_IfBlock1">
+                <NodeInlining instName="8" scadeName="MTCEx::MTC_Instrumenters::Check_Delta_3_IfBlock1_else_else_else_MTC_INST">
+                  <Output inCtx="true" scadeName="MTC_cond" scadeType="bool" targetName="else_clock_else_else_IfBlock1" targetType="kcg_bool"/>
+                  <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                    <Probe clockVal="kcg_false" clockVar="else_clock_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_4_MTC_ALL1_CONTROL_MTC_OBS_1_Check_Delta_3_IfBlock1_else_else_else_MTC_INST_8" targetType="Result_MTC"/>
+                    <ActivateEveryDefault>
+                      <Condition/>
+                      <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                        <OutCtxVar targetName="_29_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_1_Check_Delta_3_IfBlock1_else_else_else_MTC_INST_8"/>
+                      </NodeInstance>
+                      <Default/>
+                    </ActivateEveryDefault>
+                  </NodeInlining>
+                  <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Check_Delta_3_PATHS4_MTC_OBS">
+                    <Probe clockVal="kcg_false" clockVar="else_clock_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Check_Delta_3_PATHS4_MTC_OBS_1_Check_Delta_3_IfBlock1_else_else_else_MTC_INST_8" targetType="Result_MTC"/>
+                    <ActivateEveryDefault>
+                      <Condition/>
+                      <NodeInstance instName="1" refName="LATCHALL06_MTC" scadeName="MTC::LATCHALL06">
+                        <OutCtxVar targetName="_30_Context_LATCHALL06_MTC_1_Check_Delta_3_PATHS4_MTC_OBS_1_Check_Delta_3_IfBlock1_else_else_else_MTC_INST_8"/>
+                      </NodeInstance>
+                      <Default/>
+                    </ActivateEveryDefault>
+                  </NodeInlining>
+                </NodeInlining>
+              </Condition>
+              <Else>
+                <Condition inCtx="true" targetName="else_clock_else_else_else_IfBlock1">
+                  <NodeInlining instName="9" scadeName="MTCEx::MTC_Instrumenters::Check_Delta_3_IfBlock1_else_else_else_else_MTC_INST">
+                    <Output inCtx="true" scadeName="MTC_cond" scadeType="bool" targetName="else_clock_else_else_else_IfBlock1" targetType="kcg_bool"/>
+                    <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                      <Probe clockVal="kcg_false" clockVar="else_clock_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_3_MTC_ALL1_CONTROL_MTC_OBS_1_Check_Delta_3_IfBlock1_else_else_else_else_MTC_INST_9" targetType="Result_MTC"/>
+                      <ActivateEveryDefault>
+                        <Condition/>
+                        <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                          <OutCtxVar targetName="_26_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_1_Check_Delta_3_IfBlock1_else_else_else_else_MTC_INST_9"/>
+                        </NodeInstance>
+                        <Default/>
+                      </ActivateEveryDefault>
+                    </NodeInlining>
+                    <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Check_Delta_3_PATHS5_MTC_OBS">
+                      <Probe clockVal="kcg_false" clockVar="else_clock_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Check_Delta_3_PATHS5_MTC_OBS_1_Check_Delta_3_IfBlock1_else_else_else_else_MTC_INST_9" targetType="Result_MTC"/>
+                      <ActivateEveryDefault>
+                        <Condition/>
+                        <NodeInstance instName="1" refName="LATCHALL06_MTC" scadeName="MTC::LATCHALL06">
+                          <OutCtxVar targetName="_27_Context_LATCHALL06_MTC_1_Check_Delta_3_PATHS5_MTC_OBS_1_Check_Delta_3_IfBlock1_else_else_else_else_MTC_INST_9"/>
+                        </NodeInstance>
+                        <Default/>
+                      </ActivateEveryDefault>
+                    </NodeInlining>
+                  </NodeInlining>
+                </Condition>
+                <Else>
+                  <Condition inCtx="true" targetName="_45_else_clock_else_else_else_else_IfBlock1">
+                    <NodeInlining instName="10" scadeName="MTCEx::MTC_Instrumenters::Check_Delta_3_IfBlock1_else_else_else_else_else_MTC_INST">
+                      <Output inCtx="true" scadeName="MTC_cond" scadeType="bool" targetName="_45_else_clock_else_else_else_else_IfBlock1" targetType="kcg_bool"/>
+                      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                        <Probe clockVal="kcg_false" clockVar="else_clock_else_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_2_MTC_ALL1_CONTROL_MTC_OBS_1_Check_Delta_3_IfBlock1_else_else_else_else_else_MTC_INST_10" targetType="Result_MTC"/>
+                        <ActivateEveryDefault>
+                          <Condition/>
+                          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                            <OutCtxVar targetName="_23_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_1_Check_Delta_3_IfBlock1_else_else_else_else_else_MTC_INST_10"/>
+                          </NodeInstance>
+                          <Default/>
+                        </ActivateEveryDefault>
+                      </NodeInlining>
+                      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Check_Delta_3_PATHS6_MTC_OBS">
+                        <Probe clockVal="kcg_false" clockVar="else_clock_else_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Check_Delta_3_PATHS6_MTC_OBS_1_Check_Delta_3_IfBlock1_else_else_else_else_else_MTC_INST_10" targetType="Result_MTC"/>
+                        <ActivateEveryDefault>
+                          <Condition/>
+                          <NodeInstance instName="1" refName="LATCHALL06_MTC" scadeName="MTC::LATCHALL06">
+                            <OutCtxVar targetName="_24_Context_LATCHALL06_MTC_1_Check_Delta_3_PATHS6_MTC_OBS_1_Check_Delta_3_IfBlock1_else_else_else_else_else_MTC_INST_10"/>
+                          </NodeInstance>
+                          <Default/>
+                        </ActivateEveryDefault>
+                      </NodeInlining>
+                    </NodeInlining>
+                  </Condition>
+                  <Else>
+                    <Condition inCtx="true" targetName="else_clock_else_else_else_else_else_IfBlock1">
+                      <NodeInlining instName="11" scadeName="MTCEx::MTC_Instrumenters::Check_Delta_3_IfBlock1_else_else_else_else_else_else_MTC_INST">
+                        <Output inCtx="true" scadeName="MTC_cond" scadeType="bool" targetName="else_clock_else_else_else_else_else_IfBlock1" targetType="kcg_bool"/>
+                        <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                          <Probe clockVal="kcg_false" clockVar="_45_else_clock_else_else_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_CONTROL_MTC_OBS_1_Check_Delta_3_IfBlock1_else_else_else_else_else_else_MTC_INST_11" targetType="Result_MTC"/>
+                          <ActivateEveryDefault>
+                            <Condition/>
+                            <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                              <OutCtxVar targetName="_21_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_1_Check_Delta_3_IfBlock1_else_else_else_else_else_else_MTC_INST_11"/>
+                            </NodeInstance>
+                            <Default/>
+                          </ActivateEveryDefault>
+                        </NodeInlining>
+                        <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Check_Delta_3_PATHS7_MTC_OBS">
+                          <Probe clockVal="kcg_false" clockVar="_45_else_clock_else_else_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Check_Delta_3_PATHS7_MTC_OBS_1_Check_Delta_3_IfBlock1_else_else_else_else_else_else_MTC_INST_11" targetType="Result_MTC"/>
+                          <ActivateEveryDefault>
+                            <Condition/>
+                            <NodeInstance instName="1" refName="LATCHALL06_MTC" scadeName="MTC::LATCHALL06">
+                              <OutCtxVar targetName="Context_LATCHALL06_MTC_1_Check_Delta_3_PATHS7_MTC_OBS_1_Check_Delta_3_IfBlock1_else_else_else_else_else_else_MTC_INST_11"/>
+                            </NodeInstance>
+                            <Default/>
+                          </ActivateEveryDefault>
+                        </NodeInlining>
+                      </NodeInlining>
+                    </Condition>
+                    <Else>
+                      <NodeInlining instName="6" scadeName="math::Mean3">
+                        <Input inCtx="true" scadeName="MTC_AC_Me3_Output" scadeType="bool" targetName="every43" targetType="kcg_bool"/>
+                        <Output inCtx="true" scadeName="MTC_AC_I1" scadeType="bool" targetName="every43" targetType="kcg_bool"/>
+                        <Output inCtx="true" scadeName="MTC_AC_I2" scadeType="bool" targetName="every43" targetType="kcg_bool"/>
+                        <Output inCtx="true" scadeName="MTC_AC_I3" scadeType="bool" targetName="every43" targetType="kcg_bool"/>
+                        <Signal inCtx="true" scadeName="MTC_sig_1" targetName="every43"/>
+                        <Signal inCtx="true" scadeName="MTC_sig_2" targetName="every43"/>
+                        <Signal inCtx="true" scadeName="MTC_sig_3" targetName="every43"/>
+                      </NodeInlining>
+                      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                        <Probe clockVal="kcg_false" clockVar="else_clock_else_else_else_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_CONTROL_MTC_OBS_1" targetType="Result_MTC"/>
+                        <ActivateEveryDefault>
+                          <Condition/>
+                          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                            <OutCtxVar targetName="Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_1"/>
+                          </NodeInstance>
+                          <Default/>
+                        </ActivateEveryDefault>
+                      </NodeInlining>
+                      <ActivateEveryDefault>
+                        <Condition inCtx="true" targetName="every43"/>
+                        <NodeInlining instName="6" scadeName="MTCEx::MTC_Observers::math_Mean3_MTC_OBS">
+                          <Probe clockVal="kcg_true" clockVar="every43" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_math_Mean3_MTC_OBS_6" targetType="Result_MTC"/>
+                          <ActivateEveryDefault>
+                            <Condition/>
+                            <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                              <OutCtxVar targetName="_11_Context_LATCHALL01_MTC_1_math_Mean3_MTC_OBS_6"/>
+                            </NodeInstance>
+                            <Default/>
+                          </ActivateEveryDefault>
+                        </NodeInlining>
+                        <Default/>
+                      </ActivateEveryDefault>
+                    </Else>
+                    <Then>
+                      <NodeInlining instName="3" scadeName="math::Mean">
+                        <Input inCtx="true" scadeName="MTC_AC_Me_output" scadeType="bool" targetName="every44" targetType="kcg_bool"/>
+                        <Output inCtx="true" scadeName="MTC_AC_I1" scadeType="bool" targetName="every44" targetType="kcg_bool"/>
+                        <Output inCtx="true" scadeName="MTC_AC_I2" scadeType="bool" targetName="every44" targetType="kcg_bool"/>
+                        <Signal inCtx="true" scadeName="MTC_sig_1" targetName="every44"/>
+                        <Signal inCtx="true" scadeName="MTC_sig_2" targetName="every44"/>
+                      </NodeInlining>
+                      <NodeInlining instName="2" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                        <Probe clockVal="kcg_true" clockVar="else_clock_else_else_else_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_CONTROL_MTC_OBS_2" targetType="Result_MTC"/>
+                        <ActivateEveryDefault>
+                          <Condition/>
+                          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                            <OutCtxVar targetName="_20_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_2"/>
+                          </NodeInstance>
+                          <Default/>
+                        </ActivateEveryDefault>
+                      </NodeInlining>
+                      <ActivateEveryDefault>
+                        <Condition inCtx="true" targetName="every44"/>
+                        <NodeInlining instName="3" scadeName="MTCEx::MTC_Observers::math_Mean_MTC_OBS">
+                          <Probe clockVal="kcg_true" clockVar="every44" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_math_Mean_MTC_OBS_3" targetType="Result_MTC"/>
+                          <ActivateEveryDefault>
+                            <Condition/>
+                            <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                              <OutCtxVar targetName="_10_Context_LATCHALL01_MTC_1_math_Mean_MTC_OBS_3"/>
+                            </NodeInstance>
+                            <Default/>
+                          </ActivateEveryDefault>
+                        </NodeInlining>
+                        <Default/>
+                      </ActivateEveryDefault>
+                    </Then>
+                  </Else>
+                  <Then>
+                    <NodeInlining instName="2" scadeName="math::Mean">
+                      <Input inCtx="true" scadeName="MTC_AC_Me_output" scadeType="bool" targetName="every42" targetType="kcg_bool"/>
+                      <Output inCtx="true" scadeName="MTC_AC_I1" scadeType="bool" targetName="every42" targetType="kcg_bool"/>
+                      <Output inCtx="true" scadeName="MTC_AC_I2" scadeType="bool" targetName="every42" targetType="kcg_bool"/>
+                      <Signal inCtx="true" scadeName="MTC_sig_1" targetName="every42"/>
+                      <Signal inCtx="true" scadeName="MTC_sig_2" targetName="every42"/>
+                    </NodeInlining>
+                    <NodeInlining instName="3" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                      <Probe clockVal="kcg_true" clockVar="_45_else_clock_else_else_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_CONTROL_MTC_OBS_3" targetType="Result_MTC"/>
+                      <ActivateEveryDefault>
+                        <Condition/>
+                        <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                          <OutCtxVar targetName="_22_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_3"/>
+                        </NodeInstance>
+                        <Default/>
+                      </ActivateEveryDefault>
+                    </NodeInlining>
+                    <ActivateEveryDefault>
+                      <Condition inCtx="true" targetName="every42"/>
+                      <NodeInlining instName="2" scadeName="MTCEx::MTC_Observers::math_Mean_MTC_OBS">
+                        <Probe clockVal="kcg_true" clockVar="every42" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_math_Mean_MTC_OBS_2" targetType="Result_MTC"/>
+                        <ActivateEveryDefault>
+                          <Condition/>
+                          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                            <OutCtxVar targetName="_9_Context_LATCHALL01_MTC_1_math_Mean_MTC_OBS_2"/>
+                          </NodeInstance>
+                          <Default/>
+                        </ActivateEveryDefault>
+                      </NodeInlining>
+                      <Default/>
+                    </ActivateEveryDefault>
+                  </Then>
+                </Else>
+                <Then>
+                  <NodeInlining instName="1" scadeName="math::Mean">
+                    <Input inCtx="true" scadeName="MTC_AC_Me_output" scadeType="bool" targetName="every46" targetType="kcg_bool"/>
+                    <Output inCtx="true" scadeName="MTC_AC_I1" scadeType="bool" targetName="every46" targetType="kcg_bool"/>
+                    <Output inCtx="true" scadeName="MTC_AC_I2" scadeType="bool" targetName="every46" targetType="kcg_bool"/>
+                    <Signal inCtx="true" scadeName="MTC_sig_1" targetName="every46"/>
+                    <Signal inCtx="true" scadeName="MTC_sig_2" targetName="every46"/>
+                  </NodeInlining>
+                  <NodeInlining instName="4" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                    <Probe clockVal="kcg_true" clockVar="else_clock_else_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_CONTROL_MTC_OBS_4" targetType="Result_MTC"/>
+                    <ActivateEveryDefault>
+                      <Condition/>
+                      <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                        <OutCtxVar targetName="_25_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_4"/>
+                      </NodeInstance>
+                      <Default/>
+                    </ActivateEveryDefault>
+                  </NodeInlining>
+                  <ActivateEveryDefault>
+                    <Condition inCtx="true" targetName="every46"/>
+                    <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::math_Mean_MTC_OBS">
+                      <Probe clockVal="kcg_true" clockVar="every46" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_math_Mean_MTC_OBS_1" targetType="Result_MTC"/>
+                      <ActivateEveryDefault>
+                        <Condition/>
+                        <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                          <OutCtxVar targetName="_8_Context_LATCHALL01_MTC_1_math_Mean_MTC_OBS_1"/>
+                        </NodeInstance>
+                        <Default/>
+                      </ActivateEveryDefault>
+                    </NodeInlining>
+                    <Default/>
+                  </ActivateEveryDefault>
+                </Then>
+              </Else>
+              <Then>
+                <NodeInlining instName="5" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                  <Probe clockVal="kcg_true" clockVar="else_clock_else_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_CONTROL_MTC_OBS_5" targetType="Result_MTC"/>
+                  <ActivateEveryDefault>
+                    <Condition/>
+                    <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                      <OutCtxVar targetName="_28_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_5"/>
+                    </NodeInstance>
+                    <Default/>
+                  </ActivateEveryDefault>
+                </NodeInlining>
+              </Then>
+            </Else>
+            <Then>
+              <NodeInlining instName="6" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+                <Probe clockVal="kcg_true" clockVar="else_clock_else_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_CONTROL_MTC_OBS_6" targetType="Result_MTC"/>
+                <ActivateEveryDefault>
+                  <Condition/>
+                  <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                    <OutCtxVar targetName="_31_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_6"/>
+                  </NodeInstance>
+                  <Default/>
+                </ActivateEveryDefault>
+              </NodeInlining>
+            </Then>
+          </Else>
+          <Then>
+            <NodeInlining instName="7" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+              <Probe clockVal="kcg_true" clockVar="else_clock_IfBlock1" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_CONTROL_MTC_OBS_7" targetType="Result_MTC"/>
+              <ActivateEveryDefault>
+                <Condition/>
+                <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                  <OutCtxVar targetName="_34_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_7"/>
+                </NodeInstance>
+                <Default/>
+              </ActivateEveryDefault>
+            </NodeInlining>
+          </Then>
+        </Else>
+        <Then>
+          <NodeInlining instName="4" scadeName="math::Mean3">
+            <Input inCtx="true" scadeName="MTC_AC_Me3_Output" scadeType="bool" targetName="every47" targetType="kcg_bool"/>
+            <Output inCtx="true" scadeName="MTC_AC_I1" scadeType="bool" targetName="every47" targetType="kcg_bool"/>
+            <Output inCtx="true" scadeName="MTC_AC_I2" scadeType="bool" targetName="every47" targetType="kcg_bool"/>
+            <Output inCtx="true" scadeName="MTC_AC_I3" scadeType="bool" targetName="every47" targetType="kcg_bool"/>
+            <Signal inCtx="true" scadeName="MTC_sig_1" targetName="every47"/>
+            <Signal inCtx="true" scadeName="MTC_sig_2" targetName="every47"/>
+            <Signal inCtx="true" scadeName="MTC_sig_3" targetName="every47"/>
+          </NodeInlining>
+          <NodeInlining instName="8" scadeName="MTCEx::MTC_Observers::CONTROL_MTC_OBS">
+            <Probe clockVal="kcg_true" clockVar="IfBlock1_clock" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_CONTROL_MTC_OBS_8" targetType="Result_MTC"/>
+            <ActivateEveryDefault>
+              <Condition/>
+              <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                <OutCtxVar targetName="_37_Context_LATCHALL01_MTC_1_CONTROL_MTC_OBS_8"/>
+              </NodeInstance>
+              <Default/>
+            </ActivateEveryDefault>
+          </NodeInlining>
+          <ActivateEveryDefault>
+            <Condition inCtx="true" targetName="every47"/>
+            <NodeInlining instName="4" scadeName="MTCEx::MTC_Observers::math_Mean3_MTC_OBS">
+              <Probe clockVal="kcg_true" clockVar="every47" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_math_Mean3_MTC_OBS_4" targetType="Result_MTC"/>
+              <ActivateEveryDefault>
+                <Condition/>
+                <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+                  <OutCtxVar targetName="Context_LATCHALL01_MTC_1_math_Mean3_MTC_OBS_4"/>
+                </NodeInstance>
+                <Default/>
+              </ActivateEveryDefault>
+            </NodeInlining>
+            <Default/>
+          </ActivateEveryDefault>
+        </Then>
+      </ActivateIf>
+      <NodeInlining instName="2" scadeName="math::Abs">
+        <Input inCtx="true" scadeName="MTC_AC_A_Output" scadeType="bool" targetName="every40" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::math_Abs_PATHS1_MTC_OBS">
+          <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+          <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="_1_MTC_ALL1_math_Abs_PATHS1_MTC_OBS_1_Abs_2" targetType="Result_MTC"/>
+          <ActivateEveryDefault>
+            <Condition targetName="MTC_INSTRU"/>
+            <NodeInstance instName="1" refName="LATCHALL04_MTC" scadeName="MTC::LATCHALL04">
+              <OutCtxVar targetName="_19_Context_LATCHALL04_MTC_1_math_Abs_PATHS1_MTC_OBS_1_Abs_2"/>
+            </NodeInstance>
+            <Default/>
+          </ActivateEveryDefault>
+        </NodeInlining>
+      </NodeInlining>
+      <NodeInlining instName="3" scadeName="math::Abs">
+        <Input inCtx="true" scadeName="MTC_AC_A_Output" scadeType="bool" targetName="every41" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::math_Abs_PATHS1_MTC_OBS">
+          <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+          <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_math_Abs_PATHS1_MTC_OBS_1_Abs_3" targetType="Result_MTC"/>
+          <ActivateEveryDefault>
+            <Condition targetName="MTC_INSTRU"/>
+            <NodeInstance instName="1" refName="LATCHALL04_MTC" scadeName="MTC::LATCHALL04">
+              <OutCtxVar targetName="Context_LATCHALL04_MTC_1_math_Abs_PATHS1_MTC_OBS_1_Abs_3"/>
+            </NodeInstance>
+            <Default/>
+          </ActivateEveryDefault>
+        </NodeInlining>
+      </NodeInlining>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Check_Delta_3_PATHS8_MTC_OBS">
+        <Input scadeName="MTC_CC_9_A" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Check_Delta_3_PATHS8_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL03_MTC" scadeName="MTC::LATCHALL03">
+            <OutCtxVar targetName="_18_Context_LATCHALL03_MTC_1_Check_Delta_3_PATHS8_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <ActivateEveryDefault>
+        <Condition inCtx="true" targetName="every"/>
+        <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::math_Abs_MTC_OBS">
+          <Probe clockVal="kcg_true" clockVar="every" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_math_Abs_MTC_OBS_1" targetType="Result_MTC"/>
+          <ActivateEveryDefault>
+            <Condition/>
+            <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+              <OutCtxVar targetName="Context_LATCHALL01_MTC_1_math_Abs_MTC_OBS_1"/>
+            </NodeInstance>
+            <Default/>
+          </ActivateEveryDefault>
+        </NodeInlining>
+        <Default/>
+      </ActivateEveryDefault>
+      <ActivateEveryDefault>
+        <Condition inCtx="true" targetName="every39"/>
+        <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::math_Mean3_MTC_OBS">
+          <Probe clockVal="kcg_true" clockVar="every39" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_math_Mean3_MTC_OBS_1" targetType="Result_MTC"/>
+          <ActivateEveryDefault>
+            <Condition/>
+            <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+              <OutCtxVar targetName="_12_Context_LATCHALL01_MTC_1_math_Mean3_MTC_OBS_1"/>
+            </NodeInstance>
+            <Default/>
+          </ActivateEveryDefault>
+        </NodeInlining>
+        <Default/>
+      </ActivateEveryDefault>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Check_Delta_3_PATHS9_MTC_OBS">
+        <Input scadeName="MTC_CC_12_A" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Check_Delta_3_PATHS9_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL03_MTC" scadeName="MTC::LATCHALL03">
+            <OutCtxVar targetName="_17_Context_LATCHALL03_MTC_1_Check_Delta_3_PATHS9_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <ActivateEveryDefault>
+        <Condition inCtx="true" targetName="every40"/>
+        <NodeInlining instName="2" scadeName="MTCEx::MTC_Observers::math_Abs_MTC_OBS">
+          <Probe clockVal="kcg_true" clockVar="every40" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_math_Abs_MTC_OBS_2" targetType="Result_MTC"/>
+          <ActivateEveryDefault>
+            <Condition/>
+            <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+              <OutCtxVar targetName="_13_Context_LATCHALL01_MTC_1_math_Abs_MTC_OBS_2"/>
+            </NodeInstance>
+            <Default/>
+          </ActivateEveryDefault>
+        </NodeInlining>
+        <Default/>
+      </ActivateEveryDefault>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Check_Delta_3_PATHS10_MTC_OBS">
+        <Input scadeName="MTC_CC_15_A" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Check_Delta_3_PATHS10_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL03_MTC" scadeName="MTC::LATCHALL03">
+            <OutCtxVar targetName="Context_LATCHALL03_MTC_1_Check_Delta_3_PATHS10_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <ActivateEveryDefault>
+        <Condition inCtx="true" targetName="every41"/>
+        <NodeInlining instName="3" scadeName="MTCEx::MTC_Observers::math_Abs_MTC_OBS">
+          <Probe clockVal="kcg_true" clockVar="every41" inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_math_Abs_MTC_OBS_3" targetType="Result_MTC"/>
+          <ActivateEveryDefault>
+            <Condition/>
+            <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+              <OutCtxVar targetName="_14_Context_LATCHALL01_MTC_1_math_Abs_MTC_OBS_3"/>
+            </NodeInstance>
+            <Default/>
+          </ActivateEveryDefault>
+        </NodeInlining>
+        <Default/>
+      </ActivateEveryDefault>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Check_Delta_3_PATHS11_MTC_OBS">
+        <Input scadeName="MTC_CC_18_A" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Check_Delta_3_PATHS11_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL07_MTC" scadeName="MTC::LATCHALL07">
+            <OutCtxVar targetName="Context_LATCHALL07_MTC_1_Check_Delta_3_PATHS11_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Check_Delta_3_PATHS12_MTC_OBS">
+        <Input inCtx="true" scadeName="MTC_CC_25_A" scadeType="bool" targetName="every" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Check_Delta_3_PATHS12_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+            <OutCtxVar targetName="_16_Context_LATCHALL01_MTC_1_Check_Delta_3_PATHS12_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Check_Delta_3_PATHS13_MTC_OBS">
+        <Input inCtx="true" scadeName="MTC_CC_26_A" scadeType="bool" targetName="every40" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Check_Delta_3_PATHS13_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+            <OutCtxVar targetName="_15_Context_LATCHALL01_MTC_1_Check_Delta_3_PATHS13_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Check_Delta_3_PATHS14_MTC_OBS">
+        <Input inCtx="true" scadeName="MTC_CC_27_A" scadeType="bool" targetName="every41" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Check_Delta_3_PATHS14_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+            <OutCtxVar targetName="Context_LATCHALL01_MTC_1_Check_Delta_3_PATHS14_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <Clock inCtx="true" targetName="IfBlock1_clock" targetType="kcg_bool"/>
+      <Clock inCtx="true" targetName="every" targetType="kcg_bool"/>
+      <Clock inCtx="true" targetName="every39" targetType="kcg_bool"/>
+      <Clock inCtx="true" targetName="every40" targetType="kcg_bool"/>
+      <Clock inCtx="true" targetName="every41" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_false" clockVar="else_clock_IfBlock1" inCtx="true" targetName="else_clock_else_IfBlock1" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_false" clockVar="else_clock_else_else_IfBlock1" inCtx="true" targetName="else_clock_else_else_else_IfBlock1" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_true" clockVar="_45_else_clock_else_else_else_else_IfBlock1" inCtx="true" targetName="every42" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_false" clockVar="_45_else_clock_else_else_else_else_IfBlock1" inCtx="true" targetName="else_clock_else_else_else_else_else_IfBlock1" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_false" clockVar="else_clock_else_else_else_else_else_IfBlock1" inCtx="true" targetName="every43" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_true" clockVar="else_clock_else_else_else_else_else_IfBlock1" inCtx="true" targetName="every44" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_false" clockVar="else_clock_else_else_else_IfBlock1" inCtx="true" targetName="_45_else_clock_else_else_else_else_IfBlock1" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_true" clockVar="else_clock_else_else_else_IfBlock1" inCtx="true" targetName="every46" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_false" clockVar="else_clock_else_IfBlock1" inCtx="true" targetName="else_clock_else_else_IfBlock1" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_false" clockVar="IfBlock1_clock" inCtx="true" targetName="else_clock_IfBlock1" targetType="kcg_bool"/>
+      <Clock clockVal="kcg_true" clockVar="IfBlock1_clock" inCtx="true" targetName="every47" targetType="kcg_bool"/>
+      <OutCtxType targetName="outC_Check_Delta_3"/>
+    </NoExpNode>
+    <NoExpNode headerFile="Mean_10_Table.h" scadeName="Mean_10_Table" targetCycleFct="Mean_10_Table" targetInitFct="Mean_10_Table_reset" targetInitializationFct="Mean_10_Table_init">
+      <Input scadeName="Input1" scadeType="Ten_Values_Table" targetName="Input1" targetType="Ten_Values_Table"/>
+      <Input scadeName="MTC_AC_Outputs" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+      <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+      <Output inCtx="true" scadeName="Temperature" scadeType="float64" targetName="Temperature" targetType="kcg_float64"/>
+      <Output inCtx="true" scadeName="pH" scadeType="float64" targetName="pH" targetType="kcg_float64"/>
+      <Output inCtx="true" scadeName="Redox" scadeType="float64" targetName="Redox" targetType="kcg_float64"/>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Mean_10_Table_PATHS1_MTC_OBS">
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Mean_10_Table_PATHS1_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+            <OutCtxVar targetName="_10_Context_LATCHALL01_MTC_1_Mean_10_Table_PATHS1_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Mean_10_Table_PATHS2_MTC_OBS">
+        <Input scadeName="MTC_CC_2_A" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Mean_10_Table_PATHS2_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+            <OutCtxVar targetName="_9_Context_LATCHALL01_MTC_1_Mean_10_Table_PATHS2_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Mean_10_Table_PATHS3_MTC_OBS">
+        <Input scadeName="MTC_CC_3_A" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Mean_10_Table_PATHS3_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+            <OutCtxVar targetName="_8_Context_LATCHALL01_MTC_1_Mean_10_Table_PATHS3_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Mean_10_Table_PATHS4_MTC_OBS">
+        <Input scadeName="MTC_CC_4_A" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Mean_10_Table_PATHS4_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+            <OutCtxVar targetName="_7_Context_LATCHALL01_MTC_1_Mean_10_Table_PATHS4_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Mean_10_Table_PATHS5_MTC_OBS">
+        <Input scadeName="MTC_CC_5_A" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Mean_10_Table_PATHS5_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+            <OutCtxVar targetName="_6_Context_LATCHALL01_MTC_1_Mean_10_Table_PATHS5_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Mean_10_Table_PATHS6_MTC_OBS">
+        <Input scadeName="MTC_CC_6_A" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Mean_10_Table_PATHS6_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+            <OutCtxVar targetName="_5_Context_LATCHALL01_MTC_1_Mean_10_Table_PATHS6_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Mean_10_Table_PATHS7_MTC_OBS">
+        <Input scadeName="MTC_CC_7_A" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Mean_10_Table_PATHS7_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+            <OutCtxVar targetName="_4_Context_LATCHALL01_MTC_1_Mean_10_Table_PATHS7_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Mean_10_Table_PATHS8_MTC_OBS">
+        <Input scadeName="MTC_CC_8_A" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Mean_10_Table_PATHS8_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+            <OutCtxVar targetName="_3_Context_LATCHALL01_MTC_1_Mean_10_Table_PATHS8_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Mean_10_Table_PATHS9_MTC_OBS">
+        <Input scadeName="MTC_CC_9_A" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Mean_10_Table_PATHS9_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+            <OutCtxVar targetName="_2_Context_LATCHALL01_MTC_1_Mean_10_Table_PATHS9_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Mean_10_Table_PATHS10_MTC_OBS">
+        <Input scadeName="MTC_CC_10_A" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Mean_10_Table_PATHS10_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+            <OutCtxVar targetName="_1_Context_LATCHALL01_MTC_1_Mean_10_Table_PATHS10_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <NodeInlining instName="1" scadeName="MTCEx::MTC_Observers::Mean_10_Table_PATHS11_MTC_OBS">
+        <Input scadeName="MTC_CC_11_A" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+        <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+        <Probe inCtx="true" scadeName="MTC_ALL1" scadeType="MTC::Result" targetName="MTC_ALL1_Mean_10_Table_PATHS11_MTC_OBS_1" targetType="Result_MTC"/>
+        <ActivateEveryDefault>
+          <Condition targetName="MTC_INSTRU"/>
+          <NodeInstance instName="1" refName="LATCHALL01_MTC" scadeName="MTC::LATCHALL01">
+            <OutCtxVar targetName="Context_LATCHALL01_MTC_1_Mean_10_Table_PATHS11_MTC_OBS_1"/>
+          </NodeInstance>
+          <Default/>
+        </ActivateEveryDefault>
+      </NodeInlining>
+      <OutCtxType targetName="outC_Mean_10_Table"/>
+    </NoExpNode>
+    <NoExpNode headerFile="Push_Table.h" scadeName="Push_Table" targetCycleFct="Push_Table">
+      <Input scadeName="Input1" scadeType="Ten_Values_Table" targetName="Input1" targetType="Ten_Values_Table"/>
+      <Input scadeName="newData" scadeType="Data" targetName="newData" targetType="Data"/>
+      <Input scadeName="MTC_AC_Outputs" scadeType="bool" targetName="MTC_AC_Outputs" targetType="kcg_bool"/>
+      <Input scadeName="MTC_INSTRU" scadeType="bool" targetName="MTC_INSTRU" targetType="kcg_bool"/>
+      <Output scadeName="Output1" scadeType="Ten_Values_Table" targetName="Output1" targetType="Ten_Values_Table"/>
+    </NoExpNode>
+    <Package scadeName="digital"/>
+    <Package scadeName="truthtables">
+      <EnumType scadeName="TruthTableValues" targetName="TruthTableValues_truthtables">
+        <EnumVal scadeName="T" targetName="T_truthtables"/>
+        <EnumVal scadeName="F" targetName="F_truthtables"/>
+        <EnumVal scadeName="X" targetName="X_truthtables"/>
+      </EnumType>
+    </Package>
+    <Package scadeName="MTC">
+      <ImportedType scadeName="Result" targetInitializationFct="Result_MTC_init" targetName="Result_MTC"/>
+      <NoExpNode headerFile="LATCHALL01_MTC.h" imported="true" scadeName="LATCHALL01" targetCycleFct="LATCHALL01_MTC" targetInitFct="LATCHALL01_MTC_reset" targetInitializationFct="LATCHALL01_MTC_init">
+        <Input scadeName="Input1" scadeType="bool" targetName="Input1" targetType="kcg_bool"/>
+        <Output inCtx="true" scadeName="Output1" scadeType="MTC::Result" targetName="Output1" targetType="Result_MTC"/>
+        <OutCtxType targetName="outC_LATCHALL01_MTC"/>
+      </NoExpNode>
+      <NoExpNode headerFile="LATCHALL02_MTC.h" imported="true" scadeName="LATCHALL02" targetCycleFct="LATCHALL02_MTC" targetInitFct="LATCHALL02_MTC_reset" targetInitializationFct="LATCHALL02_MTC_init">
+        <Input scadeName="Input1" scadeType="bool" targetName="Input1" targetType="kcg_bool"/>
+        <Input scadeName="Input2" scadeType="bool" targetName="Input2" targetType="kcg_bool"/>
+        <Output inCtx="true" scadeName="Output1" scadeType="MTC::Result" targetName="Output1" targetType="Result_MTC"/>
+        <OutCtxType targetName="outC_LATCHALL02_MTC"/>
+      </NoExpNode>
+      <NoExpNode headerFile="LATCHALL03_MTC.h" imported="true" scadeName="LATCHALL03" targetCycleFct="LATCHALL03_MTC" targetInitFct="LATCHALL03_MTC_reset" targetInitializationFct="LATCHALL03_MTC_init">
+        <Input scadeName="Input1" scadeType="bool" targetName="Input1" targetType="kcg_bool"/>
+        <Input scadeName="Input2" scadeType="bool" targetName="Input2" targetType="kcg_bool"/>
+        <Input scadeName="Input3" scadeType="bool" targetName="Input3" targetType="kcg_bool"/>
+        <Output inCtx="true" scadeName="Output1" scadeType="MTC::Result" targetName="Output1" targetType="Result_MTC"/>
+        <OutCtxType targetName="outC_LATCHALL03_MTC"/>
+      </NoExpNode>
+      <NoExpNode headerFile="LATCHALL04_MTC.h" imported="true" scadeName="LATCHALL04" targetCycleFct="LATCHALL04_MTC" targetInitFct="LATCHALL04_MTC_reset" targetInitializationFct="LATCHALL04_MTC_init">
+        <Input scadeName="Input1" scadeType="bool" targetName="Input1" targetType="kcg_bool"/>
+        <Input scadeName="Input2" scadeType="bool" targetName="Input2" targetType="kcg_bool"/>
+        <Input scadeName="Input3" scadeType="bool" targetName="Input3" targetType="kcg_bool"/>
+        <Input scadeName="Input4" scadeType="bool" targetName="Input4" targetType="kcg_bool"/>
+        <Output inCtx="true" scadeName="Output1" scadeType="MTC::Result" targetName="Output1" targetType="Result_MTC"/>
+        <OutCtxType targetName="outC_LATCHALL04_MTC"/>
+      </NoExpNode>
+      <NoExpNode headerFile="LATCHALL05_MTC.h" imported="true" scadeName="LATCHALL05" targetCycleFct="LATCHALL05_MTC" targetInitFct="LATCHALL05_MTC_reset" targetInitializationFct="LATCHALL05_MTC_init">
+        <Input scadeName="Input1" scadeType="bool" targetName="Input1" targetType="kcg_bool"/>
+        <Input scadeName="Input2" scadeType="bool" targetName="Input2" targetType="kcg_bool"/>
+        <Input scadeName="Input3" scadeType="bool" targetName="Input3" targetType="kcg_bool"/>
+        <Input scadeName="Input4" scadeType="bool" targetName="Input4" targetType="kcg_bool"/>
+        <Input scadeName="Input5" scadeType="bool" targetName="Input5" targetType="kcg_bool"/>
+        <Output inCtx="true" scadeName="Output1" scadeType="MTC::Result" targetName="Output1" targetType="Result_MTC"/>
+        <OutCtxType targetName="outC_LATCHALL05_MTC"/>
+      </NoExpNode>
+      <NoExpNode headerFile="LATCHALL06_MTC.h" imported="true" scadeName="LATCHALL06" targetCycleFct="LATCHALL06_MTC" targetInitFct="LATCHALL06_MTC_reset" targetInitializationFct="LATCHALL06_MTC_init">
+        <Input scadeName="Input1" scadeType="bool" targetName="Input1" targetType="kcg_bool"/>
+        <Input scadeName="Input2" scadeType="bool" targetName="Input2" targetType="kcg_bool"/>
+        <Input scadeName="Input3" scadeType="bool" targetName="Input3" targetType="kcg_bool"/>
+        <Input scadeName="Input4" scadeType="bool" targetName="Input4" targetType="kcg_bool"/>
+        <Input scadeName="Input5" scadeType="bool" targetName="Input5" targetType="kcg_bool"/>
+        <Input scadeName="Input6" scadeType="bool" targetName="Input6" targetType="kcg_bool"/>
+        <Output inCtx="true" scadeName="Output1" scadeType="MTC::Result" targetName="Output1" targetType="Result_MTC"/>
+        <OutCtxType targetName="outC_LATCHALL06_MTC"/>
+      </NoExpNode>
+      <NoExpNode headerFile="LATCHALL07_MTC.h" imported="true" scadeName="LATCHALL07" targetCycleFct="LATCHALL07_MTC" targetInitFct="LATCHALL07_MTC_reset" targetInitializationFct="LATCHALL07_MTC_init">
+        <Input scadeName="Input1" scadeType="bool" targetName="Input1" targetType="kcg_bool"/>
+        <Input scadeName="Input2" scadeType="bool" targetName="Input2" targetType="kcg_bool"/>
+        <Input scadeName="Input3" scadeType="bool" targetName="Input3" targetType="kcg_bool"/>
+        <Input scadeName="Input4" scadeType="bool" targetName="Input4" targetType="kcg_bool"/>
+        <Input scadeName="Input5" scadeType="bool" targetName="Input5" targetType="kcg_bool"/>
+        <Input scadeName="Input6" scadeType="bool" targetName="Input6" targetType="kcg_bool"/>
+        <Input scadeName="Input7" scadeType="bool" targetName="Input7" targetType="kcg_bool"/>
+        <Output inCtx="true" scadeName="Output1" scadeType="MTC::Result" targetName="Output1" targetType="Result_MTC"/>
+        <OutCtxType targetName="outC_LATCHALL07_MTC"/>
+      </NoExpNode>
+      <NoExpNode headerFile="LATCHALL12_MTC.h" imported="true" scadeName="LATCHALL12" targetCycleFct="LATCHALL12_MTC" targetInitFct="LATCHALL12_MTC_reset" targetInitializationFct="LATCHALL12_MTC_init">
+        <Input scadeName="Input1" scadeType="bool" targetName="Input1" targetType="kcg_bool"/>
+        <Input scadeName="Input2" scadeType="bool" targetName="Input2" targetType="kcg_bool"/>
+        <Input scadeName="Input3" scadeType="bool" targetName="Input3" targetType="kcg_bool"/>
+        <Input scadeName="Input4" scadeType="bool" targetName="Input4" targetType="kcg_bool"/>
+        <Input scadeName="Input5" scadeType="bool" targetName="Input5" targetType="kcg_bool"/>
+        <Input scadeName="Input6" scadeType="bool" targetName="Input6" targetType="kcg_bool"/>
+        <Input scadeName="Input7" scadeType="bool" targetName="Input7" targetType="kcg_bool"/>
+        <Input scadeName="Input8" scadeType="bool" targetName="Input8" targetType="kcg_bool"/>
+        <Input scadeName="Input9" scadeType="bool" targetName="Input9" targetType="kcg_bool"/>
+        <Input scadeName="Input10" scadeType="bool" targetName="Input10" targetType="kcg_bool"/>
+        <Input scadeName="Input11" scadeType="bool" targetName="Input11" targetType="kcg_bool"/>
+        <Input scadeName="Input12" scadeType="bool" targetName="Input12" targetType="kcg_bool"/>
+        <Output inCtx="true" scadeName="Output1" scadeType="MTC::Result" targetName="Output1" targetType="Result_MTC"/>
+        <OutCtxType targetName="outC_LATCHALL12_MTC"/>
+      </NoExpNode>
+    </Package>
+    <Package scadeName="MTCEx">
+      <Package scadeName="MTC_Observers">
+        <ExpNode scadeName="Check_interval_Temperature_PATHS1_MTC_OBS"/>
+        <ExpNode scadeName="Check_interval_pH_PATHS1_MTC_OBS"/>
+        <ExpNode scadeName="Check_interval_Redox_PATHS1_MTC_OBS"/>
+        <ExpNode scadeName="Mean_10_Table_PATHS1_MTC_OBS"/>
+        <ExpNode scadeName="Mean_10_Table_PATHS2_MTC_OBS"/>
+        <ExpNode scadeName="Mean_10_Table_PATHS3_MTC_OBS"/>
+        <ExpNode scadeName="Mean_10_Table_PATHS4_MTC_OBS"/>
+        <ExpNode scadeName="Mean_10_Table_PATHS5_MTC_OBS"/>
+        <ExpNode scadeName="Mean_10_Table_PATHS6_MTC_OBS"/>
+        <ExpNode scadeName="Mean_10_Table_PATHS7_MTC_OBS"/>
+        <ExpNode scadeName="Mean_10_Table_PATHS8_MTC_OBS"/>
+        <ExpNode scadeName="Mean_10_Table_PATHS9_MTC_OBS"/>
+        <ExpNode scadeName="Mean_10_Table_PATHS10_MTC_OBS"/>
+        <ExpNode scadeName="Mean_10_Table_PATHS11_MTC_OBS"/>
+        <ExpNode scadeName="math_Abs_PATHS1_MTC_OBS"/>
+        <ExpNode scadeName="Check_Delta_3_PATHS1_MTC_OBS"/>
+        <ExpNode scadeName="CONTROL_MTC_OBS"/>
+        <ExpNode scadeName="Check_Delta_3_PATHS2_MTC_OBS"/>
+        <ExpNode scadeName="Check_Delta_3_PATHS3_MTC_OBS"/>
+        <ExpNode scadeName="Check_Delta_3_PATHS4_MTC_OBS"/>
+        <ExpNode scadeName="Check_Delta_3_PATHS5_MTC_OBS"/>
+        <ExpNode scadeName="Check_Delta_3_PATHS6_MTC_OBS"/>
+        <ExpNode scadeName="Check_Delta_3_PATHS7_MTC_OBS"/>
+        <ExpNode scadeName="math_Mean3_MTC_OBS"/>
+        <ExpNode scadeName="math_Mean_MTC_OBS"/>
+        <ExpNode scadeName="Check_Delta_3_PATHS8_MTC_OBS"/>
+        <ExpNode scadeName="math_Abs_MTC_OBS"/>
+        <ExpNode scadeName="Check_Delta_3_PATHS9_MTC_OBS"/>
+        <ExpNode scadeName="Check_Delta_3_PATHS10_MTC_OBS"/>
+        <ExpNode scadeName="Check_Delta_3_PATHS11_MTC_OBS"/>
+        <ExpNode scadeName="Check_Delta_3_PATHS12_MTC_OBS"/>
+        <ExpNode scadeName="Check_Delta_3_PATHS13_MTC_OBS"/>
+        <ExpNode scadeName="Check_Delta_3_PATHS14_MTC_OBS"/>
+        <ExpNode scadeName="Calculated_value_PATHS1_MTC_OBS"/>
+        <ExpNode scadeName="Calculated_value_PATHS2_MTC_OBS"/>
+        <ExpNode scadeName="Calculated_value_PATHS3_MTC_OBS"/>
+        <ExpNode scadeName="Calculated_value_PATHS4_MTC_OBS"/>
+        <ExpNode scadeName="Calculated_value_PATHS5_MTC_OBS"/>
+        <ExpNode scadeName="Calculated_value_PATHS6_MTC_OBS"/>
+        <ExpNode scadeName="Calculated_value_PATHS7_MTC_OBS"/>
+        <ExpNode scadeName="Check_Delta_3_1111_MTC_OBS"/>
+        <ExpNode scadeName="Calculated_value_PATHS8_MTC_OBS"/>
+        <ExpNode scadeName="Calculated_value_PATHS9_MTC_OBS"/>
+        <ExpNode scadeName="Calculated_value_PATHS10_MTC_OBS"/>
+        <ExpNode scadeName="Vote_Alog_PATHS1_MTC_OBS"/>
+        <ExpNode scadeName="Vote_Alog_PATHS2_MTC_OBS"/>
+        <ExpNode scadeName="Calculated_value_1110_MTC_OBS"/>
+        <ExpNode scadeName="Check_interval_pH_1_MTC_OBS"/>
+        <ExpNode scadeName="Vote_Alog_PATHS3_MTC_OBS"/>
+        <ExpNode scadeName="Vote_Alog_PATHS4_MTC_OBS"/>
+        <ExpNode scadeName="Check_interval_Temperature_1_MTC_OBS"/>
+        <ExpNode scadeName="Vote_Alog_PATHS5_MTC_OBS"/>
+        <ExpNode scadeName="Vote_Alog_PATHS6_MTC_OBS"/>
+        <ExpNode scadeName="Check_interval_Redox_1_MTC_OBS"/>
+        <ExpNode scadeName="Controller_PATHS1_MTC_OBS"/>
+        <ExpNode scadeName="STATE_MTC_OBS"/>
+        <ExpNode scadeName="TRANSITION_MTC_OBS"/>
+        <ExpNode scadeName="Controller_PATHS2_MTC_OBS"/>
+        <ExpNode scadeName="Controller_PATHS3_MTC_OBS"/>
+        <ExpNode scadeName="Controller_PATHS4_MTC_OBS"/>
+        <ExpNode scadeName="Controller_PATHS5_MTC_OBS"/>
+        <ExpNode scadeName="Controller_PATHS6_MTC_OBS"/>
+        <ExpNode scadeName="Controller_PATHS7_MTC_OBS"/>
+        <ExpNode scadeName="Controller_PATHS8_MTC_OBS"/>
+        <ExpNode scadeName="Controller_PATHS9_MTC_OBS"/>
+        <ExpNode scadeName="Vote_Alog_111_MTC_OBS"/>
+        <ExpNode scadeName="Controller_PATHS10_MTC_OBS"/>
+        <ExpNode scadeName="Controller_PATHS11_MTC_OBS"/>
+        <ExpNode scadeName="Controller_PATHS12_MTC_OBS"/>
+        <ExpNode scadeName="Push_Table_11_MTC_OBS"/>
+        <ExpNode scadeName="Controller_PATHS13_MTC_OBS"/>
+        <ExpNode scadeName="Mean_10_Table_1_MTC_OBS"/>
+        <ExpNode scadeName="Controller_PATHS14_MTC_OBS"/>
+        <ExpNode scadeName="Controller_PATHS15_MTC_OBS"/>
+        <ExpNode scadeName="Controller_PATHS16_MTC_OBS"/>
+        <ExpNode scadeName="Controller_PATHS17_MTC_OBS"/>
+      </Package>
+      <Package scadeName="MTC_Instrumenters">
+        <ExpNode scadeName="Check_Delta_3_IfBlock1_MTC_INST"/>
+        <ExpNode scadeName="Check_Delta_3_IfBlock1_else_MTC_INST"/>
+        <ExpNode scadeName="Check_Delta_3_IfBlock1_else_else_MTC_INST"/>
+        <ExpNode scadeName="Check_Delta_3_IfBlock1_else_else_else_MTC_INST"/>
+        <ExpNode scadeName="Check_Delta_3_IfBlock1_else_else_else_else_MTC_INST"/>
+        <ExpNode scadeName="Check_Delta_3_IfBlock1_else_else_else_else_else_MTC_INST"/>
+        <ExpNode scadeName="Check_Delta_3_IfBlock1_else_else_else_else_else_else_MTC_INST"/>
+        <ExpNode scadeName="Calculated_value_IfBlock1_MTC_INST"/>
+        <ExpNode scadeName="Calculated_value_IfBlock1_else_MTC_INST"/>
+        <ExpNode scadeName="Calculated_value_IfBlock1_else_else_MTC_INST"/>
+        <ExpNode scadeName="Calculated_value_IfBlock1_else_else_else_MTC_INST"/>
+        <ExpNode scadeName="Calculated_value_IfBlock1_else_else_else_else_MTC_INST"/>
+        <ExpNode scadeName="Calculated_value_IfBlock1_else_else_else_else_else_MTC_INST"/>
+        <ExpNode scadeName="Calculated_value_IfBlock1_else_else_else_else_else_else_MTC_INST"/>
+        <ExpNode scadeName="Controller_MTC_Send_Data_def_MTC_INST"/>
+        <ExpNode scadeName="Controller_store_last_MTC_INST"/>
+        <ExpNode scadeName="Controller_Store_Time_def_MTC_INST"/>
+        <ExpNode scadeName="Controller_timeout_def_MTC_INST"/>
+        <ExpNode scadeName="Controller_SM1_Normal_Station_2_MTC_INST"/>
+        <ExpNode scadeName="Controller_SM1_Normal_Station_1_MTC_INST"/>
+        <ExpNode scadeName="Controller_SM1_Calculate_2_MTC_INST"/>
+        <ExpNode scadeName="Controller_SM1_Calculate_1_MTC_INST"/>
+        <ExpNode scadeName="Controller_SM1_Pollution_2_MTC_INST"/>
+        <ExpNode scadeName="Controller_SM1_Pollution_1_MTC_INST"/>
+        <ExpNode scadeName="Controller_SM1_Timer_1_MTC_INST"/>
+        <ExpNode scadeName="Controller_SM1_Calculate_IfBlock1_MTC_INST"/>
+      </Package>
+    </Package>
+    <Package scadeName="MTC_Utils">
+      <NoExpNode headerFile="GenericInputChanged_MTC_Utils_float64.h" imported="true" scadeName="GenericInputChanged" targetCycleFct="GenericInputChanged_MTC_Utils_float64" targetInitFct="GenericInputChanged_reset_MTC_Utils_float64" targetInitializationFct="GenericInputChanged_init_MTC_Utils_float64">
+        <Input scadeName="Input" scadeType="float64" targetName="Input" targetType="kcg_float64"/>
+        <Output inCtx="true" scadeName="Output" scadeType="bool" targetName="Output" targetType="kcg_bool"/>
+        <OutCtxType targetName="outC_GenericInputChanged_MTC_Utils_float64"/>
+      </NoExpNode>
+      <NoExpNode headerFile="_2_GenericInputChanged_MTC_Utils_float643.h" imported="true" scadeName="GenericInputChanged" targetCycleFct="_2_GenericInputChanged_MTC_Utils_float643" targetInitFct="_2_GenericInputChanged_reset_MTC_Utils_float643" targetInitializationFct="_2_GenericInputChanged_init_MTC_Utils_float643">
+        <Input scadeName="Input" scadeType="float64^(3)" targetName="Input" targetType="Data"/>
+        <Output inCtx="true" scadeName="Output" scadeType="bool" targetName="Output" targetType="kcg_bool"/>
+        <OutCtxType targetName="outC__2_GenericInputChanged_MTC_Utils_float643"/>
+      </NoExpNode>
+      <NoExpNode headerFile="_3_GenericInputChanged_MTC_Utils_float64310.h" imported="true" scadeName="GenericInputChanged" targetCycleFct="_3_GenericInputChanged_MTC_Utils_float64310" targetInitFct="_3_GenericInputChanged_reset_MTC_Utils_float64310" targetInitializationFct="_3_GenericInputChanged_init_MTC_Utils_float64310">
+        <Input scadeName="Input" scadeType="float64^(3)^(10)" targetName="Input" targetType="Ten_Values_Table"/>
+        <Output inCtx="true" scadeName="Output" scadeType="bool" targetName="Output" targetType="kcg_bool"/>
+        <OutCtxType targetName="outC__3_GenericInputChanged_MTC_Utils_float64310"/>
+      </NoExpNode>
+    </Package>
+    <Package scadeName="linear"/>
+    <Package scadeName="filters"/>
+    <Package scadeName="vect"/>
+    <Package scadeName="math">
+      <ExpNode scadeName="Abs"/>
+      <ExpNode scadeName="Mean3"/>
+      <ExpNode scadeName="Mean"/>
+    </Package>
+    <Package scadeName="mathext">
+      <Package scadeName="mathextimpl"/>
+    </Package>
+    <Package scadeName="pwlinear"/>
+    <Package scadeName="lut"/>
+    <Package scadeName="verif"/>
+    <ArrayType cellType="Data" size="10" targetCompFct="kcg_comp_Ten_Values_Table" targetCopyFct="kcg_copy_Ten_Values_Table" targetName="Ten_Values_Table"/>
+    <ArrayType cellType="Data" size="9" targetCompFct="kcg_comp_array_float64_3_9" targetCopyFct="kcg_copy_array_float64_3_9" targetName="array_float64_3_9"/>
+    <ArrayType cellType="kcg_float64" size="3" targetCompFct="kcg_comp_Data" targetCopyFct="kcg_copy_Data" targetName="Data"/>
+    <StructType targetCompFct="kcg_comp_Statation_data" targetCopyFct="kcg_copy_Statation_data" targetName="Statation_data">
+      <Field scadeName="Temperature" scadeType="kcg_float64" targetName="Temperature" targetType="kcg_float64"/>
+      <Field scadeName="pH" scadeType="kcg_float64" targetName="pH" targetType="kcg_float64"/>
+      <Field scadeName="Redox" scadeType="kcg_float64" targetName="Redox" targetType="kcg_float64"/>
+      <Field scadeName="Position" scadeType="position" targetName="Position" targetType="position"/>
+      <Field scadeName="Time" scadeType="kcg_float64" targetName="Time" targetType="kcg_float64"/>
+    </StructType>
+    <ArrayType cellType="kcg_float64" size="2" targetCompFct="kcg_comp_position" targetCopyFct="kcg_copy_position" targetName="position"/>
+    <PredefType scadeName="int8" targetName="kcg_int8"/>
+    <PredefType scadeName="int16" targetName="kcg_int16"/>
+    <PredefType scadeName="int32" targetName="kcg_int32"/>
+    <PredefType scadeName="int64" targetName="kcg_int64"/>
+    <PredefType scadeName="uint8" targetName="kcg_uint8"/>
+    <PredefType scadeName="uint16" targetName="kcg_uint16"/>
+    <PredefType scadeName="uint32" targetName="kcg_uint32"/>
+    <PredefType scadeName="uint64" targetName="kcg_uint64"/>
+    <PredefType scadeName="size" targetName="kcg_size"/>
+    <PredefType scadeName="float32" targetName="kcg_float32"/>
+    <PredefType scadeName="float64" targetName="kcg_float64"/>
+    <PredefType scadeName="bool" targetName="kcg_bool"/>
+    <PredefType scadeName="char" targetName="kcg_char"/>
+  </Model>

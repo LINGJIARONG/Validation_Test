@@ -1,0 +1,368 @@
+Warning: 'C:\Program Files\ANSYS Inc\v192\SCADE\SCADE\libraries\SC65\libdigital\Relay.ssl' does not exist.
+Warning: 'C:\Program Files\ANSYS Inc\v192\SCADE\SCADE\libraries\SC65\libmath\Selector.ssl' does not exist.
+Warning: 'C:\Program Files\ANSYS Inc\v192\SCADE\SCADE\libraries\SC65\libmath\PolynomialStep.ssl' does not exist.
+Warning: 'C:\Program Files\ANSYS Inc\v192\SCADE\SCADE\libraries\SC65\libmath\Polynomial.ssl' does not exist.
+Warning: 'C:\Program Files\ANSYS Inc\v192\SCADE\SCADE\libraries\SC65\libmath\ModR.ssl' does not exist.
+Warning: 'C:\Program Files\ANSYS Inc\v192\SCADE\SCADE\libraries\SC65\libmathext\PolarToCartesian.ssl' does not exist.
+Warning: 'C:\Program Files\ANSYS Inc\v192\SCADE\SCADE\libraries\SC65\libpwlinear\MinReset.ssl' does not exist.
+Warning: 'C:\Program Files\ANSYS Inc\v192\SCADE\SCADE\libraries\SC65\libpwlinear\MaxReset.ssl' does not exist.
+Warning: Invalid instance name: 'truthtables::TruthTableExh/A1 FOLD#1'.
+Warning: Invalid instance name: 'vect::BuildArray/_L1 MAPFOLD#1'.
+Warning: Invalid instance name: 'vect::Selector/_L1 MAP#1'.
+Warning: Invalid instance name: 'math::Polynomial/_L1 FOLD#1'.
+'digital::FallingEdgeNoRetrigger': PRE operator replaced by FBY at 'fby#pre1'.
+'digital::FallingEdgeRetrigger': PRE operator replaced by FBY at 'fby#pre10'.
+'digital::FlipFlopReset': PRE operator replaced by FBY at 'fby#pre4'.
+'digital::FlipFlopSet': PRE operator replaced by FBY at 'fby#pre4'.
+'digital::RisingEdgeRetrigger': PRE operator replaced by FBY at 'fby#pre1'.
+'digital::RisingEdgeNoRetrigger': PRE operator replaced by FBY at 'fby#pre11'.
+'digital::count_down': PRE operator replaced by FBY at 'fby#pre8'.
+'linear::Derivative': PRE operator replaced by FBY at 'fby#pre2'.
+'linear::Filter1stOrderLoop': PRE operator replaced by FBY at 'fby#pre6'.
+'linear::HitCrossingFalling': PRE operator replaced by FBY at 'fby#pre4'.
+'linear::HitCrossingRising': PRE operator replaced by FBY at 'fby#pre4'.
+'linear::DetectRisePositive': PRE operator replaced by FBY at 'fby#pre1'.
+'linear::DetectRiseNonNegative': PRE operator replaced by FBY at 'fby#pre1'.
+'linear::DetectFallNonPositive': PRE operator replaced by FBY at 'fby#pre1'.
+'linear::DetectFallNegative': PRE operator replaced by FBY at 'fby#pre1'.
+'linear::IntegralBackward': PRE operator replaced by FBY at 'fby#pre1'.
+'linear::IntegralTrapezoid': PRE operator replaced by FBY at 'fby#pre1'.
+'pwlinear::ClockCounter': PRE operator replaced by FBY at 'fby#pre4'.
+'pwlinear::FallingHysteresis': PRE operator replaced by FBY at 'fby#pre3'.
+'pwlinear::RisingHysteresis': PRE operator replaced by FBY at 'fby#pre4'.
+'pwlinear::CheckSlope': PRE operator replaced by FBY at 'fby#pre1'.
+'verif::HasNeverBeenTrue': PRE operator replaced by FBY at 'fby#pre4'.
+'verif::AtLeastNTicks': PRE operator replaced by FBY at 'fby#pre5'.
+Operator(Check_interval_Temperature/): Visit
+    DataDef(Check_interval_Temperature/): Process
+Operator(Check_interval_pH/): Visit
+    DataDef(Check_interval_pH/): Process
+Operator(Check_interval_Redox/): Visit
+    DataDef(Check_interval_Redox/): Process
+Operator(Check_normal_pH/): Skip
+Operator(Check_normal_Temperature/): Skip
+Operator(Check_normal_Redox/): Skip
+Operator(Mean_10_Table/): Visit
+    DataDef(Mean_10_Table/): Process
+Operator(Push_Table/): Visit
+    DataDef(Push_Table/): Process
+Operator(digital::FallingEdge/): Skip
+Operator(digital::FlipFlopJK/): Skip
+Operator(digital::FlipFlopReset/): Skip
+Operator(digital::FlipFlopSet/): Skip
+Operator(digital::RisingEdge/): Skip
+Operator(digital::Toggle/): Skip
+Operator(digital::count_down/): Skip
+Operator(digital::EitherEdge/): Skip
+Operator(digital::BoolVect2IntElt/): Skip
+Operator(digital::Int2BoolVectElt/): Skip
+Operator(digital::BoolVect2Int8/): Skip
+Operator(digital::Int2BoolVect/): Skip
+Operator(digital::BoolVect2Int16/): Skip
+Operator(digital::BoolVect2Uint16/): Skip
+Operator(digital::BoolVect2Uint32/): Skip
+Operator(digital::BoolVect2Uint64/): Skip
+Operator(digital::BoolVect2Uint8/): Skip
+Operator(digital::BoolVect2Int32/): Skip
+Operator(digital::BoolVect2Int64/): Skip
+Operator(digital::InactiveTime/): Skip
+Operator(digital::InactiveCycles/): Skip
+Operator(digital::Relay/): Skip
+Operator(digital::EntryDetect/): Skip
+Operator(truthtables::TruthTableElt/): Skip
+Operator(truthtables::TruthTableLineIdx/): Skip
+Operator(truthtables::TruthTableIdx/): Skip
+Operator(truthtables::TruthTableExh/): Skip
+Operator(truthtables::TruthTableLine/): Skip
+Operator(truthtables::TruthTable/): Skip
+Operator(linear::Gain/): Skip
+Operator(linear::MeanCycle2/): Skip
+Operator(linear::MeanCycle3/): Skip
+Operator(linear::Derivative/): Skip
+Operator(linear::Filter1stOrderLoop/): Skip
+Operator(linear::Memory/): Skip
+Operator(linear::HitCrossingEither/): Skip
+Operator(linear::HitCrossingFalling/): Skip
+Operator(linear::HitCrossingRising/): Skip
+Operator(linear::MemoryBasic/): Skip
+Operator(linear::Backlash/): Skip
+Operator(linear::DetectRisePositive/): Skip
+Operator(linear::DetectRiseNonNegative/): Skip
+Operator(linear::DetectIncrease/): Skip
+Operator(linear::DetectFallNonPositive/): Skip
+Operator(linear::DetectFallNegative/): Skip
+Operator(linear::DetectDecrease/): Skip
+Operator(linear::DetectChange/): Skip
+Operator(linear::IntegralBackward/): Skip
+Operator(linear::IntegralTrapezoid/): Skip
+Operator(linear::IntegralForward/): Skip
+Operator(linear::IntegrTrapez/): Skip
+Operator(linear::IntegrFwd/): Skip
+Operator(filters::TransferFcn01/): Skip
+Operator(filters::SumDelay/): Skip
+Operator(filters::Filter01/): Skip
+Operator(filters::Filter11/): Skip
+Operator(filters::Filter0D/): Skip
+Operator(filters::FilterNN/): Skip
+Operator(filters::FilterND/): Skip
+Operator(filters::TransferFcn02/): Skip
+Operator(filters::Filter02/): Skip
+Operator(filters::TransferFcn0D/): Skip
+Operator(filters::Filter01Norm/): Skip
+Operator(filters::Filter12/): Skip
+Operator(filters::TransferFcn12/): Skip
+Operator(filters::TransferFcnND/): Skip
+Operator(filters::Filter02Norm/): Skip
+Operator(filters::Filter11Norm/): Skip
+Operator(filters::Filter12Norm/): Skip
+Operator(filters::Filter0DNorm/): Skip
+Operator(filters::FilterNDNorm/): Skip
+Operator(filters::FilterNNNorm/): Skip
+Operator(vect::ScalProd/): Skip
+Operator(vect::MatVectProd/): Skip
+Operator(vect::VectMatProd/): Skip
+Operator(vect::Det4x4/): Skip
+Operator(vect::Det3x3/): Skip
+Operator(vect::Det2x2/): Skip
+Operator(vect::VectSub/): Skip
+Operator(vect::VectAdd/): Skip
+Operator(vect::SumDup/): Skip
+Operator(vect::SelectorHelper/): Skip
+Operator(vect::Selector/): Skip
+Operator(math::Abs/): Visit
+    DataDef(math::Abs/): Process
+Operator(math::BoolToInt16/): Skip
+Operator(math::BoolToFloat32/): Skip
+Operator(math::InRangeInIn/): Skip
+Operator(math::InRangeInOut/): Skip
+Operator(math::InRangeOutIn/): Skip
+Operator(math::InRangeOutOut/): Skip
+Operator(math::Max/): Skip
+Operator(math::Max3/): Skip
+Operator(math::Mean3/): Visit
+    DataDef(math::Mean3/): Process
+Operator(math::Min/): Skip
+Operator(math::Min3/): Skip
+Operator(math::Sign/): Skip
+Operator(math::Mean/): Visit
+    DataDef(math::Mean/): Process
+Operator(math::Round/): Skip
+Operator(math::ByteToUint8/): Skip
+Operator(math::RoundCeil/): Skip
+Operator(math::RoundFloor/): Skip
+Operator(math::IntToBool/): Skip
+Operator(math::RealToBool/): Skip
+Operator(math::BoolToInt32/): Skip
+Operator(math::BoolToUint8/): Skip
+Operator(math::BoolToInt64/): Skip
+Operator(math::BoolToInt8/): Skip
+Operator(math::BoolToUint64/): Skip
+Operator(math::BoolToUint16/): Skip
+Operator(math::BoolToUint32/): Skip
+Operator(math::BoolToFloat64/): Skip
+Operator(math::NumericToUint8/): Skip
+Operator(math::NumericToInt8/): Skip
+Operator(math::NumericToInt16/): Skip
+Operator(math::NumericToInt32/): Skip
+Operator(math::NumericToInt64/): Skip
+Operator(math::NumericToUint16/): Skip
+Operator(math::NumericToUint32/): Skip
+Operator(math::NumericToUint64/): Skip
+Operator(math::NumericToFloat64/): Skip
+Operator(math::NumericToFloat32/): Skip
+Operator(math::PolynomialStep/): Skip
+Operator(math::Polynomial/): Skip
+Operator(math::Mod/): Skip
+Operator(mathext::AcosR/): Skip
+Operator(mathext::AcoshR/): Skip
+Operator(mathext::AsinR/): Skip
+Operator(mathext::AsinhR/): Skip
+Operator(mathext::Atan2R/): Skip
+Operator(mathext::AtanR/): Skip
+Operator(mathext::AtanhR/): Skip
+Operator(mathext::CosR/): Skip
+Operator(mathext::CoshR/): Skip
+Operator(mathext::ExpR/): Skip
+Operator(mathext::LnR/): Skip
+Operator(mathext::LogR/): Skip
+Operator(mathext::PowerRR/): Skip
+Operator(mathext::SinR/): Skip
+Operator(mathext::SinhR/): Skip
+Operator(mathext::SqrtR/): Skip
+Operator(mathext::TanR/): Skip
+Operator(mathext::TanhR/): Skip
+Operator(mathext::TenPowR/): Skip
+Operator(mathext::Square/): Skip
+Operator(mathext::Inv/): Skip
+Operator(mathext::HypotR/): Skip
+Operator(mathext::PowerI/): Skip
+Operator(mathext::PowerR/): Skip
+Operator(mathext::SinCosR/): Skip
+Operator(mathext::SphericalToCartesian/): Skip
+Operator(mathext::RadiansToDegrees/): Skip
+Operator(mathext::PolarToCartesian/): Skip
+Operator(mathext::FahrenheitToCelsius/): Skip
+Operator(mathext::DegreesToRadians/): Skip
+Operator(mathext::CelsiusToFahrenheit/): Skip
+Operator(mathext::CartesianToSpherical/): Skip
+Operator(mathext::CartesianToPolar/): Skip
+Operator(mathext::mathextimpl::AcoshR32/): Skip
+Operator(mathext::mathextimpl::AcosR32/): Skip
+Operator(mathext::mathextimpl::AsinhR32/): Skip
+Operator(mathext::mathextimpl::AsinR32/): Skip
+Operator(mathext::mathextimpl::Atan2R32/): Skip
+Operator(mathext::mathextimpl::AtanhR32/): Skip
+Operator(mathext::mathextimpl::AtanR32/): Skip
+Operator(mathext::mathextimpl::CoshR32/): Skip
+Operator(mathext::mathextimpl::CosR32/): Skip
+Operator(mathext::mathextimpl::ExpR32/): Skip
+Operator(mathext::mathextimpl::LnR32/): Skip
+Operator(mathext::mathextimpl::LogR32/): Skip
+Operator(mathext::mathextimpl::PowerR32/): Skip
+Operator(mathext::mathextimpl::PowerRR32/): Skip
+Operator(mathext::mathextimpl::SinhR32/): Skip
+Operator(mathext::mathextimpl::SinR32/): Skip
+Operator(mathext::mathextimpl::SqrtR32/): Skip
+Operator(mathext::mathextimpl::TanhR32/): Skip
+Operator(mathext::mathextimpl::TanR32/): Skip
+Operator(mathext::mathextimpl::TenPowR32/): Skip
+Operator(mathext::mathextimpl::AcoshR64/): Skip
+Operator(mathext::mathextimpl::AcosR64/): Skip
+Operator(mathext::mathextimpl::AsinhR64/): Skip
+Operator(mathext::mathextimpl::AsinR64/): Skip
+Operator(mathext::mathextimpl::Atan2R64/): Skip
+Operator(mathext::mathextimpl::AtanhR64/): Skip
+Operator(mathext::mathextimpl::AtanR64/): Skip
+Operator(mathext::mathextimpl::CoshR64/): Skip
+Operator(mathext::mathextimpl::CosR64/): Skip
+Operator(mathext::mathextimpl::ExpR64/): Skip
+Operator(mathext::mathextimpl::LnR64/): Skip
+Operator(mathext::mathextimpl::LogR64/): Skip
+Operator(mathext::mathextimpl::PowerR64/): Skip
+Operator(mathext::mathextimpl::PowerRR64/): Skip
+Operator(mathext::mathextimpl::SinhR64/): Skip
+Operator(mathext::mathextimpl::SinR64/): Skip
+Operator(mathext::mathextimpl::SqrtR64/): Skip
+Operator(mathext::mathextimpl::TanhR64/): Skip
+Operator(mathext::mathextimpl::TanR64/): Skip
+Operator(mathext::mathextimpl::TenPowR64/): Skip
+Operator(mathext::mathextimpl::PowerI32/): Skip
+Operator(pwlinear::LimiterUnSymmetrical/): Skip
+Operator(pwlinear::PreLoadUnSymmetrical/): Skip
+Operator(pwlinear::ClockCounter/): Skip
+Operator(pwlinear::Quantizer/): Skip
+Operator(pwlinear::RateLimiter/): Skip
+Operator(pwlinear::Counter/): Skip
+Operator(pwlinear::FallingHysteresis/): Skip
+Operator(pwlinear::RisingHysteresis/): Skip
+Operator(pwlinear::LimiterSymmetrical/): Skip
+Operator(pwlinear::PreLoadSymmetrical/): Skip
+Operator(pwlinear::DeadBandUnSymmetrical/): Skip
+Operator(pwlinear::DeadBandSymmetrical/): Skip
+Operator(pwlinear::MinReset/): Skip
+Operator(pwlinear::MaxReset/): Skip
+Operator(pwlinear::CheckSlope/): Skip
+Operator(lut::Interp1D/): Skip
+Operator(lut::Interp2DFloor/): Skip
+Operator(lut::PreLutDirect/): Skip
+Operator(lut::SearchIdxFloor/): Skip
+Operator(lut::SearchIdxCeil/): Skip
+Operator(lut::SearchNearest/): Skip
+Operator(lut::Lut2DNearest/): Skip
+Operator(lut::Interp1DFloor/): Skip
+Operator(lut::Interp2D/): Skip
+Operator(lut::SearchIdx/): Skip
+Operator(lut::Proj/): Skip
+Operator(lut::PreLutNoSat/): Skip
+Operator(lut::Limiter/): Skip
+Operator(lut::InterpolateLinear/): Skip
+Operator(lut::Lut1DFloor/): Skip
+Operator(lut::Lut3DNearest/): Skip
+Operator(lut::Lut2DNoSat/): Skip
+Operator(lut::Lut3DNoSat/): Skip
+Operator(lut::Limiter2/): Skip
+Operator(verif::HasNeverBeenTrue/): Skip
+Operator(verif::Implies/): Skip
+Operator(verif::AtLeastNTicks/): Skip
+Operator(verif::ImpliesWithinNTick/): Skip
+Operator(verif::AfterNthTick/): Skip
+Operator(Check_Delta_3/): Visit
+    DataDef(Check_Delta_3/IfBlock1:then:): Process
+    DataDef(Check_Delta_3/IfBlock1:else:then:): Process
+    DataDef(Check_Delta_3/IfBlock1:else:else:then:): Process
+    DataDef(Check_Delta_3/IfBlock1:else:else:else:then:): Process
+    DataDef(Check_Delta_3/IfBlock1:else:else:else:else:then:): Process
+    DataDef(Check_Delta_3/IfBlock1:else:else:else:else:else:then:): Process
+    DataDef(Check_Delta_3/IfBlock1:else:else:else:else:else:else:then:): Process
+    DataDef(Check_Delta_3/IfBlock1:else:else:else:else:else:else:else:): Process
+    DataDef(Check_Delta_3/): Process
+Operator(digital::FallingEdgeNoRetrigger/): Skip
+Operator(digital::FallingEdgeRetrigger/): Skip
+Operator(digital::RisingEdgeRetrigger/): Skip
+Operator(digital::RisingEdgeNoRetrigger/): Skip
+Operator(digital::TriggerRise/): Skip
+Operator(digital::TriggerFall/): Skip
+Operator(digital::TriggerEither/): Skip
+Operator(vect::MatProd/): Skip
+Operator(vect::MatAdd/): Skip
+Operator(vect::Inv4x4/): Skip
+Operator(vect::Inv3x3/): Skip
+Operator(vect::Inv2x2/): Skip
+Operator(vect::MatSub/): Skip
+Operator(vect::BuildArray/): Skip
+Operator(lut::Lut1DCeil/): Skip
+Operator(lut::Lut1DNearest/): Skip
+Operator(lut::Lut2DFloor/): Skip
+Operator(lut::Lut2DCeil/): Skip
+Operator(lut::Lut1DNoSat/): Skip
+Operator(lut::Lut2D/): Skip
+Operator(lut::Lut1D/): Skip
+Operator(lut::Lut3D/): Skip
+Operator(lut::PreLut/): Skip
+Operator(verif::AlwaysAfterFirstCond/): Skip
+Operator(Calculated_value/): Visit
+    DataDef(Calculated_value/IfBlock1:then:): Process
+    DataDef(Calculated_value/IfBlock1:else:then:): Process
+    DataDef(Calculated_value/IfBlock1:else:else:then:): Process
+    DataDef(Calculated_value/IfBlock1:else:else:else:then:): Process
+    DataDef(Calculated_value/IfBlock1:else:else:else:else:then:): Process
+    DataDef(Calculated_value/IfBlock1:else:else:else:else:else:then:): Process
+    DataDef(Calculated_value/IfBlock1:else:else:else:else:else:else:then:): Process
+    DataDef(Calculated_value/IfBlock1:else:else:else:else:else:else:else:): Process
+    DataDef(Calculated_value/): Process
+Operator(Vote_Alog/): Visit
+    DataDef(Vote_Alog/): Process
+Operator(Controller/): Visit
+    DataDef(Controller/SM1:Normal_Station:<1>:): Process
+    DataDef(Controller/SM1:Normal_Station:<2>:): Process
+    DataDef(Controller/SM1:Normal_Station:): Process
+    DataDef(Controller/SM1:Defaillance_Station:): Process
+    DataDef(Controller/SM1:Calculate:<1>:): Process
+    DataDef(Controller/SM1:Calculate:<2>:): Process
+    DataDef(Controller/SM1:Calculate:IfBlock1:then:): Process
+    DataDef(Controller/SM1:Calculate:IfBlock1:else:): Process
+    DataDef(Controller/SM1:Calculate:): Process
+    DataDef(Controller/SM1:Pollution:<1>:): Process
+    DataDef(Controller/SM1:Pollution:<2>:): Process
+    DataDef(Controller/SM1:Pollution:): Process
+    DataDef(Controller/SM1:Timer:<1>:): Process
+    DataDef(Controller/SM1:Timer:): Process
+    DataDef(Controller/): Process
+    Controller: Causality Detected: MTC_AC_7:[Vote_Alog#1] -> $or#1 i2 -> $or#1 i1
+    Controller: Causality Detected: MTC_AC_6:[Vote_Alog#1] -> $or#1 i1 -> $or#1 i2
+    Controller: Causality Detected: MTC_AC_8:[Vote_Alog#1] -> $or#1 i3 -> $or#1 i1
+        Resolution: AC: MTC_AC_4 -> MTC_AC_41
+    Controller: Causality Detected: MTC_AC_30:[Vote_Alog#3] -> math::Abs#1 i1 -> math::Abs#1 i1
+    Controller: Causality Detected: MTC_AC_19:[Vote_Alog#3] -> $or#2 i1 -> $or#2 i2
+    Controller: Causality Detected: MTC_AC_32:[Vote_Alog#3] -> math::Abs#2 i1 -> math::Abs#2 i1
+    Controller: Causality Detected: MTC_AC_20:[Vote_Alog#3] -> $or#2 i2 -> $or#2 i1
+    Controller: Causality Detected: MTC_AC_34:[Vote_Alog#3] -> math::Abs#3 i1 -> math::Abs#3 i1
+    Controller: Causality Detected: MTC_AC_21:[Vote_Alog#3] -> $or#2 i3 -> $or#2 i1
+    Controller: Causality Detected: MTC_AC_30:[Mean_10_Table#1] -> math::Abs#1 i1 -> math::Abs#1 i1
+    Controller: Causality Detected: MTC_AC_19:[Mean_10_Table#1] -> $or#2 i1 -> $or#2 i2
+    Controller: Causality Detected: MTC_AC_20:[Mean_10_Table#1] -> $or#2 i2 -> $or#2 i1
+    Controller: Causality Detected: MTC_AC_32:[Mean_10_Table#1] -> math::Abs#2 i1 -> math::Abs#2 i1
+    Controller: Causality Detected: MTC_AC_21:[Mean_10_Table#1] -> $or#2 i3 -> $or#2 i1
+    Controller: Causality Detected: MTC_AC_34:[Mean_10_Table#1] -> math::Abs#3 i1 -> math::Abs#3 i1
+        Resolution: AC: MTC_AC_17 -> MTC_AC_42
+        Resolution: AC: MTC_AC_23 -> MTC_AC_43

@@ -1,0 +1,108 @@
+#############################################################
+######    Begin of Makefile
+#############################################################
+
+SCADE=C:\Program Files\ANSYS Inc\v192\SCADE\SCADE\.
+
+SHELL=cmd.exe
+
+C_FLAGS = -pedantic
+
+all: Controller.exe Controller.dll 
+
+win64/GenericInputChanged_MTC_Utils_float64.o: GenericInputChanged_MTC_Utils_float64.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "GenericInputChanged_MTC_Utils_float64.c" -o "win64\GenericInputChanged_MTC_Utils_float64.o"
+
+win64/_2_GenericInputChanged_MTC_Utils_float643.o: _2_GenericInputChanged_MTC_Utils_float643.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "_2_GenericInputChanged_MTC_Utils_float643.c" -o "win64\_2_GenericInputChanged_MTC_Utils_float643.o"
+
+win64/_3_GenericInputChanged_MTC_Utils_float64310.o: _3_GenericInputChanged_MTC_Utils_float64310.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "_3_GenericInputChanged_MTC_Utils_float64310.c" -o "win64\_3_GenericInputChanged_MTC_Utils_float64310.o"
+
+win64/mtcw_cov_reset.o: mtcw_cov_reset.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "mtcw_cov_reset.c" -o "win64\mtcw_cov_reset.o"
+
+win64/Controller.o: Controller.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "Controller.c" -o "win64\Controller.o"
+
+win64/Push_Table.o: Push_Table.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "Push_Table.c" -o "win64\Push_Table.o"
+
+win64/Mean_10_Table.o: Mean_10_Table.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "Mean_10_Table.c" -o "win64\Mean_10_Table.o"
+
+win64/Vote_Alog.o: Vote_Alog.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "Vote_Alog.c" -o "win64\Vote_Alog.o"
+
+win64/Calculated_value.o: Calculated_value.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "Calculated_value.c" -o "win64\Calculated_value.o"
+
+win64/Check_Delta_3.o: Check_Delta_3.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "Check_Delta_3.c" -o "win64\Check_Delta_3.o"
+
+win64/Check_interval_pH.o: Check_interval_pH.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "Check_interval_pH.c" -o "win64\Check_interval_pH.o"
+
+win64/Check_interval_Temperature.o: Check_interval_Temperature.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "Check_interval_Temperature.c" -o "win64\Check_interval_Temperature.o"
+
+win64/Check_interval_Redox.o: Check_interval_Redox.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "Check_interval_Redox.c" -o "win64\Check_interval_Redox.o"
+
+win64/kcg_types.o: kcg_types.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "kcg_types.c" -o "win64\kcg_types.o"
+
+win64/kcg_consts.o: kcg_consts.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "kcg_consts.c" -o "win64\kcg_consts.o"
+
+win64/Modelisation_Surveillance_MTC_INST_type.o: Modelisation_Surveillance_MTC_INST_type.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "Modelisation_Surveillance_MTC_INST_type.c" -o "win64\Modelisation_Surveillance_MTC_INST_type.o"
+
+win64/SmuPredefConv.o: C:/Program\ Files/ANSYS\ Inc/v192/SCADE/SCADE/lib/C/SmuPredefConv.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "$(SCADE)\lib\C\SmuPredefConv.c" -o "win64\SmuPredefConv.o"
+
+win64/SmuConfig.o: C:/Program\ Files/ANSYS\ Inc/v192/SCADE/SCADE/lib/C/SmuConfig.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "$(SCADE)\lib\C\SmuConfig.c" -o "win64\SmuConfig.o"
+
+win64/SmuTypes.o: C:/Program\ Files/ANSYS\ Inc/v192/SCADE/SCADE/lib/C/SmuTypes.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "$(SCADE)\lib\C\SmuTypes.c" -o "win64\SmuTypes.o"
+
+win64/SmuLib.o: C:/Program\ Files/ANSYS\ Inc/v192/SCADE/SCADE/lib/C/SmuLib.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "$(SCADE)\lib\C\SmuLib.c" -o "win64\SmuLib.o"
+
+win64/SmuVTable.o: C:/Program\ Files/ANSYS\ Inc/v192/SCADE/SCADE/lib/C/SmuVTable.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "$(SCADE)\lib\C\SmuVTable.c" -o "win64\SmuVTable.o"
+
+win64/Modelisation_Surveillance_MTC_INST_mapping.o: Modelisation_Surveillance_MTC_INST_mapping.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "Modelisation_Surveillance_MTC_INST_mapping.c" -o "win64\Modelisation_Surveillance_MTC_INST_mapping.o"
+
+win64/LATCHALL_MTC.o: C:/Program\ Files/ANSYS\ Inc/v192/SCADE/SCADE/libraries/SC65/libmtc/LATCHALL_MTC.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "$(SCADE)\libraries\SC65\libmtc\LATCHALL_MTC.c" -o "win64\LATCHALL_MTC.o"
+
+win64/Result_MTC-vtable.o: C:/Program\ Files/ANSYS\ Inc/v192/SCADE/SCADE/libraries/SC65/libmtc/Result_MTC-vtable.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "$(SCADE)\libraries\SC65\libmtc\Result_MTC-vtable.c" -o "win64\Result_MTC-vtable.o"
+
+win64/Modelisation_Surveillance_MTC_INST_interface.o: Modelisation_Surveillance_MTC_INST_interface.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "Modelisation_Surveillance_MTC_INST_interface.c" -o "win64\Modelisation_Surveillance_MTC_INST_interface.o"
+
+win64/SmuProxy.o: C:/Program\ Files/ANSYS\ Inc/v192/SCADE/SCADE/lib/C/SmuProxy.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "C:\Program Files\ANSYS Inc\v192\SCADE\SCADE\lib\C\SmuProxy.c" -o "win64\SmuProxy.o"
+
+Controller.dll: win64/GenericInputChanged_MTC_Utils_float64.o win64/_2_GenericInputChanged_MTC_Utils_float643.o win64/_3_GenericInputChanged_MTC_Utils_float64310.o win64/mtcw_cov_reset.o win64/Controller.o win64/Push_Table.o win64/Mean_10_Table.o win64/Vote_Alog.o win64/Calculated_value.o win64/Check_Delta_3.o win64/Check_interval_pH.o win64/Check_interval_Temperature.o win64/Check_interval_Redox.o win64/kcg_types.o win64/kcg_consts.o win64/Modelisation_Surveillance_MTC_INST_type.o win64/SmuPredefConv.o win64/SmuConfig.o win64/SmuTypes.o win64/SmuLib.o win64/SmuVTable.o win64/Modelisation_Surveillance_MTC_INST_mapping.o win64/LATCHALL_MTC.o win64/Result_MTC-vtable.o win64/Modelisation_Surveillance_MTC_INST_interface.o win64/SmuProxy.o SmuExport.def 
+	gcc -mwindows -mwin32 -shared -static-libgcc  "win64\GenericInputChanged_MTC_Utils_float64.o" "win64\_2_GenericInputChanged_MTC_Utils_float643.o" "win64\_3_GenericInputChanged_MTC_Utils_float64310.o" "win64\mtcw_cov_reset.o" "win64\Controller.o" "win64\Push_Table.o" "win64\Mean_10_Table.o" "win64\Vote_Alog.o" "win64\Calculated_value.o" "win64\Check_Delta_3.o" "win64\Check_interval_pH.o" "win64\Check_interval_Temperature.o" "win64\Check_interval_Redox.o" "win64\kcg_types.o" "win64\kcg_consts.o" "win64\Modelisation_Surveillance_MTC_INST_type.o" "win64\SmuPredefConv.o" "win64\SmuConfig.o" "win64\SmuTypes.o" "win64\SmuLib.o" "win64\SmuVTable.o" "win64\Modelisation_Surveillance_MTC_INST_mapping.o" "win64\LATCHALL_MTC.o" "win64\Result_MTC-vtable.o" "win64\Modelisation_Surveillance_MTC_INST_interface.o" "win64\SmuProxy.o" -Wl,--output-def,"SmuExport.def" -lm -lwsock32 -m64 -o "Controller.dll" 
+
+SmuExport.def: C:/Program\ Files/ANSYS\ Inc/v192/SCADE/SCADE/lib/C/SmuExport.def
+	copy "C:\Program Files\ANSYS Inc\v192\SCADE\SCADE\lib\C\SmuExport.def" "SmuExport.def"
+
+win64/Modelisation_Surveillance_MTC_INST_dll.o: Modelisation_Surveillance_MTC_INST_dll.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "Modelisation_Surveillance_MTC_INST_dll.c" -o "win64\Modelisation_Surveillance_MTC_INST_dll.o"
+
+win64/SmuMainWindows.o: C:/Program\ Files/ANSYS\ Inc/v192/SCADE/SCADE/lib/C/SmuMainWindows.c
+	gcc -I"." -I"$(SCADE)" -I"$(SCADE)\include" -I"$(SCADE)\include\C" -I"$(SCADE)\include\Ada" -I"$(SCADE)\lib\Ada" -I"$(SCADE)\libraries\SC65\libmtc" -I"$(SCADE)\libraries\SC65\libmathext" $(C_FLAGS) -DBUILD_DLL -DSIM -DWIN32 -D_CONSOLE -D_MBCS -Dkcg_use_Data -Dkcg_use_Ten_Values_Table -DpSimoutC_ControllerCIVTable_defined -c -ansi -std=c99 -m64 "C:\Program Files\ANSYS Inc\v192\SCADE\SCADE\lib\C\SmuMainWindows.c" -o "win64\SmuMainWindows.o"
+
+Controller.exe: win64/Modelisation_Surveillance_MTC_INST_dll.o win64/SmuMainWindows.o 
+	gcc "win64\Modelisation_Surveillance_MTC_INST_dll.o" "win64\SmuMainWindows.o" -lm -lwsock32 -m64 -o "Controller.exe" 
+
+#############################################################
+######    End of Makefile
+#############################################################

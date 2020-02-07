@@ -1,0 +1,30 @@
+$********** SCADE Suite KCG 64-bit 6.6 (build i19) ***********
+** Command: kcg66_x64.exe -config J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/KCG/config.txt
+** Generation date: 2020-02-07T16:46:42
+*************************************************************$
+*** Monomorphization Warning (WAR_153): No specialized operator found
+  at file , line -1, character -1
+  at path MTCEx::MTC_Observers::Check_Delta_3_1111_MTC_OBS/MTC_Input1_CHANGED=
+*** Monomorphization Warning (WAR_153): No specialized operator found
+  at file , line -1, character -1
+  at path MTCEx::MTC_Observers::Vote_Alog_111_MTC_OBS/MTC_pH_Data_CHANGED=
+*** Monomorphization Warning (WAR_153): No specialized operator found
+  at file , line -1, character -1
+  at path MTCEx::MTC_Observers::Push_Table_11_MTC_OBS/MTC_Input1_CHANGED=
+*** Code Generation Warning (WAR_604): Renaming interface identifier
+  at file J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/libmtcModelisation_Surveillance_MTC_INST/MTC_Utils.xscade, line 6, character 51
+  at path MTC_Utils::GenericInputChanged/
+ Interface element GenericInputChanged_MTC_Utils_float643 has been renamed
+ because it collides
+*** Code Generation Warning (WAR_604): Renaming interface identifier
+  at file J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/libmtcModelisation_Surveillance_MTC_INST/MTC_Utils.xscade, line 6, character 51
+  at path MTC_Utils::GenericInputChanged/
+ Interface element GenericInputChanged_MTC_Utils_float64310 has been renamed
+ because it collides
+5 warnings were found
+No error was found
+No failure occurred
+$********** SCADE Suite KCG 64-bit 6.6 (build i19) ***********
+** kcg.log
+** Generation date: 2020-02-07T16:46:47
+*************************************************************$

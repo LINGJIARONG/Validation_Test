@@ -1,0 +1,51 @@
+/* $********** SCADE Suite KCG 64-bit 6.6 (build i19) ***********
+** Command: kcg66_x64.exe -config J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/KCG/config.txt
+** Generation date: 2020-02-07T16:46:46
+*************************************************************$ */
+
+#include "kcg_consts.h"
+#include "kcg_sensors.h"
+#include "LATCHALL07_MTC.h"
+
+/* MTC::LATCHALL07/ */
+void LATCHALL07_MTC(
+  /* Input1/ */
+  kcg_bool Input1,
+  /* Input2/ */
+  kcg_bool Input2,
+  /* Input3/ */
+  kcg_bool Input3,
+  /* Input4/ */
+  kcg_bool Input4,
+  /* Input5/ */
+  kcg_bool Input5,
+  /* Input6/ */
+  kcg_bool Input6,
+  /* Input7/ */
+  kcg_bool Input7,
+  outC_LATCHALL07_MTC *outC)
+{
+  /* The body of this function must be provided */
+
+}
+
+void LATCHALL07_MTC_init(outC_LATCHALL07_MTC *outC)
+{
+  /* The body of this function must be provided */
+
+}
+
+
+void LATCHALL07_MTC_reset(outC_LATCHALL07_MTC *outC)
+{
+  /* The body of this function must be provided */
+
+}
+
+
+
+/* $********** SCADE Suite KCG 64-bit 6.6 (build i19) ***********
+** LATCHALL07_MTC.dc
+** Generation date: 2020-02-07T16:46:46
+*************************************************************$ */
+

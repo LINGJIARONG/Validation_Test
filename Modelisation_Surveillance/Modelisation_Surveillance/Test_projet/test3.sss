@@ -1,0 +1,37 @@
+##############################################################################
+#
+# Scenario Description
+#
+##############################################################################
+
+## inputs
+
+
+## inputs
+
+# 8. 
+## 
+# Redox sensor is broken: 2 sensors are broken
+# Data
+SSM::set Sensor_Temperature (13.1,16.3,13.4)
+# Data
+SSM::set Sensor_pH (7.0,8.5,7.2)
+# Data
+SSM::set Sensor_Redox (3100.2,720.9,-4015.3)
+# position
+SSM::set Sensor_GPS (48.5,2.22)
+# float64
+SSM::set Time 10.03
+# bool
+SSM::set Stop false
+# float64
+SSM::set Frequency 1.0
+## outputs
+# Statation_data
+#SSM::check Send_Data (0.0,0.0,0.0,(0.0,0.0),0.0)
+# bool
+SSM::cycle 
+SSM::check alarm false
+SSM::cycle 
+
+

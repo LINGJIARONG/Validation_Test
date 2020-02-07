@@ -1,0 +1,41 @@
+/* $********** SCADE Suite KCG 64-bit 6.6 (build i19) ***********
+** Command: kcg66_x64.exe -config J:/Modelisation_Surveillance/Modelisation_Surveillance_MTC_INST/KCG/KCG/config.txt
+** Generation date: 2020-02-07T16:46:46
+*************************************************************$ */
+
+#include "kcg_consts.h"
+#include "kcg_sensors.h"
+#include "GenericInputChanged_MTC_Utils_float64.h"
+
+/* MTC_Utils::GenericInputChanged/ */
+void GenericInputChanged_MTC_Utils_float64(
+  /* Input/ */
+  kcg_float64 Input,
+  outC_GenericInputChanged_MTC_Utils_float64 *outC)
+{
+  /* The body of this function must be provided */
+
+}
+
+void GenericInputChanged_init_MTC_Utils_float64(
+  outC_GenericInputChanged_MTC_Utils_float64 *outC)
+{
+  /* The body of this function must be provided */
+
+}
+
+
+void GenericInputChanged_reset_MTC_Utils_float64(
+  outC_GenericInputChanged_MTC_Utils_float64 *outC)
+{
+  /* The body of this function must be provided */
+
+}
+
+
+
+/* $********** SCADE Suite KCG 64-bit 6.6 (build i19) ***********
+** GenericInputChanged_MTC_Utils_float64.dc
+** Generation date: 2020-02-07T16:46:46
+*************************************************************$ */
+

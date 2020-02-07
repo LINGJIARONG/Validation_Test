@@ -1,0 +1,2 @@
+{SCADE Test - Environment for Host 19.2 (build 20180628)}{2020-02-07, 13:43:23}{J:\Modelisation_Surveillance\Modelisation_Surveillance.etp}{KCG}{J:\Modelisation_Surveillance\Test_projet\Procedure1.stp}{Controller}{Record1}{Record1}{{init.sss}{alias.sss}{test1.sss}}{
+{test1.sss}{26}{0}{1}{alarm}{}{false}{false}{1}{0}{}}

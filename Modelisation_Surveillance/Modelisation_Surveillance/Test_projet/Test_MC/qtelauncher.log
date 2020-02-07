@@ -1,0 +1,21 @@
+*************************** HEADER ***************************
+** Command: SCADE -test J:\Modelisation_Surveillance\Test_projet\TestForModelisation.etp -mc -conf Test
+** Start: Friday, February 07, 2020 17:18:20
+**************************************************************
+*** System Error (ERR_1000): system command failed
+ The command log file J:\Modelisation_Surveillance\Test_projet\Test_MC\qtelauncher_CMD.log cannot be created.
+"Procedure1.stp": Launch QTECHECK.EXE.
+SCADE Test - Check 19.2 (build 20180628) 
+Copyright (C) Esterel Technologies SAS 2002-2018. All rights reserved 
+
+"Procedure1.stp": Command successful.
+"Procedure1.stp": Launch SCADE.EXE -mtc.
+SCADE Test Model Coverage - MLCM Acquisition - Version 19.2 (build 20180628) 
+*** System Error (ERR_015): program interrupted 
+ File J:\Modelisation_Surveillance\Test_projet\Test_MC\MTC_Modelisation_Surveillance_Procedure1.log: Permission denied 
+
+"Procedure1.stp": Command failed.
+*************************** FOOTER ***************************
+** qtelauncher.log 
+** End: Friday, February 07, 2020 17:18:21
+**************************************************************

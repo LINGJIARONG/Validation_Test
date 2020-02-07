@@ -1,0 +1,2 @@
+J:\Modelisation_Surveillance\Test_projet\Test_MC\Procedure1_config.txt
+GLOBAL_LOG:J:\Modelisation_Surveillance\Test_projet\Test_MC\qtelauncher.log

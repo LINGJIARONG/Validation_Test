@@ -1,9 +1,0 @@
-*************************** HEADER ***************************
-** Start: Thursday, February 06, 2020 17:29:04
-**************************************************************
-"C:\Program Files\ANSYS Inc\v192\SCADE\SCADE\bin\QTECHECK.EXE" -project "J:\Modelisation_Surveillance\Modelisation_Surveillance.etp" "J:\Modelisation_Surveillance\Test_projet\Procedure1.stp"
-"C:\Program Files\ANSYS Inc\v192\SCADE\SCADE\bin\QTETEE.EXE" -conf "KCG" -test_file "J:\Modelisation_Surveillance\Test_projet\Procedure1.stp" -target_dir "J:\Modelisation_Surveillance\Test_projet\Test_TEE" "J:\Modelisation_Surveillance\Modelisation_Surveillance.etp"
-*************************** FOOTER ***************************
-** qtelauncher_CMD.log 
-** End: Thursday, February 06, 2020 17:29:22
-**************************************************************

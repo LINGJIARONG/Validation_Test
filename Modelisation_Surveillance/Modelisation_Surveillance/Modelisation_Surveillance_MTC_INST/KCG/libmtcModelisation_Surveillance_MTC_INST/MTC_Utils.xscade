@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<File xmlns="http://www.esterel-technologies.com/ns/scade/6" xmlns:ed="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5" xmlns:kcg="http://www.esterel-technologies.com/ns/scade/pragmas/codegen/3" xmlns:mtcw="unknown_address" xmlns:mtc="http://www.esterel-technologies.com/ns/scade/pragmas/mtc/1">
+	<declarations>
+		<Package name="MTC_Utils">
+			<declarations>
+				<Operator kind="node" external="imported" name="GenericInputChanged">
+					<inputs>
+						<Variable name="Input">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/a8b8/669/10F4/5e3d86506c45"/>
+							</pragmas>
+						</Variable>
+					</inputs>
+					<outputs>
+						<Variable name="Output">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/a8b9/669/10F4/5e3d865032fb"/>
+							</pragmas>
+						</Variable>
+					</outputs>
+					<pragmas>
+						<ed:Operator oid="!ed/a8b6/669/10F4/5e3d86504f97"/>
+						<mtcw:Pragma>
+							inputChanged
+						</mtcw:Pragma>
+						<mtc:Operator xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/mtc/1">
+							<Instrumenter instrumentedOperator="MTC_Utils::GenericInputChanged"/>
+						</mtc:Operator>
+					</pragmas>
+				</Operator>
+			</declarations>
+			<pragmas>
+				<ed:Package oid="!ed/a8b5/669/10F4/5e3d86501f99"/>
+			</pragmas>
+		</Package>
+	</declarations>
+</File>

@@ -1,0 +1,1 @@
+"J:\Modelisation_Surveillance\Modelisation_Surveillance.etp" -conf "KCG" -test_file "J:\Modelisation_Surveillance\Test_projet\Procedure1.stp" -cov_crit "MCDC" -int_crit "DATA" -target_dir "J:\Modelisation_Surveillance\Test_projet\Test_MC"

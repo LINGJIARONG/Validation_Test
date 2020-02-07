@@ -1,0 +1,55 @@
+
+## inputs
+ 
+## 
+#pollution redoxxxxxxxxxxxxxxxxxx 
+# Data
+SSM::set Sensor_Temperature (40.1,39.6,39.8)
+# Data
+SSM::set Sensor_pH (13.0,13.5,12.9)
+# Data
+SSM::set Sensor_Redox (795.2,810.1,720.9)
+# position
+SSM::set Sensor_GPS (48.5,2.22)
+# float64
+SSM::set Time 10.03
+# bool
+SSM::set Stop false
+# float64
+SSM::set Frequency 1.0
+## outputs
+# Statation_data
+#SSM::check Send_Data (0.0,0.0,0.0,(0.0,0.0),0.0)
+# bool
+SSM::cycle 
+SSM::cycle 
+
+
+
+## input 2 
+ 
+## 
+#pollution redoxxxxxxxxxxxxxxxxxx 
+# Data
+SSM::set Sensor_Temperature (40.1,39.6,39.8)
+# Data
+SSM::set Sensor_pH (13.0,13.5,12.9)
+# Data
+SSM::set Sensor_Redox (795.2,810.1,720.9)
+# position
+SSM::set Sensor_GPS (48.5,2.22)
+# float64
+SSM::set Time 11.03
+# bool
+SSM::set Stop true
+# float64
+SSM::set Frequency 1.0
+## outputs
+# Statation_data
+#SSM::check Send_Data (0.0,0.0,0.0,(0.0,0.0),0.0)
+# bool
+SSM::cycle 
+SSM::check alarm true
+SSM::cycle 
+
+

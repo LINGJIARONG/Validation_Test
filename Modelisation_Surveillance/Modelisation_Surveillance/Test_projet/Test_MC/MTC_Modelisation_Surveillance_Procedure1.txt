@@ -1,0 +1,1051 @@
+
+
+
+                                                           MTC-MLCM Report
+
+
+
+ 1. General Information
+
++-----------------+----------------------------------------------------------------------------------------------------------------+
+| Generation Date | Friday, February 07, 2020 16:38:2                                                                              |
+| Project         | J:\Modelisation_Surveillance\Modelisation_Surveillance.etp                                                     |
+| Author          |                                                                                                                |
+| Outputs path    | J:\Modelisation_Surveillance\Test_projet\Test_MC                                                               |
++-----------------+----------------------------------------------------------------------------------------------------------------+
+
+ 2. Input Description
+
+ 2.1. Project Files
+
++----+-----------------------------------------------------------------------------------------------------------------------------+
+| 01 | $(SCADE)\libraries\SC65\libdigital\libdigital.etp                                                                           |
+| 02 | $(SCADE)\libraries\SC65\liblinear\liblinear.etp                                                                             |
+| 03 | $(SCADE)\libraries\SC65\libmath\libmath.etp                                                                                 |
+| 04 | $(SCADE)\libraries\SC65\libmathext\libmathext.etp                                                                           |
+| 05 | $(SCADE)\libraries\SC65\libpwlinear\libpwlinear.etp                                                                         |
+| 06 | $(SCADE)\libraries\SC65\libverif\libverif.etp                                                                               |
+| 07 | Modelisation_Surveillance.xscade                                                                                            |
+| 08 | Operator1.xscade                                                                                                            |
+| 09 | Operator10.xscade                                                                                                           |
+| 10 | Operator11.xscade                                                                                                           |
+| 11 | Operator12.xscade                                                                                                           |
+| 12 | Operator2.xscade                                                                                                            |
+| 13 | Operator3.xscade                                                                                                            |
+| 14 | Operator4.xscade                                                                                                            |
+| 15 | Operator5.xscade                                                                                                            |
+| 16 | Operator6.xscade                                                                                                            |
+| 17 | Operator7.xscade                                                                                                            |
+| 18 | Operator8.xscade                                                                                                            |
+| 19 | Operator9.xscade                                                                                                            |
++----+-----------------------------------------------------------------------------------------------------------------------------+
+
+ 2.2. Coverage Criteria
+
+ 2.2.1. Predefined Coverage Criterion
+
++---------------------------------+------------------------------------------------------------------------------------------------+
+| Predefined Coverage Criterion   | MC/DC                                                                                          |
++---------------------------------+------------------------------------------------------------------------------------------------+
+| Predefined Integration Criteria | Control & Data activation                                                                      |
++---------------------------------+------------------------------------------------------------------------------------------------+
+
+ 2.2.2. User-Defined Coverage Criteria
+
+No instrumented library given as input
+
+ 2.3. Records Definition
+
+ 2.3.1 Scenario Records
+
++----+----------+------------+-----------------------------------------------------------------------------------------------------+
+|    | Record   | Test Node  | Description                                                                                         |
++----+----------+------------+-----------------------------------------------------------------------------------------------------+
+| 01 | Record1  | Controller | Record1                                                                                             |
+| 02 | Record2  | Controller | Record2                                                                                             |
+| 03 | Record3  | Controller | Record3                                                                                             |
+| 04 | Record4  | Controller | Record4                                                                                             |
+| 05 | Record5  | Controller | Record5                                                                                             |
+| 06 | Record6  | Controller | Record6                                                                                             |
+| 07 | Record7  | Controller | Record7                                                                                             |
+| 08 | Record8  | Controller | Record8                                                                                             |
+| 09 | Record9  | Controller | Record9                                                                                             |
+| 10 | Record10 | Controller | Record10                                                                                            |
+| 11 | Record11 | Controller | Record11                                                                                            |
+| 12 | Record12 | Controller | Record12                                                                                            |
+| 13 | Record13 | Controller | Record13                                                                                            |
+| 14 | Record14 | Controller | Record14                                                                                            |
+| 15 | Record15 | Controller | Record15                                                                                            |
+| 16 | Record16 | Controller | Record16                                                                                            |
+| 17 | Record17 | Controller | Record17                                                                                            |
++----+----------+------------+-----------------------------------------------------------------------------------------------------+
+
+ 2.3.2 Justification Records
+
+No justification given as input
+
+ 3. Coverage Information
+
+ 3.1. Synthesis
+ Columns details:
+  - Tested: coverage cases covered by tests
+  - Justified: coverage cases covered by justification
+  - Total: covered coverage cases / number of coverage cases for the whole of instantiated operators or per operator
+  - Status: 'NC' when the coverage is Not Complete; 'C' when the coverage is Complete
+ Status is 'C' when all operators of the model are instantiated, not excluded and fully covered.
+
++------------------------------------------------------------------------------------------+--------+-----------+---------+--------+
+| Overall coverage                                                                         | Tested | Justified | Total   | Status |
++------------------------------------------------------------------------------------------+--------+-----------+---------+--------+
+| Instantiated operators                                                                   | 264    | 0         | 264/354 | NC     |
++------------------------------------------------------------------------------------------+--------+-----------+---------+--------+
+| 261 not instantiated operators                                                           | N/A    | N/A       | N/A     | NC     |
++------------------------------------------------------------------------------------------+--------+-----------+---------+--------+
+| 0 excluded operators                                                                     | N/A    | N/A       | N/A     | C      |
++------------------------------------------------------------------------------------------+--------+-----------+---------+--------+
+
+ 3.1.1. Covered operators
+ These operators are instantiated in the model.
+ For operators without internal decisions (no coverage cases) the 'Tested' and 'Justified' columns are filled with '-'.
+ Status is 'C' when the operator has been activated and all coverage elements of the operator are covered (tested or justified).
+
++---+--------------------------------------------------------------------------------------+--------+-----------+---------+--------+
+|   | Operator                                                                             | Tested | Justified | Total   | Status |
++---+--------------------------------------------------------------------------------------+--------+-----------+---------+--------+
+| 1 | Calculated_value                                                                     | 54     | 0         | 54/73   | NC     |
++---+--------------------------------------------------------------------------------------+--------+-----------+---------+--------+
+| 2 | Check_Delta_3                                                                        | 73     | 0         | 73/92   | NC     |
++---+--------------------------------------------------------------------------------------+--------+-----------+---------+--------+
+| 3 | Check_interval_pH                                                                    | 4      | 0         | 4/4     | C      |
++---+--------------------------------------------------------------------------------------+--------+-----------+---------+--------+
+| 4 | Check_interval_Redox                                                                 | 4      | 0         | 4/4     | C      |
++---+--------------------------------------------------------------------------------------+--------+-----------+---------+--------+
+| 5 | Check_interval_Temperature                                                           | 4      | 0         | 4/4     | C      |
++---+--------------------------------------------------------------------------------------+--------+-----------+---------+--------+
+| 6 | Controller                                                                           | 63     | 0         | 63/97   | NC     |
++---+--------------------------------------------------------------------------------------+--------+-----------+---------+--------+
+| 7 | Mean_10_Table                                                                        | 11     | 0         | 11/11   | C      |
++---+--------------------------------------------------------------------------------------+--------+-----------+---------+--------+
+| 8 | Push_Table                                                                           | -      | -         | -       | C      |
++---+--------------------------------------------------------------------------------------+--------+-----------+---------+--------+
+| 9 | Vote_Alog                                                                            | 51     | 0         | 51/69   | NC     |
++---+--------------------------------------------------------------------------------------+--------+-----------+---------+--------+
+
+ 3.1.2 Not instantiated Operators
+ These operators are present in the model but are never instantiated.
+
++-----+----------------------------------------------------------------------------------------------------------------------------+
+| 001 | Check_normal_pH                                                                                                            |
+| 002 | Check_normal_Redox                                                                                                         |
+| 003 | Check_normal_Temperature                                                                                                   |
+| 004 | digital::BoolVect2Int8                                                                                                     |
+| 005 | digital::BoolVect2Int16                                                                                                    |
+| 006 | digital::BoolVect2Int32                                                                                                    |
+| 007 | digital::BoolVect2Int64                                                                                                    |
+| 008 | digital::BoolVect2IntElt                                                                                                   |
+| 009 | digital::BoolVect2Uint8                                                                                                    |
+| 010 | digital::BoolVect2Uint16                                                                                                   |
+| 011 | digital::BoolVect2Uint32                                                                                                   |
+| 012 | digital::BoolVect2Uint64                                                                                                   |
+| 013 | digital::count_down                                                                                                        |
+| 014 | digital::EitherEdge                                                                                                        |
+| 015 | digital::EntryDetect                                                                                                       |
+| 016 | digital::FallingEdge                                                                                                       |
+| 017 | digital::FallingEdgeNoRetrigger                                                                                            |
+| 018 | digital::FallingEdgeRetrigger                                                                                              |
+| 019 | digital::FlipFlopJK                                                                                                        |
+| 020 | digital::FlipFlopReset                                                                                                     |
+| 021 | digital::FlipFlopSet                                                                                                       |
+| 022 | digital::InactiveCycles                                                                                                    |
+| 023 | digital::InactiveTime                                                                                                      |
+| 024 | digital::Int2BoolVect                                                                                                      |
+| 025 | digital::Int2BoolVectElt                                                                                                   |
+| 026 | digital::Relay                                                                                                             |
+| 027 | digital::RisingEdge                                                                                                        |
+| 028 | digital::RisingEdgeNoRetrigger                                                                                             |
+| 029 | digital::RisingEdgeRetrigger                                                                                               |
+| 030 | digital::Toggle                                                                                                            |
+| 031 | digital::TriggerEither                                                                                                     |
+| 032 | digital::TriggerFall                                                                                                       |
+| 033 | digital::TriggerRise                                                                                                       |
+| 034 | filters::Filter0D                                                                                                          |
+| 035 | filters::Filter0DNorm                                                                                                      |
+| 036 | filters::Filter01                                                                                                          |
+| 037 | filters::Filter01Norm                                                                                                      |
+| 038 | filters::Filter02                                                                                                          |
+| 039 | filters::Filter02Norm                                                                                                      |
+| 040 | filters::Filter11                                                                                                          |
+| 041 | filters::Filter11Norm                                                                                                      |
+| 042 | filters::Filter12                                                                                                          |
+| 043 | filters::Filter12Norm                                                                                                      |
+| 044 | filters::FilterND                                                                                                          |
+| 045 | filters::FilterNDNorm                                                                                                      |
+| 046 | filters::FilterNN                                                                                                          |
+| 047 | filters::FilterNNNorm                                                                                                      |
+| 048 | filters::SumDelay                                                                                                          |
+| 049 | filters::TransferFcn0D                                                                                                     |
+| 050 | filters::TransferFcn01                                                                                                     |
+| 051 | filters::TransferFcn02                                                                                                     |
+| 052 | filters::TransferFcn12                                                                                                     |
+| 053 | filters::TransferFcnND                                                                                                     |
+| 054 | linear::Backlash                                                                                                           |
+| 055 | linear::Derivative                                                                                                         |
+| 056 | linear::DetectChange                                                                                                       |
+| 057 | linear::DetectDecrease                                                                                                     |
+| 058 | linear::DetectFallNegative                                                                                                 |
+| 059 | linear::DetectFallNonPositive                                                                                              |
+| 060 | linear::DetectIncrease                                                                                                     |
+| 061 | linear::DetectRiseNonNegative                                                                                              |
+| 062 | linear::DetectRisePositive                                                                                                 |
+| 063 | linear::Filter1stOrderLoop                                                                                                 |
+| 064 | linear::Gain                                                                                                               |
+| 065 | linear::HitCrossingEither                                                                                                  |
+| 066 | linear::HitCrossingFalling                                                                                                 |
+| 067 | linear::HitCrossingRising                                                                                                  |
+| 068 | linear::IntegralBackward                                                                                                   |
+| 069 | linear::IntegralForward                                                                                                    |
+| 070 | linear::IntegralTrapezoid                                                                                                  |
+| 071 | linear::IntegrFwd                                                                                                          |
+| 072 | linear::IntegrTrapez                                                                                                       |
+| 073 | linear::MeanCycle2                                                                                                         |
+| 074 | linear::MeanCycle3                                                                                                         |
+| 075 | linear::Memory                                                                                                             |
+| 076 | linear::MemoryBasic                                                                                                        |
+| 077 | lut::Interp1D                                                                                                              |
+| 078 | lut::Interp1DFloor                                                                                                         |
+| 079 | lut::Interp2D                                                                                                              |
+| 080 | lut::Interp2DFloor                                                                                                         |
+| 081 | lut::InterpolateLinear                                                                                                     |
+| 082 | lut::Limiter                                                                                                               |
+| 083 | lut::Limiter2                                                                                                              |
+| 084 | lut::Lut1D                                                                                                                 |
+| 085 | lut::Lut1DCeil                                                                                                             |
+| 086 | lut::Lut1DFloor                                                                                                            |
+| 087 | lut::Lut1DNearest                                                                                                          |
+| 088 | lut::Lut1DNoSat                                                                                                            |
+| 089 | lut::Lut2D                                                                                                                 |
+| 090 | lut::Lut2DCeil                                                                                                             |
+| 091 | lut::Lut2DFloor                                                                                                            |
+| 092 | lut::Lut2DNearest                                                                                                          |
+| 093 | lut::Lut2DNoSat                                                                                                            |
+| 094 | lut::Lut3D                                                                                                                 |
+| 095 | lut::Lut3DNearest                                                                                                          |
+| 096 | lut::Lut3DNoSat                                                                                                            |
+| 097 | lut::PreLut                                                                                                                |
+| 098 | lut::PreLutDirect                                                                                                          |
+| 099 | lut::PreLutNoSat                                                                                                           |
+| 100 | lut::Proj                                                                                                                  |
+| 101 | lut::SearchIdx                                                                                                             |
+| 102 | lut::SearchIdxCeil                                                                                                         |
+| 103 | lut::SearchIdxFloor                                                                                                        |
+| 104 | lut::SearchNearest                                                                                                         |
+| 105 | math::BoolToFloat32                                                                                                        |
+| 106 | math::BoolToFloat64                                                                                                        |
+| 107 | math::BoolToInt8                                                                                                           |
+| 108 | math::BoolToInt16                                                                                                          |
+| 109 | math::BoolToInt32                                                                                                          |
+| 110 | math::BoolToInt64                                                                                                          |
+| 111 | math::BoolToUint8                                                                                                          |
+| 112 | math::BoolToUint16                                                                                                         |
+| 113 | math::BoolToUint32                                                                                                         |
+| 114 | math::BoolToUint64                                                                                                         |
+| 115 | math::ByteToUint8                                                                                                          |
+| 116 | math::InRangeInIn                                                                                                          |
+| 117 | math::InRangeInOut                                                                                                         |
+| 118 | math::InRangeOutIn                                                                                                         |
+| 119 | math::InRangeOutOut                                                                                                        |
+| 120 | math::IntToBool                                                                                                            |
+| 121 | math::Max                                                                                                                  |
+| 122 | math::Max3                                                                                                                 |
+| 123 | math::Min                                                                                                                  |
+| 124 | math::Min3                                                                                                                 |
+| 125 | math::Mod                                                                                                                  |
+| 126 | math::NumericToFloat32                                                                                                     |
+| 127 | math::NumericToFloat64                                                                                                     |
+| 128 | math::NumericToInt8                                                                                                        |
+| 129 | math::NumericToInt16                                                                                                       |
+| 130 | math::NumericToInt32                                                                                                       |
+| 131 | math::NumericToInt64                                                                                                       |
+| 132 | math::NumericToUint8                                                                                                       |
+| 133 | math::NumericToUint16                                                                                                      |
+| 134 | math::NumericToUint32                                                                                                      |
+| 135 | math::NumericToUint64                                                                                                      |
+| 136 | math::Polynomial                                                                                                           |
+| 137 | math::PolynomialStep                                                                                                       |
+| 138 | math::RealToBool                                                                                                           |
+| 139 | math::Round                                                                                                                |
+| 140 | math::RoundCeil                                                                                                            |
+| 141 | math::RoundFloor                                                                                                           |
+| 142 | math::Sign                                                                                                                 |
+| 143 | mathext::AcoshR                                                                                                            |
+| 144 | mathext::AcosR                                                                                                             |
+| 145 | mathext::AsinhR                                                                                                            |
+| 146 | mathext::AsinR                                                                                                             |
+| 147 | mathext::Atan2R                                                                                                            |
+| 148 | mathext::AtanhR                                                                                                            |
+| 149 | mathext::AtanR                                                                                                             |
+| 150 | mathext::CartesianToPolar                                                                                                  |
+| 151 | mathext::CartesianToSpherical                                                                                              |
+| 152 | mathext::CelsiusToFahrenheit                                                                                               |
+| 153 | mathext::CoshR                                                                                                             |
+| 154 | mathext::CosR                                                                                                              |
+| 155 | mathext::DegreesToRadians                                                                                                  |
+| 156 | mathext::ExpR                                                                                                              |
+| 157 | mathext::FahrenheitToCelsius                                                                                               |
+| 158 | mathext::HypotR                                                                                                            |
+| 159 | mathext::Inv                                                                                                               |
+| 160 | mathext::LnR                                                                                                               |
+| 161 | mathext::LogR                                                                                                              |
+| 162 | mathext::mathextimpl::AcoshR32                                                                                             |
+| 163 | mathext::mathextimpl::AcoshR64                                                                                             |
+| 164 | mathext::mathextimpl::AcosR32                                                                                              |
+| 165 | mathext::mathextimpl::AcosR64                                                                                              |
+| 166 | mathext::mathextimpl::AsinhR32                                                                                             |
+| 167 | mathext::mathextimpl::AsinhR64                                                                                             |
+| 168 | mathext::mathextimpl::AsinR32                                                                                              |
+| 169 | mathext::mathextimpl::AsinR64                                                                                              |
+| 170 | mathext::mathextimpl::Atan2R32                                                                                             |
+| 171 | mathext::mathextimpl::Atan2R64                                                                                             |
+| 172 | mathext::mathextimpl::AtanhR32                                                                                             |
+| 173 | mathext::mathextimpl::AtanhR64                                                                                             |
+| 174 | mathext::mathextimpl::AtanR32                                                                                              |
+| 175 | mathext::mathextimpl::AtanR64                                                                                              |
+| 176 | mathext::mathextimpl::CoshR32                                                                                              |
+| 177 | mathext::mathextimpl::CoshR64                                                                                              |
+| 178 | mathext::mathextimpl::CosR32                                                                                               |
+| 179 | mathext::mathextimpl::CosR64                                                                                               |
+| 180 | mathext::mathextimpl::ExpR32                                                                                               |
+| 181 | mathext::mathextimpl::ExpR64                                                                                               |
+| 182 | mathext::mathextimpl::LnR32                                                                                                |
+| 183 | mathext::mathextimpl::LnR64                                                                                                |
+| 184 | mathext::mathextimpl::LogR32                                                                                               |
+| 185 | mathext::mathextimpl::LogR64                                                                                               |
+| 186 | mathext::mathextimpl::PowerI32                                                                                             |
+| 187 | mathext::mathextimpl::PowerR32                                                                                             |
+| 188 | mathext::mathextimpl::PowerR64                                                                                             |
+| 189 | mathext::mathextimpl::PowerRR32                                                                                            |
+| 190 | mathext::mathextimpl::PowerRR64                                                                                            |
+| 191 | mathext::mathextimpl::SinhR32                                                                                              |
+| 192 | mathext::mathextimpl::SinhR64                                                                                              |
+| 193 | mathext::mathextimpl::SinR32                                                                                               |
+| 194 | mathext::mathextimpl::SinR64                                                                                               |
+| 195 | mathext::mathextimpl::SqrtR32                                                                                              |
+| 196 | mathext::mathextimpl::SqrtR64                                                                                              |
+| 197 | mathext::mathextimpl::TanhR32                                                                                              |
+| 198 | mathext::mathextimpl::TanhR64                                                                                              |
+| 199 | mathext::mathextimpl::TanR32                                                                                               |
+| 200 | mathext::mathextimpl::TanR64                                                                                               |
+| 201 | mathext::mathextimpl::TenPowR32                                                                                            |
+| 202 | mathext::mathextimpl::TenPowR64                                                                                            |
+| 203 | mathext::PolarToCartesian                                                                                                  |
+| 204 | mathext::PowerI                                                                                                            |
+| 205 | mathext::PowerR                                                                                                            |
+| 206 | mathext::PowerRR                                                                                                           |
+| 207 | mathext::RadiansToDegrees                                                                                                  |
+| 208 | mathext::SinCosR                                                                                                           |
+| 209 | mathext::SinhR                                                                                                             |
+| 210 | mathext::SinR                                                                                                              |
+| 211 | mathext::SphericalToCartesian                                                                                              |
+| 212 | mathext::SqrtR                                                                                                             |
+| 213 | mathext::Square                                                                                                            |
+| 214 | mathext::TanhR                                                                                                             |
+| 215 | mathext::TanR                                                                                                              |
+| 216 | mathext::TenPowR                                                                                                           |
+| 217 | pwlinear::CheckSlope                                                                                                       |
+| 218 | pwlinear::ClockCounter                                                                                                     |
+| 219 | pwlinear::Counter                                                                                                          |
+| 220 | pwlinear::DeadBandSymmetrical                                                                                              |
+| 221 | pwlinear::DeadBandUnSymmetrical                                                                                            |
+| 222 | pwlinear::FallingHysteresis                                                                                                |
+| 223 | pwlinear::LimiterSymmetrical                                                                                               |
+| 224 | pwlinear::LimiterUnSymmetrical                                                                                             |
+| 225 | pwlinear::MaxReset                                                                                                         |
+| 226 | pwlinear::MinReset                                                                                                         |
+| 227 | pwlinear::PreLoadSymmetrical                                                                                               |
+| 228 | pwlinear::PreLoadUnSymmetrical                                                                                             |
+| 229 | pwlinear::Quantizer                                                                                                        |
+| 230 | pwlinear::RateLimiter                                                                                                      |
+| 231 | pwlinear::RisingHysteresis                                                                                                 |
+| 232 | truthtables::TruthTable                                                                                                    |
+| 233 | truthtables::TruthTableElt                                                                                                 |
+| 234 | truthtables::TruthTableExh                                                                                                 |
+| 235 | truthtables::TruthTableIdx                                                                                                 |
+| 236 | truthtables::TruthTableLine                                                                                                |
+| 237 | truthtables::TruthTableLineIdx                                                                                             |
+| 238 | vect::BuildArray                                                                                                           |
+| 239 | vect::Det2x2                                                                                                               |
+| 240 | vect::Det3x3                                                                                                               |
+| 241 | vect::Det4x4                                                                                                               |
+| 242 | vect::Inv2x2                                                                                                               |
+| 243 | vect::Inv3x3                                                                                                               |
+| 244 | vect::Inv4x4                                                                                                               |
+| 245 | vect::MatAdd                                                                                                               |
+| 246 | vect::MatProd                                                                                                              |
+| 247 | vect::MatSub                                                                                                               |
+| 248 | vect::MatVectProd                                                                                                          |
+| 249 | vect::ScalProd                                                                                                             |
+| 250 | vect::Selector                                                                                                             |
+| 251 | vect::SelectorHelper                                                                                                       |
+| 252 | vect::SumDup                                                                                                               |
+| 253 | vect::VectAdd                                                                                                              |
+| 254 | vect::VectMatProd                                                                                                          |
+| 255 | vect::VectSub                                                                                                              |
+| 256 | verif::AfterNthTick                                                                                                        |
+| 257 | verif::AlwaysAfterFirstCond                                                                                                |
+| 258 | verif::AtLeastNTicks                                                                                                       |
+| 259 | verif::HasNeverBeenTrue                                                                                                    |
+| 260 | verif::Implies                                                                                                             |
+| 261 | verif::ImpliesWithinNTick                                                                                                  |
++-----+----------------------------------------------------------------------------------------------------------------------------+
+
+ 3.1.3 Excluded Operators
+ Operators that are instantiated, but excluded by the user from model coverage analysis.
+
+No excluded operators
+
+ 3.2 Coverage Details per Operator
+
+ 3.2.1. Calculated_value
+
++----+----------------------------------------------------------------------------------------------+------------------------------+
+|    | Element Path                                                                                 | Criterion                    |
++----+----------------------------------------------------------------------------------------------+------------------------------+
+| 01 | $neq#1 -> a                                                                                  | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 02 | $neq#2 -> b                                                                                  | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 03 | $neq#3 -> c                                                                                  | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 04 | a                                                                                            | 1 | Activated            | T |
+| 05 | b                                                                                            | 1 | Activated            | T |
+| 06 | c                                                                                            | 1 | Activated            | T |
+| 07 | IfBlock1:a -> <condition>                                                                    | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 08 | IfBlock1:b -> <condition>                                                                    | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 09 | IfBlock1:c -> <condition>                                                                    | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 10 | IfBlock1:else:                                                                               | 1 | Activated            | T |
+| 11 | IfBlock1:else:a -> <condition>                                                               | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 12 | IfBlock1:else:b -> <condition>                                                               | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 13 | IfBlock1:else:c -> <condition>                                                               | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 14 | IfBlock1:else:else:                                                                          | 1 | Activated            | T |
+| 15 | IfBlock1:else:else:a -> <condition>                                                          | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 16 | IfBlock1:else:else:b -> <condition>                                                          | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 17 | IfBlock1:else:else:c -> <condition>                                                          | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | - |
+| 18 | IfBlock1:else:else:else:                                                                     | 1 | Activated            | T |
+| 19 | IfBlock1:else:else:else:a -> <condition>                                                     | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 20 | IfBlock1:else:else:else:b -> <condition>                                                     | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | - |
+| 21 | IfBlock1:else:else:else:c -> <condition>                                                     | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 22 | IfBlock1:else:else:else:else:                                                                | 1 | Activated            | T |
+| 23 | IfBlock1:else:else:else:else:a -> <condition>                                                | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 24 | IfBlock1:else:else:else:else:b -> <condition>                                                | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 25 | IfBlock1:else:else:else:else:c -> <condition>                                                | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 26 | IfBlock1:else:else:else:else:else:                                                           | 1 | Activated            | T |
+| 27 | IfBlock1:else:else:else:else:else:a -> <condition>                                           | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 28 | IfBlock1:else:else:else:else:else:b -> <condition>                                           | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | - |
+| 29 | IfBlock1:else:else:else:else:else:c -> <condition>                                           | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | - |
+| 30 | IfBlock1:else:else:else:else:else:else:                                                      | 1 | Activated            | T |
+| 31 | IfBlock1:else:else:else:else:else:else:a -> <condition>                                      | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 32 | IfBlock1:else:else:else:else:else:else:b -> <condition>                                      | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 33 | IfBlock1:else:else:else:else:else:else:c -> <condition>                                      | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 34 | IfBlock1:else:else:else:else:else:else:else:                                                 | 1 | Activated            | T |
+| 35 | IfBlock1:else:else:else:else:else:else:then:                                                 | 1 | Activated            | T |
+| 36 | IfBlock1:else:else:else:else:else:then:                                                      | 1 | Activated            | - |
+| 37 | IfBlock1:else:else:else:else:then:                                                           | 1 | Activated            | T |
+| 38 | IfBlock1:else:else:else:then:                                                                | 1 | Activated            | T |
+| 39 | IfBlock1:else:else:else:then:math::Mean#5                                                    | 1 | Activated            | T |
+| 40 | IfBlock1:else:else:then:                                                                     | 1 | Activated            | T |
+| 41 | IfBlock1:else:else:then:math::Mean#3                                                         | 1 | Activated            | T |
+| 42 | IfBlock1:else:then:                                                                          | 1 | Activated            | T |
+| 43 | IfBlock1:else:then:math::Mean#1                                                              | 1 | Activated            | T |
+| 44 | IfBlock1:then:                                                                               | 1 | Activated            | T |
+| 45 | IfBlock1:then:Check_Delta_3#1                                                                | 1 | Activated            | T |
+|    |                                                                                              | 2 | Input Input1 changed | - |
+|    |                                                                                              | 3 | Input Input2 changed | - |
+|    |                                                                                              | 4 | Input Input3 changed | - |
+|    |                                                                                              | 5 | Input Delta changed  | - |
++----+----------------------------------------------------------------------------------------------+------------------------------+
+
+ 3.2.2. Check_Delta_3
+
++----+----------------------------------------------------------------------------------------------+------------------------------+
+|    | Element Path                                                                                 | Criterion                    |
++----+----------------------------------------------------------------------------------------------+------------------------------+
+| 01 | $gt#1                                                                                        | 1 | Activated            | T |
+| 02 | $gt#1 -> $and#3 i1 -> all_fail                                                               | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 03 | $gt#1 -> fail1                                                                               | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 04 | $gt#2                                                                                        | 1 | Activated            | T |
+| 05 | $gt#2 -> $and#3 i2 -> all_fail                                                               | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | - |
+| 06 | $gt#2 -> fail2                                                                               | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 07 | $gt#3                                                                                        | 1 | Activated            | T |
+| 08 | $gt#3 -> $and#3 i3 -> all_fail                                                               | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | - |
+| 09 | $gt#3 -> fail3                                                                               | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 10 | all_fail                                                                                     | 1 | Activated            | T |
+| 11 | fail1                                                                                        | 1 | Activated            | T |
+| 12 | fail2                                                                                        | 1 | Activated            | T |
+| 13 | fail3                                                                                        | 1 | Activated            | T |
+| 14 | IfBlock1:all_fail -> <condition>                                                             | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 15 | IfBlock1:else:                                                                               | 1 | Activated            | T |
+| 16 | IfBlock1:else:else:                                                                          | 1 | Activated            | T |
+| 17 | IfBlock1:else:else:else:                                                                     | 1 | Activated            | T |
+| 18 | IfBlock1:else:else:else:else:                                                                | 1 | Activated            | T |
+| 19 | IfBlock1:else:else:else:else:else:                                                           | 1 | Activated            | T |
+| 20 | IfBlock1:else:else:else:else:else:else:                                                      | 1 | Activated            | T |
+| 21 | IfBlock1:else:else:else:else:else:else:else:                                                 | 1 | Activated            | T |
+| 22 | IfBlock1:else:else:else:else:else:else:else:math::Mean3#6                                    | 1 | Activated            | T |
+| 23 | IfBlock1:else:else:else:else:else:else:fail1 -> <condition>                                  | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 24 | IfBlock1:else:else:else:else:else:else:fail2 -> <condition>                                  | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 25 | IfBlock1:else:else:else:else:else:else:fail3 -> <condition>                                  | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 26 | IfBlock1:else:else:else:else:else:else:then:                                                 | 1 | Activated            | T |
+| 27 | IfBlock1:else:else:else:else:else:else:then:math::Mean#3                                     | 1 | Activated            | T |
+| 28 | IfBlock1:else:else:else:else:else:fail1 -> <condition>                                       | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 29 | IfBlock1:else:else:else:else:else:fail2 -> <condition>                                       | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 30 | IfBlock1:else:else:else:else:else:fail3 -> <condition>                                       | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 31 | IfBlock1:else:else:else:else:else:then:                                                      | 1 | Activated            | T |
+| 32 | IfBlock1:else:else:else:else:else:then:math::Mean#2                                          | 1 | Activated            | T |
+| 33 | IfBlock1:else:else:else:else:fail1 -> <condition>                                            | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 34 | IfBlock1:else:else:else:else:fail2 -> <condition>                                            | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 35 | IfBlock1:else:else:else:else:fail3 -> <condition>                                            | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 36 | IfBlock1:else:else:else:else:then:                                                           | 1 | Activated            | T |
+| 37 | IfBlock1:else:else:else:else:then:math::Mean#1                                               | 1 | Activated            | T |
+| 38 | IfBlock1:else:else:else:fail1 -> <condition>                                                 | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 39 | IfBlock1:else:else:else:fail2 -> <condition>                                                 | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 40 | IfBlock1:else:else:else:fail3 -> <condition>                                                 | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 41 | IfBlock1:else:else:else:then:                                                                | 1 | Activated            | T |
+| 42 | IfBlock1:else:else:fail1 -> <condition>                                                      | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 43 | IfBlock1:else:else:fail2 -> <condition>                                                      | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | - |
+| 44 | IfBlock1:else:else:fail3 -> <condition>                                                      | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 45 | IfBlock1:else:else:then:                                                                     | 1 | Activated            | - |
+| 46 | IfBlock1:else:fail1 -> <condition>                                                           | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 47 | IfBlock1:else:fail2 -> <condition>                                                           | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 48 | IfBlock1:else:fail3 -> <condition>                                                           | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | - |
+| 49 | IfBlock1:else:then:                                                                          | 1 | Activated            | - |
+| 50 | IfBlock1:then:                                                                               | 1 | Activated            | T |
+| 51 | IfBlock1:then:math::Mean3#4                                                                  | 1 | Activated            | T |
+| 52 | math::Abs#1                                                                                  | 1 | Activated            | T |
+| 53 | math::Abs#1/$if#2 -> A_Output                                                                | 1 | Then                 | T |
+|    |                                                                                              | 2 | Else                 | T |
+| 54 | math::Abs#1/$lte#1 -> A_Output                                                               | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 55 | math::Abs#2                                                                                  | 1 | Activated            | T |
+| 56 | math::Abs#2/$if#2 -> A_Output                                                                | 1 | Then                 | T |
+|    |                                                                                              | 2 | Else                 | T |
+| 57 | math::Abs#2/$lte#1 -> A_Output                                                               | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 58 | math::Abs#3                                                                                  | 1 | Activated            | T |
+| 59 | math::Abs#3/$if#2 -> A_Output                                                                | 1 | Then                 | T |
+|    |                                                                                              | 2 | Else                 | T |
+| 60 | math::Abs#3/$lte#1 -> A_Output                                                               | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 61 | math::Mean3#1                                                                                | 1 | Activated            | T |
++----+----------------------------------------------------------------------------------------------+------------------------------+
+
+ 3.2.3. Check_interval_pH
+
++---+-----------------------------------------------------------------------------------------------+------------------------------+
+|   | Element Path                                                                                  | Criterion                    |
++---+-----------------------------------------------------------------------------------------------+------------------------------+
+| 1 | $gte#1 -> Output1                                                                             | 1 | True                 | T |
+|   |                                                                                               | 2 | False                | T |
+| 2 | $lte#1 -> Output1                                                                             | 1 | True                 | T |
+|   |                                                                                               | 2 | False                | T |
++---+-----------------------------------------------------------------------------------------------+------------------------------+
+
+ 3.2.4. Check_interval_Redox
+
++---+-----------------------------------------------------------------------------------------------+------------------------------+
+|   | Element Path                                                                                  | Criterion                    |
++---+-----------------------------------------------------------------------------------------------+------------------------------+
+| 1 | $gte#1 -> Output1                                                                             | 1 | True                 | T |
+|   |                                                                                               | 2 | False                | T |
+| 2 | $lte#1 -> Output1                                                                             | 1 | True                 | T |
+|   |                                                                                               | 2 | False                | T |
++---+-----------------------------------------------------------------------------------------------+------------------------------+
+
+ 3.2.5. Check_interval_Temperature
+
++---+-----------------------------------------------------------------------------------------------+------------------------------+
+|   | Element Path                                                                                  | Criterion                    |
++---+-----------------------------------------------------------------------------------------------+------------------------------+
+| 1 | $lte#1 -> Output1                                                                             | 1 | True                 | T |
+|   |                                                                                               | 2 | False                | T |
+| 2 | $lte#2 -> Output1                                                                             | 1 | True                 | T |
+|   |                                                                                               | 2 | False                | T |
++---+-----------------------------------------------------------------------------------------------+------------------------------+
+
+ 3.2.6. Controller
+
++----+----------------------------------------------------------------------------------------------+------------------------------+
+|    | Element Path                                                                                 | Criterion                    |
++----+----------------------------------------------------------------------------------------------+------------------------------+
+| 01 | <last store>                                                                                 | 1 | Initial Last         | T |
+|    |                                                                                              | 2 | Last                 | T |
+| 02 | SM1:Calculate:                                                                               | 1 | Activated            | T |
+|    |                                                                                              | 2 | No Transition Fired  | - |
+| 03 | SM1:Calculate:$lt#1 -> alarm                                                                 | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 04 | SM1:Calculate:$lt#2 -> alarm                                                                 | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 05 | SM1:Calculate:$lt#3 -> alarm                                                                 | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 06 | SM1:Calculate:<1>:                                                                           | 1 | Fired                | T |
+| 07 | SM1:Calculate:<1>:alarm -> <guard>                                                           | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 08 | SM1:Calculate:<2>:                                                                           | 1 | Fired                | T |
+| 09 | SM1:Calculate:<2>:alarm -> <guard>                                                           | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 10 | SM1:Calculate:IfBlock1:alarm -> <condition>                                                  | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 11 | SM1:Calculate:IfBlock1:else:                                                                 | 1 | Activated            | T |
+| 12 | SM1:Calculate:IfBlock1:else:Push_Table#1                                                     | 1 | Activated            | T |
+|    |                                                                                              | 2 | Input Input1 changed | - |
+|    |                                                                                              | 3 | Input newData change | - |
+|    |                                                                                              |   | d                    |   |
+| 13 | SM1:Calculate:IfBlock1:else:Vote_Alog#7                                                      | 1 | Activated            | T |
+|    |                                                                                              | 2 | Input pH_Data change | - |
+|    |                                                                                              |   | d                    |   |
+|    |                                                                                              | 3 | Input Temperature_Da | - |
+|    |                                                                                              |   | ta changed           |   |
+|    |                                                                                              | 4 | Input Redox_Data cha | - |
+|    |                                                                                              |   | nged                 |   |
+| 14 | SM1:Calculate:IfBlock1:then:                                                                 | 1 | Activated            | T |
+| 15 | SM1:Calculate:math::Abs#1                                                                    | 1 | Activated            | T |
+| 16 | math::Abs#1/$if#2 -> A_Output                                                                | 1 | Then                 | T |
+|    |                                                                                              | 2 | Else                 | T |
+| 17 | math::Abs#1/$lte#1 -> A_Output                                                               | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 18 | SM1:Calculate:math::Abs#2                                                                    | 1 | Activated            | T |
+| 19 | math::Abs#2/$if#2 -> A_Output                                                                | 1 | Then                 | - |
+|    |                                                                                              | 2 | Else                 | T |
+| 20 | math::Abs#2/$lte#1 -> A_Output                                                               | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 21 | SM1:Calculate:math::Abs#3                                                                    | 1 | Activated            | T |
+| 22 | math::Abs#3/$if#2 -> A_Output                                                                | 1 | Then                 | T |
+|    |                                                                                              | 2 | Else                 | T |
+| 23 | math::Abs#3/$lte#1 -> A_Output                                                               | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 24 | SM1:Calculate:Mean_10_Table#1                                                                | 1 | Activated            | T |
+|    |                                                                                              | 2 | Input Input1 changed | - |
+| 25 | SM1:Calculate:Store_Time                                                                     | 1 | Activated            | - |
+| 26 | SM1:Calculate:Vote_Alog#3                                                                    | 1 | Activated            | T |
+|    |                                                                                              | 2 | Input pH_Data change | - |
+|    |                                                                                              |   | d                    |   |
+|    |                                                                                              | 3 | Input Temperature_Da | - |
+|    |                                                                                              |   | ta changed           |   |
+|    |                                                                                              | 4 | Input Redox_Data cha | - |
+|    |                                                                                              |   | nged                 |   |
+| 27 | SM1:Defaillance_Station:                                                                     | 1 | Activated            | T |
+|    |                                                                                              | 2 | No Transition Fired  | T |
+| 28 | SM1:Normal_Station:                                                                          | 1 | Activated            | T |
+|    |                                                                                              | 2 | No Transition Fired  | - |
+| 29 | SM1:Normal_Station:$eq#1 -> $or#1                                                            | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 30 | SM1:Normal_Station:$eq#2 -> $or#1                                                            | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 31 | SM1:Normal_Station:$eq#3 -> $or#1                                                            | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 32 | SM1:Normal_Station:$or#1                                                                     | 1 | Activated            | T |
+| 33 | SM1:Normal_Station:$or#1 -> alarm                                                            | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 34 | SM1:Normal_Station:$or#1 -> notif                                                            | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 35 | SM1:Normal_Station:<1>:                                                                      | 1 | Fired                | T |
+| 36 | SM1:Normal_Station:<1>:notif -> <guard>                                                      | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 37 | SM1:Normal_Station:<2>:                                                                      | 1 | Fired                | T |
+| 38 | SM1:Normal_Station:<2>:notif -> <guard>                                                      | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | T |
+| 39 | SM1:Normal_Station:notif                                                                     | 1 | Activated            | T |
+| 40 | SM1:Normal_Station:Vote_Alog#1                                                               | 1 | Activated            | T |
+|    |                                                                                              | 2 | Input pH_Data change | - |
+|    |                                                                                              |   | d                    |   |
+|    |                                                                                              | 3 | Input Temperature_Da | - |
+|    |                                                                                              |   | ta changed           |   |
+|    |                                                                                              | 4 | Input Redox_Data cha | - |
+|    |                                                                                              |   | nged                 |   |
+| 41 | SM1:Pollution:                                                                               | 1 | Activated            | T |
+|    |                                                                                              | 2 | No Transition Fired  | - |
+| 42 | SM1:Pollution:<1>:                                                                           | 1 | Fired                | T |
+| 43 | SM1:Pollution:<1>:Stop -> <guard>                                                            | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | - |
+| 44 | SM1:Pollution:<2>:                                                                           | 1 | Fired                | - |
+| 45 | SM1:Pollution:<2>:$gt#3 -> <guard>                                                           | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | - |
+| 46 | SM1:Pollution:<2>:Stop -> <guard>                                                            | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | - |
+| 47 | SM1:Pollution:Stop -> terminator Stop                                                        | 1 | True                 | - |
+|    |                                                                                              | 2 | False                | - |
+| 48 | SM1:Pollution:terminator Frequency                                                           | 1 | Activated            | - |
+| 49 | SM1:Pollution:terminator Stop                                                                | 1 | Activated            | - |
+| 50 | SM1:Timer:                                                                                   | 1 | Activated            | T |
+|    |                                                                                              | 2 | No Transition Fired  | - |
+| 51 | SM1:Timer:$gte#2 -> timeout                                                                  | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | - |
+| 52 | SM1:Timer:<1>:                                                                               | 1 | Fired                | T |
+| 53 | SM1:Timer:<1>:timeout -> <guard>                                                             | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | - |
+| 54 | SM1:Timer:timeout                                                                            | 1 | Activated            | T |
++----+----------------------------------------------------------------------------------------------+------------------------------+
+
+ 3.2.7. Mean_10_Table
+
++----+----------------------------------------------------------------------------------------------+------------------------------+
+|    | Element Path                                                                                 | Criterion                    |
++----+----------------------------------------------------------------------------------------------+------------------------------+
+| 01 | $flatten#1                                                                                   | 1 | Activated            | T |
+| 02 | $flatten#10                                                                                  | 1 | Activated            | T |
+| 03 | $flatten#12                                                                                  | 1 | Activated            | T |
+| 04 | $flatten#14                                                                                  | 1 | Activated            | T |
+| 05 | $flatten#16                                                                                  | 1 | Activated            | T |
+| 06 | $flatten#2                                                                                   | 1 | Activated            | T |
+| 07 | $flatten#20                                                                                  | 1 | Activated            | T |
+| 08 | $flatten#3                                                                                   | 1 | Activated            | T |
+| 09 | $flatten#4                                                                                   | 1 | Activated            | T |
+| 10 | $flatten#6                                                                                   | 1 | Activated            | T |
+| 11 | $flatten#8                                                                                   | 1 | Activated            | T |
++----+----------------------------------------------------------------------------------------------+------------------------------+
+
+ 3.2.8. Push_Table
+
+No coverage
+
+ 3.2.9. Vote_Alog
+
++----+----------------------------------------------------------------------------------------------+------------------------------+
+|    | Element Path                                                                                 | Criterion                    |
++----+----------------------------------------------------------------------------------------------+------------------------------+
+| 01 | $flatten#1                                                                                   | 1 | Activated            | T |
+| 02 | $flatten#2                                                                                   | 1 | Activated            | T |
+| 03 | $flatten#3                                                                                   | 1 | Activated            | T |
+| 04 | $if#1 -> Calculated_value#1                                                                  | 1 | Then                 | T |
+|    |                                                                                              | 2 | Else                 | T |
+| 05 | $if#2 -> Calculated_value#1                                                                  | 1 | Then                 | T |
+|    |                                                                                              | 2 | Else                 | T |
+| 06 | $if#3 -> Calculated_value#1                                                                  | 1 | Then                 | T |
+|    |                                                                                              | 2 | Else                 | T |
+| 07 | $if#4 -> Calculated_value#2                                                                  | 1 | Then                 | T |
+|    |                                                                                              | 2 | Else                 | T |
+| 08 | $if#5 -> Calculated_value#2                                                                  | 1 | Then                 | T |
+|    |                                                                                              | 2 | Else                 | T |
+| 09 | $if#6 -> Calculated_value#2                                                                  | 1 | Then                 | T |
+|    |                                                                                              | 2 | Else                 | T |
+| 10 | $if#7 -> Calculated_value#3                                                                  | 1 | Then                 | T |
+|    |                                                                                              | 2 | Else                 | T |
+| 11 | $if#8 -> Calculated_value#3                                                                  | 1 | Then                 | T |
+|    |                                                                                              | 2 | Else                 | T |
+| 12 | $if#9 -> Calculated_value#3                                                                  | 1 | Then                 | T |
+|    |                                                                                              | 2 | Else                 | T |
+| 13 | Calculated_value#1                                                                           | 1 | Activated            | T |
+|    |                                                                                              | 2 | Input value1 changed | - |
+|    |                                                                                              | 3 | Input value2 changed | - |
+|    |                                                                                              | 4 | Input value3 changed | - |
+| 14 | Calculated_value#2                                                                           | 1 | Activated            | T |
+|    |                                                                                              | 2 | Input value1 changed | - |
+|    |                                                                                              | 3 | Input value2 changed | - |
+|    |                                                                                              | 4 | Input value3 changed | - |
+| 15 | Calculated_value#3                                                                           | 1 | Activated            | T |
+|    |                                                                                              | 2 | Input value1 changed | - |
+|    |                                                                                              | 3 | Input value2 changed | - |
+|    |                                                                                              | 4 | Input value3 changed | - |
+| 16 | Check_interval_pH#1                                                                          | 1 | Activated            | T |
+|    |                                                                                              | 2 | Input pH changed     | - |
+| 17 | Check_interval_pH#1 -> Calculated_value#1                                                    | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 18 | Check_interval_pH#2                                                                          | 1 | Activated            | T |
+|    |                                                                                              | 2 | Input pH changed     | - |
+| 19 | Check_interval_pH#2 -> Calculated_value#1                                                    | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 20 | Check_interval_pH#3                                                                          | 1 | Activated            | T |
+|    |                                                                                              | 2 | Input pH changed     | - |
+| 21 | Check_interval_pH#3 -> Calculated_value#1                                                    | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 22 | Check_interval_Redox#1                                                                       | 1 | Activated            | T |
+|    |                                                                                              | 2 | Input Redox changed  | - |
+| 23 | Check_interval_Redox#1 -> Calculated_value#3                                                 | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 24 | Check_interval_Redox#2                                                                       | 1 | Activated            | T |
+|    |                                                                                              | 2 | Input Redox changed  | - |
+| 25 | Check_interval_Redox#2 -> Calculated_value#3                                                 | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 26 | Check_interval_Redox#3                                                                       | 1 | Activated            | T |
+|    |                                                                                              | 2 | Input Redox changed  | - |
+| 27 | Check_interval_Redox#3 -> Calculated_value#3                                                 | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 28 | Check_interval_Temperature#1                                                                 | 1 | Activated            | T |
+|    |                                                                                              | 2 | Input temperature ch | - |
+|    |                                                                                              |   | anged                |   |
+| 29 | Check_interval_Temperature#1 -> Calculated_value#2                                           | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 30 | Check_interval_Temperature#2                                                                 | 1 | Activated            | T |
+|    |                                                                                              | 2 | Input temperature ch | - |
+|    |                                                                                              |   | anged                |   |
+| 31 | Check_interval_Temperature#2 -> Calculated_value#2                                           | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
+| 32 | Check_interval_Temperature#3                                                                 | 1 | Activated            | T |
+|    |                                                                                              | 2 | Input temperature ch | - |
+|    |                                                                                              |   | anged                |   |
+| 33 | Check_interval_Temperature#3 -> Calculated_value#2                                           | 1 | True                 | T |
+|    |                                                                                              | 2 | False                | T |
++----+----------------------------------------------------------------------------------------------+------------------------------+
+
+ 3.3. Coverage per Record
+
+ 3.3.1. Coverage from Scenarios
+
++----+---------------+-------------------------------------------------------------------------------------------------------------+
+| 01 | Record        | Record1                                                                                                     |
+|    | Author        |                                                                                                             |
+|    | Date          | 2020/02/07 16:38:15                                                                                         |
+|    | Test Node     | Controller                                                                                                  |
+|    | Coverage      | 145/354 (40.96%)                                                                                            |
+|    | Description   | Record1                                                                                                     |
+|    +--------------------------------------------------------------------------------------------------------------------+--------+
+|    | Scenarios                                                                                                          | Cycles |
+|    +---+----------------------------------------------------------------------------------------------------------------+--------+
+|    | 1 | J:\Modelisation_Surveillance\Test_projet\init.sss                                                              | 0-0    |
+|    | 2 | J:\Modelisation_Surveillance\Test_projet\alias.sss                                                             | 0-0    |
+|    | 3 | J:\Modelisation_Surveillance\Test_projet\test8.sss                                                             | 0-2    |
++----+---+----------------------------------------------------------------------------------------------------------------+--------+
+| 02 | Record        | Record2                                                                                                     |
+|    | Author        |                                                                                                             |
+|    | Date          | 2020/02/07 16:38:15                                                                                         |
+|    | Test Node     | Controller                                                                                                  |
+|    | Coverage      | 128/354 (36.15%)                                                                                            |
+|    | Description   | Record2                                                                                                     |
+|    +--------------------------------------------------------------------------------------------------------------------+--------+
+|    | Scenarios                                                                                                          | Cycles |
+|    +---+----------------------------------------------------------------------------------------------------------------+--------+
+|    | 1 | J:\Modelisation_Surveillance\Test_projet\Scenario1.sss                                                         | 0-0    |
+|    | 2 | J:\Modelisation_Surveillance\Test_projet\test2.sss                                                             | 0-2    |
++----+---+----------------------------------------------------------------------------------------------------------------+--------+
+| 03 | Record        | Record3                                                                                                     |
+|    | Author        |                                                                                                             |
+|    | Date          | 2020/02/07 16:38:15                                                                                         |
+|    | Test Node     | Controller                                                                                                  |
+|    | Coverage      | 120/354 (33.89%)                                                                                            |
+|    | Description   | Record3                                                                                                     |
+|    +--------------------------------------------------------------------------------------------------------------------+--------+
+|    | Scenarios                                                                                                          | Cycles |
+|    +---+----------------------------------------------------------------------------------------------------------------+--------+
+|    | 1 | J:\Modelisation_Surveillance\Test_projet\Scenario9.sss                                                         | 0-0    |
+|    | 2 | J:\Modelisation_Surveillance\Test_projet\test7.sss                                                             | 0-2    |
++----+---+----------------------------------------------------------------------------------------------------------------+--------+
+| 04 | Record        | Record4                                                                                                     |
+|    | Author        |                                                                                                             |
+|    | Date          | 2020/02/07 16:38:15                                                                                         |
+|    | Test Node     | Controller                                                                                                  |
+|    | Coverage      | 139/354 (39.26%)                                                                                            |
+|    | Description   | Record4                                                                                                     |
+|    +--------------------------------------------------------------------------------------------------------------------+--------+
+|    | Scenarios                                                                                                          | Cycles |
+|    +---+----------------------------------------------------------------------------------------------------------------+--------+
+|    | 1 | J:\Modelisation_Surveillance\Test_projet\Scenario10.sss                                                        | 0-0    |
+|    | 2 | J:\Modelisation_Surveillance\Test_projet\Scenario17.sss                                                        | 0-2    |
++----+---+----------------------------------------------------------------------------------------------------------------+--------+
+| 05 | Record        | Record5                                                                                                     |
+|    | Author        |                                                                                                             |
+|    | Date          | 2020/02/07 16:38:16                                                                                         |
+|    | Test Node     | Controller                                                                                                  |
+|    | Coverage      | 115/354 (32.48%)                                                                                            |
+|    | Description   | Record5                                                                                                     |
+|    +--------------------------------------------------------------------------------------------------------------------+--------+
+|    | Scenarios                                                                                                          | Cycles |
+|    +---+----------------------------------------------------------------------------------------------------------------+--------+
+|    | 1 | J:\Modelisation_Surveillance\Test_projet\Scenario11.sss                                                        | 0-0    |
+|    | 2 | J:\Modelisation_Surveillance\Test_projet\Scenario18.sss                                                        | 0-2    |
++----+---+----------------------------------------------------------------------------------------------------------------+--------+
+| 06 | Record        | Record6                                                                                                     |
+|    | Author        |                                                                                                             |
+|    | Date          | 2020/02/07 16:38:16                                                                                         |
+|    | Test Node     | Controller                                                                                                  |
+|    | Coverage      | 126/354 (35.59%)                                                                                            |
+|    | Description   | Record6                                                                                                     |
+|    +--------------------------------------------------------------------------------------------------------------------+--------+
+|    | Scenarios                                                                                                          | Cycles |
+|    +---+----------------------------------------------------------------------------------------------------------------+--------+
+|    | 1 | J:\Modelisation_Surveillance\Test_projet\Scenario12.sss                                                        | 0-0    |
+|    | 2 | J:\Modelisation_Surveillance\Test_projet\Scenario19.sss                                                        | 0-2    |
++----+---+----------------------------------------------------------------------------------------------------------------+--------+
+| 07 | Record        | Record7                                                                                                     |
+|    | Author        |                                                                                                             |
+|    | Date          | 2020/02/07 16:38:16                                                                                         |
+|    | Test Node     | Controller                                                                                                  |
+|    | Coverage      | 124/354 (35.02%)                                                                                            |
+|    | Description   | Record7                                                                                                     |
+|    +--------------------------------------------------------------------------------------------------------------------+--------+
+|    | Scenarios                                                                                                          | Cycles |
+|    +---+----------------------------------------------------------------------------------------------------------------+--------+
+|    | 1 | J:\Modelisation_Surveillance\Test_projet\Scenario13.sss                                                        | 0-0    |
+|    | 2 | J:\Modelisation_Surveillance\Test_projet\Scenario20.sss                                                        | 0-2    |
++----+---+----------------------------------------------------------------------------------------------------------------+--------+
+| 08 | Record        | Record8                                                                                                     |
+|    | Author        |                                                                                                             |
+|    | Date          | 2020/02/07 16:38:17                                                                                         |
+|    | Test Node     | Controller                                                                                                  |
+|    | Coverage      | 130/354 (36.72%)                                                                                            |
+|    | Description   | Record8                                                                                                     |
+|    +--------------------------------------------------------------------------------------------------------------------+--------+
+|    | Scenarios                                                                                                          | Cycles |
+|    +---+----------------------------------------------------------------------------------------------------------------+--------+
+|    | 1 | J:\Modelisation_Surveillance\Test_projet\Scenario14.sss                                                        | 0-0    |
+|    | 2 | J:\Modelisation_Surveillance\Test_projet\Scenario21.sss                                                        | 0-2    |
++----+---+----------------------------------------------------------------------------------------------------------------+--------+
+| 09 | Record        | Record9                                                                                                     |
+|    | Author        |                                                                                                             |
+|    | Date          | 2020/02/07 16:38:17                                                                                         |
+|    | Test Node     | Controller                                                                                                  |
+|    | Coverage      | 131/354 (37.00%)                                                                                            |
+|    | Description   | Record9                                                                                                     |
+|    +--------------------------------------------------------------------------------------------------------------------+--------+
+|    | Scenarios                                                                                                          | Cycles |
+|    +---+----------------------------------------------------------------------------------------------------------------+--------+
+|    | 1 | J:\Modelisation_Surveillance\Test_projet\Scenario15.sss                                                        | 0-0    |
+|    | 2 | J:\Modelisation_Surveillance\Test_projet\Scenario22.sss                                                        | 0-4    |
++----+---+----------------------------------------------------------------------------------------------------------------+--------+
+| 10 | Record        | Record10                                                                                                    |
+|    | Author        |                                                                                                             |
+|    | Date          | 2020/02/07 16:38:17                                                                                         |
+|    | Test Node     | Controller                                                                                                  |
+|    | Coverage      | 112/354 (31.63%)                                                                                            |
+|    | Description   | Record10                                                                                                    |
+|    +--------------------------------------------------------------------------------------------------------------------+--------+
+|    | Scenarios                                                                                                          | Cycles |
+|    +---+----------------------------------------------------------------------------------------------------------------+--------+
+|    | 1 | J:\Modelisation_Surveillance\Test_projet\Scenario2.sss                                                         | 0-0    |
+|    | 2 | J:\Modelisation_Surveillance\Test_projet\test4.sss                                                             | 0-2    |
++----+---+----------------------------------------------------------------------------------------------------------------+--------+
+| 11 | Record        | Record11                                                                                                    |
+|    | Author        |                                                                                                             |
+|    | Date          | 2020/02/07 16:38:17                                                                                         |
+|    | Test Node     | Controller                                                                                                  |
+|    | Coverage      | 155/354 (43.78%)                                                                                            |
+|    | Description   | Record11                                                                                                    |
+|    +--------------------------------------------------------------------------------------------------------------------+--------+
+|    | Scenarios                                                                                                          | Cycles |
+|    +---+----------------------------------------------------------------------------------------------------------------+--------+
+|    | 1 | J:\Modelisation_Surveillance\Test_projet\Scenario3.sss                                                         | 0-0    |
+|    | 2 | J:\Modelisation_Surveillance\Test_projet\test3.sss                                                             | 0-2    |
++----+---+----------------------------------------------------------------------------------------------------------------+--------+
+| 12 | Record        | Record12                                                                                                    |
+|    | Author        |                                                                                                             |
+|    | Date          | 2020/02/07 16:38:18                                                                                         |
+|    | Test Node     | Controller                                                                                                  |
+|    | Coverage      | 138/354 (38.98%)                                                                                            |
+|    | Description   | Record12                                                                                                    |
+|    +--------------------------------------------------------------------------------------------------------------------+--------+
+|    | Scenarios                                                                                                          | Cycles |
+|    +---+----------------------------------------------------------------------------------------------------------------+--------+
+|    | 1 | J:\Modelisation_Surveillance\Test_projet\Scenario4.sss                                                         | 0-0    |
+|    | 2 | J:\Modelisation_Surveillance\Test_projet\test5.sss                                                             | 0-2    |
++----+---+----------------------------------------------------------------------------------------------------------------+--------+
+| 13 | Record        | Record13                                                                                                    |
+|    | Author        |                                                                                                             |
+|    | Date          | 2020/02/07 16:38:18                                                                                         |
+|    | Test Node     | Controller                                                                                                  |
+|    | Coverage      | 137/354 (38.70%)                                                                                            |
+|    | Description   | Record13                                                                                                    |
+|    +--------------------------------------------------------------------------------------------------------------------+--------+
+|    | Scenarios                                                                                                          | Cycles |
+|    +---+----------------------------------------------------------------------------------------------------------------+--------+
+|    | 1 | J:\Modelisation_Surveillance\Test_projet\Scenario5.sss                                                         | 0-0    |
+|    | 2 | J:\Modelisation_Surveillance\Test_projet\Scenario16.sss                                                        | 0-2    |
++----+---+----------------------------------------------------------------------------------------------------------------+--------+
+| 14 | Record        | Record14                                                                                                    |
+|    | Author        |                                                                                                             |
+|    | Date          | 2020/02/07 16:38:18                                                                                         |
+|    | Test Node     | Controller                                                                                                  |
+|    | Coverage      | 130/354 (36.72%)                                                                                            |
+|    | Description   | Record14                                                                                                    |
+|    +--------------------------------------------------------------------------------------------------------------------+--------+
+|    | Scenarios                                                                                                          | Cycles |
+|    +---+----------------------------------------------------------------------------------------------------------------+--------+
+|    | 1 | J:\Modelisation_Surveillance\Test_projet\Scenario6.sss                                                         | 0-0    |
+|    | 2 | J:\Modelisation_Surveillance\Test_projet\test1.sss                                                             | 0-2    |
++----+---+----------------------------------------------------------------------------------------------------------------+--------+
+| 15 | Record        | Record15                                                                                                    |
+|    | Author        |                                                                                                             |
+|    | Date          | 2020/02/07 16:38:18                                                                                         |
+|    | Test Node     | Controller                                                                                                  |
+|    | Coverage      | 138/354 (38.98%)                                                                                            |
+|    | Description   | Record15                                                                                                    |
+|    +--------------------------------------------------------------------------------------------------------------------+--------+
+|    | Scenarios                                                                                                          | Cycles |
+|    +---+----------------------------------------------------------------------------------------------------------------+--------+
+|    | 1 | J:\Modelisation_Surveillance\Test_projet\Scenario7.sss                                                         | 0-0    |
+|    | 2 | J:\Modelisation_Surveillance\Test_projet\test6.sss                                                             | 0-2    |
++----+---+----------------------------------------------------------------------------------------------------------------+--------+
+| 16 | Record        | Record16                                                                                                    |
+|    | Author        |                                                                                                             |
+|    | Date          | 2020/02/07 16:38:19                                                                                         |
+|    | Test Node     | Controller                                                                                                  |
+|    | Coverage      | 139/354 (39.26%)                                                                                            |
+|    | Description   | Record16                                                                                                    |
+|    +--------------------------------------------------------------------------------------------------------------------+--------+
+|    | Scenarios                                                                                                          | Cycles |
+|    +---+----------------------------------------------------------------------------------------------------------------+--------+
+|    | 1 | J:\Modelisation_Surveillance\Test_projet\Scenario8.sss                                                         | 0-0    |
+|    | 2 | J:\Modelisation_Surveillance\Test_projet\test9.sss                                                             | 0-2    |
++----+---+----------------------------------------------------------------------------------------------------------------+--------+
+| 17 | Record        | Record17                                                                                                    |
+|    | Author        |                                                                                                             |
+|    | Date          | 2020/02/07 16:38:19                                                                                         |
+|    | Test Node     | Controller                                                                                                  |
+|    | Coverage      | 148/354 (41.80%)                                                                                            |
+|    | Description   | Record17                                                                                                    |
+|    +--------------------------------------------------------------------------------------------------------------------+--------+
+|    | Scenarios                                                                                                          | Cycles |
+|    +---+----------------------------------------------------------------------------------------------------------------+--------+
+|    | 1 | J:\Modelisation_Surveillance\Test_projet\Scenario23.sss                                                        | 0-0    |
+|    | 2 | J:\Modelisation_Surveillance\Test_projet\Scenario24.sss                                                        | 0-4    |
++----+---+----------------------------------------------------------------------------------------------------------------+--------+
+
+ 3.3.2. Coverage from Justifications
+
+No justification given as input
+
+
+                                                           End of report

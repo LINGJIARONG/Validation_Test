@@ -1,0 +1,29 @@
+
+## inputs
+
+# 8. 
+## 
+# Temperature sensor is broken: 3 sensors broken
+# Data
+SSM::set Sensor_Temperature (-30.2,69.4,160.3)
+# Data
+SSM::set Sensor_pH (7.0,8.5,7.2)
+# Data
+SSM::set Sensor_Redox (3100.2,810.1,780.9)
+# position
+SSM::set Sensor_GPS (48.5,2.22)
+# float64
+SSM::set Time 10.03
+# bool
+SSM::set Stop false
+# float64
+SSM::set Frequency 1.0
+## outputs
+# Statation_data
+#SSM::check Send_Data (0.0,0.0,0.0,(0.0,0.0),0.0)
+# bool
+SSM::cycle 
+SSM::check alarm true
+SSM::cycle 
+
+

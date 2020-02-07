@@ -1,0 +1,6270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<File xmlns="http://www.esterel-technologies.com/ns/scade/6" xmlns:ed="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5" xmlns:kcg="http://www.esterel-technologies.com/ns/scade/pragmas/codegen/3">
+	<declarations>
+		<Package name="mathext">
+			<declarations>
+				<Package name="mathextimpl">
+					<declarations>
+						<Operator kind="function" external="imported" name="AcoshR32">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/802/28B0/440/53cd12d44851"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/803/28B0/440/53cd12d47b8e"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="AcoshR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/801/28B0/440/53cd12d43e2f"/>
+								<kcg:Pragma>
+									C:name AcoshR32_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="AcosR32">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/806/28B0/440/53cd12d47476"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/807/28B0/440/53cd12d452de"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="AcosR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/805/28B0/440/53cd12d42814"/>
+								<kcg:Pragma>
+									C:name AcosR32_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="AsinhR32">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/80a/28B0/440/53cd12d43cbe"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/80b/28B0/440/53cd12d476cc"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="AsinhR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/809/28B0/440/53cd12d45726"/>
+								<kcg:Pragma>
+									C:name AsinhR32_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="AsinR32">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/80e/28B0/440/53cd12d435d3"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/80f/28B0/440/53cd12d4ae5"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="AsinR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/80d/28B0/440/53cd12d4161c"/>
+								<kcg:Pragma>
+									C:name AsinR32_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="Atan2R32">
+							<inputs>
+								<Variable name="y">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/813/28B0/440/53cd12d44988"/>
+									</pragmas>
+								</Variable>
+								<Variable name="x">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/812/28B0/440/53cd12d4411d"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/814/28B0/440/53cd12d454d2"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="Atan2R"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/811/28B0/440/53cd12d44119"/>
+								<kcg:Pragma>
+									C:name Atan2R32_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="AtanhR32">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/817/28B0/440/53cd12d45853"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/818/28B0/440/53cd12d42516"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="AtanhR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/816/28B0/440/53cd12d44b40"/>
+								<kcg:Pragma>
+									C:name AtanhR32_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="AtanR32">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/81b/28B0/440/53cd12d440db"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/81c/28B0/440/53cd12d43c53"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="AtanR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/81a/28B0/440/53cd12d453e6"/>
+								<kcg:Pragma>
+									C:name AtanR32_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="CoshR32">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/81f/28B0/440/53cd12d461a0"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/820/28B0/440/53cd12d41e59"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="CoshR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/81e/28B0/440/53cd12d422be"/>
+								<kcg:Pragma>
+									C:name CoshR32_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="CosR32">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/823/28B0/440/53cd12d46b40"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/824/28B0/440/53cd12d421a1"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="CosR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/822/28B0/440/53cd12d44dc5"/>
+								<kcg:Pragma>
+									C:name CosR32_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="ExpR32">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/827/28B0/440/53cd12d43dea"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/828/28B0/440/53cd12d426e9"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="ExpR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/826/28B0/440/53cd12d474c4"/>
+								<kcg:Pragma>
+									C:name ExpR32_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="LnR32">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/82b/28B0/440/53cd12d43b16"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/82c/28B0/440/53cd12d4741f"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="LnR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/82a/28B0/440/53cd12d45619"/>
+								<kcg:Pragma>
+									C:name LnR32_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="LogR32">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/82f/28B0/440/53cd12d45f73"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/830/28B0/440/53cd12d43680"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="LogR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/82e/28B0/440/53cd12d420bb"/>
+								<kcg:Pragma>
+									C:name LogR32_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="PowerR32">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/838/28B0/440/53cd12d453ee"/>
+									</pragmas>
+								</Variable>
+								<Variable name="p">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="int32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/839/28B0/440/53cd12d44bb"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/83a/28B0/440/53cd12d4242a"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="PowerR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/837/28B0/440/53cd12d4e21"/>
+								<kcg:Pragma>
+									C:name PowerR32_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="PowerRR32">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/83d/28B0/440/53cd12d4a7b"/>
+									</pragmas>
+								</Variable>
+								<Variable name="p">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/83e/28B0/440/53cd12d421eb"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/83f/28B0/440/53cd12d471fd"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="PowerRR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/83c/28B0/440/53cd12d456d1"/>
+								<kcg:Pragma>
+									C:name PowerRR32_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="SinhR32">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/842/28B0/440/53cd12d43aaa"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/843/28B0/440/53cd12d471da"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="SinhR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/841/28B0/440/53cd12d42a95"/>
+								<kcg:Pragma>
+									C:name SinhR32_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="SinR32">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/846/28B0/440/53cd12d4193c"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/847/28B0/440/53cd12d42db4"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="SinR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/845/28B0/440/53cd12d47d06"/>
+								<kcg:Pragma>
+									C:name SinR32_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="SqrtR32">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/84a/28B0/440/53cd12d41a29"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/84b/28B0/440/53cd12d45483"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="SqrtR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/849/28B0/440/53cd12d42991"/>
+								<kcg:Pragma>
+									C:name SqrtR32_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="TanhR32">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/84e/28B0/440/53cd12d417b0"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/84f/28B0/440/53cd12d4919"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="TanhR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/84d/28B0/440/53cd12d46912"/>
+								<kcg:Pragma>
+									C:name TanhR32_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="TanR32">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/852/28B0/440/53cd12d4370b"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/853/28B0/440/53cd12d4a58"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="TanR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/851/28B0/440/53cd12d4310e"/>
+								<kcg:Pragma>
+									C:name TanR32_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="TenPowR32">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/856/28B0/440/53cd12d41af4"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/857/28B0/440/53cd12d42ba1"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="TenPowR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/855/28B0/440/53cd12d43d8e"/>
+								<kcg:Pragma>
+									C:name TenPowR32_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="AcoshR64">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/85a/28B0/440/53cd12d41f67"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/85b/28B0/440/53cd12d4318f"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="AcoshR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/859/28B0/440/53cd12d46d2e"/>
+								<kcg:Pragma>
+									C:name AcoshR64_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="AcosR64">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/85e/28B0/440/53cd12d42aa"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/85f/28B0/440/53cd12d466e6"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="AcosR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/85d/28B0/440/53cd12d42371"/>
+								<kcg:Pragma>
+									C:name AcosR64_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="AsinhR64">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/862/28B0/440/53cd12d41f8b"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/863/28B0/440/53cd12d47dc6"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="AsinhR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/861/28B0/440/53cd12d42557"/>
+								<kcg:Pragma>
+									C:name AsinhR64_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="AsinR64">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/866/28B0/440/53cd12d41ce9"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/867/28B0/440/53cd12d41125"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="AsinR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/865/28B0/440/53cd12d42432"/>
+								<kcg:Pragma>
+									C:name AsinR64_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="Atan2R64">
+							<inputs>
+								<Variable name="y">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/86a/28B0/440/53cd12d43675"/>
+									</pragmas>
+								</Variable>
+								<Variable name="x">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/86b/28B0/440/53cd12d45a7c"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/86c/28B0/440/53cd12d47883"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="Atan2R"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/869/28B0/440/53cd12d46ab5"/>
+								<kcg:Pragma>
+									C:name Atan2R64_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="AtanhR64">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/86f/28B0/440/53cd12d46fbf"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/870/28B0/440/53cd12d446c1"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="AtanhR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/86e/28B0/440/53cd12d42ba"/>
+								<kcg:Pragma>
+									C:name AtanhR64_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="AtanR64">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/873/28B0/440/53cd12d41d93"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/874/28B0/440/53cd12d46f61"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="AtanR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/872/28B0/440/53cd12d45a5b"/>
+								<kcg:Pragma>
+									C:name AtanR64_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="CoshR64">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/877/28B0/440/53cd12d431bc"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/878/28B0/440/53cd12d41e63"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="CoshR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/876/28B0/440/53cd12d4449c"/>
+								<kcg:Pragma>
+									C:name CoshR64_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="CosR64">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/87b/28B0/440/53cd12d449d4"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/87c/28B0/440/53cd12d43946"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="CosR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/87a/28B0/440/53cd12d4d24"/>
+								<kcg:Pragma>
+									C:name CosR64_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="ExpR64">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/87f/28B0/440/53cd12d47a43"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/880/28B0/440/53cd12d43a28"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="ExpR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/87e/28B0/440/53cd12d46702"/>
+								<kcg:Pragma>
+									C:name ExpR64_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="LnR64">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/883/28B0/440/53cd12d4616b"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/884/28B0/440/53cd12d4462e"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="LnR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/882/28B0/440/53cd12d440ed"/>
+								<kcg:Pragma>
+									C:name LnR64_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="LogR64">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/887/28B0/440/53cd12d47b23"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/888/28B0/440/53cd12d4326"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="LogR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/886/28B0/440/53cd12d42ed0"/>
+								<kcg:Pragma>
+									C:name LogR64_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="PowerR64">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/890/28B0/440/53cd12d44709"/>
+									</pragmas>
+								</Variable>
+								<Variable name="p">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="int32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/891/28B0/440/53cd12d41305"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/892/28B0/440/53cd12d42ff2"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="PowerR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/88f/28B0/440/53cd12d41f4d"/>
+								<kcg:Pragma>
+									C:name PowerR64_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="PowerRR64">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/895/28B0/440/53cd12d43652"/>
+									</pragmas>
+								</Variable>
+								<Variable name="p">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/896/28B0/440/53cd12d47f84"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/897/28B0/440/53cd12d44558"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="PowerRR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/894/28B0/440/53cd12d42522"/>
+								<kcg:Pragma>
+									C:name PowerRR64_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="SinhR64">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/89a/28B0/440/53cd12d468ea"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/89b/28B0/440/53cd12d43d40"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="SinhR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/899/28B0/440/53cd12d455fc"/>
+								<kcg:Pragma>
+									C:name SinhR64_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="SinR64">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/89e/28B0/440/53cd12d464fb"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/89f/28B0/440/53cd12d49fc"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="SinR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/89d/28B0/440/53cd12d41caa"/>
+								<kcg:Pragma>
+									C:name SinR64_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="SqrtR64">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/8a2/28B0/440/53cd12d4175a"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/8a3/28B0/440/53cd12d45331"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="SqrtR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/8a1/28B0/440/53cd12d411c1"/>
+								<kcg:Pragma>
+									C:name SqrtR64_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="TanhR64">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/8a6/28B0/440/53cd12d471fb"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/8a7/28B0/440/53cd12d42297"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="TanhR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/8a5/28B0/440/53cd12d42835"/>
+								<kcg:Pragma>
+									C:name TanhR64_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="TanR64">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/8aa/28B0/440/53cd12d431e2"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/8ab/28B0/440/53cd12d47dad"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="TanR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/8a9/28B0/440/53cd12d42fa0"/>
+								<kcg:Pragma>
+									C:name TanR64_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="TenPowR64">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/8ae/28B0/440/53cd12d4192e"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="float64"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/8af/28B0/440/53cd12d447ac"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="TenPowR"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/8ad/28B0/440/53cd12d45b91"/>
+								<kcg:Pragma>
+									C:name TenPowR64_mathext_mathextimpl
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+						<Operator kind="function" external="imported" name="PowerI32">
+							<inputs>
+								<Variable name="i">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="int32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/348/56BC/1EE0/55b6569f7562"/>
+									</pragmas>
+								</Variable>
+								<Variable name="p">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="int32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/349/56BC/1EE0/55b6569f20b2"/>
+									</pragmas>
+								</Variable>
+							</inputs>
+							<outputs>
+								<Variable name="o">
+									<type>
+										<NamedType>
+											<type>
+												<TypeRef name="int32"/>
+											</type>
+										</NamedType>
+									</type>
+									<pragmas>
+										<ed:Variable oid="!ed/347/56BC/1EE0/55b6569f139f"/>
+									</pragmas>
+								</Variable>
+							</outputs>
+							<specializedOperator>
+								<OperatorRef name="PowerI"/>
+							</specializedOperator>
+							<pragmas>
+								<ed:Operator oid="!ed/346/56BC/1EE0/55b6569f26a5" symbolFile="PowerI.ssl" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>P_Ouput equals P_Input powered to Power</comment>
+								</ed:Operator>
+								<kcg:Pragma>
+									C:name PowerI_mathext
+								</kcg:Pragma>
+							</pragmas>
+						</Operator>
+					</declarations>
+					<pragmas>
+						<ed:Package oid="!ed/800/28B0/440/53cd12d41f72"/>
+					</pragmas>
+				</Package>
+				<Operator name="AcosR" href="AcosR.xscade"/>
+				<Operator name="AcoshR" href="AcoshR.xscade"/>
+				<Operator name="AsinR" href="AsinR.xscade"/>
+				<Operator name="AsinhR" href="AsinhR.xscade"/>
+				<Operator name="Atan2R" href="Atan2R.xscade"/>
+				<Operator name="AtanR" href="AtanR.xscade"/>
+				<Operator name="AtanhR" href="AtanhR.xscade"/>
+				<Operator name="CosR" href="CosR.xscade"/>
+				<Operator name="CoshR" href="CoshR.xscade"/>
+				<Operator name="ExpR" href="ExpR.xscade"/>
+				<Operator name="LnR" href="LnR.xscade"/>
+				<Operator name="LogR" href="LogR.xscade"/>
+				<Operator name="PowerRR" href="PowerRR.xscade"/>
+				<Operator name="SinR" href="SinR.xscade"/>
+				<Operator name="SinhR" href="SinhR.xscade"/>
+				<Operator name="SqrtR" href="SqrtR.xscade"/>
+				<Operator name="TanR" href="TanR.xscade"/>
+				<Operator name="TanhR" href="TanhR.xscade"/>
+				<Operator name="TenPowR" href="TenPowR.xscade"/>
+				<Operator name="Square" href="Square.xscade"/>
+				<Operator name="Inv" href="Inv.xscade"/>
+				<Operator name="HypotR" href="HypotR.xscade"/>
+				<Operator name="PowerI" href="PowerI.xscade"/>
+				<Operator name="PowerR" href="PowerR.xscade"/>
+				<Operator name="SinCosR" href="SinCosR.xscade"/>
+				<Operator kind="function" name="SphericalToCartesian">
+					<inputs>
+						<Variable name="r">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/49cf/6AEE/1184/57923a1b74da"/>
+							</pragmas>
+						</Variable>
+						<Variable name="theta">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/49d0/6AEE/1184/57923a1b198b"/>
+							</pragmas>
+						</Variable>
+						<Variable name="phi">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/49d1/6AEE/1184/57923a1b63fa"/>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_x">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/a347/669/10F4/5e3d864f3d71" hidden="true" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>x</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_y">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/a348/669/10F4/5e3d864f30e1" hidden="true" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>y</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_z">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/a349/669/10F4/5e3d864f1359" hidden="true" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>z</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+					</inputs>
+					<outputs>
+						<Variable name="x">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/49cc/6AEE/1184/57923a1b4109"/>
+							</pragmas>
+						</Variable>
+						<Variable name="y">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/49cd/6AEE/1184/57923a1b30e0"/>
+							</pragmas>
+						</Variable>
+						<Variable name="z">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/49ce/6AEE/1184/57923a1b2fc2"/>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_r">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<default>
+								<ConstValue value="false"/>
+							</default>
+							<pragmas>
+								<ed:Variable oid="!ed/a344/669/10F4/5e3d864f4502" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>r</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_theta">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<default>
+								<ConstValue value="false"/>
+							</default>
+							<pragmas>
+								<ed:Variable oid="!ed/a345/669/10F4/5e3d864f56fa" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>theta</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_phi">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<default>
+								<ConstValue value="false"/>
+							</default>
+							<pragmas>
+								<ed:Variable oid="!ed/a346/669/10F4/5e3d864f2260" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>phi</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+					</outputs>
+					<numericTypes>
+						<FloatType>
+							<typeVar>
+								<TypeRef name="'T"/>
+							</typeVar>
+						</FloatType>
+					</numericTypes>
+					<locals>
+						<Variable name="_L1">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/49c1/6AEE/1184/57923a1b880"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L2">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/49c2/6AEE/1184/57923a1b4f91"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L3">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/49c3/6AEE/1184/57923a1b9f"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L4">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/49c4/6AEE/1184/57923a1b16e2"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L5">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/49c5/6AEE/1184/57923a1b6345"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L6">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/49c6/6AEE/1184/57923a1b6e47"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L7">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/49c7/6AEE/1184/57923a1b63ab"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L8">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/49c8/6AEE/1184/57923a1b4b73"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L9">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/49c9/6AEE/1184/57923a1b5aad"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L10">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/49ca/6AEE/1184/57923a1b3dfb"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L18">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/49cb/6AEE/1184/57923a1b7310"/>
+							</pragmas>
+						</Variable>
+					</locals>
+					<data>
+						<!-- _L1 = r; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L1"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="r"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/49b2/6AEE/1184/57923a1b30c3"/>
+							</pragmas>
+						</Equation>
+						<!-- _L2 = theta; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L2"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="theta"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/49b3/6AEE/1184/57923a1b3a3b"/>
+							</pragmas>
+						</Equation>
+						<!-- _L3 = phi; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L3"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="phi"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/49b4/6AEE/1184/57923a1bd75"/>
+							</pragmas>
+						</Equation>
+						<!-- x = _L9; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="x"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L9"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/49b5/6AEE/1184/57923a1b6455"/>
+							</pragmas>
+						</Equation>
+						<!-- y = _L10; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="y"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L10"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/49b6/6AEE/1184/57923a1b4fbf"/>
+							</pragmas>
+						</Equation>
+						<!-- _L4 = CosR(_L3); -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L4"/>
+							</lefts>
+							<right>
+								<!-- CosR(_L3) -->
+								<CallExpression>
+									<operator>
+										<OpCall name="1">
+											<operator>
+												<OperatorRef name="CosR"/>
+											</operator>
+										</OpCall>
+									</operator>
+									<callParameters>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L3"/>
+											</path>
+										</IdExpression>
+									</callParameters>
+								</CallExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/49b7/6AEE/1184/57923a1b5854"/>
+							</pragmas>
+						</Equation>
+						<!-- _L5 = SinR(_L3); -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L5"/>
+							</lefts>
+							<right>
+								<!-- SinR(_L3) -->
+								<CallExpression>
+									<operator>
+										<OpCall name="1">
+											<operator>
+												<OperatorRef name="SinR"/>
+											</operator>
+										</OpCall>
+									</operator>
+									<callParameters>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L3"/>
+											</path>
+										</IdExpression>
+									</callParameters>
+								</CallExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/49b8/6AEE/1184/57923a1b4d4e"/>
+							</pragmas>
+						</Equation>
+						<!-- _L6 = CosR(_L2); -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L6"/>
+							</lefts>
+							<right>
+								<!-- CosR(_L2) -->
+								<CallExpression>
+									<operator>
+										<OpCall name="2">
+											<operator>
+												<OperatorRef name="CosR"/>
+											</operator>
+										</OpCall>
+									</operator>
+									<callParameters>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L2"/>
+											</path>
+										</IdExpression>
+									</callParameters>
+								</CallExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/49b9/6AEE/1184/57923a1b34a2"/>
+							</pragmas>
+						</Equation>
+						<!-- _L7 = SinR(_L2); -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L7"/>
+							</lefts>
+							<right>
+								<!-- SinR(_L2) -->
+								<CallExpression>
+									<operator>
+										<OpCall name="2">
+											<operator>
+												<OperatorRef name="SinR"/>
+											</operator>
+										</OpCall>
+									</operator>
+									<callParameters>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L2"/>
+											</path>
+										</IdExpression>
+									</callParameters>
+								</CallExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/49ba/6AEE/1184/57923a1b148d"/>
+							</pragmas>
+						</Equation>
+						<!-- _L8 = _L1 * _L5; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L8"/>
+							</lefts>
+							<right>
+								<!-- _L1 * _L5 -->
+								<NAryOp name="1" operator="*">
+									<operands>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L1"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L5"/>
+											</path>
+										</IdExpression>
+									</operands>
+								</NAryOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/49bb/6AEE/1184/57923a1b3902"/>
+							</pragmas>
+						</Equation>
+						<!-- _L9 = _L8 * _L6; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L9"/>
+							</lefts>
+							<right>
+								<!-- _L8 * _L6 -->
+								<NAryOp name="2" operator="*">
+									<operands>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L8"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L6"/>
+											</path>
+										</IdExpression>
+									</operands>
+								</NAryOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/49bc/6AEE/1184/57923a1b2d33"/>
+							</pragmas>
+						</Equation>
+						<!-- _L10 = _L8 * _L7; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L10"/>
+							</lefts>
+							<right>
+								<!-- _L8 * _L7 -->
+								<NAryOp name="3" operator="*">
+									<operands>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L8"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L7"/>
+											</path>
+										</IdExpression>
+									</operands>
+								</NAryOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/49bd/6AEE/1184/57923a1b6164"/>
+							</pragmas>
+						</Equation>
+						<!-- _L18 = _L1 * _L4; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L18"/>
+							</lefts>
+							<right>
+								<!-- _L1 * _L4 -->
+								<NAryOp name="4" operator="*">
+									<operands>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L1"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L4"/>
+											</path>
+										</IdExpression>
+									</operands>
+								</NAryOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/49be/6AEE/1184/57923a1b3235"/>
+							</pragmas>
+						</Equation>
+						<!-- z = _L18; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="z"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L18"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/49bf/6AEE/1184/57923a1b5886"/>
+							</pragmas>
+						</Equation>
+						<!-- _ = MTC_AC_x; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_x"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aead/669/10F4/5e3d86504a95"/>
+							</pragmas>
+						</Equation>
+						<!-- _ = MTC_AC_y; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_y"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aeaf/669/10F4/5e3d865034c0"/>
+							</pragmas>
+						</Equation>
+						<!-- _ = MTC_AC_z; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_z"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aeb1/669/10F4/5e3d865074d7"/>
+							</pragmas>
+						</Equation>
+						<!-- MTC_AC_r = false; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="MTC_AC_r"/>
+							</lefts>
+							<right>
+								<ConstValue value="false"/>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aeb2/669/10F4/5e3d86505541"/>
+							</pragmas>
+						</Equation>
+						<!-- MTC_AC_theta = false; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="MTC_AC_theta"/>
+							</lefts>
+							<right>
+								<ConstValue value="false"/>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aeb3/669/10F4/5e3d86506f24"/>
+							</pragmas>
+						</Equation>
+						<!-- MTC_AC_phi = false; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="MTC_AC_phi"/>
+							</lefts>
+							<right>
+								<ConstValue value="false"/>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aeb4/669/10F4/5e3d86506d88"/>
+							</pragmas>
+						</Equation>
+					</data>
+					<pragmas>
+						<ed:Operator oid="!ed/49b1/6AEE/1184/57923a1baf8" symbolFile="SphericalToCartesian.ssl" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>Transform from spherical to cartesian coordinates.</comment>
+							<diagrams>
+								<NetDiagram name="diagram_SphericalToCartesian" landscape="true" format="A4 (210 297)" oid="!ed/49c0/6AEE/1184/57923a1b3872">
+									<presentationElements>
+										<EquationGE presentable="!ed/49b2/6AEE/1184/57923a1b30c3">
+											<position>
+												<Point x="1757" y="1270"/>
+											</position>
+											<size>
+												<Size width="265" height="502"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/49b3/6AEE/1184/57923a1b3a3b">
+											<position>
+												<Point x="1905" y="3090"/>
+											</position>
+											<size>
+												<Size width="265" height="503"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/49b4/6AEE/1184/57923a1bd75">
+											<position>
+												<Point x="1820" y="2223"/>
+											</position>
+											<size>
+												<Size width="265" height="503"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/49b5/6AEE/1184/57923a1b6455">
+											<position>
+												<Point x="15113" y="1524"/>
+											</position>
+											<size>
+												<Size width="344" height="503"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/49b6/6AEE/1184/57923a1b4fbf">
+											<position>
+												<Point x="15113" y="4255"/>
+											</position>
+											<size>
+												<Size width="344" height="503"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/49b7/6AEE/1184/57923a1b5854">
+											<position>
+												<Point x="9208" y="6816"/>
+											</position>
+											<size>
+												<Size width="1772" height="1402"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/49b8/6AEE/1184/57923a1b4d4e">
+											<position>
+												<Point x="4339" y="1757"/>
+											</position>
+											<size>
+												<Size width="1772" height="1402"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/49b9/6AEE/1184/57923a1b34a2">
+											<position>
+												<Point x="9208" y="2646"/>
+											</position>
+											<size>
+												<Size width="1772" height="1402"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/49ba/6AEE/1184/57923a1b148d">
+											<position>
+												<Point x="9208" y="4741"/>
+											</position>
+											<size>
+												<Size width="1773" height="1402"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/49bb/6AEE/1184/57923a1b3902">
+											<position>
+												<Point x="7535" y="1312"/>
+											</position>
+											<size>
+												<Size width="1005" height="661"/>
+											</size>
+										</EquationGE>
+										<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/49b8/6AEE/1184/57923a1b4d4e" dstEquation="!ed/49bb/6AEE/1184/57923a1b3902">
+											<positions>
+												<Point x="6117" y="2477"/>
+												<Point x="7366" y="2477"/>
+												<Point x="7366" y="1757"/>
+												<Point x="7535" y="1757"/>
+											</positions>
+										</Edge>
+										<EquationGE presentable="!ed/49bc/6AEE/1184/57923a1b2d33">
+											<position>
+												<Point x="12488" y="1461"/>
+											</position>
+											<size>
+												<Size width="1005" height="661"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/49bd/6AEE/1184/57923a1b6164">
+											<position>
+												<Point x="12488" y="4170"/>
+											</position>
+											<size>
+												<Size width="1005" height="661"/>
+											</size>
+										</EquationGE>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/49bb/6AEE/1184/57923a1b3902" dstEquation="!ed/49bd/6AEE/1184/57923a1b6164">
+											<positions>
+												<Point x="8551" y="1651"/>
+												<Point x="8869" y="1651"/>
+												<Point x="8869" y="4382"/>
+												<Point x="12488" y="4382"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/49b3/6AEE/1184/57923a1b3a3b" dstEquation="!ed/49ba/6AEE/1184/57923a1b148d">
+											<positions>
+												<Point x="2180" y="3344"/>
+												<Point x="8509" y="3344"/>
+												<Point x="8509" y="5440"/>
+												<Point x="9208" y="5440"/>
+											</positions>
+										</Edge>
+										<EquationGE presentable="!ed/49be/6AEE/1184/57923a1b3235">
+											<position>
+												<Point x="12488" y="6244"/>
+											</position>
+											<size>
+												<Size width="1005" height="661"/>
+											</size>
+										</EquationGE>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/49b2/6AEE/1184/57923a1b30c3" dstEquation="!ed/49be/6AEE/1184/57923a1b3235">
+											<positions>
+												<Point x="2011" y="1524"/>
+												<Point x="3979" y="1524"/>
+												<Point x="3979" y="6456"/>
+												<Point x="12488" y="6456"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/49b4/6AEE/1184/57923a1bd75" dstEquation="!ed/49b7/6AEE/1184/57923a1b5854">
+											<positions>
+												<Point x="2096" y="2477"/>
+												<Point x="3598" y="2477"/>
+												<Point x="3598" y="7514"/>
+												<Point x="9208" y="7514"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/49b7/6AEE/1184/57923a1b5854" dstEquation="!ed/49be/6AEE/1184/57923a1b3235">
+											<positions>
+												<Point x="10986" y="7514"/>
+												<Point x="12277" y="7514"/>
+												<Point x="12277" y="6689"/>
+												<Point x="12488" y="6689"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/49ba/6AEE/1184/57923a1b148d" dstEquation="!ed/49bd/6AEE/1184/57923a1b6164">
+											<positions>
+												<Point x="10986" y="5440"/>
+												<Point x="12277" y="5440"/>
+												<Point x="12277" y="4614"/>
+												<Point x="12488" y="4614"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/49b9/6AEE/1184/57923a1b34a2" dstEquation="!ed/49bc/6AEE/1184/57923a1b2d33">
+											<positions>
+												<Point x="10986" y="3344"/>
+												<Point x="12277" y="3344"/>
+												<Point x="12277" y="1905"/>
+												<Point x="12488" y="1905"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/49bb/6AEE/1184/57923a1b3902" dstEquation="!ed/49bc/6AEE/1184/57923a1b2d33">
+											<positions>
+												<Point x="8551" y="1651"/>
+												<Point x="10520" y="1651"/>
+												<Point x="10520" y="1651"/>
+												<Point x="12488" y="1651"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/49b3/6AEE/1184/57923a1b3a3b" dstEquation="!ed/49b9/6AEE/1184/57923a1b34a2">
+											<positions>
+												<Point x="2180" y="3344"/>
+												<Point x="5694" y="3344"/>
+												<Point x="5694" y="3344"/>
+												<Point x="9208" y="3344"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/49b2/6AEE/1184/57923a1b30c3" dstEquation="!ed/49bb/6AEE/1184/57923a1b3902">
+											<positions>
+												<Point x="2011" y="1524"/>
+												<Point x="4763" y="1524"/>
+												<Point x="4763" y="1524"/>
+												<Point x="7535" y="1524"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/49b4/6AEE/1184/57923a1bd75" dstEquation="!ed/49b8/6AEE/1184/57923a1b4d4e">
+											<positions>
+												<Point x="2096" y="2477"/>
+												<Point x="3196" y="2477"/>
+												<Point x="3196" y="2477"/>
+												<Point x="4339" y="2477"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/49bc/6AEE/1184/57923a1b2d33" dstEquation="!ed/49b5/6AEE/1184/57923a1b6455">
+											<positions>
+												<Point x="13504" y="1799"/>
+												<Point x="14330" y="1799"/>
+												<Point x="14330" y="1799"/>
+												<Point x="15155" y="1799"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/49bd/6AEE/1184/57923a1b6164" dstEquation="!ed/49b6/6AEE/1184/57923a1b4fbf">
+											<positions>
+												<Point x="13504" y="4509"/>
+												<Point x="14330" y="4509"/>
+												<Point x="14330" y="4509"/>
+												<Point x="15155" y="4509"/>
+											</positions>
+										</Edge>
+										<EquationGE presentable="!ed/49bf/6AEE/1184/57923a1b5886">
+											<position>
+												<Point x="15113" y="6308"/>
+											</position>
+											<size>
+												<Size width="344" height="502"/>
+											</size>
+										</EquationGE>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/49be/6AEE/1184/57923a1b3235" dstEquation="!ed/49bf/6AEE/1184/57923a1b5886">
+											<positions>
+												<Point x="13504" y="6583"/>
+												<Point x="14393" y="6583"/>
+												<Point x="14393" y="6583"/>
+												<Point x="15155" y="6583"/>
+											</positions>
+										</Edge>
+									</presentationElements>
+								</NetDiagram>
+								<TextDiagram name="diagram_SphericalToCartesian_MTC_INST" landscape="false" oid="!ed/aeab/669/10F4/5e3d86503012">
+									<presentationElements>
+										<FlowTE presentable="!ed/aead/669/10F4/5e3d86504a95"/>
+										<FlowTE presentable="!ed/aeaf/669/10F4/5e3d865034c0"/>
+										<FlowTE presentable="!ed/aeb1/669/10F4/5e3d865074d7"/>
+										<FlowTE presentable="!ed/aeb2/669/10F4/5e3d86505541"/>
+										<FlowTE presentable="!ed/aeb3/669/10F4/5e3d86506f24"/>
+										<FlowTE presentable="!ed/aeb4/669/10F4/5e3d86506d88"/>
+									</presentationElements>
+								</TextDiagram>
+							</diagrams>
+						</ed:Operator>
+						<kcg:Pragma>
+							expand
+						</kcg:Pragma>
+					</pragmas>
+				</Operator>
+				<Operator kind="function" name="RadiansToDegrees">
+					<inputs>
+						<Variable name="Radians">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4975/6AEE/1184/57923a1b5432"/>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_Degrees">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/a34b/669/10F4/5e3d864f3256" hidden="true" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>Degrees</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+					</inputs>
+					<outputs>
+						<Variable name="Degrees">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4974/6AEE/1184/57923a1b786c"/>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_Radians">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<default>
+								<ConstValue value="false"/>
+							</default>
+							<pragmas>
+								<ed:Variable oid="!ed/a34a/669/10F4/5e3d864f558b" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>Radians</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+					</outputs>
+					<numericTypes>
+						<FloatType>
+							<typeVar>
+								<TypeRef name="'T"/>
+							</typeVar>
+						</FloatType>
+					</numericTypes>
+					<locals>
+						<Variable name="pi">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4973/6AEE/1184/57923a1b17d3"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L1">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/496d/6AEE/1184/57923a1b19de"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L2">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/496e/6AEE/1184/57923a1b316b"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L3">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/496f/6AEE/1184/57923a1b63f7"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L4">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4970/6AEE/1184/57923a1b71ea"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L5">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4971/6AEE/1184/57923a1b63b8"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L6">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4972/6AEE/1184/57923a1b560a"/>
+							</pragmas>
+						</Variable>
+					</locals>
+					<data>
+						<!-- _L1 = Radians; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L1"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="Radians"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4964/6AEE/1184/57923a1b166c"/>
+							</pragmas>
+						</Equation>
+						<!-- Degrees = _L4; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="Degrees"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L4"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4965/6AEE/1184/57923a1b9cc"/>
+							</pragmas>
+						</Equation>
+						<!-- pi = _L2; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="pi"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L2"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4966/6AEE/1184/57923a1b3d46"/>
+							</pragmas>
+						</Equation>
+						<!-- _L2 = (3.1415926535897 : 'T); -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L2"/>
+							</lefts>
+							<right>
+								<!-- (3.1415926535897 : 'T) -->
+								<NumericCastOp name="1">
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+									<flow>
+										<ConstValue value="3.1415926535897"/>
+									</flow>
+								</NumericCastOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4967/6AEE/1184/57923a1b18f7"/>
+							</pragmas>
+						</Equation>
+						<!-- _L3 = _L5 / _L6; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L3"/>
+							</lefts>
+							<right>
+								<!-- _L5 / _L6 -->
+								<BinaryOp name="1" operator="/">
+									<operands>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L5"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L6"/>
+											</path>
+										</IdExpression>
+									</operands>
+								</BinaryOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4968/6AEE/1184/57923a1b6b7"/>
+							</pragmas>
+						</Equation>
+						<!-- _L4 = _L1 * _L3; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L4"/>
+							</lefts>
+							<right>
+								<!-- _L1 * _L3 -->
+								<NAryOp name="1" operator="*">
+									<operands>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L1"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L3"/>
+											</path>
+										</IdExpression>
+									</operands>
+								</NAryOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4969/6AEE/1184/57923a1b516f"/>
+							</pragmas>
+						</Equation>
+						<!-- _L5 = (180.0 : 'T); -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L5"/>
+							</lefts>
+							<right>
+								<!-- (180.0 : 'T) -->
+								<NumericCastOp name="2">
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+									<flow>
+										<ConstValue value="180.0"/>
+									</flow>
+								</NumericCastOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/496a/6AEE/1184/57923a1b3211"/>
+							</pragmas>
+						</Equation>
+						<!-- _L6 = pi; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L6"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="pi"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/496b/6AEE/1184/57923a1b17bd"/>
+							</pragmas>
+						</Equation>
+						<!-- _ = MTC_AC_Degrees; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_Degrees"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aeb7/669/10F4/5e3d86501551"/>
+							</pragmas>
+						</Equation>
+						<!-- MTC_AC_Radians = false; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="MTC_AC_Radians"/>
+							</lefts>
+							<right>
+								<ConstValue value="false"/>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aeb8/669/10F4/5e3d86503934"/>
+							</pragmas>
+						</Equation>
+					</data>
+					<pragmas>
+						<ed:Operator oid="!ed/4963/6AEE/1184/57923a1b46a6" symbolFile="RadiansToDegrees.ssl" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>Conversion from Radians to Degrees.</comment>
+							<diagrams>
+								<NetDiagram name="diagram_RadiansToDegrees" landscape="true" format="A4 (210 297)" oid="!ed/496c/6AEE/1184/57923a1b3231">
+									<presentationElements>
+										<EquationGE presentable="!ed/4964/6AEE/1184/57923a1b166c">
+											<position>
+												<Point x="2942" y="1207"/>
+											</position>
+											<size>
+												<Size width="265" height="503"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/4965/6AEE/1184/57923a1b9cc">
+											<position>
+												<Point x="9631" y="1334"/>
+											</position>
+											<size>
+												<Size width="344" height="503"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/4966/6AEE/1184/57923a1b3d46">
+											<position>
+												<Point x="5842" y="4170"/>
+											</position>
+											<size>
+												<Size width="370" height="502"/>
+											</size>
+										</EquationGE>
+										<EquationGE kind="OBJ_LIT" presentable="!ed/4967/6AEE/1184/57923a1b18f7">
+											<position>
+												<Point x="4403" y="4276"/>
+											</position>
+											<size>
+												<Size width="170" height="318"/>
+											</size>
+										</EquationGE>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4967/6AEE/1184/57923a1b18f7" dstEquation="!ed/4966/6AEE/1184/57923a1b3d46">
+											<positions>
+												<Point x="4572" y="4445"/>
+												<Point x="4911" y="4445"/>
+												<Point x="4911" y="4445"/>
+												<Point x="5842" y="4445"/>
+											</positions>
+										</Edge>
+										<EquationGE presentable="!ed/4968/6AEE/1184/57923a1b6b7">
+											<position>
+												<Point x="4657" y="2201"/>
+											</position>
+											<size>
+												<Size width="1005" height="661"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/4969/6AEE/1184/57923a1b516f">
+											<position>
+												<Point x="7091" y="1270"/>
+											</position>
+											<size>
+												<Size width="1006" height="661"/>
+											</size>
+										</EquationGE>
+										<EquationGE kind="OBJ_LIT" presentable="!ed/496a/6AEE/1184/57923a1b3211">
+											<position>
+												<Point x="3027" y="2265"/>
+											</position>
+											<size>
+												<Size width="170" height="318"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/496b/6AEE/1184/57923a1b17bd">
+											<position>
+												<Point x="2942" y="3048"/>
+											</position>
+											<size>
+												<Size width="265" height="503"/>
+											</size>
+										</EquationGE>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4964/6AEE/1184/57923a1b166c" dstEquation="!ed/4969/6AEE/1184/57923a1b516f">
+											<positions>
+												<Point x="3217" y="1461"/>
+												<Point x="4847" y="1461"/>
+												<Point x="4847" y="1461"/>
+												<Point x="7091" y="1461"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/4968/6AEE/1184/57923a1b6b7" dstEquation="!ed/4969/6AEE/1184/57923a1b516f">
+											<positions>
+												<Point x="5673" y="2540"/>
+												<Point x="6943" y="2540"/>
+												<Point x="6943" y="1715"/>
+												<Point x="7091" y="1715"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4969/6AEE/1184/57923a1b516f" dstEquation="!ed/4965/6AEE/1184/57923a1b9cc">
+											<positions>
+												<Point x="8107" y="1609"/>
+												<Point x="8890" y="1609"/>
+												<Point x="8890" y="1609"/>
+												<Point x="9673" y="1609"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/496a/6AEE/1184/57923a1b3211" dstEquation="!ed/4968/6AEE/1184/57923a1b6b7">
+											<positions>
+												<Point x="3196" y="2434"/>
+												<Point x="3916" y="2434"/>
+												<Point x="3916" y="2434"/>
+												<Point x="4657" y="2434"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/496b/6AEE/1184/57923a1b17bd" dstEquation="!ed/4968/6AEE/1184/57923a1b6b7">
+											<positions>
+												<Point x="3217" y="3302"/>
+												<Point x="4466" y="3302"/>
+												<Point x="4466" y="2646"/>
+												<Point x="4657" y="2646"/>
+											</positions>
+										</Edge>
+									</presentationElements>
+								</NetDiagram>
+								<TextDiagram name="diagram_RadiansToDegrees_MTC_INST" landscape="false" oid="!ed/aeb5/669/10F4/5e3d865055e2">
+									<presentationElements>
+										<FlowTE presentable="!ed/aeb7/669/10F4/5e3d86501551"/>
+										<FlowTE presentable="!ed/aeb8/669/10F4/5e3d86503934"/>
+									</presentationElements>
+								</TextDiagram>
+							</diagrams>
+						</ed:Operator>
+						<kcg:Pragma>
+							expand
+						</kcg:Pragma>
+					</pragmas>
+				</Operator>
+				<Operator kind="function" name="PolarToCartesian">
+					<inputs>
+						<Variable name="r">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/492e/6AEE/1184/57923a1b7415"/>
+							</pragmas>
+						</Variable>
+						<Variable name="theta">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/492f/6AEE/1184/57923a1b7bf5"/>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_x">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/a34e/669/10F4/5e3d864f5cb8" hidden="true" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>x</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_y">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/a34f/669/10F4/5e3d864f57f3" hidden="true" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>y</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+					</inputs>
+					<outputs>
+						<Variable name="x">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/492c/6AEE/1184/57923a1b6386"/>
+							</pragmas>
+						</Variable>
+						<Variable name="y">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/492d/6AEE/1184/57923a1b26c3"/>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_r">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<default>
+								<ConstValue value="false"/>
+							</default>
+							<pragmas>
+								<ed:Variable oid="!ed/a34c/669/10F4/5e3d864f5140" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>r</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_theta">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<default>
+								<ConstValue value="false"/>
+							</default>
+							<pragmas>
+								<ed:Variable oid="!ed/a34d/669/10F4/5e3d864f364d" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>theta</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+					</outputs>
+					<numericTypes>
+						<FloatType>
+							<typeVar>
+								<TypeRef name="'T"/>
+							</typeVar>
+						</FloatType>
+					</numericTypes>
+					<locals>
+						<Variable name="_L1">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4926/6AEE/1184/57923a1b45fc"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L2">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4927/6AEE/1184/57923a1b4aef"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L3">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4928/6AEE/1184/57923a1b387e"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L4">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4929/6AEE/1184/57923a1b610e"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L5">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/492a/6AEE/1184/57923a1b205b"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L6">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/492b/6AEE/1184/57923a1b516b"/>
+							</pragmas>
+						</Variable>
+					</locals>
+					<data>
+						<!-- _L1 = CosR(_L6); -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L1"/>
+							</lefts>
+							<right>
+								<!-- CosR(_L6) -->
+								<CallExpression>
+									<operator>
+										<OpCall name="1">
+											<operator>
+												<OperatorRef name="CosR"/>
+											</operator>
+										</OpCall>
+									</operator>
+									<callParameters>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L6"/>
+											</path>
+										</IdExpression>
+									</callParameters>
+								</CallExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/491d/6AEE/1184/57923a1b4d7"/>
+							</pragmas>
+						</Equation>
+						<!-- _L2 = SinR(_L6); -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L2"/>
+							</lefts>
+							<right>
+								<!-- SinR(_L6) -->
+								<CallExpression>
+									<operator>
+										<OpCall name="1">
+											<operator>
+												<OperatorRef name="SinR"/>
+											</operator>
+										</OpCall>
+									</operator>
+									<callParameters>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L6"/>
+											</path>
+										</IdExpression>
+									</callParameters>
+								</CallExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/491e/6AEE/1184/57923a1b5cf4"/>
+							</pragmas>
+						</Equation>
+						<!-- _L3 = _L1 * _L5; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L3"/>
+							</lefts>
+							<right>
+								<!-- _L1 * _L5 -->
+								<NAryOp name="1" operator="*">
+									<operands>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L1"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L5"/>
+											</path>
+										</IdExpression>
+									</operands>
+								</NAryOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/491f/6AEE/1184/57923a1b5efd"/>
+							</pragmas>
+						</Equation>
+						<!-- _L4 = _L5 * _L2; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L4"/>
+							</lefts>
+							<right>
+								<!-- _L5 * _L2 -->
+								<NAryOp name="2" operator="*">
+									<operands>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L5"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L2"/>
+											</path>
+										</IdExpression>
+									</operands>
+								</NAryOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4920/6AEE/1184/57923a1b3ef5"/>
+							</pragmas>
+						</Equation>
+						<!-- _L5 = r; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L5"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="r"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4921/6AEE/1184/57923a1b1d47"/>
+							</pragmas>
+						</Equation>
+						<!-- _L6 = theta; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L6"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="theta"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4922/6AEE/1184/57923a1b364d"/>
+							</pragmas>
+						</Equation>
+						<!-- x = _L3; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="x"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L3"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4923/6AEE/1184/57923a1b336"/>
+							</pragmas>
+						</Equation>
+						<!-- y = _L4; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="y"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L4"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4924/6AEE/1184/57923a1b78bb"/>
+							</pragmas>
+						</Equation>
+						<!-- _ = MTC_AC_x; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_x"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aebb/669/10F4/5e3d865037c3"/>
+							</pragmas>
+						</Equation>
+						<!-- _ = MTC_AC_y; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_y"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aebd/669/10F4/5e3d86502342"/>
+							</pragmas>
+						</Equation>
+						<!-- MTC_AC_r = false; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="MTC_AC_r"/>
+							</lefts>
+							<right>
+								<ConstValue value="false"/>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aebe/669/10F4/5e3d86507a1e"/>
+							</pragmas>
+						</Equation>
+						<!-- MTC_AC_theta = false; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="MTC_AC_theta"/>
+							</lefts>
+							<right>
+								<ConstValue value="false"/>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aebf/669/10F4/5e3d865055f1"/>
+							</pragmas>
+						</Equation>
+					</data>
+					<pragmas>
+						<ed:Operator oid="!ed/491c/6AEE/1184/57923a1b17b4" symbolFile="PolarToCartesian.ssl" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>Transformation from polar to cartesian coordinates.</comment>
+							<diagrams>
+								<NetDiagram name="diagram_PolarToCartesian" landscape="true" format="A4 (210 297)" oid="!ed/4925/6AEE/1184/57923a1b56e2">
+									<presentationElements>
+										<EquationGE presentable="!ed/491d/6AEE/1184/57923a1b4d7">
+											<position>
+												<Point x="3937" y="804"/>
+											</position>
+											<size>
+												<Size width="1773" height="1402"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/491e/6AEE/1184/57923a1b5cf4">
+											<position>
+												<Point x="3937" y="2752"/>
+											</position>
+											<size>
+												<Size width="1773" height="1402"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/491f/6AEE/1184/57923a1b5efd">
+											<position>
+												<Point x="7260" y="1312"/>
+											</position>
+											<size>
+												<Size width="1005" height="662"/>
+											</size>
+										</EquationGE>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/491d/6AEE/1184/57923a1b4d7" dstEquation="!ed/491f/6AEE/1184/57923a1b5efd">
+											<positions>
+												<Point x="5694" y="1503"/>
+												<Point x="6392" y="1503"/>
+												<Point x="6392" y="1503"/>
+												<Point x="7260" y="1503"/>
+											</positions>
+										</Edge>
+										<EquationGE presentable="!ed/4920/6AEE/1184/57923a1b3ef5">
+											<position>
+												<Point x="7260" y="3027"/>
+											</position>
+											<size>
+												<Size width="1005" height="661"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/4921/6AEE/1184/57923a1b1d47">
+											<position>
+												<Point x="1863" y="2244"/>
+											</position>
+											<size>
+												<Size width="265" height="503"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/4922/6AEE/1184/57923a1b364d">
+											<position>
+												<Point x="1863" y="1249"/>
+											</position>
+											<size>
+												<Size width="265" height="503"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/4923/6AEE/1184/57923a1b336">
+											<position>
+												<Point x="9694" y="1376"/>
+											</position>
+											<size>
+												<Size width="344" height="503"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/4924/6AEE/1184/57923a1b78bb">
+											<position>
+												<Point x="9673" y="3112"/>
+											</position>
+											<size>
+												<Size width="344" height="503"/>
+											</size>
+										</EquationGE>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4922/6AEE/1184/57923a1b364d" dstEquation="!ed/491d/6AEE/1184/57923a1b4d7">
+											<positions>
+												<Point x="2138" y="1503"/>
+												<Point x="3027" y="1503"/>
+												<Point x="3027" y="1503"/>
+												<Point x="3937" y="1503"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4922/6AEE/1184/57923a1b364d" dstEquation="!ed/491e/6AEE/1184/57923a1b5cf4">
+											<positions>
+												<Point x="2138" y="1503"/>
+												<Point x="3450" y="1503"/>
+												<Point x="3450" y="3471"/>
+												<Point x="3937" y="3471"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/4921/6AEE/1184/57923a1b1d47" dstEquation="!ed/491f/6AEE/1184/57923a1b5efd">
+											<positions>
+												<Point x="2138" y="2498"/>
+												<Point x="7027" y="2498"/>
+												<Point x="7027" y="1757"/>
+												<Point x="7260" y="1757"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/491e/6AEE/1184/57923a1b5cf4" dstEquation="!ed/4920/6AEE/1184/57923a1b3ef5">
+											<positions>
+												<Point x="5694" y="3471"/>
+												<Point x="6477" y="3471"/>
+												<Point x="6477" y="3471"/>
+												<Point x="7260" y="3471"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4921/6AEE/1184/57923a1b1d47" dstEquation="!ed/4920/6AEE/1184/57923a1b3ef5">
+											<positions>
+												<Point x="2138" y="2498"/>
+												<Point x="7027" y="2498"/>
+												<Point x="7027" y="3239"/>
+												<Point x="7260" y="3239"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/491f/6AEE/1184/57923a1b5efd" dstEquation="!ed/4923/6AEE/1184/57923a1b336">
+											<positions>
+												<Point x="8276" y="1651"/>
+												<Point x="9017" y="1651"/>
+												<Point x="9017" y="1651"/>
+												<Point x="9737" y="1651"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4920/6AEE/1184/57923a1b3ef5" dstEquation="!ed/4924/6AEE/1184/57923a1b78bb">
+											<positions>
+												<Point x="8276" y="3366"/>
+												<Point x="8996" y="3366"/>
+												<Point x="8996" y="3366"/>
+												<Point x="9716" y="3366"/>
+											</positions>
+										</Edge>
+									</presentationElements>
+								</NetDiagram>
+								<TextDiagram name="diagram_PolarToCartesian_MTC_INST" landscape="false" oid="!ed/aeb9/669/10F4/5e3d8650587">
+									<presentationElements>
+										<FlowTE presentable="!ed/aebb/669/10F4/5e3d865037c3"/>
+										<FlowTE presentable="!ed/aebd/669/10F4/5e3d86502342"/>
+										<FlowTE presentable="!ed/aebe/669/10F4/5e3d86507a1e"/>
+										<FlowTE presentable="!ed/aebf/669/10F4/5e3d865055f1"/>
+									</presentationElements>
+								</TextDiagram>
+							</diagrams>
+						</ed:Operator>
+						<kcg:Pragma>
+							expand
+						</kcg:Pragma>
+					</pragmas>
+				</Operator>
+				<Operator kind="function" name="FahrenheitToCelsius">
+					<inputs>
+						<Variable name="Fahrenheit">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/48f6/6AEE/1184/57923a1b33ff"/>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_Celsius">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/a351/669/10F4/5e3d864f60f9" hidden="true" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>Celsius</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+					</inputs>
+					<outputs>
+						<Variable name="Celsius">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/48f5/6AEE/1184/57923a1bc4c"/>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_Fahrenheit">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<default>
+								<ConstValue value="false"/>
+							</default>
+							<pragmas>
+								<ed:Variable oid="!ed/a350/669/10F4/5e3d864fd44" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>Fahrenheit</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+					</outputs>
+					<numericTypes>
+						<FloatType>
+							<typeVar>
+								<TypeRef name="'T"/>
+							</typeVar>
+						</FloatType>
+					</numericTypes>
+					<locals>
+						<Variable name="_L1">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/48f0/6AEE/1184/57923a1b2590"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L2">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/48f1/6AEE/1184/57923a1b316c"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L3">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/48f2/6AEE/1184/57923a1b4afb"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L4">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/48f3/6AEE/1184/57923a1b56d5"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L5">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/48f4/6AEE/1184/57923a1b39e6"/>
+							</pragmas>
+						</Variable>
+					</locals>
+					<data>
+						<!-- _L1 = Fahrenheit; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L1"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="Fahrenheit"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/48e9/6AEE/1184/57923a1b236"/>
+							</pragmas>
+						</Equation>
+						<!-- Celsius = _L2; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="Celsius"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L2"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/48ea/6AEE/1184/57923a1bf09"/>
+							</pragmas>
+						</Equation>
+						<!-- _L2 = _L3 * _L4; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L2"/>
+							</lefts>
+							<right>
+								<!-- _L3 * _L4 -->
+								<NAryOp name="1" operator="*">
+									<operands>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L3"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L4"/>
+											</path>
+										</IdExpression>
+									</operands>
+								</NAryOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/48eb/6AEE/1184/57923a1b6aec"/>
+							</pragmas>
+						</Equation>
+						<!-- _L3 = _L1 - _L5; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L3"/>
+							</lefts>
+							<right>
+								<!-- _L1 - _L5 -->
+								<BinaryOp name="1" operator="-">
+									<operands>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L1"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L5"/>
+											</path>
+										</IdExpression>
+									</operands>
+								</BinaryOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/48ec/6AEE/1184/57923a1b5261"/>
+							</pragmas>
+						</Equation>
+						<!-- _L4 = ((5.0 / 9.0) : 'T); -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L4"/>
+							</lefts>
+							<right>
+								<!-- ((5.0 / 9.0) : 'T) -->
+								<NumericCastOp name="1">
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+									<flow>
+										<!-- 5.0 / 9.0 -->
+										<BinaryOp name="3" operator="/">
+											<operands>
+												<ConstValue value="5.0"/>
+												<ConstValue value="9.0"/>
+											</operands>
+										</BinaryOp>
+									</flow>
+								</NumericCastOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/48ed/6AEE/1184/57923a1b6414"/>
+							</pragmas>
+						</Equation>
+						<!-- _L5 = (32.0 : 'T); -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L5"/>
+							</lefts>
+							<right>
+								<!-- (32.0 : 'T) -->
+								<NumericCastOp name="2">
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+									<flow>
+										<ConstValue value="32.0"/>
+									</flow>
+								</NumericCastOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/48ee/6AEE/1184/57923a1b6a77"/>
+							</pragmas>
+						</Equation>
+						<!-- _ = MTC_AC_Celsius; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_Celsius"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aec2/669/10F4/5e3d86501b36"/>
+							</pragmas>
+						</Equation>
+						<!-- MTC_AC_Fahrenheit = false; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="MTC_AC_Fahrenheit"/>
+							</lefts>
+							<right>
+								<ConstValue value="false"/>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aec3/669/10F4/5e3d86502125"/>
+							</pragmas>
+						</Equation>
+					</data>
+					<pragmas>
+						<ed:Operator oid="!ed/48e8/6AEE/1184/57923a1b4216" symbolFile="FahrenheitToCelsius.ssl" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>Conversion from degrees Fahrenheit to degrees Celsius.</comment>
+							<diagrams>
+								<NetDiagram name="diagram_FahrenheitToCelsius" landscape="true" format="A4 (210 297)" oid="!ed/48ef/6AEE/1184/57923a1b29ca">
+									<presentationElements>
+										<EquationGE presentable="!ed/48e9/6AEE/1184/57923a1b236">
+											<position>
+												<Point x="2625" y="931"/>
+											</position>
+											<size>
+												<Size width="264" height="502"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/48ea/6AEE/1184/57923a1bf09">
+											<position>
+												<Point x="9419" y="1207"/>
+											</position>
+											<size>
+												<Size width="344" height="502"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/48eb/6AEE/1184/57923a1b6aec">
+											<position>
+												<Point x="6922" y="1122"/>
+											</position>
+											<size>
+												<Size width="1006" height="662"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/48ec/6AEE/1184/57923a1b5261">
+											<position>
+												<Point x="4403" y="995"/>
+											</position>
+											<size>
+												<Size width="1005" height="661"/>
+											</size>
+										</EquationGE>
+										<EquationGE kind="OBJ_LIT" presentable="!ed/48ed/6AEE/1184/57923a1b6414">
+											<position>
+												<Point x="2731" y="2392"/>
+											</position>
+											<size>
+												<Size width="169" height="317"/>
+											</size>
+										</EquationGE>
+										<EquationGE kind="OBJ_LIT" presentable="!ed/48ee/6AEE/1184/57923a1b6a77">
+											<position>
+												<Point x="2731" y="1757"/>
+											</position>
+											<size>
+												<Size width="169" height="317"/>
+											</size>
+										</EquationGE>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/48e9/6AEE/1184/57923a1b236" dstEquation="!ed/48ec/6AEE/1184/57923a1b5261">
+											<positions>
+												<Point x="2879" y="1185"/>
+												<Point x="3620" y="1185"/>
+												<Point x="3620" y="1185"/>
+												<Point x="4403" y="1185"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/48ee/6AEE/1184/57923a1b6a77" dstEquation="!ed/48ec/6AEE/1184/57923a1b5261">
+											<positions>
+												<Point x="2900" y="1926"/>
+												<Point x="4212" y="1926"/>
+												<Point x="4212" y="1439"/>
+												<Point x="4403" y="1439"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/48ec/6AEE/1184/57923a1b5261" dstEquation="!ed/48eb/6AEE/1184/57923a1b6aec">
+											<positions>
+												<Point x="5398" y="1334"/>
+												<Point x="6138" y="1334"/>
+												<Point x="6138" y="1334"/>
+												<Point x="6922" y="1334"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/48eb/6AEE/1184/57923a1b6aec" dstEquation="!ed/48ea/6AEE/1184/57923a1bf09">
+											<positions>
+												<Point x="7916" y="1461"/>
+												<Point x="8678" y="1461"/>
+												<Point x="8678" y="1461"/>
+												<Point x="9462" y="1461"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/48ed/6AEE/1184/57923a1b6414" dstEquation="!ed/48eb/6AEE/1184/57923a1b6aec">
+											<positions>
+												<Point x="2900" y="2561"/>
+												<Point x="6689" y="2561"/>
+												<Point x="6689" y="1566"/>
+												<Point x="6922" y="1566"/>
+											</positions>
+										</Edge>
+									</presentationElements>
+								</NetDiagram>
+								<TextDiagram name="diagram_FahrenheitToCelsius_MTC_INST" landscape="false" oid="!ed/aec0/669/10F4/5e3d86507b3">
+									<presentationElements>
+										<FlowTE presentable="!ed/aec2/669/10F4/5e3d86501b36"/>
+										<FlowTE presentable="!ed/aec3/669/10F4/5e3d86502125"/>
+									</presentationElements>
+								</TextDiagram>
+							</diagrams>
+						</ed:Operator>
+						<kcg:Pragma>
+							expand
+						</kcg:Pragma>
+					</pragmas>
+				</Operator>
+				<Operator kind="function" name="DegreesToRadians">
+					<inputs>
+						<Variable name="Degrees">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/48b2/6AEE/1184/57923a1b4426"/>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_Radians">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/a353/669/10F4/5e3d864f2e9f" hidden="true" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>Radians</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+					</inputs>
+					<outputs>
+						<Variable name="Radians">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/48b1/6AEE/1184/57923a1b6de0"/>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_Degrees">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<default>
+								<ConstValue value="false"/>
+							</default>
+							<pragmas>
+								<ed:Variable oid="!ed/a352/669/10F4/5e3d864f10ce" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>Degrees</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+					</outputs>
+					<numericTypes>
+						<FloatType>
+							<typeVar>
+								<TypeRef name="'T"/>
+							</typeVar>
+						</FloatType>
+					</numericTypes>
+					<locals>
+						<Variable name="pi">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/48b0/6AEE/1184/57923a1b7f5b"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L1">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/48aa/6AEE/1184/57923a1b7adb"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L2">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/48ab/6AEE/1184/57923a1b6e01"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L3">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/48ac/6AEE/1184/57923a1b6182"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L4">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/48ad/6AEE/1184/57923a1b2993"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L5">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/48ae/6AEE/1184/57923a1bd51"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L6">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/48af/6AEE/1184/57923a1b336"/>
+							</pragmas>
+						</Variable>
+					</locals>
+					<data>
+						<!-- _L1 = Degrees; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L1"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="Degrees"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/48a1/6AEE/1184/57923a1b6e42"/>
+							</pragmas>
+						</Equation>
+						<!-- Radians = _L4; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="Radians"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L4"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/48a2/6AEE/1184/57923a1b65ea"/>
+							</pragmas>
+						</Equation>
+						<!-- pi = _L2; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="pi"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L2"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/48a3/6AEE/1184/57923a1b44b8"/>
+							</pragmas>
+						</Equation>
+						<!-- _L2 = (3.1415926535897 : 'T); -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L2"/>
+							</lefts>
+							<right>
+								<!-- (3.1415926535897 : 'T) -->
+								<NumericCastOp name="1">
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+									<flow>
+										<ConstValue value="3.1415926535897"/>
+									</flow>
+								</NumericCastOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/48a4/6AEE/1184/57923a1b1b34"/>
+							</pragmas>
+						</Equation>
+						<!-- _L3 = _L6 / _L5; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L3"/>
+							</lefts>
+							<right>
+								<!-- _L6 / _L5 -->
+								<BinaryOp name="1" operator="/">
+									<operands>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L6"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L5"/>
+											</path>
+										</IdExpression>
+									</operands>
+								</BinaryOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/48a5/6AEE/1184/57923a1b327c"/>
+							</pragmas>
+						</Equation>
+						<!-- _L4 = _L1 * _L3; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L4"/>
+							</lefts>
+							<right>
+								<!-- _L1 * _L3 -->
+								<NAryOp name="1" operator="*">
+									<operands>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L1"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L3"/>
+											</path>
+										</IdExpression>
+									</operands>
+								</NAryOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/48a6/6AEE/1184/57923a1b21a"/>
+							</pragmas>
+						</Equation>
+						<!-- _L5 = (180.0 : 'T); -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L5"/>
+							</lefts>
+							<right>
+								<!-- (180.0 : 'T) -->
+								<NumericCastOp name="2">
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+									<flow>
+										<ConstValue value="180.0"/>
+									</flow>
+								</NumericCastOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/48a7/6AEE/1184/57923a1b61cd"/>
+							</pragmas>
+						</Equation>
+						<!-- _L6 = pi; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L6"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="pi"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/48a8/6AEE/1184/57923a1b6a42"/>
+							</pragmas>
+						</Equation>
+						<!-- _ = MTC_AC_Radians; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_Radians"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aec6/669/10F4/5e3d8650711c"/>
+							</pragmas>
+						</Equation>
+						<!-- MTC_AC_Degrees = false; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="MTC_AC_Degrees"/>
+							</lefts>
+							<right>
+								<ConstValue value="false"/>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aec7/669/10F4/5e3d8650618c"/>
+							</pragmas>
+						</Equation>
+					</data>
+					<pragmas>
+						<ed:Operator oid="!ed/48a0/6AEE/1184/57923a1b659" symbolFile="DegreesToRadians.ssl" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>Conversion from Degrees to Radians.</comment>
+							<diagrams>
+								<NetDiagram name="diagram_DegreesToRadians" landscape="true" format="A4 (210 297)" oid="!ed/48a9/6AEE/1184/57923a1b60a8">
+									<presentationElements>
+										<EquationGE presentable="!ed/48a1/6AEE/1184/57923a1b6e42">
+											<position>
+												<Point x="2625" y="1058"/>
+											</position>
+											<size>
+												<Size width="265" height="503"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/48a2/6AEE/1184/57923a1b65ea">
+											<position>
+												<Point x="9313" y="1185"/>
+											</position>
+											<size>
+												<Size width="344" height="503"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/48a3/6AEE/1184/57923a1b44b8">
+											<position>
+												<Point x="5546" y="4022"/>
+											</position>
+											<size>
+												<Size width="370" height="502"/>
+											</size>
+										</EquationGE>
+										<EquationGE kind="OBJ_LIT" presentable="!ed/48a4/6AEE/1184/57923a1b1b34">
+											<position>
+												<Point x="4106" y="4128"/>
+											</position>
+											<size>
+												<Size width="170" height="318"/>
+											</size>
+										</EquationGE>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/48a4/6AEE/1184/57923a1b1b34" dstEquation="!ed/48a3/6AEE/1184/57923a1b44b8">
+											<positions>
+												<Point x="4276" y="4297"/>
+												<Point x="4614" y="4297"/>
+												<Point x="4614" y="4297"/>
+												<Point x="5546" y="4297"/>
+											</positions>
+										</Edge>
+										<EquationGE presentable="!ed/48a5/6AEE/1184/57923a1b327c">
+											<position>
+												<Point x="4339" y="2053"/>
+											</position>
+											<size>
+												<Size width="1005" height="661"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/48a6/6AEE/1184/57923a1b21a">
+											<position>
+												<Point x="6773" y="1122"/>
+											</position>
+											<size>
+												<Size width="1006" height="661"/>
+											</size>
+										</EquationGE>
+										<EquationGE kind="OBJ_LIT" presentable="!ed/48a7/6AEE/1184/57923a1b61cd">
+											<position>
+												<Point x="2709" y="2985"/>
+											</position>
+											<size>
+												<Size width="170" height="318"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/48a8/6AEE/1184/57923a1b6a42">
+											<position>
+												<Point x="2625" y="2011"/>
+											</position>
+											<size>
+												<Size width="265" height="503"/>
+											</size>
+										</EquationGE>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/48a8/6AEE/1184/57923a1b6a42" dstEquation="!ed/48a5/6AEE/1184/57923a1b327c">
+											<positions>
+												<Point x="2900" y="2265"/>
+												<Point x="3598" y="2265"/>
+												<Point x="3598" y="2265"/>
+												<Point x="4339" y="2265"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/48a7/6AEE/1184/57923a1b61cd" dstEquation="!ed/48a5/6AEE/1184/57923a1b327c">
+											<positions>
+												<Point x="2879" y="3154"/>
+												<Point x="4149" y="3154"/>
+												<Point x="4149" y="2498"/>
+												<Point x="4339" y="2498"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/48a1/6AEE/1184/57923a1b6e42" dstEquation="!ed/48a6/6AEE/1184/57923a1b21a">
+											<positions>
+												<Point x="2900" y="1312"/>
+												<Point x="4530" y="1312"/>
+												<Point x="4530" y="1312"/>
+												<Point x="6773" y="1312"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/48a5/6AEE/1184/57923a1b327c" dstEquation="!ed/48a6/6AEE/1184/57923a1b21a">
+											<positions>
+												<Point x="5355" y="2392"/>
+												<Point x="6625" y="2392"/>
+												<Point x="6625" y="1566"/>
+												<Point x="6773" y="1566"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/48a6/6AEE/1184/57923a1b21a" dstEquation="!ed/48a2/6AEE/1184/57923a1b65ea">
+											<positions>
+												<Point x="7789" y="1461"/>
+												<Point x="8573" y="1461"/>
+												<Point x="8573" y="1461"/>
+												<Point x="9356" y="1461"/>
+											</positions>
+										</Edge>
+									</presentationElements>
+								</NetDiagram>
+								<TextDiagram name="diagram_DegreesToRadians_MTC_INST" landscape="false" oid="!ed/aec4/669/10F4/5e3d86501ce3">
+									<presentationElements>
+										<FlowTE presentable="!ed/aec6/669/10F4/5e3d8650711c"/>
+										<FlowTE presentable="!ed/aec7/669/10F4/5e3d8650618c"/>
+									</presentationElements>
+								</TextDiagram>
+							</diagrams>
+						</ed:Operator>
+						<kcg:Pragma>
+							expand
+						</kcg:Pragma>
+					</pragmas>
+				</Operator>
+				<Operator kind="function" name="CelsiusToFahrenheit">
+					<inputs>
+						<Variable name="Celsius">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/486c/6AEE/1184/57923a1b33aa"/>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_Fahrenheit">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/a355/669/10F4/5e3d864f1da2" hidden="true" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>Fahrenheit</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+					</inputs>
+					<outputs>
+						<Variable name="Fahrenheit">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/486b/6AEE/1184/57923a1b2469"/>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_Celsius">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<default>
+								<ConstValue value="false"/>
+							</default>
+							<pragmas>
+								<ed:Variable oid="!ed/a354/669/10F4/5e3d864f2af" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>Celsius</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+					</outputs>
+					<numericTypes>
+						<FloatType>
+							<typeVar>
+								<TypeRef name="'T"/>
+							</typeVar>
+						</FloatType>
+					</numericTypes>
+					<locals>
+						<Variable name="_L1">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4866/6AEE/1184/57923a1b7701"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L2">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4867/6AEE/1184/57923a1b233"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L3">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4868/6AEE/1184/57923a1b37bf"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L4">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4869/6AEE/1184/57923a1b6823"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L5">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/486a/6AEE/1184/57923a1b2091"/>
+							</pragmas>
+						</Variable>
+					</locals>
+					<data>
+						<!-- _L1 = Celsius; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L1"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="Celsius"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/485f/6AEE/1184/57923a1b6865"/>
+							</pragmas>
+						</Equation>
+						<!-- Fahrenheit = _L3; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="Fahrenheit"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L3"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4860/6AEE/1184/57923a1beaa"/>
+							</pragmas>
+						</Equation>
+						<!-- _L2 = _L1 * _L4; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L2"/>
+							</lefts>
+							<right>
+								<!-- _L1 * _L4 -->
+								<NAryOp name="1" operator="*">
+									<operands>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L1"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L4"/>
+											</path>
+										</IdExpression>
+									</operands>
+								</NAryOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4861/6AEE/1184/57923a1b5e62"/>
+							</pragmas>
+						</Equation>
+						<!-- _L3 = _L2 + _L5; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L3"/>
+							</lefts>
+							<right>
+								<!-- _L2 + _L5 -->
+								<NAryOp name="1" operator="+">
+									<operands>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L2"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L5"/>
+											</path>
+										</IdExpression>
+									</operands>
+								</NAryOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4862/6AEE/1184/57923a1b652"/>
+							</pragmas>
+						</Equation>
+						<!-- _L4 = ((9.0 / 5.0) : 'T); -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L4"/>
+							</lefts>
+							<right>
+								<!-- ((9.0 / 5.0) : 'T) -->
+								<NumericCastOp name="1">
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+									<flow>
+										<!-- 9.0 / 5.0 -->
+										<BinaryOp name="2" operator="/">
+											<operands>
+												<ConstValue value="9.0"/>
+												<ConstValue value="5.0"/>
+											</operands>
+										</BinaryOp>
+									</flow>
+								</NumericCastOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4863/6AEE/1184/57923a1b6d29"/>
+							</pragmas>
+						</Equation>
+						<!-- _L5 = (32.0 : 'T); -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L5"/>
+							</lefts>
+							<right>
+								<!-- (32.0 : 'T) -->
+								<NumericCastOp name="2">
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+									<flow>
+										<ConstValue value="32.0"/>
+									</flow>
+								</NumericCastOp>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4864/6AEE/1184/57923a1b70de"/>
+							</pragmas>
+						</Equation>
+						<!-- _ = MTC_AC_Fahrenheit; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_Fahrenheit"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aeca/669/10F4/5e3d86502e09"/>
+							</pragmas>
+						</Equation>
+						<!-- MTC_AC_Celsius = false; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="MTC_AC_Celsius"/>
+							</lefts>
+							<right>
+								<ConstValue value="false"/>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aecb/669/10F4/5e3d86503189"/>
+							</pragmas>
+						</Equation>
+					</data>
+					<pragmas>
+						<ed:Operator oid="!ed/485e/6AEE/1184/57923a1b6ab7" symbolFile="CelsiusToFahrenheit.ssl" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>Conversion from degrees Celsius to degrees Fahrenheit.</comment>
+							<diagrams>
+								<NetDiagram name="diagram_CelsiusToFahrenheit" landscape="true" format="A4 (210 297)" oid="!ed/4865/6AEE/1184/57923a1b82">
+									<presentationElements>
+										<EquationGE presentable="!ed/485f/6AEE/1184/57923a1b6865">
+											<position>
+												<Point x="1799" y="550"/>
+											</position>
+											<size>
+												<Size width="264" height="502"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/4860/6AEE/1184/57923a1beaa">
+											<position>
+												<Point x="8594" y="826"/>
+											</position>
+											<size>
+												<Size width="344" height="502"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/4861/6AEE/1184/57923a1b5e62">
+											<position>
+												<Point x="3577" y="614"/>
+											</position>
+											<size>
+												<Size width="1006" height="662"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/4862/6AEE/1184/57923a1b652">
+											<position>
+												<Point x="6096" y="741"/>
+											</position>
+											<size>
+												<Size width="1005" height="661"/>
+											</size>
+										</EquationGE>
+										<EquationGE kind="OBJ_LIT" presentable="!ed/4863/6AEE/1184/57923a1b6d29">
+											<position>
+												<Point x="1905" y="1397"/>
+											</position>
+											<size>
+												<Size width="169" height="318"/>
+											</size>
+										</EquationGE>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/485f/6AEE/1184/57923a1b6865" dstEquation="!ed/4861/6AEE/1184/57923a1b5e62">
+											<positions>
+												<Point x="2053" y="804"/>
+												<Point x="2794" y="804"/>
+												<Point x="2794" y="804"/>
+												<Point x="3577" y="804"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4861/6AEE/1184/57923a1b5e62" dstEquation="!ed/4862/6AEE/1184/57923a1b652">
+											<positions>
+												<Point x="4593" y="953"/>
+												<Point x="5313" y="953"/>
+												<Point x="5313" y="953"/>
+												<Point x="6096" y="953"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4862/6AEE/1184/57923a1b652" dstEquation="!ed/4860/6AEE/1184/57923a1beaa">
+											<positions>
+												<Point x="7091" y="1080"/>
+												<Point x="7853" y="1080"/>
+												<Point x="7853" y="1080"/>
+												<Point x="8636" y="1080"/>
+											</positions>
+										</Edge>
+										<EquationGE kind="OBJ_LIT" presentable="!ed/4864/6AEE/1184/57923a1b70de">
+											<position>
+												<Point x="1863" y="2074"/>
+											</position>
+											<size>
+												<Size width="170" height="318"/>
+											</size>
+										</EquationGE>
+										<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/4863/6AEE/1184/57923a1b6d29" dstEquation="!ed/4861/6AEE/1184/57923a1b5e62">
+											<positions>
+												<Point x="2074" y="1566"/>
+												<Point x="3366" y="1566"/>
+												<Point x="3366" y="1058"/>
+												<Point x="3577" y="1058"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/4864/6AEE/1184/57923a1b70de" dstEquation="!ed/4862/6AEE/1184/57923a1b652">
+											<positions>
+												<Point x="2032" y="2244"/>
+												<Point x="5842" y="2244"/>
+												<Point x="5842" y="1185"/>
+												<Point x="6096" y="1185"/>
+											</positions>
+										</Edge>
+									</presentationElements>
+								</NetDiagram>
+								<TextDiagram name="diagram_CelsiusToFahrenheit_MTC_INST" landscape="false" oid="!ed/aec8/669/10F4/5e3d86504ba6">
+									<presentationElements>
+										<FlowTE presentable="!ed/aeca/669/10F4/5e3d86502e09"/>
+										<FlowTE presentable="!ed/aecb/669/10F4/5e3d86503189"/>
+									</presentationElements>
+								</TextDiagram>
+							</diagrams>
+						</ed:Operator>
+						<kcg:Pragma>
+							expand
+						</kcg:Pragma>
+					</pragmas>
+				</Operator>
+				<Operator kind="function" name="CartesianToSpherical">
+					<inputs>
+						<Variable name="x">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4826/6AEE/1184/57923a1b1178"/>
+							</pragmas>
+						</Variable>
+						<Variable name="y">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4827/6AEE/1184/57923a1b42e8"/>
+							</pragmas>
+						</Variable>
+						<Variable name="z">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4828/6AEE/1184/57923a1b714f"/>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_r">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/a359/669/10F4/5e3d864f2e64" hidden="true" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>r</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_theta">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/a35a/669/10F4/5e3d864f5b38" hidden="true" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>theta</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_phi">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/a35b/669/10F4/5e3d864f61e8" hidden="true" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>phi</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+					</inputs>
+					<outputs>
+						<Variable name="r">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4823/6AEE/1184/57923a1b7266"/>
+							</pragmas>
+						</Variable>
+						<Variable name="theta">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4824/6AEE/1184/57923a1b6d26"/>
+							</pragmas>
+						</Variable>
+						<Variable name="phi">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4825/6AEE/1184/57923a1b23ac"/>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_x">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<default>
+								<ConstValue value="false"/>
+							</default>
+							<pragmas>
+								<ed:Variable oid="!ed/a356/669/10F4/5e3d864f684f" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>x</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_y">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<default>
+								<ConstValue value="false"/>
+							</default>
+							<pragmas>
+								<ed:Variable oid="!ed/a357/669/10F4/5e3d864f52ea" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>y</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_z">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<default>
+								<ConstValue value="false"/>
+							</default>
+							<pragmas>
+								<ed:Variable oid="!ed/a358/669/10F4/5e3d864f1baa" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>z</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+					</outputs>
+					<numericTypes>
+						<FloatType>
+							<typeVar>
+								<TypeRef name="'T"/>
+							</typeVar>
+						</FloatType>
+					</numericTypes>
+					<locals>
+						<Variable name="_L1">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/481c/6AEE/1184/57923a1b6125"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L2">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/481d/6AEE/1184/57923a1bf13"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L3">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/481e/6AEE/1184/57923a1b3a9e"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L6">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/481f/6AEE/1184/57923a1b40eb"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L7">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4820/6AEE/1184/57923a1b5865"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L8">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4821/6AEE/1184/57923a1b343"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L9">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/4822/6AEE/1184/57923a1b1d77"/>
+							</pragmas>
+						</Variable>
+					</locals>
+					<data>
+						<!-- _L1 = Atan2R(_L8, _L7); -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L1"/>
+							</lefts>
+							<right>
+								<!-- Atan2R(_L8, _L7) -->
+								<CallExpression>
+									<operator>
+										<OpCall name="1">
+											<operator>
+												<OperatorRef name="Atan2R"/>
+											</operator>
+										</OpCall>
+									</operator>
+									<callParameters>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L8"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L7"/>
+											</path>
+										</IdExpression>
+									</callParameters>
+								</CallExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4811/6AEE/1184/57923a1b2c42"/>
+							</pragmas>
+						</Equation>
+						<!-- _L2 = HypotR(_L7, _L8, false); -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L2"/>
+							</lefts>
+							<right>
+								<!-- HypotR(_L7, _L8, false) -->
+								<CallExpression>
+									<operator>
+										<OpCall name="1">
+											<operator>
+												<OperatorRef name="HypotR"/>
+											</operator>
+										</OpCall>
+									</operator>
+									<callParameters>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L7"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L8"/>
+											</path>
+										</IdExpression>
+										<ConstValue value="false"/>
+									</callParameters>
+								</CallExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4812/6AEE/1184/57923a1b134"/>
+							</pragmas>
+						</Equation>
+						<!-- _L3 = HypotR(_L2, _L9, false); -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L3"/>
+							</lefts>
+							<right>
+								<!-- HypotR(_L2, _L9, false) -->
+								<CallExpression>
+									<operator>
+										<OpCall name="2">
+											<operator>
+												<OperatorRef name="HypotR"/>
+											</operator>
+										</OpCall>
+									</operator>
+									<callParameters>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L2"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L9"/>
+											</path>
+										</IdExpression>
+										<ConstValue value="false"/>
+									</callParameters>
+								</CallExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4813/6AEE/1184/57923a1b4202"/>
+							</pragmas>
+						</Equation>
+						<!-- _L6 = Atan2R(_L2, _L9); -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L6"/>
+							</lefts>
+							<right>
+								<!-- Atan2R(_L2, _L9) -->
+								<CallExpression>
+									<operator>
+										<OpCall name="2">
+											<operator>
+												<OperatorRef name="Atan2R"/>
+											</operator>
+										</OpCall>
+									</operator>
+									<callParameters>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L2"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L9"/>
+											</path>
+										</IdExpression>
+									</callParameters>
+								</CallExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4814/6AEE/1184/57923a1b48db"/>
+							</pragmas>
+						</Equation>
+						<!-- _L7 = x; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L7"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="x"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4815/6AEE/1184/57923a1b7ff5"/>
+							</pragmas>
+						</Equation>
+						<!-- _L8 = y; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L8"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="y"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4816/6AEE/1184/57923a1b4163"/>
+							</pragmas>
+						</Equation>
+						<!-- _L9 = z; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L9"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="z"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4817/6AEE/1184/57923a1b2bd6"/>
+							</pragmas>
+						</Equation>
+						<!-- r = _L3; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="r"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L3"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4818/6AEE/1184/57923a1b7778"/>
+							</pragmas>
+						</Equation>
+						<!-- theta = _L1; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="theta"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L1"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/4819/6AEE/1184/57923a1b6e10"/>
+							</pragmas>
+						</Equation>
+						<!-- phi = _L6; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="phi"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L6"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/481a/6AEE/1184/57923a1b4e83"/>
+							</pragmas>
+						</Equation>
+						<!-- _ = MTC_AC_r; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_r"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aece/669/10F4/5e3d8650348"/>
+							</pragmas>
+						</Equation>
+						<!-- _ = MTC_AC_theta; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_theta"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aed0/669/10F4/5e3d86506603"/>
+							</pragmas>
+						</Equation>
+						<!-- _ = MTC_AC_phi; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_phi"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aed2/669/10F4/5e3d86507a98"/>
+							</pragmas>
+						</Equation>
+						<!-- MTC_AC_x = false; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="MTC_AC_x"/>
+							</lefts>
+							<right>
+								<ConstValue value="false"/>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aed3/669/10F4/5e3d865024af"/>
+							</pragmas>
+						</Equation>
+						<!-- MTC_AC_y = false; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="MTC_AC_y"/>
+							</lefts>
+							<right>
+								<ConstValue value="false"/>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aed4/669/10F4/5e3d86503e35"/>
+							</pragmas>
+						</Equation>
+						<!-- MTC_AC_z = false; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="MTC_AC_z"/>
+							</lefts>
+							<right>
+								<ConstValue value="false"/>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aed5/669/10F4/5e3d865069ee"/>
+							</pragmas>
+						</Equation>
+					</data>
+					<pragmas>
+						<ed:Operator oid="!ed/4810/6AEE/1184/57923a1b35df" symbolFile="CartesianToSpherical.ssl" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>Transformation from cartesian to spherical coordinates.</comment>
+							<diagrams>
+								<NetDiagram name="diagram_CartesianToSpherical" landscape="true" format="A4 (210 297)" oid="!ed/481b/6AEE/1184/57923a1b2e6a">
+									<presentationElements>
+										<EquationGE presentable="!ed/4811/6AEE/1184/57923a1b2c42">
+											<position>
+												<Point x="7726" y="2778"/>
+											</position>
+											<size>
+												<Size width="1551" height="1550"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/4812/6AEE/1184/57923a1b134">
+											<position>
+												<Point x="4392" y="635"/>
+											</position>
+											<size>
+												<Size width="1534" height="1535"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/4813/6AEE/1184/57923a1b4202">
+											<position>
+												<Point x="7726" y="900"/>
+											</position>
+											<size>
+												<Size width="1534" height="1535"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/4814/6AEE/1184/57923a1b48db">
+											<position>
+												<Point x="7726" y="4657"/>
+											</position>
+											<size>
+												<Size width="1551" height="1551"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/4815/6AEE/1184/57923a1b7ff5">
+											<position>
+												<Point x="767" y="873"/>
+											</position>
+											<size>
+												<Size width="264" height="502"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/4816/6AEE/1184/57923a1b4163">
+											<position>
+												<Point x="767" y="1402"/>
+											</position>
+											<size>
+												<Size width="264" height="502"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/4817/6AEE/1184/57923a1b2bd6">
+											<position>
+												<Point x="767" y="1984"/>
+											</position>
+											<size>
+												<Size width="264" height="503"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/4818/6AEE/1184/57923a1b7778">
+											<position>
+												<Point x="10954" y="1402"/>
+											</position>
+											<size>
+												<Size width="344" height="503"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/4819/6AEE/1184/57923a1b6e10">
+											<position>
+												<Point x="10954" y="3281"/>
+											</position>
+											<size>
+												<Size width="344" height="503"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/481a/6AEE/1184/57923a1b4e83">
+											<position>
+												<Point x="10954" y="5159"/>
+											</position>
+											<size>
+												<Size width="344" height="503"/>
+											</size>
+										</EquationGE>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4815/6AEE/1184/57923a1b7ff5" dstEquation="!ed/4812/6AEE/1184/57923a1b134">
+											<positions>
+												<Point x="1037" y="1122"/>
+												<Point x="2709" y="1122"/>
+												<Point x="2709" y="1122"/>
+												<Point x="4382" y="1122"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/4816/6AEE/1184/57923a1b4163" dstEquation="!ed/4812/6AEE/1184/57923a1b134">
+											<positions>
+												<Point x="1037" y="1651"/>
+												<Point x="2752" y="1651"/>
+												<Point x="2752" y="1651"/>
+												<Point x="4382" y="1651"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4812/6AEE/1184/57923a1b134" dstEquation="!ed/4813/6AEE/1184/57923a1b4202">
+											<positions>
+												<Point x="5927" y="1418"/>
+												<Point x="7281" y="1418"/>
+												<Point x="7281" y="1418"/>
+												<Point x="7726" y="1418"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/4817/6AEE/1184/57923a1b2bd6" dstEquation="!ed/4813/6AEE/1184/57923a1b4202">
+											<positions>
+												<Point x="1037" y="2244"/>
+												<Point x="6710" y="2244"/>
+												<Point x="6710" y="1926"/>
+												<Point x="7726" y="1926"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4816/6AEE/1184/57923a1b4163" dstEquation="!ed/4811/6AEE/1184/57923a1b2c42">
+											<positions>
+												<Point x="1037" y="1651"/>
+												<Point x="2900" y="1651"/>
+												<Point x="2900" y="3281"/>
+												<Point x="7726" y="3281"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/4815/6AEE/1184/57923a1b7ff5" dstEquation="!ed/4811/6AEE/1184/57923a1b2c42">
+											<positions>
+												<Point x="1037" y="1122"/>
+												<Point x="3514" y="1122"/>
+												<Point x="3514" y="3810"/>
+												<Point x="7726" y="3810"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4812/6AEE/1184/57923a1b134" dstEquation="!ed/4814/6AEE/1184/57923a1b48db">
+											<positions>
+												<Point x="5927" y="1418"/>
+												<Point x="7197" y="1418"/>
+												<Point x="7197" y="5165"/>
+												<Point x="7726" y="5165"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/4817/6AEE/1184/57923a1b2bd6" dstEquation="!ed/4814/6AEE/1184/57923a1b48db">
+											<positions>
+												<Point x="1037" y="2244"/>
+												<Point x="6710" y="2244"/>
+												<Point x="6710" y="5694"/>
+												<Point x="7726" y="5694"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4813/6AEE/1184/57923a1b4202" dstEquation="!ed/4818/6AEE/1184/57923a1b7778">
+											<positions>
+												<Point x="9250" y="1672"/>
+												<Point x="10139" y="1672"/>
+												<Point x="10139" y="1672"/>
+												<Point x="11007" y="1672"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4811/6AEE/1184/57923a1b2c42" dstEquation="!ed/4819/6AEE/1184/57923a1b6e10">
+											<positions>
+												<Point x="9271" y="3556"/>
+												<Point x="10139" y="3556"/>
+												<Point x="10139" y="3556"/>
+												<Point x="11007" y="3556"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4814/6AEE/1184/57923a1b48db" dstEquation="!ed/481a/6AEE/1184/57923a1b4e83">
+											<positions>
+												<Point x="9271" y="5440"/>
+												<Point x="10139" y="5440"/>
+												<Point x="10139" y="5440"/>
+												<Point x="11007" y="5440"/>
+											</positions>
+										</Edge>
+									</presentationElements>
+								</NetDiagram>
+								<TextDiagram name="diagram_CartesianToSpherical_MTC_INST" landscape="false" oid="!ed/aecc/669/10F4/5e3d8650719d">
+									<presentationElements>
+										<FlowTE presentable="!ed/aece/669/10F4/5e3d8650348"/>
+										<FlowTE presentable="!ed/aed0/669/10F4/5e3d86506603"/>
+										<FlowTE presentable="!ed/aed2/669/10F4/5e3d86507a98"/>
+										<FlowTE presentable="!ed/aed3/669/10F4/5e3d865024af"/>
+										<FlowTE presentable="!ed/aed4/669/10F4/5e3d86503e35"/>
+										<FlowTE presentable="!ed/aed5/669/10F4/5e3d865069ee"/>
+									</presentationElements>
+								</TextDiagram>
+							</diagrams>
+						</ed:Operator>
+						<kcg:Pragma>
+							expand
+						</kcg:Pragma>
+					</pragmas>
+				</Operator>
+				<Operator kind="function" name="CartesianToPolar">
+					<inputs>
+						<Variable name="x">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/47df/6AEE/1184/57923a1bdb9"/>
+							</pragmas>
+						</Variable>
+						<Variable name="y">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/47e0/6AEE/1184/57923a1b724b"/>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_r">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/a35e/669/10F4/5e3d864f3e28" hidden="true" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>r</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_theta">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/a35f/669/10F4/5e3d864f77cd" hidden="true" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>theta</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+					</inputs>
+					<outputs>
+						<Variable name="r">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/47dd/6AEE/1184/57923a1b38ab"/>
+							</pragmas>
+						</Variable>
+						<Variable name="theta">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/47de/6AEE/1184/57923a1b96d"/>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_x">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<default>
+								<ConstValue value="false"/>
+							</default>
+							<pragmas>
+								<ed:Variable oid="!ed/a35c/669/10F4/5e3d864f31c2" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>x</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+						<Variable name="MTC_AC_y">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<default>
+								<ConstValue value="false"/>
+							</default>
+							<pragmas>
+								<ed:Variable oid="!ed/a35d/669/10F4/5e3d864f3423" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+									<comment>y</comment>
+								</ed:Variable>
+							</pragmas>
+						</Variable>
+					</outputs>
+					<numericTypes>
+						<FloatType>
+							<typeVar>
+								<TypeRef name="'T"/>
+							</typeVar>
+						</FloatType>
+					</numericTypes>
+					<locals>
+						<Variable name="_L1">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/47d9/6AEE/1184/57923a1b7955"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L2">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/47da/6AEE/1184/57923a1b3819"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L3">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/47db/6AEE/1184/57923a1b2b73"/>
+							</pragmas>
+						</Variable>
+						<Variable name="_L4">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="'T"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Variable oid="!ed/47dc/6AEE/1184/57923a1b28a8"/>
+							</pragmas>
+						</Variable>
+					</locals>
+					<data>
+						<!-- _L1 = Atan2R(_L4, _L3); -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L1"/>
+							</lefts>
+							<right>
+								<!-- Atan2R(_L4, _L3) -->
+								<CallExpression>
+									<operator>
+										<OpCall name="1">
+											<operator>
+												<OperatorRef name="Atan2R"/>
+											</operator>
+										</OpCall>
+									</operator>
+									<callParameters>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L4"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L3"/>
+											</path>
+										</IdExpression>
+									</callParameters>
+								</CallExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/47d2/6AEE/1184/57923a1b3af2"/>
+							</pragmas>
+						</Equation>
+						<!-- _L2 = HypotR(_L3, _L4, false); -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L2"/>
+							</lefts>
+							<right>
+								<!-- HypotR(_L3, _L4, false) -->
+								<CallExpression>
+									<operator>
+										<OpCall name="1">
+											<operator>
+												<OperatorRef name="HypotR"/>
+											</operator>
+										</OpCall>
+									</operator>
+									<callParameters>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L3"/>
+											</path>
+										</IdExpression>
+										<IdExpression>
+											<path>
+												<ConstVarRef name="_L4"/>
+											</path>
+										</IdExpression>
+										<ConstValue value="false"/>
+									</callParameters>
+								</CallExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/47d3/6AEE/1184/57923a1b8b3"/>
+							</pragmas>
+						</Equation>
+						<!-- _L3 = x; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L3"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="x"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/47d4/6AEE/1184/57923a1b507"/>
+							</pragmas>
+						</Equation>
+						<!-- _L4 = y; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_L4"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="y"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/47d5/6AEE/1184/57923a1b56b4"/>
+							</pragmas>
+						</Equation>
+						<!-- r = _L2; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="r"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L2"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/47d6/6AEE/1184/57923a1b675c"/>
+							</pragmas>
+						</Equation>
+						<!-- theta = _L1; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="theta"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L1"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/47d7/6AEE/1184/57923a1b5744"/>
+							</pragmas>
+						</Equation>
+						<!-- _ = MTC_AC_r; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_r"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aed8/669/10F4/5e3d86503b72"/>
+							</pragmas>
+						</Equation>
+						<!-- _ = MTC_AC_theta; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="_"/>
+							</lefts>
+							<right>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="MTC_AC_theta"/>
+									</path>
+								</IdExpression>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aeda/669/10F4/5e3d865057cb"/>
+							</pragmas>
+						</Equation>
+						<!-- MTC_AC_x = false; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="MTC_AC_x"/>
+							</lefts>
+							<right>
+								<ConstValue value="false"/>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aedb/669/10F4/5e3d8650425b"/>
+							</pragmas>
+						</Equation>
+						<!-- MTC_AC_y = false; -->
+						<Equation>
+							<lefts>
+								<VariableRef name="MTC_AC_y"/>
+							</lefts>
+							<right>
+								<ConstValue value="false"/>
+							</right>
+							<pragmas>
+								<ed:Equation oid="!ed/aedc/669/10F4/5e3d865045df"/>
+							</pragmas>
+						</Equation>
+					</data>
+					<pragmas>
+						<ed:Operator oid="!ed/47d1/6AEE/1184/57923a1b165a" symbolFile="CartesianToPolar.ssl" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+							<comment>Transformation from cartesian to polar coordinates.</comment>
+							<diagrams>
+								<NetDiagram name="diagram_CartesianToPolar" landscape="true" format="A4 (210 297)" oid="!ed/47d8/6AEE/1184/57923a1b491c">
+									<presentationElements>
+										<EquationGE presentable="!ed/47d2/6AEE/1184/57923a1b3af2">
+											<position>
+												<Point x="3175" y="2064"/>
+											</position>
+											<size>
+												<Size width="1550" height="1551"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/47d3/6AEE/1184/57923a1b8b3">
+											<position>
+												<Point x="3175" y="238"/>
+											</position>
+											<size>
+												<Size width="1534" height="1535"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/47d4/6AEE/1184/57923a1b507">
+											<position>
+												<Point x="688" y="476"/>
+											</position>
+											<size>
+												<Size width="265" height="503"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/47d5/6AEE/1184/57923a1b56b4">
+											<position>
+												<Point x="688" y="1005"/>
+											</position>
+											<size>
+												<Size width="265" height="503"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/47d6/6AEE/1184/57923a1b675c">
+											<position>
+												<Point x="6006" y="741"/>
+											</position>
+											<size>
+												<Size width="344" height="503"/>
+											</size>
+										</EquationGE>
+										<EquationGE presentable="!ed/47d7/6AEE/1184/57923a1b5744">
+											<position>
+												<Point x="6006" y="2566"/>
+											</position>
+											<size>
+												<Size width="344" height="503"/>
+											</size>
+										</EquationGE>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/47d3/6AEE/1184/57923a1b8b3" dstEquation="!ed/47d6/6AEE/1184/57923a1b675c">
+											<positions>
+												<Point x="4699" y="1016"/>
+												<Point x="5355" y="1016"/>
+												<Point x="5355" y="1016"/>
+												<Point x="6054" y="1016"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/47d2/6AEE/1184/57923a1b3af2" dstEquation="!ed/47d7/6AEE/1184/57923a1b5744">
+											<positions>
+												<Point x="4720" y="2858"/>
+												<Point x="5376" y="2858"/>
+												<Point x="5376" y="2815"/>
+												<Point x="6054" y="2815"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/47d5/6AEE/1184/57923a1b56b4" dstEquation="!ed/47d2/6AEE/1184/57923a1b3af2">
+											<positions>
+												<Point x="953" y="1249"/>
+												<Point x="2836" y="1249"/>
+												<Point x="2836" y="2582"/>
+												<Point x="3175" y="2582"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/47d4/6AEE/1184/57923a1b507" dstEquation="!ed/47d2/6AEE/1184/57923a1b3af2">
+											<positions>
+												<Point x="953" y="720"/>
+												<Point x="2328" y="720"/>
+												<Point x="2328" y="3112"/>
+												<Point x="3175" y="3112"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/47d4/6AEE/1184/57923a1b507" dstEquation="!ed/47d3/6AEE/1184/57923a1b8b3">
+											<positions>
+												<Point x="953" y="720"/>
+												<Point x="2011" y="720"/>
+												<Point x="2011" y="720"/>
+												<Point x="3175" y="720"/>
+											</positions>
+										</Edge>
+										<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/47d5/6AEE/1184/57923a1b56b4" dstEquation="!ed/47d3/6AEE/1184/57923a1b8b3">
+											<positions>
+												<Point x="953" y="1249"/>
+												<Point x="2011" y="1249"/>
+												<Point x="2011" y="1249"/>
+												<Point x="3175" y="1249"/>
+											</positions>
+										</Edge>
+									</presentationElements>
+								</NetDiagram>
+								<TextDiagram name="diagram_CartesianToPolar_MTC_INST" landscape="false" oid="!ed/aed6/669/10F4/5e3d86507ed2">
+									<presentationElements>
+										<FlowTE presentable="!ed/aed8/669/10F4/5e3d86503b72"/>
+										<FlowTE presentable="!ed/aeda/669/10F4/5e3d865057cb"/>
+										<FlowTE presentable="!ed/aedb/669/10F4/5e3d8650425b"/>
+										<FlowTE presentable="!ed/aedc/669/10F4/5e3d865045df"/>
+									</presentationElements>
+								</TextDiagram>
+							</diagrams>
+						</ed:Operator>
+						<kcg:Pragma>
+							expand
+						</kcg:Pragma>
+					</pragmas>
+				</Operator>
+			</declarations>
+			<pragmas>
+				<ed:Package oid="win_2AD3/2FF5/420/4563277E/43F" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+					<diagrams>
+						<TreeDiagram landscape="true" format="A4 (210 297)" oid="!ed/125/4A39/35C/465ECE5A/54A" blockKind="constants"/>
+						<TreeDiagram landscape="true" format="A4 (210 297)" oid="!ed/126/4A39/35C/465ECE5A/2EC" blockKind="types"/>
+						<TreeDiagram landscape="true" format="A4 (210 297)" oid="!ed/127/4A39/35C/465ECE5A/17D4" blockKind="sensors"/>
+					</diagrams>
+				</ed:Package>
+			</pragmas>
+		</Package>
+	</declarations>
+</File>
